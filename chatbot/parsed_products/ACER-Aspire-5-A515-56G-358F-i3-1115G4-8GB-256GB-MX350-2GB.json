@@ -1,0 +1,21 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ACER-Aspire-5-A515-56G-358F-i3-1115G4-8GB-256GB-MX350-2GB",
+    "title": "ЛАПТОП ACER ASPIRE 5 A515-56G-358F I3-1115G4/8GB/256GB/MX350 2GB",
+    "warranty": "24",
+    "regular_price": "29.999",
+    "happy_price": "21.995",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.4 cm)",
+        "Резолуција": "(1920 x 1080) FHD IPS SlimBezel",
+        "Процесор": "Intel® Core™ i3-1115G4",
+        "Графика": "NVIDIA® GeForce® MX350 2GB GDDR5",
+        "RAM Меморија": "8GB DDR4",
+        "Диск (Storage)": "256GB PCIe NVMe SSD",
+        "Без оперативен систем": "True",
+        "Wireless": "2x2 AX+BT",
+        "Камера": "HD Camera with 2Mic.",
+        "Батерија": "48Wh Li-ion",
+        "Полнач": "65W"
+    }
+}

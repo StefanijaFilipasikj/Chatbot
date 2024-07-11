@@ -1,0 +1,21 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ACER-Aspire-3-A315-24P-R1GJ-R3-7320U-8GB-DDR5-512GB",
+    "title": "ЛАПТОП ACER ASPIRE 3 A315-24P-R1GJ R3-7320U/8GB DDR5/512GB",
+    "warranty": "24",
+    "regular_price": "24.999",
+    "happy_price": "20.499",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6 cm)",
+        "Резолуција": "(1920 x 1080) FHD LED",
+        "Процесор": "AMD Ryzen™ 3 7320U",
+        "Графика": "AMD Radeon™ Graphics",
+        "RAM Меморија": "8GB SO-DIMM DDR5",
+        "Диск (Storage)": "512GB PCIe NVMe SSD",
+        "Без оперативен систем": "True",
+        "Wireless": "802.11a/b/g/n",
+        "Bluetooth": "5.2",
+        "HD аудио": "True",
+        "Приклучоци": "HDMI\nAudio излез\nUSB - C"
+    }
+}

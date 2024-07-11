@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-AN515-57-53A7-i5-11400H-8GB-512B-RTX-3050-4GB",
+    "title": "ЛАПТОП ACER AN515-57-53A7 I5-11400H/8GB/512B/RTX 3050 4GB",
+    "warranty": "24",
+    "regular_price": "55.999",
+    "happy_price": "47.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920 x 1080) FHD IPS 144Hz",
+        "Процесор": "Intel® Core i5-11400H 2.70 GHz Hexa-core",
+        "Графика": "NVIDIA® GeForce RTX 3050 4GB",
+        "RAM меморија": "8GB DDR4",
+        "Диск (Storage)": "512GB SSD",
+        "LAN": "IEEE 802.11 a/b/g/n/ac/ax",
+        "Gigabit Ethernet": "True",
+        "Bluetooth 5.2": "True",
+        "Микрофон": "True",
+        "Оперативен систем": "UEFI Shell",
+        "Порти": "HDMI, USB, LAN, Type C",
+        "Батерија": "4-cell (Li-Ion) - 8ч"
+    }
+}

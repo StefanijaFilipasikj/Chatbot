@@ -1,0 +1,29 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/iPhone-14-128GB-Blue",
+    "title": "IPHONE 14 128GB BLUE",
+    "warranty": "12",
+    "regular_price": "61.990",
+    "happy_price": "47.990",
+    "description": {
+        "Мобилен телефон": "iOS 16.0",
+        "IP68 водоотпорен": "true",
+        "Apple Pay систем": "true",
+        "Поддршка за ултра широк опсег": "true",
+        "Екран": "6.1\" Super Retina XDR OLED",
+        "Резолуција": "1170 x 2532p",
+        "Chipset": "Apple A15 Bionic (5 nm)",
+        "CPU": "Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard)",
+        "GPU": "Apple GPU (5-core graphics)",
+        "Интерна меморија": "128GB",
+        "Примарна камера": "12 MP, f/1.5, 26mm (wide), 1.9µm, dual pixel PDAF, sensor-shift OIS",
+        "Секундарна камера": "12 MP, f/1.9, 23mm (wide), 1/3.6\", PDAF SL 3D, (depth/biometrics sensor)",
+        "Wi-Fi": "802.11 a/b/g/n/ac/6, dual-band, hotspot",
+        "Bluetooth": "5.3, A2DP, LE",
+        "GPS": "A-GPS, GLONASS, GALILEO, BDS, QZSS",
+        "USB": "Lightning, USB 2.0",
+        "Fast charging": "50% in 30 min (advertised)",
+        "USB Power Delivery": "2.0",
+        "MagSafe wireless charging": "15W",
+        "Qi magnetic fast wireless charging": "7.5W"
+    }
+}

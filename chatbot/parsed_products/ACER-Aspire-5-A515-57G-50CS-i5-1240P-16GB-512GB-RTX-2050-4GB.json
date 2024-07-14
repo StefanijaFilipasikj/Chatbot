@@ -1,0 +1,24 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-Aspire-5-A515-57G-50CS-i5-1240P-16GB-512GB-RTX-2050-4GB",
+    "title": "ЛАПТОП ACER ASPIRE 5 A515-57G-50CS I5-1240P/16GB/512GB/RTX 2050 4GB",
+    "warranty": "24",
+    "regular_price": "53.999",
+    "happy_price": "47.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920 x 1080) FHD, IPS, SlimBezel",
+        "Процесор": "Intel® Core™ i5-1240P (12C, 16T, Max Turbo Frequency 4.40 GHz, Cache 12 MB)",
+        "Графика": "NVIDIA® GeForce RTX™ 2050 4GB GDDR6",
+        "RAM меморија": "16GB DDR4",
+        "Диск (Storage)": "512GB PCIe NVMe SSD",
+        "LAN": "IEEE 802.11 a/b/g/n/ac/ax",
+        "Gigabit Ethernet": "True",
+        "Wireless": "Wi-Fi 6 AX + BT",
+        "Acer PBA fingerprint reader": "True",
+        "HD TNR Camera": "True",
+        "Без оперативен систем": "True",
+        "Батерија": "50Wh Li-ion",
+        "Адаптер": "90W"
+    }
+}

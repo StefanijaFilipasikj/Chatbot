@@ -1,0 +1,22 @@
+{
+    "url": "https://www.neptun.mk/categories/Android_TV_boksovi/FUEGO-X96-MATE-64G",
+    "title": "ANDROID BOX FUEGO X96-MATE-64G",
+    "warranty": "12",
+    "regular_price": "4.599",
+    "happy_price": "",
+    "description": {
+        "Android box": "True",
+        "Оперативен систем": "Android 10.0",
+        "Процесор": "Allwinner H616 Quad Core ARM Cortex A53",
+        "Графика": "G31 OPenGL3.2",
+        "Меморија": "64GB / 4GB",
+        "Wifi": "IEEE 802.11 b/g/n/ac",
+        "Порти": "True",
+        "1*HDMI - 4K*2K UHD Output, HDMI 2.0A": "True",
+        "1*AV OUT - 480i/576i standard definition output": "True",
+        "2*USB - 1 * USB 3.0 1*USB 2.0": "True",
+        "1*IR Reciver - Remote Reciver Connect": "True",
+        "1*RJ45 - Ethernet InterfaceSupport 10/100M": "True",
+        "1*TF CARD": "True"
+    }
+}

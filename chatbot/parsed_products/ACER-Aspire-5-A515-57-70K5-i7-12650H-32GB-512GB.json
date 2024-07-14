@@ -1,0 +1,21 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ACER-Aspire-5-A515-57-70K5-i7-12650H-32GB-512GB",
+    "title": "ЛАПТОП ACER ASPIRE 5 A515-57-70K5 I7-12650H/32GB/512GB",
+    "warranty": "24",
+    "regular_price": "47.999",
+    "happy_price": "39.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6 cm)",
+        "Резолуција": "(1920 x 1080) FHD IPS SlimBezel",
+        "Процесор": "Intel® Core™ i7-12650H",
+        "Графика": "Intel® UHD Graphics",
+        "RAM Меморија": "32GB LPDDR4",
+        "Диск (Storage)": "512GB PCIe NVMe SSD",
+        "Без оперативен систем": "True",
+        "2x2 AX+BT": "True",
+        "HD TNR Camera": "True",
+        "Батерија": "50Wh Li-ion battery",
+        "Полнач": "90W"
+    }
+}

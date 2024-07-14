@@ -1,0 +1,29 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/SMARTPHONE-HONOR-X8a--Cartier-L31C--6-128GB-Black",
+    "title": "SMARTPHONE HONOR X8A (CARTIER-L31C) 6/128GB BLACK",
+    "warranty": "24",
+    "regular_price": "16.999",
+    "happy_price": "8.799",
+    "description": {
+        "Мобилен телефон": "True",
+        "Android 12, Magic UI 6.1": "True",
+        "Екран": "6.7\" (1080 x 2388) IPS LCD, 90Hz",
+        "Mediatek Helio G88 (12nm)": "True",
+        "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)": "True",
+        "Mali-G52 MC2": "True",
+        "Интерна меморија": "True",
+        "ROM Меморија": "128GB",
+        "RAM Меморија": "6GB",
+        "Примарна камера": "True",
+        "100 MP, f/1.9, (wide), AF": "True",
+        "5 MP, f/2.2, (ultrawide)": "True",
+        "2 MP, f/2.4, (macro)": "True",
+        "Секундарна камера": "True",
+        "16 MP, f/2.5": "True",
+        "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct": "True",
+        "Bluetooth 5.1, A2DP, LE": "True",
+        "GPS, GLONASS, GALILEO, BDS": "True",
+        "USB Type-C 2.0, OTG": "True",
+        "Батерија": "Li-Po 4500 mAh"
+    }
+}

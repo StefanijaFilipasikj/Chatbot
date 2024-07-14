@@ -1,0 +1,25 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/Asus-Vivobook-16-M1605YAR-MB521-16--R5-7530U-8GB-1TB-",
+    "title": "ЛАПТОП ASUS VIVOBOOK 16 M1605YAR-MB521 16\" R5-7530U/8GB/1TB",
+    "warranty": "24",
+    "regular_price": "34.499",
+    "happy_price": "28.499",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "16\"",
+        "Резолуција": "(1920 x 1200) 16:10 aspect ratio WUXGA IPS-level Panel",
+        "Процесор": "AMD Ryzen 5 7530U Mobile Processor (6-core/12-thread, 16MB cache, up to 4.3 GHz max boost)",
+        "Графика": "AMD Radeon Graphics",
+        "RAM Меморија": "8GB DDR4",
+        "Диск (Storage)": "1TB M.2 NVMe PCIe 3.0 SSD",
+        "Wi-Fi 6E(802.11ax) (Dual band) 1*1 + Bluetooth 5": "True",
+        "Порти": "1x USB 2.0 Type-A, 1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x micro HDMI 1.4, 1x 3.5mm Combo Audio Jack, 1x DC-in",
+        "720p HD camera": "True",
+        "Вграден микрофон": "True",
+        "Вграден звучник": "True",
+        "Chiclet тастатура со копче Num": "True",
+        "Аудио": "SonicMaster",
+        "Security BIOS Booting User Password Protection": "True",
+        "Батерија": "42WHrs, 3S1P, 3-cell Li-ion"
+    }
+}

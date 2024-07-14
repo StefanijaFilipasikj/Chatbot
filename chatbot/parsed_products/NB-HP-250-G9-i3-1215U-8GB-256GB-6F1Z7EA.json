@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/NB-HP-250-G9-i3-1215U-8GB-256GB-6F1Z7EA",
+    "title": "ЛАПТОП HP 250 G9 I3-1215U/8GB/256GB",
+    "warranty": "12",
+    "regular_price": "27.999",
+    "happy_price": "16.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920 x 1080) FHD, anti-glare, 250 nits, 45% NTSC",
+        "Процесор": "Intel® Core™ i3-1215U (до 4.4 GHz со Intel® Turbo Boost Technology, 10 MB L3 кеш, 6 јадра, 8 нишки)",
+        "Графика": "Intel® UHD Graphics",
+        "RAM меморија": "8GB DDR4 3200 MHz",
+        "Диск (Storage)": "256 GB PCIe® NVMe™ SSD",
+        "Оперативен систем": "Нема (FreeDOS)",
+        "Камера": "720p HD",
+        "Аудио": "Dual stereo speakers, dual array microphones",
+        "Wifi": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® и Bluetooth® 5 wireless card",
+        "Порти": "1 SuperSpeed USB Type-C® 5Gbps signaling rate, 2 SuperSpeed USB Type-A 5Gbps signaling rate, 1 HDMI 1.4b, 1 RJ-45, 1 AC smart pin, 1 headphone/microphone combo",
+        "Power": "HP Smart 45 W External AC power adapter",
+        "Батерија": "3-cell, 41 Wh Li-ion"
+    }
+}

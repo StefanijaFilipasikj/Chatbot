@@ -1,0 +1,30 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-Yoga-Slim-6-14IRP8-14--2-2K-i5-1340P-16GB-DDR5-512GB-WIN11",
+    "title": "",
+    "warranty": "24",
+    "regular_price": "54.999",
+    "happy_price": "50.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "14\" (35.56cm)",
+        "Резолуција": "(1920x1080) 2.2K (2240x1400) IPS 300nits Anti-glare, 100% sRGB, 60Hz, Eyesafe®, Dolby® Vision®",
+        "Чипсет": "Intel® SoC Platform",
+        "Процесор": "Intel® Core™ i5-1340P, 12C (4P + 8E) / 16T, P-core 1.9 / 4.6GHz, E-core 1.4 / 3.4GHz, 12MB",
+        "Графика": "Intel® UHD Graphics",
+        "RAM Меморија": "16GB LPDDR5-5200",
+        "Диск (Storage)": "512GB SSD M.2 2242 PCIe® 4.0x4 NVMe®",
+        "Wi-Fi® 6E, 11ax 2x2 + BT5.1": "True",
+        "Backlit, English": "True",
+        "Порти": "True",
+        "1x USB-A (USB 5Gbps / USB 3.2 Gen 1), Always On": "True",
+        "2x USB-C® (Thunderbolt™ 4 / USB4® 40Gbps), with USB PD 3.0 and DisplayPort™ 1.4": "True",
+        "1x HDMI® 2.1, up to 4K/60Hz": "True",
+        "1x Headphone / microphone combo jack (3.5mm)": "True",
+        "Oперативен систем": "Windows® 11 Home",
+        "Аудио": "High Definition (HD) Audio",
+        "Звучник": "Stereo speakers, 2W x2, optimized with Dolby® Atmos®",
+        "Камера": "FHD 1080p + IR with Privacy Shutter, ToF Sensor",
+        "Power Adapter - 65W USB-C® (3-pin)": "True",
+        "Батерија": "65Wh"
+    }
+}

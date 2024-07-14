@@ -1,0 +1,21 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/MacBook-Air-13-3--SLV-8C-CPU-7C-GPU-8GB-256GB-ZEE-mgn93ze-a",
+    "title": "",
+    "warranty": "12",
+    "regular_price": "72.699",
+    "happy_price": "57.699",
+    "description": {
+        "Дисплеј": "13.3\"(33.78cm)",
+        "Процесор": "Apple M1 чип со 8-јадрен CPU",
+        "GPU": "7-јадрен",
+        "Резолуција": "(2560x1600) LED IPS Retina",
+        "RAM меморија": "8GB",
+        "Диск": "256GB SSD",
+        "Web камера": "720p",
+        "Bluetooth": "true",
+        "Wi-Fi": "true",
+        "Thunderbolt (USB-C)": "true",
+        "Батерија": "Li-Poly 49.9 Wh - 18 часа - 30 W",
+        "macOS": "11.0"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/Apple-iPhone-15-Pro-Max-256GB-Black-Titanium",
+    "title": "IPHONE 15 PRO MAX 256GB BLACK TITANIUM",
+    "warranty": "12",
+    "regular_price": "97.490",
+    "happy_price": "87.990",
+    "description": {
+        "Мобилен телефон": "True",
+        "iOS 17.0": "True",
+        "IP68 водоотпорен ( до 6м за 30 мин)": "True",
+        "Apple Pay систем": "True",
+        "Поддршка за ултра широк опсег": "True",
+        "Екран": "6.7\" LTPO Super Retina XDR OLED, 120Hz",
+        "Резолуција": "1290 x 2796p",
+        "Chipset": "Apple A17 Pro (3 nm)",
+        "CPU": "Hexa-core (2x3.78 GHz + 4)",
+        "GPU": "Apple GPU (6-core graphics)",
+        "Интерна меморија": "256GB",
+        "Примарна камера": "48 MP, f/1.8, 24mm (wide), 1.22µm, dual pixel PDAF, sensor-shift OIS\n12 MP, f/2.8, 77mm (telephoto), PDAF, OIS, 3x optical zoom\n12 MP, f/2.2, 13mm, 120? (ultrawide), 1.4µm, dual pixel PDAF\nTOF 3D LiDAR scanner (depth)",
+        "Секундарна камера": "12 MP, f/1.9, 23mm (wide), 1/3.6\", PDAF\nSL 3D, (depth/biometrics sensor)",
+        "Wi-Fi": "802.11 a/b/g/n/ac/6, dual-band, hotspot",
+        "Bluetooth": "5.3, A2DP, LE",
+        "GPS": "dual-band A-GPS, GLONASS, GALILEO, BDS, QZSS",
+        "Сензори": "ID на лице\nLiDAR скенер\nБарометар\nЖироскоп со висок динамички опсег\nАкцелерометар\nСензор за близина\nДвоен сензор за амбиентално светло",
+        "Lightning": "True",
+        "USB": "2.0",
+        "Fast charging": "50% in 30 min (advertised)",
+        "USB Power Delivery": "2.0",
+        "MagSafe wireless charging": "15W",
+        "Qi magnetic fast wireless charging": "7.5W"
+    }
+}

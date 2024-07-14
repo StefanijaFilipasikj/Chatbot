@@ -1,0 +1,30 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/MacBook-Pro-14-M3-PRO-12C-CPU-18C-GPU-18GB-1TB-Silver-mrx73ze-a",
+    "title": "ЛАПТОП APPLE MACBOOK PRO 14 M3 PRO/12C CPU/18C GPU/18GB/1TB SILVER MRX73ZE/A",
+    "warranty": "12",
+    "regular_price": "182.999",
+    "happy_price": "173.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "14.2\"(36cm) Liquid Retina XDR display",
+        "Процесор": "Apple M3",
+        "Графика": "18-core GPU",
+        "RAM меморија": "18GB",
+        "Диск (Storage)": "1TB SSD",
+        "1080p FaceTime HD camera": "True",
+        "Вградени микрофони": "True",
+        "Backlit Magic Keyboard": "True",
+        "Touch ID": "True",
+        "Ambient light sensor": "True",
+        "Force Touch trackpad": "True",
+        "Bluetooth 5.3": "True",
+        "Wireless": "Wi-Fi 6E (802.11ax)",
+        "SDXC card slot": "True",
+        "HDMI port": "True",
+        "3.5 mm headphone jack": "True",
+        "MagSafe 3 port": "True",
+        "Three Thunderbolt 4 ports with support for": "Charging, DisplayPort, Thunderbolt 4 (up to 40Gb/s), USB 4 (up to 40Gb/s)",
+        "Батерија": "до 18 часа",
+        "Полнач": "96W USB-C"
+    }
+}

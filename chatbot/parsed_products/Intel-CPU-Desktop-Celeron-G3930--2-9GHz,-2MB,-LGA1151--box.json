@@ -1,0 +1,22 @@
+{
+    "url": "https://www.neptun.mk/categories/Procesori/Intel-CPU-Desktop-Celeron-G3930--2-9GHz,-2MB,-LGA1151--box",
+    "title": "ПРОЦЕСОР INTEL CPU DESKTOP CELERON G3930 (2.9GHZ, 2MB, LGA1151) BOX",
+    "warranty": "24",
+    "regular_price": "3.299",
+    "happy_price": "995",
+    "description": {
+        "Модел": "Intel® Celeron® Processor G3930",
+        "Total Cores": "2",
+        "Total Threads": "2",
+        "Lithography": "14nm",
+        "Sockets Supported": "FCLGA1151",
+        "Thermal Design Power (TDP)": "51W",
+        "Фреквенција": "2.90 GHz",
+        "Кеш меомрија": "2 MB",
+        "Вид на меморија": "DDR4 2133, DDR3L 1333/1600 @ 1.35V",
+        "Максимална меморија (според вид на меморија)": "64GB",
+        "Processor Graphics": "Intel® UHD Graphics 610",
+        "Graphics Base Frequency": "350 MHz",
+        "Graphics Video Max Memory": "64 GB"
+    }
+}

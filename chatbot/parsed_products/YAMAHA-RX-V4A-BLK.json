@@ -1,0 +1,29 @@
+{
+    "url": "https://www.neptun.mk/categories/HIFI_OPREMA/YAMAHA-RX-V4A-BLK",
+    "title": "РЕСИВЕР YAMAHA RX-V4A BLK",
+    "warranty": "12",
+    "regular_price": "39.999",
+    "happy_price": "",
+    "description": {
+        "RECEIVER": "true",
+        "Broj na kanali": "5.2",
+        "Ocenet izlezna moc": "115 W (6 ohms, 0.9% THD)",
+        "Maksimalna efektivna izlezna moc": "145 W (6 ohms, 10% THD)",
+        "CINEMA DSP": "true",
+        "DSP Programi": "17",
+        "Virtualni prisutni zvucnik": "true",
+        "SILENT CINEMA / Virtualni CINEMA DSP": "true",
+        "Dolby TrueHD": "true",
+        "Dolby Digital Plus": "true",
+        "Poboljsuvac na komprimirana muzika": "true",
+        "Prilagodliv DRC (Kontrola na dinamicniot opseg)": "true",
+        "HDMI eARC, HDMI Audio Return Channel": "true",
+        "Dolby Vision": "true",
+        "HDR 10+": "true",
+        "USB Vlez": "true",
+        "Mrezni port": "true",
+        "Wi-Fi": "true",
+        "AirPlay 2": "true",
+        "Bluetooth": "true"
+    }
+}

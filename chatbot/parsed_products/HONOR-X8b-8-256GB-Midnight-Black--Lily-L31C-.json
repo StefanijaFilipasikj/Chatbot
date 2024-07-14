@@ -1,0 +1,30 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/HONOR-X8b-8-256GB-Midnight-Black--Lily-L31C-",
+    "title": "HONOR X8B, 6.7\", 108MP+5MP+2MP/50MP, 8/256GB, 4500MAH, MIDNIGHT BLACK",
+    "warranty": "24",
+    "regular_price": "13.999",
+    "happy_price": "10.799",
+    "description": {
+        "Мобилен телефон": "True",
+        "Android 13, MagicOS 7.2": "True",
+        "Екран": "6.7\" (1080x2412) AMOLED, 90Hz, 1200 nits (HBM), 2000 nits (peak)",
+        "Qualcomm SM6225 Snapdragon 680 4G (6 nm)": "True",
+        "Octa-core (4x2.4 GHz Kryo 265 Gold & 4x1.9 GHz Kryo 265 Silver)": "True",
+        "Графика": "Adreno 610",
+        "Интерна меморија": "True",
+        "ROM Меморија": "256GB",
+        "RAM Меморија": "8GB",
+        "Примарна камера": "True",
+        "108 MP, f/1.8, 24mm (wide), 1/1.67\", PDAF": "True",
+        "5 MP, f/2.2, (ultrawide)": "True",
+        "2 MP, f/2.4, (macro)": "True",
+        "Секундарна камера": "True",
+        "50 MP, f/2.1, (wide)": "True",
+        "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct": "True",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS, GLONASS, GALILEO, BDS": "True",
+        "USB Type-C 2.0, OTG": "True",
+        "Батерија": "Li-Po 4500mAh",
+        "Полнење": "35W wired"
+    }
+}

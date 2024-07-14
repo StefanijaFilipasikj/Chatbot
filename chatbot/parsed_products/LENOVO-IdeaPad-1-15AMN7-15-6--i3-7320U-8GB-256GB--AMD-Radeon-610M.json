@@ -1,0 +1,22 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-IdeaPad-1-15AMN7-15-6--i3-7320U-8GB-256GB--AMD-Radeon-610M",
+    "title": "ЛАПТОП LENOVO IDEAPAD 1 15AMN7 R3-7320U/8GB DDR5/256GB",
+    "warranty": "24",
+    "regular_price": "20.699",
+    "happy_price": "18.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD, TN 220nits Anti-glare",
+        "Чипсет": "AMD SoC Platform",
+        "Процесор": "AMD Ryzen™ 3 7320U (4C / 8T, 2.4 / 4.1GHz, 2MB L2 / 4MB L3)",
+        "Графика": "Integrated AMD Radeon™ 610M Graphics",
+        "RAM Меморија": "8GB Soldered LPDDR5-5500",
+        "Диск (Storage)": "256GB SSD M.2 2242 PCIe® 4.0x4 NVMe®",
+        "Порти": "1x Card reader, 1x HDMI® 1.4b, 1x Headphone / microphone combo jack (3.5mm), 1x Power connector, 1x USB 2.0, 1x USB 3.2 Gen 1, 1x USB-C® 3.2 Gen 1 (support data transfer only)",
+        "Без оперативен систем": "True",
+        "Аудио": "High Definition (HD) Audio",
+        "Звучник": "Stereo speakers, 1.5W x2, Dolby® Audio™",
+        "Камера": "HD 720p with Privacy Shutter"
+    }
+}

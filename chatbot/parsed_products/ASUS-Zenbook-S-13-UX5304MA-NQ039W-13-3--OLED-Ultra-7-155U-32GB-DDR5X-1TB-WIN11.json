@@ -1,0 +1,27 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Zenbook-S-13-UX5304MA-NQ039W-13-3--OLED-Ultra-7-155U-32GB-DDR5X-1TB-WIN11",
+    "title": "ЛАПТОП ASUS ZENBOOK S 13 UX5304MA-NQ039W 13.3\" OLED ULTRA 7 155U/32GB DDR5X/1TB/WIN11",
+    "warranty": "24",
+    "regular_price": "89.999",
+    "happy_price": "84.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "13.3\"(33.7cm)",
+        "Резолуција": "3K (2880 x 1800) OLED, 60Hz, 600nits, response time 0.2ms",
+        "Процесор": "Intel Core Ultra 7 Processor 155U 1.7 GHz (12MB Cache, up to 4.8 GHz, 12 cores, 14 Threads)",
+        "Графика": "Intel Iris Xe Graphics",
+        "RAM меморија": "32GB DDR5X",
+        "Диск (Storage)": "1TB M.2 NVMe PCIe 4.0 SSD",
+        "Оперативен систем": "Windows 11 Home",
+        "Камера": "FHD camera with IR function to support Windows Hello",
+        "Вграден микрофон": "True",
+        "Аудио": "harman/kardon (Premium)",
+        "Smart Amp Technology": "True",
+        "Wi-Fi 6E(802.11ax) (Dual band) 2*2": "True",
+        "Bluetooth 5.3": "True",
+        "Touchpad": "True",
+        "Backlit Chiclet Keyboard": "True",
+        "Порти": "1x USB 3.2 Gen 2 Type-A, 2x Thunderbolt 4 supports display / power delivery, 1x HDMI 2.1 TMDS, 1x 3.5mm Combo Audio Jack, 65W AC Adapter",
+        "Батерија": "63WHrs, 2S2P, 4-cell Li-ion"
+    }
+}

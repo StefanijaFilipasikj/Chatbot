@@ -1,0 +1,30 @@
+{
+    "url": "https://www.neptun.mk/categories/MREZNA_OPREMA/TP-LINK-AC1200,-Router-4-Antennas,-Dual-Band-Wi-Fi",
+    "title": "TP-LINK AC1200, ROUTER 4 ANTENNAS, DUAL-BAND WI-FI, 4X10/100 MBPS LAN, 1X10/100 MBPS WAN",
+    "warranty": "24",
+    "regular_price": "1.799",
+    "happy_price": "",
+    "description": {
+        "Рутер": "true",
+        "Интерфејс": "4x10/100 Mbps LAN порти",
+        "1x10/100 Mbps WAN порта": "true",
+        "Напојување": "12VDC/1.0A",
+        "Wireless Standards": "IEEE 802.11n/g/b 2.4GHz IEEE 802.11ac/n/a 5GHz",
+        "Димензии": "9,1 x 5,7 x 1,4 инчи (230,0 * 144,0 * 35,0 мм)",
+        "Тип на антена": "4 надворешни",
+        "Фрекфенција": "2,4 GHz и 5 GHz",
+        "Управување": "контрола на пристап, локално управување, далечинско управување",
+        "Access Point mode креирање за нов Wi-Fi access point": "true",
+        "Server": "true",
+        "Client": "true",
+        "DHCP Client List": "true",
+        "Address Reservation": "true",
+        "Virtual Server": "true",
+        "Port Triggering": "true",
+        "UPnP": "true",
+        "DMZ": "true",
+        "DynDns": "true",
+        "NO-IP": "true",
+        "Системски барања": "Microsoft Windows 10/8.1/8/7/Vista/XP/2000/NT/98SE, MAC OS, NetWare, UNIX или Linux"
+    }
+}

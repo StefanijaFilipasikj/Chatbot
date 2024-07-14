@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/HP-Pavilion-15-eg2188nia-i5-1235U-8GB-512GB-MX550-2GB-GDDR6-797A8EA",
+    "title": "ЛАПТОП HP PAVILION 15-EG2188NIA I5-1235U/8GB/512GB/MX550 2GB GDDR6 797A8EA",
+    "warranty": "36",
+    "regular_price": "53.999",
+    "happy_price": "35.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6 cm)",
+        "Резолуција": "(1920 x 1080) FHD,  IPS, micro-edge, anti-glare, 250 nits, 45% NTSC",
+        "Chipset": "Intel® Integrated SoC",
+        "Процесор": "Intel® Core™ i5-1235U (до 4.4 GHz со Intel® Turbo Boost Technology, 12 MB L3 кеш, 10 јадра, 12 нишки)",
+        "Графика": "NVIDIA® GeForce® MX550 2 GB GDDR6",
+        "RAM Меморија": "8 GB DDR4-3200 MHz (1 x 8 GB)",
+        "Диск (Storage)": "512GB SSD PCIe® NVMe™",
+        "Без оперативен систем": "True",
+        "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (поддршка за гигабитен пренос на податоци)": "True",
+        "HP Wide Vision 720p HD камера со временско намалување на шумот и интегрирани двојни дигитални микрофони": "True",
+        "Аудио": "Audio by B&O; Двојни звучници HP Audio Boost",
+        "Порти": "1 USB Type-C® 10Gbps брзина на сигналот (USB Power Delivery, DisplayPort™ 1.4, HP Sleep and Charge)\n2 USB Type-A 5Gbps брзина на сигналот\n1 AC smart pin\n1 HDMI 2.1\n1 слушалки/микрофон комбо\n65 W Smart AC адаптер за напојување",
+        "Батерија": "3-cell, 41 Wh Li-ion"
+    }
+}

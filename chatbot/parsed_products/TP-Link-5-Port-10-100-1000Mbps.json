@@ -1,0 +1,16 @@
+{
+    "url": "https://www.neptun.mk/categories/MREZNA_OPREMA/TP-Link-5-Port-10-100-1000Mbps",
+    "title": "NETWORK SWITCH TP-LINK 5-PORT 10/100/1000MBPS",
+    "warranty": "24",
+    "regular_price": "1.099",
+    "happy_price": "",
+    "description": {
+        "NETWORK SWITCH": "true",
+        "Gigabit Ethernet (10/100/1000)": "true",
+        "Network standards: IEEE 802.3i, IEEE 802.3u, IEEE 802.3x": "true",
+        "MAC address table:2000 entries": "true",
+        "Switching capacity:10 Gbit / s": "true",
+        "Forwarding Rate:7.4 Mpps": "true",
+        "Buffer buffer:1.5 MB": "true"
+    }
+}

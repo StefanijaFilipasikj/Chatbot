@@ -1,0 +1,33 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/ASUS-ROG-Zephyrus-G14-GA403UI-QS048W-14--OLED-R9-8945HS-16GB-DDR5X-1TB-RTX-4070-8GB-WIN11",
+    "title": "",
+    "warranty": "24",
+    "regular_price": "139.999",
+    "happy_price": "129.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "14\" (39.6cm)",
+        "Резолуција": "(2880 x 1800) 3К, OLED, 120Hz, 0.2ms, 500 nits, 16:10",
+        "Процесор": "AMD Ryzen™ 9 8945HS, 4GHz (24MB Cache, up to 5.2 GHz, 8 cores, 16 Threads)",
+        "Графика": "NVIDIA GeForce RTX 4070 8GB GDDR6",
+        "RAM меморија": "16GB DDR5X",
+        "Диск (Storage)": "1TB M.2 2280 PCIe Gen4 SSD",
+        "Оперативен систем": "Windows 11 Home",
+        "Wi-Fi 6E(802.11ax) (Triple band) 2*2 + Bluetooth 5.3": "True",
+        "Порти": "True",
+        "1x Type C USB 4 support DisplayPort / power delivery": "True",
+        "1x USB 3.2 Gen 2 Type-C support DisplayPor": "True",
+        "2x USB 3.2 Gen 2 Type-A": "True",
+        "1x card reader (microSD) (UHS-II)": "True",
+        "1x HDMI 2.1 FRL": "True",
+        "1x 3.5mm Combo Audio Jack": "True",
+        "Вгадени 3 микрофони": "True",
+        "Backlit Chiclet Keyboard 1-Zone RGB": "True",
+        "4x звучници (4-speaker (dual force woofer) system with Smart Amplifier Technology)": "True",
+        "Аудио": "Tech AI noise-canceling - Dolby Atmos",
+        "Hi-Res certification": "True",
+        "Smart Amp Technology": "True",
+        "Security BIOS Administrator Password and User Password Protection": "True",
+        "Батерија": "73WHrs, 4S1P, 4-cell Li-ion"
+    }
+}

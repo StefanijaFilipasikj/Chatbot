@@ -1,0 +1,19 @@
+{
+    "url": "https://www.neptun.mk/categories/Android_TV_boksovi/FUEGO-X98-Plus-4G64G",
+    "title": "FUEGO X98 PLUS-4G64G",
+    "warranty": "12",
+    "regular_price": "2.999",
+    "happy_price": "",
+    "description": {
+        "Андроид box": "True",
+        "Резолуција": "S905W2,4K",
+        "Процесор": "Quad Core ARM Cortex A35",
+        "Графика": "Mali-G31 MP2",
+        "Меморија": "64GB",
+        "Оперативен систем": "Android 11",
+        "H.265 HEVC": "True",
+        "OpenGL ES 1.1/2.0/3.2，OpenCL 2.0，Vulkan 1.1 support": "True",
+        "2.4G / 5G  IEEE 802.11 b / g / n or IEEE 802.11 a/b/g/n/ac/100M": "True",
+        "Конекција": "USB 2.0"
+    }
+}

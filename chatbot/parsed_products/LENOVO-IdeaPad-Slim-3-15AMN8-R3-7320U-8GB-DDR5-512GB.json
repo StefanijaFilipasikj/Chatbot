@@ -1,0 +1,24 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-IdeaPad-Slim-3-15AMN8-R3-7320U-8GB-DDR5-512GB",
+    "title": "ЛАПТОП LENOVO IDEAPAD SLIM 3 15AMN8 R3-7320U/8GB DDR5/512GB",
+    "warranty": "24",
+    "regular_price": "21.999",
+    "happy_price": "19.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD, TN 250nits Anti-glare",
+        "Чипсет": "AMD SoC Platform",
+        "Процесор": "AMD Ryzen™ 3 7320U (4C / 8T, 2.4 / 4.1GHz, 2MB L2 / 4MB L3)",
+        "Графика": "Integrated AMD Radeon™ 610M Graphics",
+        "RAM Меморија": "8GB Soldered LPDDR5-5500",
+        "Диск (Storage)": "512GB SSD M.2 2242 PCIe® 4.0x4 NVMe®",
+        "WLAN + Bluetooth": "11ac 2x2 + BT5.1",
+        "Порти": "True",
+        "Аудио": "High Definition (HD) Audio",
+        "Звучник": "Stereo speakers, 1.5W x2, Dolby® Audio™",
+        "Камера": "HD 720p with Privacy Shutter",
+        "Power Adapter": "65W Round Tip (3-pin)",
+        "Батерија": "47Wh"
+    }
+}

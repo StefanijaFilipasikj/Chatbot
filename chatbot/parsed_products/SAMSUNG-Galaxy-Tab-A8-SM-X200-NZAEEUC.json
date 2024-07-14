@@ -1,0 +1,29 @@
+{
+    "url": "https://www.neptun.mk/categories/TABLETI/SAMSUNG-Galaxy-Tab-A8-SM-X200-NZAEEUC",
+    "title": "",
+    "warranty": "",
+    "regular_price": "15.999",
+    "happy_price": "12.999",
+    "description": {
+        "Таблет": "true",
+        "Android": "11",
+        "One UI": "3",
+        "Eкран": "10.5\"(26.6cm)",
+        "Резолуција": "1200 x 1920 pixels",
+        "Octa-core": "(2x2.0 GHz Cortex-A75 & 6x2.0 GHz Cortex-A55)",
+        "Интерна меморија": "64GB,RAM 4GB",
+        "MicroSD": "(до 1 TB)",
+        "Примарна камера": "8MP",
+        "Секундарна камера": "5MP",
+        "Поврзување": "USB 2.0",
+        "3,5 мм стерео": "true",
+        "Bluetooth": "v5.0",
+        "Wifi": "802,11 a/b/g/n/ac 2,4G+5GHz, VHT80",
+        "GPS": "true",
+        "Glonass": "true",
+        "Galileo": "true",
+        "QZSS": "true",
+        "Сензори": "Акцелерометар, жиро сензор, геомагнетен сензор, сензор за хол, сензор за светлина",
+        "Батерија": "7040mAh"
+    }
+}

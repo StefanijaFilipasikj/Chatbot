@@ -1,0 +1,22 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-Nitro-5-AN515-47-R4CG-R7-7735HS-16GB-DDR5-512GB-RTX-3050-4GB",
+    "title": "",
+    "warranty": "24",
+    "regular_price": "75.999",
+    "happy_price": "65.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD IPS 144Hz SlimBezel",
+        "Процесор": "AMD Ryzen™ 7 7735HS (8C, 16T, 3.2 GHz-4.75 GHz, L3 16MB)",
+        "Графика": "NVIDIA® GeForce RTX™ 3050 4G-GDDR6(2C*256*16*4)",
+        "RAM меморија": "16 GB DDR5",
+        "Диск (Storage)": "512GB PCIe NVMe SED SSD",
+        "Без оперативен систем": "True",
+        "Камера": "HD USB Camera",
+        "WI-FI 6E": "True",
+        "Bluetooth": "True",
+        "57Wh Li-ion battery": "True",
+        "Power": "180W"
+    }
+}

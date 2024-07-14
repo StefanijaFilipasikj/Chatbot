@@ -1,0 +1,31 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-Nitro-5-AN517-54-79DQ-17-3--i7-11600H-32GB-512GB-SSD-RTX-3050-4GB",
+    "title": "ЛАПТОП ACER NITRO 5 AN517-54-79DQ 17.3\" I7-11600H/32GB/512GB SSD/RTX 3050 4GB",
+    "warranty": "24",
+    "regular_price": "60.999",
+    "happy_price": "56.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "17.3\" (43.9cm)",
+        "Резолуција": "FHD (1920 x 1080) FHD, IPS, 144Hz, 250 cd/m²",
+        "Процесор": "Intel® Core™ i7-11600H Hexa-core (6 Core™, 4.60 GHz, 18 MB cache)",
+        "Графика": "NVIDIA® GeForce RTX™ 3050 4GB GDDR6",
+        "RAM меморија": "32 GB DDR4 3200MHz",
+        "Диск (Storage)": "512GB PCIe NVMe M.2 SSD",
+        "Без оперативен систем": "True",
+        "WIFI IEEE 802.11ax": "True",
+        "Bluetooth 5.1": "True",
+        "HD WEB CAM": "True",
+        "Звучници х2": "True",
+        "Микрофони х2": "True",
+        "Приклучоци": "True",
+        "HDMI x1": "True",
+        "Network (RJ-45) x1": "True",
+        "Audio Line Out": "True",
+        "USB x4": "True",
+        "Red Backlight": "True",
+        "Батерија": "57Wh Lithium Polymer (Li-Polymer)",
+        "Време на работа": "до 8ч",
+        "180W AC Adapter": "True"
+    }
+}

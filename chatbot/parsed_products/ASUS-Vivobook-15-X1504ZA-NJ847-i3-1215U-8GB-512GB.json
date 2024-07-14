@@ -1,0 +1,26 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Vivobook-15-X1504ZA-NJ847-i3-1215U-8GB-512GB",
+    "title": "ЛАПТОП ASUS VIVOBOOK 15 X1504ZA-NJ847 I3-1215U/8GB/512GB",
+    "warranty": "24",
+    "regular_price": "23.999",
+    "happy_price": "21.499",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6 (39.6cm)",
+        "Резолуција": "FHD (1920 x 1080), 60Hz, 250nits",
+        "Процесор": "Intel Core i3-1215U Processor 1.2 GHz (10M Cache, up to 4.4 GHz, 6 cores)",
+        "Графика": "Intel UHD Graphics",
+        "RAM меморија": "8GB DDR4",
+        "Диск (Storage)": "512GB M.2 NVMe PCIe 4.0 SSD",
+        "LED Backlit": "True",
+        "Без оперативен систем": "True",
+        "Wi-Fi 6E(802.11ax) (Dual band) 1*1 + Bluetooth 5.3": "True",
+        "720p HD camera": "True",
+        "Порти": "1x USB 2.0 Type-A, 1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 1.4, 1x 3.5mm Combo Audio Jack, 1x DC-in",
+        "Аудио": "SonicMaster",
+        "Вградени звучници": "True",
+        "Вграден микрофон": "True",
+        "Батерија": "42WHrs, 3S1P, 3-cell Li-ion",
+        "45W AC Adapter": "True"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ACER-Extensa-15-EX215-23-R6VX-R5-7520U-16GB-DDR5-512GB",
+    "title": "ЛАПТОП ACER EXTENSA 15 EX215-23-R6VX R5-7520U/16GB DDR5/512GB",
+    "warranty": "24",
+    "regular_price": "25.999",
+    "happy_price": "23.899",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920 x 1080) FHD, Acer ComfyView LED LCD",
+        "Процесор": "AMD Ryzen™ 5 7520U",
+        "Графика": "AMD Radeon™ Graphics",
+        "RAM меморија": "16GB LPDDR5",
+        "Диск (Storage)": "512GB PCIe NVMe SSD",
+        "WIFI6+BT": "True",
+        "Камера": "HD TNR",
+        "Приклучоци": "True",
+        "1 x HDMI": "True",
+        "2 x USB 3.2 Gen 1 Tipe-A": "True",
+        "1 x USB 3.2 Gen 2 Tipe-C": "True",
+        "Вграден микрофон": "True",
+        "Број на звучници": "x2",
+        "Без оперативен систем": "True",
+        "Батерија": "50Wh Li-ion"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-IdeaPad-Slim-3-15ABR8-R7-7730U-16GB-512GB",
+    "title": "",
+    "warranty": "24",
+    "regular_price": "37.999",
+    "happy_price": "34.499",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD, IPS, 300nits Anti-glare",
+        "Чипсет": "AMD SoC Platform",
+        "Процесор": "AMD Ryzen™ 7 7730U (8C / 16T, 2.0 / 4.5GHz, 4MB L2 / 16MB L3)",
+        "Графика": "Integrated AMD Radeon™ Graphics",
+        "RAM Меморија": "16GB DDR4-3200",
+        "Диск (Storage)": "512GB SSD M.2 2242 PCIe® 4.0x4 NVMe®",
+        "Порти": "True",
+        "2x USB 3.2 Gen 1": "True",
+        "1x USB-C® 3.2 Gen 1 (support data transfer, Power Delivery and DisplayPort™ 1.2)": "True",
+        "1x HDMI® 1.4": "True",
+        "1x Card reader": "True",
+        "1x Headphone / microphone combo jack (3.5mm)": "True",
+        "1x Power connector": "True",
+        "Без оперативен систем": "True",
+        "Аудио": "High Definition (HD) Audio",
+        "Звучник": "Stereo speakers, 1.5W x2, optimized with Dolby® Audio™",
+        "Камера": "FHD 1080p with Privacy Shutter",
+        "Микрофон": "2x, Array",
+        "Wireless": "Wi-Fi® 6, 11ax 2x2",
+        "Bluetooth": "5.1",
+        "Батерија": "47Wh, 10 hr",
+        "Полнач": "65W Round Tip (3-pin)"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-Nitro-5-AN515-46-R950-R5-6600H-16GB-DDR5-512GB-RTX-3050-4GB",
+    "title": "ЛАПТОП АCER NITRO 5 AN515-46-R950 R5-6600H/16GB/512GB/RTX 3050",
+    "warranty": "24",
+    "regular_price": "57.999",
+    "happy_price": "54.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD IPS 144Hz SlimBezel",
+        "Процесор": "AMD Ryzen™ 5 6600H (6C, 12T, 3.3 - 4.5GHz, L3 16MB)",
+        "Графика": "NVIDIA® GeForce RTX™ 3050 4G-GDDR6",
+        "RAM меморија": "16 GB DDR5",
+        "Диск (Storage)": "512GB PCIe NVMe SED SSD",
+        "Без оперативен систем": "True",
+        "Камера": "HD USB Camera",
+        "WI-FI 6E": "True",
+        "Bluetooth 5.2": "True",
+        "57Wh Li-ion battery": "True",
+        "Power": "230W"
+    }
+}

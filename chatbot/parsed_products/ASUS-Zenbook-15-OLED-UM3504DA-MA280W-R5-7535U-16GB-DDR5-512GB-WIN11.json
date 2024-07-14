@@ -1,0 +1,32 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Zenbook-15-OLED-UM3504DA-MA280W-R5-7535U-16GB-DDR5-512GB-WIN11",
+    "title": "ЛАПТОП ASUS ZENBOOK 15 OLED UM3504DA-MA280W R5-7535U/16GB DDR5/512GB/WIN11",
+    "warranty": "24",
+    "regular_price": "53.999",
+    "happy_price": "48.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6 (39.6cm)",
+        "Резолуција": "2.8K(2880 x 1620) OLED, 120Hz, 0.2ms, 400nits",
+        "Процесор": "AMD Ryzen 5 7535U Mobile Processor 2.9GHz (6-core/12-thread, 12MB cache, up to 4.55 GHz)",
+        "Графика": "AMD Radeon Graphics",
+        "RAM меморија": "16GB LPDDR5",
+        "Диск": "512GB M.2 NVMe PCIe 4.0 SSD",
+        "Backlit Chiclet Keyboard with Num-key": "True",
+        "Оперативен систем": "Windows 11 Home",
+        "Wi-Fi 6E(802.11ax) (Dual band) 2*2 + Bluetooth 5.3": "True",
+        "FHD camera with IR function to support Windows Hello": "True",
+        "Порти": "True",
+        "1x USB 3.2 Gen 1 Type-A": "True",
+        "1x USB 3.2 Gen 2 Type-C support display / power delivery": "True",
+        "1x USB 4.0 Gen 3 Type-C support display / power delivery": "True",
+        "1x HDMI 2.1 TMDS": "True",
+        "1x 3.5mm Combo Audio Jack": "True",
+        "Аудио": "Smart Amp Technology",
+        "Harman/kardon (Premium)": "True",
+        "Вградени звучници": "True",
+        "Вграден микрофон": "True",
+        "Батерија": "67WHrs, 4S1P, 4-cell Li-ion",
+        "65W AC Adapter": "True"
+    }
+}

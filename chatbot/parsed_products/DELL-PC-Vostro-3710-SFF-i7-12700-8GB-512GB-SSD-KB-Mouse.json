@@ -1,0 +1,20 @@
+{
+    "url": "https://www.neptun.mk/categories/PERSONALNI_KOMPJUTERI/DELL-PC-Vostro-3710-SFF-i7-12700-8GB-512GB-SSD-KB-Mouse",
+    "title": "ПЕРСОНАЛЕН КОМПЈУТЕР DELL PC VOSTRO 3710 SFF I7-12700/8GB/512GB SSD/KB+MOUSE",
+    "warranty": "36",
+    "regular_price": "54.999",
+    "happy_price": "47.999",
+    "description": {
+        "Персонален компјутер": "true",
+        "Процесор": "12th Generation Intel® Core™ i7-12700 (25 MB Cache, 12-Core, up to 4.90 GHz)",
+        "Графика": "Intel® UHD Graphics",
+        "RAM меморија": "8 GB, DDR4, 3200 MHz",
+        "Диск (Storage)": "512 GB, M.2 2280, PCIe NVMe Gen3 x4, SSD",
+        "Тастатура + глувче": "true",
+        "Wireless 802.11ac 1x1 + Bluetooth": "true",
+        "Предни порти": "2 USB 2.0 ports, 2 USB 3.2 Gen 1 ports, 1 Global headset jack",
+        "Задни порти": "2 USB 2.0 ports with Smart Power, 2 USB 3.2 Gen 1 ports, 1 Audio line-out port, 1 RJ-45 Ethernet port, 1 AC power-supply port, 1 HDMI 1.4b port",
+        "Напојување": "180 W internal Power Supply Unit (PSU)",
+        "Без оперативен систем": "true"
+    }
+}

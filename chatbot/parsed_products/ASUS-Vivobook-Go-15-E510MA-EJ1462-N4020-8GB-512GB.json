@@ -1,0 +1,31 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Vivobook-Go-15-E510MA-EJ1462-N4020-8GB-512GB",
+    "title": "ЛАПТОП ASUS VIVOBOOK GO 15 E510MA-EJ1462 N4020/8GB/512GB",
+    "warranty": "24",
+    "regular_price": "17.999",
+    "happy_price": "14.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6 (39.6cm)",
+        "Резолуција": "FHD (1920 x 1080), 60Hz, IPS, 200nits",
+        "Процесор": "Intel Celeron N4020 Processor 1.1 GHz (4M Cache, up to 2.8 GHz, 2 cores)",
+        "Графика": "Intel UHD Graphics 600",
+        "RAM меморија": "8GB DDR4",
+        "Диск (Storage)": "512GB M.2 NVMe PCIe 3.0 SSD",
+        "LED Backlit": "True",
+        "Без оперативен систем": "True",
+        "Wi-Fi 5(802.11ac) (Dual band) 1*1 + Bluetooth 5.1": "True",
+        "Порти": "True",
+        "1x USB 2.0 Type-A": "True",
+        "1x USB 3.2 Gen 1 Type-A": "True",
+        "1x USB 3.2 Gen 1 Type-C": "True",
+        "1x HDMI 1.4": "True",
+        "1x Headphone/Headset": "True",
+        "1x DC-in": "True",
+        "Аудио": "SonicMaster",
+        "Вградени звучници": "True",
+        "Вграден микрофон": "True",
+        "Батерија": "42WHrs, 3S1P, 3-cell Li-ion",
+        "33W AC Adapte": "True"
+    }
+}

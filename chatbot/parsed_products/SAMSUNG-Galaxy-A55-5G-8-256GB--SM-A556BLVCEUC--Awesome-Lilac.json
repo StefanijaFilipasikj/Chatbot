@@ -1,0 +1,31 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/SAMSUNG-Galaxy-A55-5G-8-256GB--SM-A556BLVCEUC--Awesome-Lilac",
+    "title": "SAMSUNG GALAXY A55 5G 8+256GB (SM-A556BLVCEUC) AWESOME LILAC",
+    "warranty": "24",
+    "regular_price": "30.999",
+    "happy_price": "29.999",
+    "description": {
+        "Мобилен телефон": "True",
+        "Android 14, One UI 6.1": "True",
+        "Екран": "6.6\" (1080x2340) Super AMOLED, 120Hz, HDR10+, 550 nits",
+        "Corning Gorilla Glass Victus": "True",
+        "Chipset": "Exynos 1480",
+        "CPU": "Octa-core (4x2.7 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+        "GPU": "Mali-G68 MP5",
+        "Интерна меморија": "True",
+        "ROM Меморија": "256GB",
+        "RAM Меморија": "8GB",
+        "Примарна камера": "True",
+        "50 MP, f/1.8, (wide), 1/1.56\", 1.0µm, PDAF, OIS": "True",
+        "12 MP, f/2.2, 123° (ultrawide), 1/3.06\", 1.12µm": "True",
+        "5 MP, f/2.4, (macro)": "True",
+        "Секундарна камера": "True",
+        "32 MP, f/2.2, 26mm (wide), 1/2.74\", 0.8µm": "True",
+        "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct": "True",
+        "5.3, A2DP, LE, aptX": "True",
+        "GPS, GALILEO, GLONASS, BDS, QZSS": "True",
+        "USB Type-C 2.0, OTG": "True",
+        "Fingerprint (under display)": "True",
+        "Батерија": "Li-Po 5000 mAh"
+    }
+}

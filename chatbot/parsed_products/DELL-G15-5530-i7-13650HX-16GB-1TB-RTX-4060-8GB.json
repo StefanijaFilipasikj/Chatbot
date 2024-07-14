@@ -1,0 +1,22 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/DELL-G15-5530-i7-13650HX-16GB-1TB-RTX-4060-8GB",
+    "title": "ЛАПТОП DELL G15 5530 I7-13650HX/16GB/1TB/RTX 4060",
+    "warranty": "36",
+    "regular_price": "99.999",
+    "happy_price": "93.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920 x 1080) FHD 120Hz, WVA, Anti-Glare, 250 nit, Narrow Border, LED-Backlit",
+        "Процесор": "13th Gen Intel® Core™ i7-13650HX (24MB Cache, 14 Cores)",
+        "Графика": "NVIDIA GeForce RTX 4060 8GB GDDR6",
+        "RAM Меморија": "16 GB 4800 MHz (1 x 8 GB)",
+        "Диск (Storage)": "1TB SSD",
+        "Wi-Fi 5 (Wi-Fi 802.11ac)+ Bluetooth 5.0": "True",
+        "Камера": "720p at 30 fps HD camera Single integrated microphone",
+        "Порти": "USB 3.2 Gen 1 Type-A, USB 3.2 Gen 1 Type-A, USB-C 3.2 Gen 2 with Display Port Alt-Mode, 1 headset (headphone and microphone combo) port, 1 RJ45 Ethernet port (flip-down)",
+        "Батерија": "4 Cell, 54 Wh, integrated",
+        "Позадинско осветлување на тастатурата (backlit keyboard)": "True",
+        "Carbon Black": "True"
+    }
+}

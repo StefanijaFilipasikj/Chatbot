@@ -1,0 +1,27 @@
+{
+    "url": "https://www.neptun.mk/categories/TABLETI/Teclast-T40S-10-4--2K-8GB-128GB-WiFi---Cover",
+    "title": "TECLAST T40S 10.4\" 2K 8GB/128GB, 13/5MP, 6000MAH, WIFI + COVER",
+    "warranty": "12",
+    "regular_price": "10.999",
+    "happy_price": "8.999",
+    "description": {
+        "Таблет": "True",
+        "Android™ 12": "True",
+        "Екран": "10.4\"(25.6 cm)",
+        "Резолуција": "(1200x2000) IPS 300nits, Incell технологија, 120Hz",
+        "CPU": "MediaTek MT 8183 A73 octa-core",
+        "GPU": "Mali-G72",
+        "Интерна меморија": "128GB,RAM 8GB",
+        "Примарна камера": "13MP AI Dual Camera",
+        "Секундарна камера": "5MP",
+        "Wi-Fi 802.11 ac + Bluetooth 5.0": "True",
+        "GPS, Glonass, Galileo": "True",
+        "Порти": "True",
+        "1x USB-C®": "True",
+        "1x Micro SD Card slot": "True",
+        "1x Headphone / microphone combo jack (3.5mm)": "True",
+        "Батерија": "6000mAh",
+        "Online video playback": "7 hr",
+        "Browsing": "5.5hr"
+    }
+}

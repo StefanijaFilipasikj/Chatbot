@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/HP-ProBook-450-G9-i5-1235U-8GB-512GB-6F1E6EA",
+    "title": "ЛАПТОП HP PROBOOK 450 G9 I5-1235U/8GB/512GB 6F1E6EA",
+    "warranty": "12",
+    "regular_price": "42.999",
+    "happy_price": "29.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920 x 1080) FHD IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC",
+        "Процесор": "Intel® Core™ i5-1235U (до 4.4 GHz со Intel® Turbo Boost технологија, 12 MB L3 кеш, 10 јадра, 12 нишки)",
+        "Графика": "Intel® Iris® X? Graphics",
+        "RAM меморија": "8 GB DDR4-3200 MHz",
+        "Диск (Storage)": "512 GB PCIe® NVMe™ M.2 SSD",
+        "Без оперативен систем": "FreeDOS",
+        "Камера": "720p HD privacy camera",
+        "Wi-Fi 6": "802.11ax",
+        "Bluetooth®": "5.2",
+        "Порти": "3 SuperSpeed USB Type-A, 1 SuperSpeed USB Type-C®, 1 headphone/microphone combo, 1 AC power, 1 RJ-45, 1 HDMI 2.1b",
+        "Power": "HP Smart 65 W External AC power adapter",
+        "Батерија": "HP Long Life 3-cell, 51 Wh Li-ion"
+    }
+}

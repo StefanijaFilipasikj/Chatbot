@@ -1,0 +1,29 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/SAMSUNG-Galaxy-Z-Flip5-5G--SM-F731BLIGEUC--8-256GB-Lavender",
+    "title": "SAMSUNG GALAXY Z FLIP5 5G (SM-F731BLIGEUC), 6.7\", 8+256GB, 12+12/10MP, 3700 MAH, LAVENDER",
+    "warranty": "24",
+    "regular_price": "71.999",
+    "happy_price": "55.999",
+    "description": {
+        "Мобилен телефон": "True",
+        "Android 13, One UI 5.1": "True",
+        "Екран": "6.7\" (1080x2640) Foldable Dynamic AMOLED 2X, 120Hz, HDR10+, 1200 nits (peak)",
+        "Corning Gorilla Glass Victus+": "True",
+        "IPx8 водоотпорен": "True",
+        "GPU": "Adreno 740",
+        "Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)": "True",
+        "Octa-core": "1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
+        "Интерна меморија": "256GB,RAM 8GB",
+        "UFS 4.0": "True",
+        "Примарна камера": "12 MP, f/1.8, 24mm (wide), 1/1.76\", 1.8µm, Dual Pixel PDAF, OIS\n12 MP, f/2.2, 123° (ultrawide), 1.12µm",
+        "Секундарна камера": "10 MP, f/2.4, 26mm (wide), 1.22µm",
+        "Wi-Fi": "802.11 a/b/g/n/ac/6/7, tri-band, Wi-Fi Direct",
+        "5.3, A2DP, LE": "True",
+        "GPS, GLONASS, GALILEO, BDS": "True",
+        "USB Type-C 2.0, OTG": "True",
+        "Fast charging 25W, 50% in 30 min (advertised)": "True",
+        "Fast wireless charging 15W": "True",
+        "Reverse wireless charging 4.5W": "True",
+        "Батерија": "Li-Po 3700 mAh"
+    }
+}

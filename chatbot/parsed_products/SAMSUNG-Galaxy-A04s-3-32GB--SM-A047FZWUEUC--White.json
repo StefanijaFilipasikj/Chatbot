@@ -1,0 +1,27 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/SAMSUNG-Galaxy-A04s-3-32GB--SM-A047FZWUEUC--White",
+    "title": "SAMSUNG GALAXY A04S, 6.5\", 32/3GB, 50+2+2/5MP, 5000MAH (SM-A047FZWUEUC) WHITE",
+    "warranty": "24",
+    "regular_price": "10.699",
+    "happy_price": "6.499",
+    "description": {
+        "Мобилен телефон": "True",
+        "Android 12, One UI Core 4": "True",
+        "Екран": "6.5\" (720 x 1600) PLS LCD, 90H",
+        "CPU": "Octa-core (4x2.0 GHz Cortex-A55 & 4x2.0 GHz Cortex-A55)",
+        "Интерна меморија": "True",
+        "ROM Меморија": "32GB",
+        "RAM Меморија": "3GB",
+        "Примарна камера": "True",
+        "50 MP, f/1.8, (wide), PDAF": "True",
+        "2 MP, f/2.4, (macro)": "True",
+        "2 MP, f/2.4, (depth)": "True",
+        "Секундарна камера": "True",
+        "5 MP, f/2.2, (wide)": "True",
+        "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot": "True",
+        "Bluetooth 5.0, A2DP, LE": "True",
+        "GPS with A-GPS, GLONASS, BDS, GALILEO, QZSS": "True",
+        "USB Type-C 2.0": "True",
+        "Батерија": "Li-Po 5000 mAh"
+    }
+}

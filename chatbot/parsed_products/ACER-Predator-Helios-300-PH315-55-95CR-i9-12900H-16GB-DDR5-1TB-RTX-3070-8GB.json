@@ -1,0 +1,28 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-Predator-Helios-300-PH315-55-95CR-i9-12900H-16GB-DDR5-1TB-RTX-3070-8GB",
+    "title": "",
+    "warranty": "24",
+    "regular_price": "92.999",
+    "happy_price": "76.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "Acer ComfyView™ 15.6\" (39.6 cm)",
+        "Резолуција": "(1920 x 1080) FHD, IPS, 165Hz, NVIDIA G-SYNC™",
+        "Процесор": "12th Gen Intel® Core™ i9-12900H, 14 Core™, 24MB",
+        "Графика": "NVIDIA® GeForce® RTX™ 3070 8 GB GDDR6 VRAM",
+        "RAM меморија": "16GB DDR5 (1 x 16)",
+        "Диск (Storage)": "1TB SSD PCIe",
+        "Без оперативен систем": "True",
+        "Порти": "1x (HDMI 2.1 with HDCP support), 2x DisplayPort™ (1xMiniDispalyPort), 1x via USB Type-C) Thunderbolt Thunderbolt™ 4 (via USB Type-C) USB 3.2, 4x (1x USB Type -C Gen2), 1x Gen2 (mit Power-Off USB Charging), 2x Gen1, Ethernet (RJ-45), 1x headphone/speaker jack",
+        "LAN": "Killer™ Ethernet E2600",
+        "Intel® Killer™ Wireless Wi-Fi 6E": "True",
+        "Bluetooth® 5.2": "True",
+        "Keyboard Backlight": "True",
+        "Аудио": "Acer TrueHarmony",
+        "Вградени звучници": "True",
+        "Вграден микрофон": "True",
+        "Батерија": "90Wh Li-ion 4-cell battery",
+        "Power": "280 W",
+        "Тежина": "2.6kg"
+    }
+}

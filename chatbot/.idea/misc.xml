@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Pipenv (ice_breaker)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Pipenv (Chatbot)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Pipenv (chatbot)" project-jdk-type="Python SDK" />
 </project>

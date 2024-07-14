@@ -1,0 +1,22 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Vivobook-15-X1504VA-BQ322W-i3-1315U-8GB-512GB-WIN11",
+    "title": "ЛАПТОП ASUS VIVOBOOK 15 X1504VA-BQ322W I3-1315U/8GB/512GB/WIN11",
+    "warranty": "24",
+    "regular_price": "31.999",
+    "happy_price": "26.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD IPS, 60Hz, 250nits",
+        "Процесор": "Intel Core i3-1315U 1.2 GHz (10MB Cache, up to 4.5 GHz, 6 cores, 8 Threads)",
+        "Графика": "Intel UHD Graphics",
+        "RAM меморија": "8GB DDR4",
+        "Диск (Storage)": "512GB M.2 NVMe PCIe 3.0 SSD",
+        "Оперативен систем": "Windows 11 Home",
+        "Камера": "720p HD camera//With privacy shutter",
+        "Wi-Fi 6(802.11ax) (Dual band) 2*2 + Bluetooth 5": "True",
+        "Backlit": "True",
+        "Порти": "1x USB 2.0 Type-A, 1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 1.4, 1x 3.5mm Combo Audio Jack, 1x DC-in, 45W AC Adapter",
+        "Батерија": "42WHrs, 3S1P, 3-cell Li-ion"
+    }
+}

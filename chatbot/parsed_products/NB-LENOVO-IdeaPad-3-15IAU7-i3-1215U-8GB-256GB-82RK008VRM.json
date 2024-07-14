@@ -1,0 +1,27 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/NB-LENOVO-IdeaPad-3-15IAU7-i3-1215U-8GB-256GB-82RK008VRM",
+    "title": "ЛАПТОП LENOVO IDEAPAD 3 15IAU7 I3-1215U/8GB/256GB",
+    "warranty": "24",
+    "regular_price": "27.999",
+    "happy_price": "20.499",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD IPS",
+        "Чипсет": "Intel SoC Platform",
+        "Процесор": "Intel Core i3-1215U (6 јадра, 8 нишки, 3.30GHz база до 4.40GHz макс, 10MB кеш)",
+        "Графика": "Integrated Intel UHD Graphics",
+        "RAM Меморија": "8GB DDR4, 3200 MHz",
+        "Диск (Storage)": "256GB SSD M.2 2242 PCIe 3.0x4 NVMe",
+        "Порти": "1 x USB 2.0, 1 x USB 3.2 Gen 1, 1 x USB 3.2 Gen 1 (Поддршка за пренос на податоци, Power Delivery 3.0 и DisplayPort 1.2), 1 x HDMI 1.4b, 1 x Читач на картички, 1 x Жак за слушалки/микрофон (3.5mm), 1 x Приклучок за напојување",
+        "Без оперативен систем": "True",
+        "Аудио": "(HD) Audio, Realtek ALC3287 codec",
+        "Звучник": "Stereo звучници, 1.5W x2, Dolby Audio",
+        "Камера": "720p HD",
+        "Микрофон": "2x, Array",
+        "Wireless": "Wi-Fi 6 (802.11ax)",
+        "Bluetooth": "5.1",
+        "Батерија": "38Wh, 5 часа",
+        "Полнач": "65W Round Tip (3-pin)"
+    }
+}

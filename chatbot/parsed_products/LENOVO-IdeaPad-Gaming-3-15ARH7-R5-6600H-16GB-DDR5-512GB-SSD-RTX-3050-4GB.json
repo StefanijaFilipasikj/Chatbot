@@ -1,0 +1,27 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/LENOVO-IdeaPad-Gaming-3-15ARH7-R5-6600H-16GB-DDR5-512GB-SSD-RTX-3050-4GB",
+    "title": "ЛАПТОП LENOVO GAMING 3 15ARH7 R5-6600H/16GB DDR5/512GB/RTX 3050 4GB",
+    "warranty": "24",
+    "regular_price": "45.999",
+    "happy_price": "41.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.5cm)",
+        "Резолуција": "FHD (1920x1080) IPS 250nits Anti-glare, 45% NTSC, 120Hz, FreeSync™",
+        "Процесор": "AMD Ryzen™ 5 6600H (6C / 12T, 3.3 / 4.5GHz, 3MB L2 / 16MB L3)",
+        "Графика": "NVIDIA® GeForce RTX™ 3050 4GB GDDR6, Boost Clock 1740MHz, TGP 85W",
+        "Внатрешна меморија": "16GB DDR5-4800",
+        "Меморија": "512GB SSD M.2 2242 PCIe® 4.0x4 NVMe®",
+        "Без оперативен систем": "True",
+        "Аудио": "High Definition (HD) Audio, Realtek® ALC3287 codec",
+        "Звучник": "Stereo speakers, 2W x2, Nahimic Audio",
+        "Камера": "HD 720p with Privacy Shutter",
+        "Микрофон": "2x, Array",
+        "Ethernet": "100/1000M (RJ-45)",
+        "Wi-Fi® 6, 11ax 2x2 + BT5.1": "True",
+        "White Backlit": "True",
+        "Порти": "2x USB 3.2 Gen 1, 1x USB-C® 3.2 Gen 2 (support data transfer, Power Delivery 3.0 and DisplayPort™ 1.4), 1x HDMI® 2.0, 1x Headphone / microphone combo jack (3.5mm), 1x Ethernet (RJ-45), 1x Power connector",
+        "Power Adapter": "170W Slim Tip (3-pin)",
+        "Батерија": "Integrated 45Wh"
+    }
+}

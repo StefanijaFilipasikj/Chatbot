@@ -1,0 +1,17 @@
+{
+    "url": "https://www.neptun.mk/categories/GAMING_DESKTOP_KOMPJUTERI/ITD-PC-GAMER-703B-i5-12400F-16GB-1TB-SSD-GTX-1660Ti-6GB",
+    "title": "ПЕРСОНАЛЕН КОМПЈУТЕР ITD PC GAMER 703B I5-12400F/16GB/1TB SSD/GTX 1660TI 6GB",
+    "warranty": "24",
+    "regular_price": "45.999",
+    "happy_price": "42.999",
+    "description": {
+        "Персонален компјутер": "True",
+        "Процесор": "Intel Core i5-12400F, LGA1700, 6-cores 4,4 GHz, 18MB, 65W",
+        "Графика": "GTX 1660 Ti 6GB GDDR6",
+        "RAM меморија": "16GB DDR4 3200Mhz",
+        "Диск (Storage)": "1TB SSD M.2 PCIe NVMe",
+        "Без оперативен систем": "True",
+        "Куќиште": "LC-Power Case Quad-Luxx 703B",
+        "Напојување": "GigaByte Power Supply 450W"
+    }
+}

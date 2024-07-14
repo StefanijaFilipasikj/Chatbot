@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Vivobook-15-OLED-X1505ZA-OLED-L511-i5-1235U-8GB-512GB",
+    "title": "ASUS VIVOBOOK 15 OLED X1505ZA-OLED-L511 I5-1235U/8GB/512GB",
+    "warranty": "24",
+    "regular_price": "40.999",
+    "happy_price": "31.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD OLED, 60Hz, 600nits",
+        "Процесор": "Intel Core i5-1235U Processor 1.3 GHz (10M Cache, up to 4.4 GHz, 10 cores)",
+        "Графика": "Intel UHD Graphics",
+        "RAM меморија": "8GB DDR4",
+        "Диск (Storage)": "512GB M.2 NVMe PCIe 3.0 SSD",
+        "Без оперативен систем": "True",
+        "Камера": "720p HD camera",
+        "Wi-Fi 6(802.11ax) (Dual band) 2*2 + Bluetooth 5": "True",
+        "Порти": "1x HDMI 1.4, 1x 3.5mm Combo Audio Jack, 1x DC-in, 1x USB 2.0 Type-A, 1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A",
+        "Аудио": "Вградени звучници, Вграден микрофон",
+        "65W AC Adapter": "True",
+        "Батерија": "50WHrs, 3S1P, 3-cell Li-ion"
+    }
+}

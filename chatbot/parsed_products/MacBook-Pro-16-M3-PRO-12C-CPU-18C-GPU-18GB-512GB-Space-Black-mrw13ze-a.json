@@ -1,0 +1,28 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/MacBook-Pro-16-M3-PRO-12C-CPU-18C-GPU-18GB-512GB-Space-Black-mrw13ze-a",
+    "title": "ЛАПТОП APPLE MACBOOK PRO 16 M3 PRO/12C CPU/18C GPU/18GB/512GB SPACE BLACK MRW13ZE/A",
+    "warranty": "12",
+    "regular_price": "182.999",
+    "happy_price": "177.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "16.2\"(41.14cm) Liquid Retina XDR display",
+        "Процесор": "Apple M3 Pro чип со 12-јадрен CPU и 18-јадрен GPU, 16-јадрен Neural Engine",
+        "Графика": "18-јадрен GPU",
+        "Резолуција": "(3456 x 2234) Liquid Retina XDR, 1000 нити, 120 Hz",
+        "RAM меморија": "18GB",
+        "Диск": "512GB SSD",
+        "1080p FaceTime HD камера": "True",
+        "Три микрофони": "True",
+        "Backlit Magic Keyboard со Touch ID": "True",
+        "Bluetooth": "5.3",
+        "Wireless": "Wi-Fi 6E (802.11ax)",
+        "SDXC card slot": "True",
+        "HDMI port": "True",
+        "3.5 mm headphone jack": "True",
+        "MagSafe 3 port": "True",
+        "Три Thunderbolt": "True",
+        "Thunderbolt 4 (до 40Gb/s)": "True",
+        "Батерија": "до 22часа"
+    }
+}

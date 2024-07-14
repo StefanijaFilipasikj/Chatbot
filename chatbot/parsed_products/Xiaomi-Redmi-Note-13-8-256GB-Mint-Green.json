@@ -1,0 +1,31 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/Xiaomi-Redmi-Note-13-8-256GB-Mint-Green",
+    "title": "XIAOMI REDMI NOTE 13, 6.67\", 8/256GB, 108+8+2/16MP, 5000MAH, MINT GREEN",
+    "warranty": "24",
+    "regular_price": "15.499",
+    "happy_price": "13.499",
+    "description": {
+        "Мобилен телефон": "True",
+        "Android 13, MIUI 14": "True",
+        "Екран": "6.67\" (1080 x 2400) FHD+, AMOLED, 120Hz",
+        "Corning Gorilla Glass": "5",
+        "Отпорност на вода": "IP54",
+        "Mediatek Dimensity 6080 (6 nm)": "True",
+        "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)": "True",
+        "Mali-G57 MC2": "True",
+        "Интерна меморија": "True",
+        "ROM Меморија": "256GB",
+        "RAM Меморија": "8GB",
+        "Примарна камера": "True",
+        "108 MP, f/1.7, (wide), 0.64µm, PDAF": "True",
+        "2 MP, f/2.4, (depth)": "True",
+        "Секундарна камера": "True",
+        "16 MP, (wide)": "True",
+        "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct": "True",
+        "Bluetooth 5.2, A2DP, LE": "True",
+        "GPS, GLONASS, GALILEO, BDS": "True",
+        "USB Type-C 2.0": "True",
+        "Charging 33W wired": "True",
+        "Батерија": "Li-Po 5000 mAh"
+    }
+}

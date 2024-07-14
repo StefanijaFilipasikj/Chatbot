@@ -1,0 +1,33 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/SAMSUNG-Galaxy-S24--5G-12-512GB--SM-S926BZKGEUC--Black",
+    "title": "SAMSUNG GALAXY S24+ 5G, 6.7\", 50+10+12/12MP, 12/512GB, 4900MAH, BLACK",
+    "warranty": "24",
+    "regular_price": "75.999",
+    "happy_price": "74.999",
+    "description": {
+        "Мобилен телефон": "true",
+        "Android 14, One UI 6.1": "true",
+        "IP68 водоотпорна (1.5m за 30 мин)": "true",
+        "Glass front (Gorilla Glass Victus 3), glass back (Gorilla Glass Victus 3), aluminum frame": "true",
+        "Екран 6.7\" (1440x3088) Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)": "true",
+        "Chipset:Exynos 2400, 10-core, 4nm": "true",
+        "GPU:Samsung Xclipse 940": "true",
+        "Интерна меморија:512GB,RAM 12GB": "true",
+        "Примарна камера": "true",
+        "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, Dual Pixel PDAF, OIS": "true",
+        "10 MP, f/2.4, 70mm (telephoto), 1/3.94\", 1.0µm, PDAF, OIS, 3x optical zoom": "true",
+        "12 MP, f/2.2, 13mm, 120° (ultrawide), 1/2.55\" 1.4µm, Super Steady video": "true",
+        "Секундарна камера": "true",
+        "12 MP, f/2.2, 26mm (wide), Dual Pixel PDAF": "true",
+        "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct": "true",
+        "Bluetooth: 5.3, A2DP, LE": "true",
+        "GPS, GLONASS, BDS, GALILEO": "true",
+        "NFC": "true",
+        "USB Type-C 3.2, OTG": "true",
+        "Fast charging": "true",
+        "45W wired, PD3.0, 65% in 30 min (advertised)": "true",
+        "15W wireless (Qi/PMA)": "true",
+        "4.5W reverse wireless": "true",
+        "Батерија:Li-Ion 4900mAh": "true"
+    }
+}

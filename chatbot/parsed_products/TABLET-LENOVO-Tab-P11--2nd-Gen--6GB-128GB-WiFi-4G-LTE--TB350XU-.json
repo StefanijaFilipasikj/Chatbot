@@ -1,0 +1,25 @@
+{
+    "url": "https://www.neptun.mk/categories/TABLETI/TABLET-LENOVO-Tab-P11--2nd-Gen--6GB-128GB-WiFi-4G-LTE--TB350XU-",
+    "title": "ТАБЛЕТ LENOVO TAB P11 (2ND GEN) 6GB/128GB WIFI+4G LTE (TB350XU)",
+    "warranty": "24",
+    "regular_price": "20.499",
+    "happy_price": "15.999",
+    "description": {
+        "Таблет": "true",
+        "Android™ 12L": "true",
+        "Екран": "11.5\"(29.2cm)",
+        "Резолуција": "2K (2000x1200) IPS 400nits Anti-fingerprint, 97.5% DCI-P3, 120Hz, Corning® Gorilla® Glass 3, Touch",
+        "CPU": "MediaTek Helio G99 (8C, 2x A76 @2.2GHz + 6x A55 @2.0GHz)",
+        "GPU": "Integrated ARM Mali-G57 MC2 GPU",
+        "Интерна меморија": "128GB,RAM 6GB",
+        "Примарна камера": "8MP",
+        "Секундарна камера": "13MP",
+        "WLAN + Bluetooth": "11ac 1x1 + BT5.2",
+        "WWAN": "4G LTE",
+        "Порти": "1x USB-C® 2.0 (support data transfer and charging), 1x Headphone / microphone combo jack (3.5mm), 1x Pogo pin connector (4-point), 1x Nano-SIM & microSD Card Slot",
+        "Батерија": "7500mAh",
+        "Online video playback": "10 hr",
+        "Web browsing": "10 hr",
+        "Music playback": "31 hr"
+    }
+}

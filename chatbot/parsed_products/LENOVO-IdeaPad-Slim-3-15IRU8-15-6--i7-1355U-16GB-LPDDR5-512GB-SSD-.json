@@ -1,0 +1,22 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-IdeaPad-Slim-3-15IRU8-15-6--i7-1355U-16GB-LPDDR5-512GB-SSD-",
+    "title": "ЛАПТОП LENOVO IDEAPAD SLIM 3 15IRU8 I7-1355U/16GB DDR5/512GB",
+    "warranty": "24",
+    "regular_price": "43.999",
+    "happy_price": "38.499",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD, IPS 300nits Anti-glare",
+        "Чипсет": "Intel® SoC Platform",
+        "Процесор": "Intel® Core™ i7-1355U, 10C (2P + 8E) / 12T, P-core 1.7 / 5.0GHz, E-core 1.2 / 3.7GHz, 12MB",
+        "Графика": "Integrated Intel® Iris® Xe Graphics",
+        "RAM Меморија": "16GB Soldered LPDDR5-4800",
+        "Диск (Storage)": "512GB SSD M.2 2242 PCIe® 4.0x4 NVMe®",
+        "Порти": "1x Card reader, 1x HDMI® 1.4, 1x Headphone / microphone combo jack (3.5mm), 1x Power connector, 1x USB-C® 3.2 Gen 1 (support data transfer, Power Delivery and DisplayPort™ 1.2), 2x USB 3.2 Gen 1",
+        "Без оперативен систем": "True",
+        "Аудио": "High Definition (HD) Audio",
+        "Звучник": "Stereo speakers, 1.5W x2, optimized with Dolby® Audio™",
+        "Камера": "HD 720p with Privacy Shutter"
+    }
+}

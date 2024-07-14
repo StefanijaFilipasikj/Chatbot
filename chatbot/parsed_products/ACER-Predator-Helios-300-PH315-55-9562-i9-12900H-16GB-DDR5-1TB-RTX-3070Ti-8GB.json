@@ -1,0 +1,22 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-Predator-Helios-300-PH315-55-9562-i9-12900H-16GB-DDR5-1TB-RTX-3070Ti-8GB",
+    "title": "ЛАПТОП ACER PREDATOR HELIOS 300 PH315-55-9562 I9-12900H/16GB/1TB/RTX 3070TI 8GB",
+    "warranty": "24",
+    "regular_price": "114.999",
+    "happy_price": "103.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "FHD (1920 x 1080) FHD IPS 165Hz SlimBezel",
+        "Процесор": "Intel® Core™ i9-12900H (14-core/20-thread, 24MB cache, up to 5.0 GHz max boost)",
+        "Графика": "NVIDIA® GeForce RTX™ 3070 Ti 8GB",
+        "RAM меморија": "16 GB DDR5",
+        "Диск (Storage)": "1TB PCIe NVMe SED SSD",
+        "Без оперативен систем": "True",
+        "LAN 10/100/1000/2500 Mbps": "True",
+        "WIFI6E+BT": "True",
+        "FHD USB Camera": "True",
+        "Батерија": "90Wh Li-ion battery",
+        "280W AC Adapter": "True"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "url": "https://www.neptun.mk/categories/TABLETI/HONOR-Pad-X9-11-5--2K-4GB-128GB-WiFi",
+    "title": "",
+    "warranty": "24",
+    "regular_price": "13.999",
+    "happy_price": "12.999",
+    "description": {
+        "Таблет": "True",
+        "MagicOS 7.1 (Android 13)": "True",
+        "Екран": "11.5\"(29.2cm)",
+        "Резолуција": "2K (2000x1200) TFT LCD (IPS), 120Hz, 1.07B, 400 nits, 203ppi",
+        "CPU": "Snapdragon® 685, 6nm, 4G, 6nm, Mobile Platform Octa-core",
+        "GPU": "Integrated ARM Mali-G57 MC2 GPU",
+        "RAM меморија": "4GB",
+        "Диск (Storage)": "128GB",
+        "Примарна камера": "5MP (f/2.2)",
+        "Секундарна камера": "5MP (f/2.2)",
+        "WIFI 5": "True",
+        "802.11 a/b/g/n/ac": "True",
+        "Bluetooth 5.1": "True",
+        "Аудио": "HONOR Histen",
+        "6x звучници": "True",
+        "Микрофон": "True",
+        "Тежина": "499g",
+        "Капацитет на батерија": "7250mAh"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://www.neptun.mk/categories/PECATARI/HP-LaserJet-MFP-M236d-9YF94A",
+    "title": "ПРИНТЕР HP LASERJET MFP M236D 9YF94A",
+    "warranty": "12",
+    "regular_price": "10.499",
+    "happy_price": "8.799",
+    "description": {
+        "Печатар": "True",
+        "Мултифунксионален принтер": "True",
+        "Принт резолуција": "600 x 600 dpi",
+        "Copy резолуција": "600 x 600 dpi",
+        "Copy брзина": "Up to 29 cpm",
+        "Scan резолуција": "600 x 1200 dpi",
+        "Scan брзина": "Up to 19 ppm (b&w), up to 10 ppm (color)",
+        "Порти": "True",
+        "1 Hi-Speed USB 2.0": "True",
+        "1 Fast Ethernet 10/100Base-TX": "True",
+        "Меморија": "64 MB",
+        "DUPLEX": "Auto-duplex",
+        "Внатрешен капацитет": "150 листа",
+        "Надворешен капацитет": "100 листа",
+        "Тонер": "HP 134A Black LaserJet Toner Cartridge, W1340A"
+    }
+}

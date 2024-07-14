@@ -1,0 +1,27 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/ASUS-ROG-Strix-G17-G713RM-KH011-R7-6800H-16GB-1TB-RTX-3060-6GB",
+    "title": "ЛАПТОП ASUS ROG STRIX G17 G713RM-KH011 R7-6800H/16GB/1TB/RTX 3060 6GB",
+    "warranty": "24",
+    "regular_price": "105.999",
+    "happy_price": "81.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "17.3\" (43.9cm)",
+        "Резолуција": "(1920 x 1080) FHD IPS 360Hz",
+        "Процесор": "AMD Rembrandt R7-H (TBD) R7-6800H",
+        "Графика": "NVIDIA GeForce RTX 3060 6GB",
+        "Внатрешна меморија": "16GB DDR5",
+        "Меморија": "1TB SSD",
+        "Без оперативен систем": "True",
+        "LAN 10/100/1000/2500 Mbps": "True",
+        "Wi-Fi/Bluetooth": "Wi-Fi 6E(802.11ax)+Bluetooth 5.2 (Dual band) 2*2",
+        "Порти": "1 x RJ45 LAN port, 1 x USB 3.2 Gen 2 Type-C, 1 x USB 3.2 Gen 2 Type-C support DisplayPort / power delivery, 2 x USB 3.2 Gen 1 Type-A//1x 3.5mm Combo Audio Jack, 1 x HDMI 2.0b",
+        "Осветлена тастатура": "4-Zone RGB",
+        "Звучници": "2-speaker system with Smart Amplifier Technology",
+        "Audio Tech": "AI noise-canceling technology",
+        "Dolby Atmos": "True",
+        "Hi-Res certification": "True",
+        "Smart Amp Technology": "True",
+        "Батерија": "90WHrs, 4S1P, 4-cell Li-ion"
+    }
+}

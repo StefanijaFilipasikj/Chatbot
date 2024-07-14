@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/DELL-Vostro-3520-i3-1215U-8GB-256GB",
+    "title": "",
+    "warranty": "36",
+    "regular_price": "24.999",
+    "happy_price": "20.499",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD, 120Hz 250 nits WVA Anti- Glare LED Backlit Narrow Border Display",
+        "Процесор": "12th Gen Intel® Core™ i3-1215U (10MB Cache, up to 4.4 GHz, 6 cores)",
+        "Графика": "Intel® UHD Graphics",
+        "RAM Меморија": "8 GB, 1 x 8 GB, DDR4, 3200MHz",
+        "Диск (Storage)": "256 GB, M.2, PCIe NVMe, SSD",
+        "Wi-Fi 5 (Wi-Fi 802.11ac)+ Bluetooth 5.1": "True",
+        "Камера": "720p at 30 fps HD camera Single integrated microphone",
+        "Оперативен систем": "Ubuntu 20.04",
+        "Backlit Keyboard + FingerPrint": "True",
+        "Порти": "2 x USB 3.2 Gen 1 port, 1 x USB 2.0 port, 1 x Audio jack, 1 x HDMI 1.4 port, 1 x Flip-Down RJ-45 port, 1 x SD 3.0 card slot",
+        "Батерија": "3cell 41WHr",
+        "Полнач": "65 Watt AC Adapter"
+    }
+}

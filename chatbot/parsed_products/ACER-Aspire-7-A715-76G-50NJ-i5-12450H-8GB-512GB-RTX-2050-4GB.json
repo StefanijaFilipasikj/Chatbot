@@ -1,0 +1,26 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-Aspire-7-A715-76G-50NJ-i5-12450H-8GB-512GB-RTX-2050-4GB",
+    "title": "",
+    "warranty": "24",
+    "regular_price": "44.999",
+    "happy_price": "39.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920 x 1080) FHD, IPS, 144 Hz",
+        "Процесор": "Intel® Core™ i5-12450H processor Octa-core 3.30GHz, 12MB cache",
+        "Графика": "NVIDIA® GeForce RTX™ 2050 4GB GDDR6",
+        "RAM меморија": "8GB DDR4",
+        "Вградени звучници х2": "True",
+        "Диск (Storage)": "512GB PCIe NVMe SSD",
+        "LAN": "IEEE 802.11ax",
+        "Bluetooth": "5.1",
+        "Fingerprint reader": "True",
+        "Вграден микрофон": "True",
+        "Приклучоци": "x1 HDMI, x3 USB 3.2 Gen 1 Type-A, x1 USB 3.2 Gen 2 Type-C, x1 Network (RJ-45)",
+        "Keyboard Backlight": "True",
+        "Без оперативен систем": "True",
+        "Батерија": "5.5h, 3-cell , Lithium Ion (Li-Ion)",
+        "Адаптер": "135W"
+    }
+}

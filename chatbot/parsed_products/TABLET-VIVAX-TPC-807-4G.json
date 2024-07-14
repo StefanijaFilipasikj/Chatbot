@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/TABLETI/TABLET-VIVAX-TPC-807-4G",
+    "title": "ТАБЛЕТ VIVAX TPC-807 4G, 8\", 2/32GB, 5/2MP, 4000MAH",
+    "warranty": "12",
+    "regular_price": "6.999",
+    "happy_price": "4.999",
+    "description": {
+        "Таблет": "True",
+        "Android 11 GO": "True",
+        "Екран": "8\"(20.32cm) IPS",
+        "Резолуција": "(1280x800)",
+        "Quad-Core 1.5GHz": "True",
+        "Интерна меморија": "32GB,RAM 2GB",
+        "Примарна камера": "5MP",
+        "Секундарна камера": "2MP",
+        "Wi-Fi": "True",
+        "LTE (4G)": "True",
+        "GPS": "True",
+        "USB Type-C 2.0": "True",
+        "MicroSD up to 64GB": "True",
+        "Батерија": "4000 mAh"
+    }
+}

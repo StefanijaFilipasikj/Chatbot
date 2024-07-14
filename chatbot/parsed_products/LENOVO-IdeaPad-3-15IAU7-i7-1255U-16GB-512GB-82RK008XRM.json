@@ -1,0 +1,26 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-IdeaPad-3-15IAU7-i7-1255U-16GB-512GB-82RK008XRM",
+    "title": "ЛАПТОП LENOVO IDEAPAD 3 15IAU7 I7-1255U/16GB/512GB",
+    "warranty": "24",
+    "regular_price": "45.999",
+    "happy_price": "34.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD IPS 300nits Anti-glare",
+        "Chipset": "Intel SoC Platform",
+        "Процесор": "Intel Core i7-1255U, 10C (2P + 8E) / 12T, P-core 1.7 / 4.7GHz, E-core 1.2 / 3.5GHz, 12MB",
+        "Графика": "Integrated Intel Iris Xe Graphics",
+        "RAM меморија": "16GB DDR4-3200",
+        "Диск (Storage)": "512GB SSD M.2 2280 PCIe 3.0x4 NVMe",
+        "Без оперативен систем": "True",
+        "Аудио": "High Definition (HD) Audio",
+        "Звучник": "Stereo speakers, 1.5W x2, Dolby Audio",
+        "Камера": "HD 720p with Privacy Shutter",
+        "Микрофон": "2x, Array",
+        "WLAN + Bluetooth": "Wi-Fi 6, 11ax 2x2 + BT5.1",
+        "Порти": "1x USB 2.0, 1x USB 3.2 Gen 1, 1x USB-C 3.2 Gen 1 (support data transfer, Power Delivery 3.0 and DisplayPort 1.2), 1x HDMI 1.4b, 1x Card reader, 1x Headphone / microphone combo jack (3.5mm), 1x Power connector",
+        "Power Adapter": "65W Round Tip (3-pin)",
+        "Батерија": "38Wh - MobileMark 2018: 5 hr"
+    }
+}

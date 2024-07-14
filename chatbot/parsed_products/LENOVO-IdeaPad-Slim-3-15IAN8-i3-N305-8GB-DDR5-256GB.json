@@ -1,0 +1,24 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-IdeaPad-Slim-3-15IAN8-i3-N305-8GB-DDR5-256GB",
+    "title": "ЛАПТОП LENOVO IDEAPAD SLIM 3 15IAN8 I3-N305/8GB DDR5/256GB",
+    "warranty": "24",
+    "regular_price": "21.999",
+    "happy_price": "17.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "15.6\" FHD (1920x1080) TN 250nits Anti-glare",
+        "Чипсет": "Intel® SoC Platform",
+        "Процесор": "Intel® Core™ i3-N305 (8C / 8T, 1.8 / 3.8GHz, 6MB)",
+        "Графика": "Integrated Intel® UHD Graphics",
+        "RAM Меморија": "8GB Soldered LPDDR5-4800",
+        "Диск (Storage)": "256GB SSD M.2 2242 PCIe® 4.0x4 NVMe®",
+        "Порти": "1x Card reader\n1x HDMI® 1.4\n1x Headphone / microphone combo jack (3.5mm)\n1x Power connector\n1x USB-C® 3.2 Gen 1 (support data transfer, Power Delivery and DisplayPort™ 1.2)\n2x USB 3.2 Gen 1",
+        "Без оперативен систем": "True",
+        "Аудио": "High Definition (HD) Audio",
+        "Звучник": "Stereo speakers, 1.5W x2, optimized with Dolby® Audio™",
+        "Камера": "HD 720p with Privacy Shutter",
+        "Батерија": "47Wh",
+        "Полнач": "65W Round Tip (3-pin)"
+    }
+}

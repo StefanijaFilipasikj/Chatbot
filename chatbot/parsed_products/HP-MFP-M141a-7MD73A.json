@@ -1,0 +1,26 @@
+{
+    "url": "https://www.neptun.mk/categories/PECATARI/HP-MFP-M141a-7MD73A",
+    "title": "МУЛТИФУНКЦИОНАЛЕН ЛАСЕРСКИ ПРИНТЕР HP MFP M141A 7MD73A",
+    "warranty": "12",
+    "regular_price": "8.299",
+    "happy_price": "6.199",
+    "description": {
+        "Печатар": "True",
+        "Мултифунксионален ласерски принтер": "True",
+        "Функција": "Print, copy, scan",
+        "Резолуција": "600x600",
+        "Брзина на принтање": "20ppm - 8.5 sec",
+        "Капацитет на принтање": "до 8000 страни",
+        "Конекција": "USB",
+        "LED дисплеј": "True",
+        "Процесор": "500 MHz",
+        "Меморија": "64 MB",
+        "Кертриџ": "HP 150A Black LaserJet Toner Cartridge (~975), W1500A",
+        "Скен резолуција": "600 ppi",
+        "Големина на скенирање": "216 до 297 mm",
+        "Формат на слики": "JPG, RAW (BMP), PNG, TIFF, PDF",
+        "Копи резолуција": "600 x 400 dpi",
+        "Брзина на копирање": "20 cpm",
+        "Power": "220V - 240V nominal @ +/-10% (min 198V, Max 264V), 50 - 60Hz nominal +/- 3Hz (min 47Hz, max 63Hz)"
+    }
+}

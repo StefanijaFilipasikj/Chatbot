@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/HP-15s-fq5359nia-i3-1215U-8GB-256GB",
+    "title": "ЛАПТОП HP 15S-FQ5359NIA I3-1215U/8GB/256GB",
+    "warranty": "36",
+    "regular_price": "23.999",
+    "happy_price": "20.499",
+    "description": {
+        "Лаптоп": "true",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920 x 1080) FHD, micro-edge, anti-glare, 250 nits, 45% NTSC",
+        "Процесор": "Intel® Core™ i3-1215U (до 4.4 GHz со Intel® Turbo Boost технологија, 10 MB L3 кеш, 6 јадра, 8 нишки)",
+        "Графика": "Intel® UHD Graphics",
+        "Внатрешна меморија": "8GB DDR4 3200MHz",
+        "Меморија": "256 GB PCIe® NVMe™ M.2 SSD",
+        "Без оперативен систем": "true",
+        "Аудио": "Dual speakers",
+        "Камера": "720p HD",
+        "Порти": "1 USB Type-C® 5Gbps signaling rate (поддржува само пренос на податоци и не поддржува полнење или надворешни монитори), 2 USB Type-A 5Gbps signaling rate, 1 AC smart pin, 1 HDMI 1.4b, 1 stereo headphone/microphone combo jack",
+        "Wireless": "Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® и Bluetooth® 4.2 wireless card",
+        "Power": "45 W Smart AC power adapter",
+        "Батерија": "HP Long Life 3-cell, 41 Wh Li-ion"
+    }
+}

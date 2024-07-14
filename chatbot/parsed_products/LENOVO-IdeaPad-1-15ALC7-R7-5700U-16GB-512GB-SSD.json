@@ -1,0 +1,28 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-IdeaPad-1-15ALC7-R7-5700U-16GB-512GB-SSD",
+    "title": "ЛАПТОП LENOVO IDEAPAD 1 15ALC7 R7-5700U/16GB/512GB",
+    "warranty": "24",
+    "regular_price": "27.999",
+    "happy_price": "25.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD, TN 220nits Anti-glare",
+        "Чипсет": "AMD SoC Platform",
+        "Процесор": "AMD Ryzen™ 7 5700U (8C / 16T, 1.8 / 4.3GHz, 4MB L2 / 8MB L3)",
+        "Графика": "Integrated AMD Radeon™ Graphics",
+        "RAM Меморија": "16GB DDR4-3200",
+        "Диск (Storage)": "512GB SSD M.2 2242 PCIe® 4.0x4 NVMe®",
+        "Порти": "True",
+        "1x HDMI® 1.4b": "True",
+        "1x Headphone / microphone combo jack (3.5mm)": "True",
+        "1x Card reader": "True",
+        "1x Power connector": "True",
+        "Без оперативен систем": "True",
+        "Аудио": "High Definition (HD) Audio",
+        "Звучник": "Stereo speakers, 1.5W x2, Dolby® Audio™",
+        "Камера": "HD 720p with Privacy Shutter",
+        "Батерија": "интегрирана 42Wh",
+        "Полнач": "65W Round Tip (3-pin)"
+    }
+}

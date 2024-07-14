@@ -1,0 +1,30 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/SAMSUNG-Galaxy-A15-4-128GB--SM-A155FZKDEUC--Black",
+    "title": "SAMSUNG GALAXY A15, 6.5\", 50+5+2/13MP, 4/128GB, 5000 MAH, BLACK",
+    "warranty": "24",
+    "regular_price": "11.499",
+    "happy_price": "10.999",
+    "description": {
+        "Мобилен телефон": "True",
+        "Android 14, One UI 6": "True",
+        "Екран": "6.5\" (1080x2340) FHD+ Super AMOLED, 90Hz, 800 nits (HBM)",
+        "Chipset": "Mediatek Helio G99 (6nm)",
+        "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+        "GPU": "Mali-G57 MC2",
+        "Интерна меморија": "True",
+        "ROM Меморија": "128GB",
+        "RAM Меморија": "4GB",
+        "Примарна камера": "True",
+        "50 MP, f/1.8, (wide), AF": "True",
+        "5 MP, f/2.2, (ultrawide)": "True",
+        "2 MP, f/2.4, (macro)": "True",
+        "Секундарна камера": "True",
+        "13 MP, f/2.0, (wide)": "True",
+        "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct": "True",
+        "Bluetooth v5.3": "True",
+        "GPS, GALILEO, GLONASS, BDS, QZSS": "True",
+        "USB Type-C 2.0": "True",
+        "Fingerprint (side-mounted)": "True",
+        "Батерија": "Li-Po 5000 mAh"
+    }
+}

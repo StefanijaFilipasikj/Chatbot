@@ -1,0 +1,26 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-IdeaPad-3-15IAU7-i5-1235U-16GB-512GB-82RK008WRM",
+    "title": "",
+    "warranty": "24",
+    "regular_price": "38.999",
+    "happy_price": "27.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD TN 250nits Anti-glare",
+        "Chipset": "Intel® SoC Platform",
+        "Процесор": "Intel® Core™ i5-1235U, 10C (2P + 8E) / 12T, P-core 1.3 / 4.4GHz, E-core 0.9",
+        "Графика": "Integrated Intel® Iris® Xe Graphics Functions as UHD Graphics",
+        "RAM меморија": "16GB (8GB soldered + 8GB SO-DIMM) DDR4-3200",
+        "Диск (Storage)": "512GB SSD M.2 2242 PCIe® 3.0x4 NVMe®",
+        "Без оперативен систем": "True",
+        "Аудио": "High Definition (HD) Audio, Realtek® ALC3287 codec",
+        "Звучник": "Stereo speakers, 1.5W x2, Dolby® Audio™",
+        "Камера": "HD 720p with Privacy Shutter",
+        "Микрофон": "2x, Array",
+        "WLAN + Bluetooth": "11ac 2x2 + BT5.0",
+        "Порти": "1x USB 2.0, 1x USB 3.2 Gen 1, 1x USB-C® 3.2 Gen 1 (support data transfer only), 1x HDMI® 1.4b, 1x Card reader, 1x Headphone / microphone combo jack (3.5mm), 1x Power connector",
+        "Power Adapter": "65W Round Tip (2-pin, Wall-mount)",
+        "Батерија": "38Wh - MobileMark® 2018: 5.5 hr"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/HP-250-G9-i7-1255U-8GB-512GB-6S6V4EA",
+    "title": "ЛАПТОП HP 250 G9 I7-1255U/8GB/512GB 6S6V4EA",
+    "warranty": "12",
+    "regular_price": "46.999",
+    "happy_price": "32.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6 cm)",
+        "Резолуција": "(1920 x 1080) FHD, SVA, narrow bezel, anti-glare, 250 nits, 45% NTSC",
+        "Процесор": "Intel® Core™ i7-1255U (до 4.7 GHz со Intel® Turbo Boost технологија, 12 MB L3 кеш, 10 јадра, 12 нишки)",
+        "Графика": "Intel® Iris® X? Graphics",
+        "RAM Меморија": "8 GB DDR4-3200 MHz (1 x 8 GB)",
+        "Диск (Storage)": "512GB SSD PCIe® NVMe™",
+        "Без оперативен систем": "True",
+        "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.2 wireless card (поддршка за гигабитен пренос на податоци)": "True",
+        "Камера": "720p HD",
+        "Аудио": "Dual stereo speakers, dual array microphones",
+        "Порти": "2 SuperSpeed USB Type-A 5Gbps signaling rate, 1 SuperSpeed USB Type-C® 5Gbps signaling rate, 1 RJ-45, 1 headphone/microphone, 1 HDMI 1.4b, 1 AC power, HP Smart 45 W External AC power adapter",
+        "Батерија": "HP Long Life 3-cell, 41 Wh Li-ion"
+    }
+}

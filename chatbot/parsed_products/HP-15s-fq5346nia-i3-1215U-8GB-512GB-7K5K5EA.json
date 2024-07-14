@@ -1,0 +1,24 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/HP-15s-fq5346nia-i3-1215U-8GB-512GB-7K5K5EA",
+    "title": "ЛАПТОП HP 15S FQ5346NIA I3-1215U/8GB/512GB 7K5K5EA",
+    "warranty": "36",
+    "regular_price": "29.999",
+    "happy_price": "19.799",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6 cm)",
+        "Резолуција": "(1920 x 1280) FHD, micro-edge, anti-glare, 250 nits, 45% NTSC",
+        "Chipset": "Intel® Integrated SoC",
+        "Процесор": "Intel® Core™ i3-1215U (до 4.4 GHz со Intel® Turbo Boost технологија, 10 MB L3 кеш, 6 јадра, 8 нишки)",
+        "Графика": "Intel® UHD Graphics",
+        "RAM Меморија": "8 GB DDR4-3200 MHz RAM (1 x 8 GB)",
+        "Диск (Storage)": "512 GB PCIe® NVMe™ M.2 SSD",
+        "Без оперативен систем": "True",
+        "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card": "True",
+        "Камера": "HP True Vision 720p HD камера со временско намалување на шумот и интегрирани двојни дигитални микрофони",
+        "Аудио": "Двојни звучници",
+        "Порти": "1 USB Type-C® 5Gbps брзина на сигналот, 2 USB Type-A 5Gbps брзина на сигналот, 1 AC smart pin, 1 HDMI 1.4b, 1 слушалка/микрофон комбо",
+        "Power": "45 W Smart AC адаптер за напојување",
+        "Батерија": "3-cell, 41 Wh До 7 часа и 30 минути"
+    }
+}

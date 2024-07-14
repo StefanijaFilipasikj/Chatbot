@@ -1,0 +1,28 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/LENOVO-IdeaPad-Gaming-3-15ACH6-R5-5500H-16GB-512GB-RTX-2050-4GB",
+    "title": "",
+    "warranty": "24",
+    "regular_price": "39.999",
+    "happy_price": "36.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD, IPS 250nits Anti-glare, 45% NTSC, 60Hz",
+        "Chipset": "AMD SoC Platform",
+        "Процесор": "AMD Ryzen™ 5 5500H (4C / 8T, 3.3 / 4.2GHz, 2MB L2 / 8MB L3)",
+        "Графичка": "NVIDIA® GeForce RTX™ 2050 4GB GDDR6",
+        "RAM меморија": "16GB DDR4-3200",
+        "Диск (Storage)": "512GB SSD M.2 2242 PCIe® 4.0x4 NVMe®",
+        "Без оперативен систем": "True",
+        "WLAN + Bluetooth": "11ac 2x2 + BT5.0",
+        "Камера": "HD 720p with Privacy Shutter",
+        "Аудио": "High Definition (HD) Audio, Realtek® ALC3287 codec",
+        "Звучници": "Stereo speakers, 2W x2, Nahimic Audio",
+        "Микрофон": "2x, Array",
+        "Тастатура": "White Backlit, English",
+        "Wireless": "Wi-Fi® 6, 11ax 2x2 + BT5.1",
+        "Порти": "2x USB 3.2 Gen 1, 1x USB-C® 3.2 Gen 1 (support data transfer only), 1x HDMI® 2.0, 1x Headphone / microphone combo jack (3.5mm), 1x Ethernet (RJ-45), 1x Power connector",
+        "Батерија": "Integrated 45Wh",
+        "Power Adapter": "135W Slim Tip (3-pin)"
+    }
+}

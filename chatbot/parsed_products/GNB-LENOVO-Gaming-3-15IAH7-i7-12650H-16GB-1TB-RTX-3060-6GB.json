@@ -1,0 +1,28 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/GNB-LENOVO-Gaming-3-15IAH7-i7-12650H-16GB-1TB-RTX-3060-6GB",
+    "title": "ЛАПТОП LENOVO GAMING 3 15IAH7 I7-12650H/16GB/1TB/RTX 3060 6GB",
+    "warranty": "24",
+    "regular_price": "79.999",
+    "happy_price": "71.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD, IPS 300nits Anti-glare, 100% sRGB, 165Hz",
+        "Chipset": "Intel® SoC Platform",
+        "Процесор": "Intel® Core™ i7-12650H, 10C (6P + 4E) / 16T, P-core 2.3 / 4.7GHz, E-core 1.7 / 3.5GHz, 24MB",
+        "Графичка": "NVIDIA® GeForce RTX™ 3060 6GB GDDR6, Boost Clock 1642MH, TGP 105W",
+        "RAM меморија": "16GB DDR4-3200",
+        "Диск (Storage)": "1TB SSD M.2 2280 PCIe® 3.0x4 NVMe®",
+        "Без оперативен систем": "True",
+        "Аудио": "High Definition (HD) Audio, Realtek® ALC3287 codec",
+        "Звучник": "Stereo speakers, 2W x2, Nahimic Audio",
+        "Камера": "HD 720p with Privacy Shutter",
+        "Микрофон": "2x, Array",
+        "Тастатура": "Backlit, English",
+        "Wireless": "Wi-Fi® 6, 11ax 2x2 + BT5.1",
+        "Порти": "2x USB 3.2 Gen 1, 1x HDMI® 2.0, 1x Ethernet (RJ-45), 1x Headphone / microphone combo jack (3.5mm), 1x Power connector",
+        "Батерија": "Integrated 60Wh",
+        "MobileMark® 2018": "7.1 hr",
+        "Power Adapter": "230W Slim Tip (3-pin)"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Zenbook-14-UM3402YAR-KP511W-14--R5-7530U-8GB-512GB-WIN11",
+    "title": "ЛАПТОП ASUS ZENBOOK 14 UM3402YAR-KP511W 14\" R5-7530U/8GB/512GB/WIN11",
+    "warranty": "24",
+    "regular_price": "50.999",
+    "happy_price": "40.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "14\" (35.56cm)",
+        "Резолуција": "(2560 x 1600) WQXGA, IPS, 60Hz, 400nits",
+        "Процесор": "AMD Ryzen 5 7530U Mobile Processor (6-core/12-thread, 16MB cache, up to 4.3 GHz max boost)",
+        "Графика": "AMD Radeon™ Graphics",
+        "RAM меморија": "8GB DDR4",
+        "Диск (Storage)": "512GB M.2 NVMe PCIe 3.0 SSD",
+        "Оперативен систем": "Windows 11 Home",
+        "Камера": "1080p FHD camera",
+        "Вграден микрофон": "True",
+        "Аудио": "harman/kardon (Premium)",
+        "Wi-Fi 6E(802.11ax) (Dual band) 2*2": "True",
+        "Bluetooth 5": "True",
+        "LED Backlit": "True",
+        "FingerPrint": "True",
+        "Порти": "1x USB 3.2 Gen 2 Type-A, 2x USB 3.2 Gen 2 Type-C support display / power delivery, 1x HDMI 2.1 TMDS, 1x 3.5mm Combo Audio Jack, Micro SD card reader, 65W AC Adapter",
+        "Батерија": "75WHrs, 2S2P, 4-cell Li-ion"
+    }
+}

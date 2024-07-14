@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/monitori1/DELL-27--P2723DE-QHD-USB-C",
+    "title": "МОНИТОР DELL 27\" P2723DE QHD USB-C, 350CD/M2, 8MS",
+    "warranty": "36",
+    "regular_price": "25.999",
+    "happy_price": "22.499",
+    "description": {
+        "Монитор": "True",
+        "Екран": "27\"(68.5cm) QHD 60 Hz, IPS",
+        "Резолуција": "2560 x 1440",
+        "Contrast Ratio Static": "1000:1",
+        "Осветленост": "350cd/m2",
+        "Време на реакција": "8ms",
+        "Подржани бои": "16.7M",
+        "Агол на видливост": "178°/178°",
+        "VGA": "True",
+        "HDMI": "True",
+        "DisplayPort": "True",
+        "USB-C": "True",
+        "USB(USB 3.2 Gen1)": "True",
+        "RJ45": "True"
+    }
+}

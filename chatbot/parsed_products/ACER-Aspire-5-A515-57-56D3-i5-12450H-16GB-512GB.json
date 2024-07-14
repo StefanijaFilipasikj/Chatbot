@@ -1,0 +1,21 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ACER-Aspire-5-A515-57-56D3-i5-12450H-16GB-512GB",
+    "title": "ЛАПТОП ACER ASPIRE 5 A515-57-56D3 I5-12450H/16GB/512GB",
+    "warranty": "24",
+    "regular_price": "36.999",
+    "happy_price": "30.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6 cm)",
+        "Резолуција": "(1920 x 1080) FHD IPS SlimBezel",
+        "Процесор": "Intel® Core™ i5-12450H",
+        "Графика": "Intel® UHD Graphics",
+        "RAM Меморија": "16GB LPDDR4",
+        "Диск (Storage)": "512GB PCIe NVMe SSD",
+        "Без оперативен систем": "True",
+        "2x2 AX+BT": "True",
+        "HD TNR Camera": "True",
+        "Батерија": "50Wh Li-ion battery",
+        "Полнач": "90W"
+    }
+}

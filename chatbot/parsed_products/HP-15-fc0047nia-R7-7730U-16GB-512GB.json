@@ -1,0 +1,24 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/HP-15-fc0047nia-R7-7730U-16GB-512GB",
+    "title": "HP 15-FC0047NIA R7-7730U/16GB/512GB",
+    "warranty": "36",
+    "regular_price": "35.999",
+    "happy_price": "32.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6 cm)",
+        "Резолуција": "(1920 x 1280) FHD, micro-edge, anti-glare, 250 nits, 45% NTSC",
+        "Chipset": "AMD integrated SoC",
+        "Процесор": "AMD Ryzen™ 7 7730U (до 4.5 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)",
+        "Графика": "AMD Radeon™ Graphics",
+        "RAM Меморија": "16 GB DDR4-3200 MHz (2 x 8 GB)",
+        "Диск (Storage)": "512 GB PCIe® NVMe™ M.2 SSD",
+        "Без оперативен систем": "True",
+        "Realtek Wi-Fi 6 (1x1) + Bluetooth® 5.3": "True",
+        "Камера": "HP True Vision 720p HD камера со временско намалување на шумот и интегрирани двојни дигитални микрофони",
+        "Аудио": "Двојни звучници",
+        "Порти": "1 USB Type-C® 5Gbps сигнален рејтинг, 2 USB Type-A 5Gbps сигнален рејтинг, 1 AC smart pin, 1 HDMI 1.4b, 1 слушалка/микрофон комбо",
+        "Power": "45 W Smart AC power adapter",
+        "Батерија": "3-cell, 41 Wh Li-ion полимер до 10 часа"
+    }
+}

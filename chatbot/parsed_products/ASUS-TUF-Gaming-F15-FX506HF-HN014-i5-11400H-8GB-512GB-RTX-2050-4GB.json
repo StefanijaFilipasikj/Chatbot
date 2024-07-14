@@ -1,0 +1,33 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/ASUS-TUF-Gaming-F15-FX506HF-HN014-i5-11400H-8GB-512GB-RTX-2050-4GB",
+    "title": "ЛАПТОП ASUS TUF GAMING F15 FX506HF-HN014 I5-11400H/8GB/512GB/RTX 2050 4GB",
+    "warranty": "24",
+    "regular_price": "47.999",
+    "happy_price": "38.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920 x 1080) FHD, IPS, 16:9, 144Hz",
+        "Процесор": "Intel Core i5-11400H Processor 2.7 GHz (12M Cache, up to 4.5 GHz, 6 Cores)",
+        "Графика": "NVIDIA GeForce RTX 2050 4GB GDDR6",
+        "RAM меморија": "8GB DDR4 3200Mhz",
+        "Диск (Storage)": "512GB PCIe 3.0 NVMe M.2 SSD",
+        "Без оперативен систем": "True",
+        "LAN 10/100/1000 Mbps": "True",
+        "Wi-Fi 6(802.11ax) (Dual band) 2*2 + Bluetooth 5.2 (*Bluetooth version may change with OS version different.)": "True",
+        "Порти": "True",
+        "1x RJ45 LAN port": "True",
+        "1x Thunderbolt 4 support DisplayPort": "True",
+        "3x USB 3.2 Gen 1 Type-A": "True",
+        "1x HDMI 2.1 TMDS": "True",
+        "1x 3.5mm Combo Audio Jack": "True",
+        "Камера": "720P HD camera",
+        "Вгаден микрофон": "True",
+        "Осветлена тастатура RGB": "True",
+        "2 звучници": "True",
+        "Аудио": "Tech AI noise-canceling",
+        "Security BIOS Administrator Password and User Password Protection": "True",
+        "Батерија": "48WHrs, 3S1P, 3-cell Li-ion",
+        "Полнач": "150W AC Adapter, Output: 20V DC, 7.5A, 150W, Input: 100~240V AC, 50/60Hz universal"
+    }
+}

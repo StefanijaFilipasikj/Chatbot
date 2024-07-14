@@ -1,0 +1,27 @@
+{
+    "url": "https://www.neptun.mk/categories/Android_TV_boksovi/Xiaomi-TV-Box-S-2nd-Gen",
+    "title": "XIAOMI TV BOX S 2ND GEN",
+    "warranty": "12",
+    "regular_price": "3.999",
+    "happy_price": "",
+    "description": {
+        "Android box": "True",
+        "Оперативен систем": "Google TV",
+        "Процесор": "Quad-Core Cortex-A55",
+        "Графика": "ARM Mali G31 MP2",
+        "RAM меморија": "2GB",
+        "Диск(Storage)": "8GB",
+        "Wifi": "2.4GHz/ 5GHz",
+        "Bluetooth": "5.2",
+        "Video decoder": "True",
+        "Up to 4K 60FPS": "True",
+        "Supports Dolby Audio® and DTS-HD": "True",
+        "Supports Dolby Vision®": "True",
+        "Supports HDR10+": "True",
+        "Порти": "True",
+        "HDMI 2.1 x1": "True",
+        "USB 2.0 x1": "True",
+        "Power interface x1": "True",
+        "Audio output x1": "True"
+    }
+}

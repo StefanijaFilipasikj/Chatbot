@@ -1,0 +1,26 @@
+{
+    "url": "https://www.neptun.mk/categories/PECATARI/HP-LaserJet-MFP-M236sdn-9YG08A",
+    "title": "ПРИНТЕР HP LASERJET MFP M236SDN 9YG08A, 64 MB",
+    "warranty": "12",
+    "regular_price": "11.999",
+    "happy_price": "10.199",
+    "description": {
+        "Печатар": "True",
+        "Мултифунксионален ласерски принтер": "True",
+        "Функција": "Print, copy, scan",
+        "Резолуција": "600x600",
+        "Брзина на принтање": "29ppm",
+        "Капацитет на принтање": "до 20000 страни",
+        "Конекција": "USB",
+        "Дисплеј": "1.6\" (4cm) LCD",
+        "Процесор": "500 MHz",
+        "Меморија": "64 MB",
+        "HP JetIntelligence Cartridge": "True",
+        "Кертриџ": "HP 136A Black (~1150), W1360A",
+        "Скен резолуција": "600 ppi",
+        "Големина на скенирање": "216 до 297 mm",
+        "Формат на слики": "JPEG, TIF, PDF, BMP, PNG",
+        "Копи резолуција": "600 x 600 dpi",
+        "Брзина на копирање": "29 cpm"
+    }
+}

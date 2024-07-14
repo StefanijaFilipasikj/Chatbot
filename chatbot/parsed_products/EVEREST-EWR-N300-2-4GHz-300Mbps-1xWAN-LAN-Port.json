@@ -1,0 +1,18 @@
+{
+    "url": "https://www.neptun.mk/categories/MREZNA_OPREMA/EVEREST-EWR-N300-2-4GHz-300Mbps-1xWAN-LAN-Port",
+    "title": "WI-FI RANGE EXTENDER EVEREST EWR-N300 2.4GHZ 300MBPS 1XWAN/LAN PORT",
+    "warranty": "12",
+    "regular_price": "999",
+    "happy_price": "",
+    "description": {
+        "WI-FI RANGE EXTENDER": "True",
+        "Wi-Fi transmission rate (max.)": "300Mbps",
+        "Wi-Fi frequency band": "2.4GHz",
+        "IEEE 802.11n": "True",
+        "IEEE 802.11g": "True",
+        "IEEE 802.11b": "True",
+        "1x10/100М LAN порт": "True",
+        "WPA-PSK / WPA2-PSK (TKIP / AES)": "True",
+        "Опсег": "100m"
+    }
+}

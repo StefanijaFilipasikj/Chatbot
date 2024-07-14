@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/televizori/HOOBART-32-KT-620-AND-T",
+    "title": "HOOBART 32 KT 620 AND T",
+    "warranty": "24",
+    "regular_price": "7.499",
+    "happy_price": "",
+    "description": {
+        "32\"(80cm) HD SMART DLED TV": "true",
+        "Резолуција": "1.366x768",
+        "Процесор": "ARM Cortex-A55/Quad core",
+        "Графика": "Mali G31 MP2/Dual core",
+        "Оперативен систем": "true",
+        "Response time": "6ms",
+        "Панел": "DLED",
+        "Звучник": "2x6/12W",
+        "2xHDMI": "true",
+        "2xUSB": "true",
+        "1xRJ45": "true",
+        "CI+": "true",
+        "DVB-T/T2/C": "true",
+        "Вграден Wi-Fi": "true"
+    }
+}

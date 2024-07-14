@@ -1,0 +1,27 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/LENOVO-LOQ-15IRX9-i7-13650HX-16GB-DDR5-1TB-RTX-4050-6GB",
+    "title": "",
+    "warranty": "24",
+    "regular_price": "71.999",
+    "happy_price": "65.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.5cm)",
+        "Резолуција": "(1920 x 1080) FHD, IPS, 300nits, Anti-glare, 144Hz, G-SYNC®",
+        "Процесор": "Intel® Core™ i7-13650HX, 14C (6P + 8E) / 20T, P-core 2.6 / 4.9GHz, E-core 1.9 / 3.6GHz, 24MB",
+        "Графика": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6, Boost Clock 2370MHz, TGP 105W",
+        "Внатрешна меморија": "16GB DDR5-4800",
+        "Меморија": "1TB SSD M.2 2242 PCIe® 4.0x4 NVMe®",
+        "Без оперативен систем": "True",
+        "Аудио": "High Definition (HD) Audio, Realtek® ALC3287 codec",
+        "Звучник": "Stereo speakers, 2W x2, optimized with Nahimic Audio",
+        "Камера": "FHD 1080p with E-shutter",
+        "Микрофон": "2x, Array",
+        "Ethernet": "100/1000M (RJ-45)",
+        "Wi-Fi® 6, 11ax 2x2 + BT5.2": "True",
+        "White Backlit": "True",
+        "Порти": "3x USB-A (USB 5Gbps / USB 3.2 Gen 1), 1x USB-C® (USB 10Gbps / USB 3.2 Gen 2), with PD 140W and DisplayPort™ 1.4, 1x HDMI® 2.1, up to 8K/60Hz, 1x Headphone / microphone combo jack (3.5mm), 1x Ethernet (RJ-45), 1x Power connector",
+        "Power Adapter": "170W Slim Tip (3-pin)",
+        "Батерија": "Integrated 60Wh"
+    }
+}

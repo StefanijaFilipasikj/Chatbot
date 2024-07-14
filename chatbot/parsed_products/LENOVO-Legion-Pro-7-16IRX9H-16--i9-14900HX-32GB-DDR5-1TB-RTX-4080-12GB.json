@@ -1,0 +1,27 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/LENOVO-Legion-Pro-7-16IRX9H-16--i9-14900HX-32GB-DDR5-1TB-RTX-4080-12GB",
+    "title": "LENOVO LEGION PRO 7 16IRX9H 16\" I9-14900HX/32GB DDR5/1TB/RTX 4080 12GB",
+    "warranty": "24",
+    "regular_price": "187.999",
+    "happy_price": "175.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "16\" (40.64cm)",
+        "Резолуција": "WQXGA (2560x1600), IPS 500nits Anti-glare, 100% DCI-P3, 240Hz, DisplayHDR™ 400, Dolby® Vision®, G-SYNC®, Low Blue Light, High Gaming Performance",
+        "Процесор": "Intel® Core™ i9-14900HX, 24C (8P + 16E) / 32T, P-core 2.2 / 5.8GHz, E-core 1.6 / 4.1GHz, 36MB",
+        "Графика": "NVIDIA® GeForce RTX™ 4080 12GB GDDR6, Boost Clock 2280MHz, TGP 175W",
+        "Внатрешна меморија": "32GB DDR5-5600",
+        "Меморија": "1TB SSD M.2 2280 PCIe® 4.0x4 NVMe®",
+        "Без оперативен систем": "True",
+        "Аудио": "High Definition (HD) Audio, Realtek® ALC3306 codec",
+        "Звучник": "Stereo speakers, 2W x2, audio by HARMAN, optimized with Nahimic Audio, Smart Amplifier (AMP)",
+        "Камера": "FHD 1080p with E-shutter",
+        "Микрофон": "2x, Array",
+        "Ethernet": "100/1000M (RJ-45)",
+        "Intel® Killer Wi-Fi® 6E AX1675i, 11ax 2x2 + BT5.3": "True",
+        "RGB Backlit (with Lighting Lens)": "True",
+        "Порти": "1x USB-A (USB 5Gbps / USB 3.2 Gen 1), Always On, 3x USB-A (USB 5Gbps / USB 3.2 Gen 1), 1x USB-C® (USB 10Gbps / USB 3.2 Gen 2), with Lenovo® PD 140W and DisplayPort™ 1.4, 1x USB-C® (Thunderbolt™ 4 / USB4® 40Gbps), with DisplayPort™ 1.4, 1x HDMI® 2.1, up to 8K/60Hz, 1x Headphone / microphone combo jack (3.5mm), 1x Ethernet (RJ-45), 1x Power connector",
+        "Power Adapter": "330W Slim Tip Tiny GaN (3-pin)",
+        "Батерија": "Integrated 99.9Wh"
+    }
+}

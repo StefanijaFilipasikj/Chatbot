@@ -1,0 +1,30 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/SAMSUNG-Galaxy-A54-5G-8-128GB--SM-A546BLGCEUC--Green",
+    "title": "SAMSUNG GALAXY A54 5G 8+128GB (SM-A546BLGCEUC) GREEN",
+    "warranty": "24",
+    "regular_price": "29.499",
+    "happy_price": "20.999",
+    "description": {
+        "Мобилен телефон": "True",
+        "Android 13, One UI 5.1": "True",
+        "Екран": "6.4\" (1080x2340) Super AMOLED, 120Hz, 1000 nits (HBM)",
+        "Chipset": "Exynos 1380 (5 nm)",
+        "CPU": "Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+        "GPU": "Mali-G68 MP5",
+        "Интерна меморија": "True",
+        "ROM Меморија": "128GB",
+        "RAM Меморија": "8GB",
+        "Примарна камера": "True",
+        "50 MP, f/1.8, (wide), PDAF, OIS": "True",
+        "12 MP, f/2.2, 123° (ultrawide), 1.12µm": "True",
+        "5 MP, f/2.4, (macro)": "True",
+        "Секундарна камера": "True",
+        "32 MP, f/2.2, 26mm (wide), 1/2.8\", 0.8µm": "True",
+        "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct": "True",
+        "Bluetooth v5.3": "True",
+        "GPS, GLONASS, GALILEO, BDS": "True",
+        "USB Type-C 2.0, OTG": "True",
+        "Fingerprint (under display)": "True",
+        "Батерија": "Li-Po 5000 mAh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ACER-Swift-GO-14-SFG314-42-R1S7-14--R5-7640U-16GB-DDR5-512GB-WIN11",
+    "title": "",
+    "warranty": "24",
+    "regular_price": "59.999",
+    "happy_price": "52.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "14.0\" (35.5cm)",
+        "Резолуција": "(2880x1800) 2.8K OLED 90Hz, 400 nits",
+        "Процесор": "AMD Ryzen 5 7640U",
+        "Графика": "AMD Radeon™ Graphics",
+        "RAM Меморија": "16 GB LPDDR5",
+        "Диск (Storage)": "512GB PCIe NVMe SSD",
+        "Oперативен систем": "Windows 11 Home",
+        "Wi-Fi 6E": "True",
+        "Bluetooth 5.1": "True",
+        "Камера": "1440p QHD Camera",
+        "Fingerprint Reader": "True",
+        "Backlit Keyboard": "True",
+        "Приклучоци": "2x USB Type-C, 2x USB Standard-A, 1x HDMI® 2.1, 1x Headphone/speaker jack"
+    }
+}

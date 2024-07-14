@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/HP-Victus-16-r0078nia-16-1--i5-13500H-16GB-DDR5-512GB-RTX-4050-6GB",
+    "title": "ЛАПТОП HP VICTUS 16-R0078NIA 16.1\" I5-13500H/16GB DDR5/512GB/RTX 4050 6GB",
+    "warranty": "12",
+    "regular_price": "72.999",
+    "happy_price": "63.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "16.1\" (40.9cm)",
+        "Резолуција": "(1920 x 1080) FHD IPS 144 Hz, micro-edge, anti-glare, 250 nits, 45% NTSC",
+        "Процесор": "Intel® Core™ i5-13500H (до 4.7 GHz со Intel® Turbo Boost технологија, 18 MB L3 кеш, 12 јадра, 16 нишки)",
+        "Графика": "NVIDIA® GeForce RTX™ 4050 6 GB GDDR6",
+        "Внатрешна меморија": "16 GB DDR5-5200 MHz RAM (2 x 8 GB)",
+        "Меморија": "512 GB PCIe® Gen4 NVMe™ TLC M.2 SSD",
+        "Wi-Fi": "6 MT7921 (2x2) + Bluetooth® 5.3",
+        "Камера": "HP True Vision 1080p FHD камера со временско намалување на шумот и интегрирани двојни дигитални микрофони",
+        "Аудио": "Audio by B&O; Двојни звучници; HP Audio Boost",
+        "Network": "10/100/1000 GbE LAN",
+        "Порти": "1 USB Type-A 5Gbps сигнален рејтинг (HP Sleep and Charge), 1 USB Type-C® 5Gbps сигнален рејтинг (USB Power Delivery, DisplayPort™ 1.4, HP Sleep and Charge), 2 USB Type-A 5Gbps сигнален рејтинг, 1 HDMI 2.1, 1 RJ-45, 1 AC smart pin, 1 слушалки/микрофон комбо",
+        "Power": "230 W Smart AC адаптер за напојување",
+        "Батерија": "4-cell, 70 Wh Li-ion полимер"
+    }
+}

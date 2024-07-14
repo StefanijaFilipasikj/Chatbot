@@ -1,0 +1,19 @@
+{
+    "url": "https://www.neptun.mk/categories/GAMING_DESKTOP_KOMPJUTERI/EWE-PC-GAMER-3718-i7-14700KF-32GB-1TB-SSD-RTX-4070-SUPER-12GB",
+    "title": "ПЕРСОНАЛЕН КОМПЈУТЕР EWE PC GAMER 3718 I7-14700KF/32GB/1TB SSD/RTX 4070 SUPER 12GB",
+    "warranty": "36",
+    "regular_price": "99.999",
+    "happy_price": "95.999",
+    "description": {
+        "Персонален компјутер": "True",
+        "Процесор": "Intel Core i7-14700KF 16-Core up to 5.60GHz",
+        "Матична плоча": "MSI PRO B760M-P",
+        "Графика": "nVidia GeForce RTX 4070 SUPER 12G VENTUS 2X",
+        "RAM меморија": "32GB (2x Kingston DIMM 16GB DDR4 3200MHz Fury Beast)",
+        "Диск (Storage)": "Kingstson 1TB M.2 NVMe PCIe 4.0 SSD SNV2S NV2",
+        "Напојување": "Cooler Master ELITE NEX WHITE 700W",
+        "Куќиште": "UGD Elite 3718",
+        "Cooler": "Antec A400i PWM RGB LED CPU Cooler",
+        "Без оперативен систем": "True"
+    }
+}

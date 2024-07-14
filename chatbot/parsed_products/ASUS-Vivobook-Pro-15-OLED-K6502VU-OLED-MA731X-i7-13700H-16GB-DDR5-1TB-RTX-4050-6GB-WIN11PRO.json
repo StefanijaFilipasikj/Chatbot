@@ -1,0 +1,25 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Vivobook-Pro-15-OLED-K6502VU-OLED-MA731X-i7-13700H-16GB-DDR5-1TB-RTX-4050-6GB-WIN11PRO",
+    "title": "ЛАПТОП ASUS VIVOBOOK PRO 15 OLED K6502VU-OLED-MA731X I7-13700H/16GB DDR5/1TB/RTX 4050 6GB/WIN11PRO",
+    "warranty": "24",
+    "regular_price": "103.999",
+    "happy_price": "89.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6 (39.6cm)",
+        "Резолуција": "(2880x1620) OLED, 120 Hz",
+        "Процесор": "Intel Core i7-13700H Processor 2.3 GHz (24M Cache, up to 4.7 GHz, 6P+8E cores)",
+        "Графика": "NVIDIA Geforce RTX 4050 6GB GDDR6",
+        "RAM меморија": "16GB DDR5",
+        "Диск (Storage)": "1TB M.2 NVMe PCIe 4.0 SSD",
+        "Oперативен систем": "Windows 11 Pro",
+        "Камера": "1080p FHD camera",
+        "Wi-Fi 6E(802.11ax) (Dual band) 2*2 + Bluetooth 5": "True",
+        "FingerPrint": "True",
+        "ASUS AI noise cancelation": "True",
+        "Аудио": "Harman Kardon",
+        "Вграден микрофон": "True",
+        "Порти": "1x USB 3.2 Gen 2 Type-C support display / power delivery, 2x USB 3.2 Gen 1 Type-A, 1x Thunderbolt 4 supports display / power delivery, 1x HDMI 2.1 FRL, 1x 3.5mm Combo Audio Jack, 1x RJ45 Gigabit Ethernet, 1x DC-in, SD 4.0 card reader, 150W AC Adapter",
+        "Батерија": "70WHrs, 3S1P, 3-cell Li-ion"
+    }
+}

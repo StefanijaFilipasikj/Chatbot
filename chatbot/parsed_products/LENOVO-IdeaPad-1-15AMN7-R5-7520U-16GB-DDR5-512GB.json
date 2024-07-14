@@ -1,0 +1,25 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-IdeaPad-1-15AMN7-R5-7520U-16GB-DDR5-512GB",
+    "title": "ЛАПТОП LENOVO IDEAPAD 1 15AMN7 R5-7520U/16GB DDR5/512GB",
+    "warranty": "24",
+    "regular_price": "26.999",
+    "happy_price": "24.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD, TN 220nits Anti-glare",
+        "Чипсет": "AMD SoC Platform",
+        "Процесор": "AMD Ryzen™ 5 7520U (4C / 8T, 2.8 / 4.3GHz, 2MB L2 / 4MB L3)",
+        "Графика": "Integrated AMD Radeon™ 610M Graphics",
+        "RAM Меморија": "16GB Soldered LPDDR5-5500",
+        "Диск (Storage)": "512GB SSD M.2 2242 PCIe® 4.0x4 NVMe®",
+        "WLAN + Bluetooth": "True",
+        "Порти": "True",
+        "Аудио": "High Definition (HD) Audio",
+        "Звучник": "Stereo speakers, 1.5W x2, Dolby® Audio™",
+        "Камера": "HD 720p with Privacy Shutter",
+        "Микрофон": "2x, Array",
+        "Полнач": "65W Round Tip (3-pin)",
+        "Батерија": "Integrated 42Wh"
+    }
+}

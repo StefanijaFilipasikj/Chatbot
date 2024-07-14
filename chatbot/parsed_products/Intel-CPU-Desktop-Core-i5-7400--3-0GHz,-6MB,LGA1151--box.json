@@ -1,0 +1,22 @@
+{
+    "url": "https://www.neptun.mk/categories/Procesori/Intel-CPU-Desktop-Core-i5-7400--3-0GHz,-6MB,LGA1151--box",
+    "title": "ПРОЦЕСОР INTEL CPU DESKTOP CORE I5-7400 (3.0GHZ, 6MB,LGA1151) BOX",
+    "warranty": "24",
+    "regular_price": "12.999",
+    "happy_price": "2.495",
+    "description": {
+        "Модел": "Intel® Core™ i5-7400 Processor",
+        "Total Cores": "4",
+        "Total Threads": "4",
+        "Lithography": "14nm",
+        "Sockets Supported": "FCLGA1151",
+        "Thermal Design Power (TDP)": "65 W",
+        "Фреквенција": "3.50GHz",
+        "Кеш меомрија": "6 MB Intel® Smart Cache",
+        "Вид на меморија": "DDR4-2133/2400, DDR3L-1333/1600 @ 1.35V",
+        "Максимална меморија (според вид на меморија)": "64GB",
+        "Processor Graphics": "Intel® HD Graphics 630",
+        "Graphics Base Frequency": "350 MHz",
+        "Graphics Video Max Memory": "64 GB"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/HP-15s-fq4014nia-i5-1155G7-8GB-512GB-6W1Z7EA",
+    "title": "ЛАПТОП HP 15S FQ4014NIA I5-1155G7/8GB/512GB 6W1Z7EA",
+    "warranty": "12",
+    "regular_price": "32.999",
+    "happy_price": "21.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6 cm)",
+        "Резолуција": "(1920 x 1280) FHD, micro-edge, anti-glare, 250 nits, 45% NTSC",
+        "Chipset": "Intel® Integrated SoC",
+        "Процесор": "Intel® Core™ i5-1155G7 (до 4.5 GHz со Intel® Turbo Boost технологија, 8 MB L3 кеш, 4 јадра, 8 нишки)",
+        "Графика": "Intel® Iris® X? Graphics",
+        "RAM Меморија": "8 GB DDR4-3200 MHz RAM (2 x 4 GB)",
+        "Диск (Storage)": "512 SSD M.2 PCIe® NVMe™",
+        "Без оперативен систем": "True",
+        "Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card": "True",
+        "Камера": "HP True Vision 720p HD камера со интегрирани двојни дигитални микрофони",
+        "Аудио": "Двојни звучници",
+        "Порти": "1 USB Type-C® 5Gbps сигнален рејтинг, 2 USB Type-A 5Gbps сигнален рејтинг, 1 AC smart pin, 1 HDMI 1.4b, 1 слушалка/микрофон комбо",
+        "Power": "45 W Smart AC power adapter",
+        "Батерија": "3-cell, 41 Wh До 7 часа и 15 минути"
+    }
+}

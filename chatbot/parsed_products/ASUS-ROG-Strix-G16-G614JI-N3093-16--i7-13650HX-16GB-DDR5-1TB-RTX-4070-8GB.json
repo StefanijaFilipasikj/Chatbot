@@ -1,0 +1,28 @@
+{
+    "url": "https://www.neptun.mk/categories/gaming_laptopi/ASUS-ROG-Strix-G16-G614JI-N3093-16--i7-13650HX-16GB-DDR5-1TB-RTX-4070-8GB",
+    "title": "",
+    "warranty": "24",
+    "regular_price": "114.999",
+    "happy_price": "105.999",
+    "description": {
+        "Лаптоп": "Дисплеј:16'' (40.6cm)",
+        "Резолуција": "(1920 x 1200) WUXGA, IPS, 165Hz",
+        "Процесор": "Intel Core i7-13650HX, 2.6 GHz 24M Cache, up to 4.9 GHz, 14 cores",
+        "Графика": "NVIDIA GeForce RTX 4070 8GB GDDR6",
+        "NVIDIA G-Sync": "true",
+        "RAM Меморија": "16GB DDR5",
+        "Диск (Storage)": "1TB PCIe 4.0 NVMe M.2 SSD",
+        "Без оперативен систем": "true",
+        "LAN 10/100/1000 Mbps": "true",
+        "Wi-Fi 6E(802.11ax) (Triple band) 2*2 + Bluetooth 5.2": "true",
+        "Порти": "1x RJ45 LAN port, 1x Thunderbolt 4 support DisplayPort, 1x USB 3.2 Gen 2 Type-C support DisplayPort / power delivery / G-SYNC, 2x USB 3.2 Gen 2 Type-A, 1x HDMI 2.1 FRL, 1x 3.5mm Combo Audio Jack",
+        "720P HD camera": "true",
+        "Вгаден микрофон": "true",
+        "Backlit Chiclet Keyboard 4-Zone RGB": "true",
+        "Звучник": "систем со 2 звучници со Smart Amplifier Technology",
+        "Аудио": "Tech AI noise-canceling, Dolby Atmos, Hi-Res certification, AI noise-canceling technology, Dolby Atmos, Smart Amp Technology",
+        "Security BIOS Administrator Password and User Password Protection": "true",
+        "Батерија": "90WHrs, 4S1P, 4-cell Li-ion",
+        "Адаптер": "280W"
+    }
+}

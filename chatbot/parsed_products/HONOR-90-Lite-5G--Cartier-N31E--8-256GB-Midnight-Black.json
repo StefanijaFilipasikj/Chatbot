@@ -1,0 +1,28 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/HONOR-90-Lite-5G--Cartier-N31E--8-256GB-Midnight-Black",
+    "title": "HONOR 90 LITE 5G (CARTIER-N31E), 6.67\", 8/256GB, 100+5+2/16MP, 4500 MAH MIDNIGHT BLACK",
+    "warranty": "24",
+    "regular_price": "20.999",
+    "happy_price": "14.999",
+    "description": {
+        "Мобилен телефон": "True",
+        "Android 13, Magic UI 7.1": "True",
+        "Екран": "6.67\" (1080x2388) IPS LCD, 90Hz",
+        "Mediatek Dimensity 6020 (7 nm)": "True",
+        "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+        "GPU": "Mali-G57 MC2",
+        "Интерна меморија": "True",
+        "ROM Меморија": "256GB",
+        "RAM Меморија": "8GB",
+        "Примарна камера": "True",
+        "100 MP, f/1.9, (wide), PDAF": "True",
+        "5 MP, f/2.2, (ultrawide)": "True",
+        "2 MP, f/2.4, (macro)": "True",
+        "Секундарна камера": "True",
+        "16 MP, f/2.5, (wide)": "True",
+        "GPS, GLONASS, GALILEO, BDS": "True",
+        "USB Type-C 2.0, OTG": "True",
+        "Fast charging 35W wired": "True",
+        "Батерија": "Li-Po 4500 mAh"
+    }
+}

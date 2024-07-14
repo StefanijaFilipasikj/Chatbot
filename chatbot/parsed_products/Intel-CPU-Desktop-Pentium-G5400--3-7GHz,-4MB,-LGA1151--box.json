@@ -1,0 +1,22 @@
+{
+    "url": "https://www.neptun.mk/categories/Procesori/Intel-CPU-Desktop-Pentium-G5400--3-7GHz,-4MB,-LGA1151--box",
+    "title": "ПРОЦЕСОР INTEL CPU DESKTOP PENTIUM G5400 (3.7GHZ, 4MB, LGA1151) BOX",
+    "warranty": "24",
+    "regular_price": "4.999",
+    "happy_price": "1.295",
+    "description": {
+        "Модел": "Intel CPU Desktop Pentium G5400",
+        "Total Cores": "2",
+        "Total Threads": "4",
+        "Lithography": "14nm",
+        "Sockets Supported": "FCLGA1151",
+        "Thermal Design Power (TDP)": "58 W",
+        "Фреквенција": "3.70GHz",
+        "Кеш меомрија": "4MB Intel® Smart Cache",
+        "Вид на меморија": "DDR4-2400",
+        "Максимална меморија (според вид на меморија)": "64GB",
+        "Processor Graphics": "Intel® UHD Graphics 610",
+        "Graphics Base Frequency": "350 MHz",
+        "Graphics Video Max Memory": "64 GB"
+    }
+}

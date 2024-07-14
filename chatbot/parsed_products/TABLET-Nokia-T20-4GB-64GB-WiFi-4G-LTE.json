@@ -1,0 +1,27 @@
+{
+    "url": "https://www.neptun.mk/categories/TABLETI/TABLET-Nokia-T20-4GB-64GB-WiFi-4G-LTE",
+    "title": "ТАБЛЕТ NOKIA T20, 10.4\", 4GB/64GB, WIFI+4G LTE, 8/5MP, 8200MAH",
+    "warranty": "24",
+    "regular_price": "12.499",
+    "happy_price": "11.499",
+    "description": {
+        "Таблет": "True",
+        "Android верзија": "Android 11, до Android 13 оперативен систем",
+        "Екран": "10.4\"(26.4см) 2K, IPS, 400 нити",
+        "Резолуција": "1200 x 2000",
+        "Процесор": "Unisoc T610 (12 nm)",
+        "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+        "GPU": "Mali-G52 MP2",
+        "Интерна меморија": "64GB, RAM 4GB",
+        "Примарна камера": "8MP, AF",
+        "Секундарна камера": "5MP",
+        "WiFi + 4G LTE": "True",
+        "Wi-Fi": "802.11 a/b/g/n/ac, dual-band",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "True",
+        "Батерија": "Li-Po 8200mAh",
+        "Полнење": "15W со кабел",
+        "Стерео звучници": "True",
+        "3.5mm аудио џек": "True"
+    }
+}

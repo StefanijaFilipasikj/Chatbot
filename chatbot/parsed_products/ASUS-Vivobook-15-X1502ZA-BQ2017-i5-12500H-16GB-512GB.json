@@ -1,0 +1,25 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Vivobook-15-X1502ZA-BQ2017-i5-12500H-16GB-512GB",
+    "title": "ЛАПТОП ASUS VIVOBOOK 15 X1502ZA-BQ2017 I5-12500H/16GB/512GB",
+    "warranty": "24",
+    "regular_price": "30.999",
+    "happy_price": "28.499",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6 (39.6cm)",
+        "Резолуција": "FHD (1920 x 1080), 60Hz, IPS, 250nits",
+        "Процесор": "Intel Core i5-12500H Processor 2.5 GHz (18M Cache, up to 4.5 GHz, 4P+8E cores)",
+        "Графика": "Intel UHD Graphics",
+        "RAM меморија": "16GB DDR4",
+        "Диск (Storage)": "512GB M.2 NVMe PCIe 4.0 SSD",
+        "LED Backlit": "True",
+        "Без оперативен систем": "True",
+        "Wi-Fi 6(802.11ax) (Dual band) 2*2 + Bluetooth 5.3": "True",
+        "Порти": "1x USB 2.0 Type-A, 1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 1.4, 1x 3.5mm Combo Audio Jack, 1x DC-in",
+        "Аудио": "SonicMaster",
+        "Вградени звучници": "True",
+        "Вграден микрофон": "True",
+        "Батерија": "42WHrs, 3S1P, 3-cell Li-ion",
+        "65W AC Adapter": "True"
+    }
+}

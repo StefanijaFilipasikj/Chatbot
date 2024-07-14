@@ -1,0 +1,23 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/HP-250-G9-i5-1235U-8GB-512GB-6S7B5EA",
+    "title": "",
+    "warranty": "12",
+    "regular_price": "31.999",
+    "happy_price": "23.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "15.6\" (39.6cm)",
+        "Резолуција": "(1920x1080) FHD, SVA, narrow bezel, anti-glare, 250 nits, 45% NTSC",
+        "Процесор": "Intel® Core™ i5-1235U (до 4.4 GHz со Intel® Turbo Boost технологија, 12 MB L3 кеш, 10 јадра, 12 нишки)",
+        "Графика": "Intel® Iris® X? Graphics",
+        "RAM меморија": "8 GB DDR4-3200 MHz RAM (1 x 8 GB)",
+        "Диск (Storage)": "512 GB PCIe® NVMe™ SSD",
+        "Нема оперативен систем": "True",
+        "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card": "True",
+        "WLAN-Standard 802.11a/b/g/n/ac": "True",
+        "Камера": "720p HD камера",
+        "Порти": "1 USB Type-C® 5Gbps сигнален рејтинг, 2 USB Type-A 5Gbps сигнален рејтинг, 1 AC power, 1 HDMI 1.4b, 1 stereo headphone/microphone combo jack",
+        "Power": "HP Smart 45 W External AC power adapter",
+        "Батерија": "3-cell, 41 Wh Li-ion"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/MacBook-Pro-14-M3-8C-CPU-10C-GPU-8GB-1TB-Space-Grey-mtl83ze-a",
+    "title": "ЛАПТОП APPLE MACBOOK PRO 14 M3/8C CPU/10C GPU/8GB/1TB SPACE GREY MTL83ZE/A",
+    "warranty": "12",
+    "regular_price": "134.499",
+    "happy_price": "128.999",
+    "description": {
+        "Лаптоп": "True",
+        "Дисплеј": "14.2\"(36cm) Liquid Retina XDR display",
+        "Процесор": "Apple M3 8-core CPU со 4 performance cores и 4 efficiency cores 10-core GPU Hardware-accelerated ray tracing 16-core Neural Engine 100GB/s memory bandwidth",
+        "Графика": "10-core GPU",
+        "RAM меморија": "8GB",
+        "Диск (Storage)": "1ТB SSD",
+        "1080p FaceTime HD camera": "True",
+        "Вградени микрофони": "True",
+        "Backlit Magic Keyboard": "True",
+        "Touch ID": "True",
+        "Ambient light sensor": "True",
+        "Force Touch trackpad": "True",
+        "Bluetooth 5.3": "True",
+        "Wireless": "Wi-Fi 6E (802.11ax)",
+        "SDXC card slot": "True",
+        "HDMI port": "True",
+        "3.5 mm headphone jack": "True",
+        "MagSafe 3 port": "True",
+        "Two Thunderbolt / USB 4 ports with support for": "Charging, DisplayPort, Thunderbolt 3 (до 40Gb/s), USB 4 (до 40Gb/s)",
+        "Батерија": "до 22 часа",
+        "Полнач": "70W USB-C"
+    }
+}

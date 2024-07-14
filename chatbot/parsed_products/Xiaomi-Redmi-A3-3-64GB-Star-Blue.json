@@ -1,0 +1,28 @@
+{
+    "url": "https://www.neptun.mk/categories/mobilni_telefoni/Xiaomi-Redmi-A3-3-64GB-Star-Blue",
+    "title": "XIAOMI REDMI A3, 6.71\", 3/64GB, 8+0.8/5MP, 5000MAH, STAR BLUE",
+    "warranty": "24",
+    "regular_price": "5.999",
+    "happy_price": "",
+    "description": {
+        "Мобилен телефон": "True",
+        "Android 14 (Go edition), MIUI": "True",
+        "Екран": "6.71\" (720x1650) IPS LCD, 90Hz",
+        "Corning Gorilla Glass 3": "True",
+        "Mediatek Helio G36 (12 nm)": "True",
+        "Octa-core (4x2.2 GHz Cortex-A53 & 4x1.6 GHz Cortex-A53)": "True",
+        "GPU": "PowerVR GE8320",
+        "Интерна меморија": "True",
+        "ROM Меморија": "64GB",
+        "RAM Меморија": "3GB",
+        "Примарна камера": "True",
+        "8 MP, (wide)": "True",
+        "0.08 MP (auxiliary lens)": "True",
+        "Секундарна камера": "True",
+        "5 MP": "True",
+        "GPS, GLONASS, GALILEO, BDS": "True",
+        "USB Type-C 2.0": "True",
+        "Charging": "10W wired",
+        "Батерија": "5000mAh"
+    }
+}

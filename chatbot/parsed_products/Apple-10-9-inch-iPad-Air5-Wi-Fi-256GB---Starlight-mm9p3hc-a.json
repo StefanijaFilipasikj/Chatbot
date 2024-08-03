@@ -20,5 +20,6 @@
         "USB": "TYPE-C",
         "Fast charging": "20W",
         "Батерија": "Li-Ion (32.4 Wh)"
-    }
+    },
+    "category": "Tablet"
 }

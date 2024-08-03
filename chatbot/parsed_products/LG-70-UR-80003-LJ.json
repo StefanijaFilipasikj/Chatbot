@@ -21,5 +21,6 @@
         "Game Optimizer": "True",
         "3 x HDMI,2 x USB, eARC (HDMI 2), CI Slot": "True",
         "DVB-T2/C/S2": "True"
-    }
+    },
+    "category": "Television"
 }

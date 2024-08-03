@@ -17,5 +17,6 @@
         "HDMI": "True",
         "DisplayPort": "True",
         "Audio Line-Out": "True"
-    }
+    },
+    "category": "Monitor"
 }

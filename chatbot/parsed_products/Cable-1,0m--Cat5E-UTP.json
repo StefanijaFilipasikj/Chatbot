@@ -6,5 +6,6 @@
     "happy_price": "",
     "description": {
         "Networc Cable 1,0m. Cat5E UTP": "true"
-    }
+    },
+    "category": "Networking"
 }

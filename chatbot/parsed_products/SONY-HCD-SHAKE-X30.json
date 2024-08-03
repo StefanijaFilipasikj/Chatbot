@@ -17,5 +17,6 @@
         "WMA": "true",
         "AAC": "true",
         "CD-R/RW": "true"
-    }
+    },
+    "category": "Audio"
 }

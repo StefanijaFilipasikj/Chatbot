@@ -12,5 +12,6 @@
         "Компатибилен": "Win/Mac/Linux",
         "2 антени": "True",
         "Брзина": "300Mbps"
-    }
+    },
+    "category": "Networking"
 }

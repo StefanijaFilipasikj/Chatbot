@@ -21,5 +21,6 @@
         "Вграден микрофон": "True",
         "Порти": "1x USB 3.2 Gen 2 Type-C support display / power delivery, 2x USB 3.2 Gen 1 Type-A, 1x Thunderbolt 4 supports display / power delivery, 1x HDMI 2.1 FRL, 1x 3.5mm Combo Audio Jack, 1x RJ45 Gigabit Ethernet, 1x DC-in, SD 4.0 card reader, 150W AC Adapter",
         "Батерија": "70WHrs, 3S1P, 3-cell Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

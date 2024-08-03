@@ -15,5 +15,6 @@
         "Video Frame Rate": "30fps",
         "Video аутпут": "AV-Out,HDMI",
         "WiFi Network Frequency": "2.4GHz"
-    }
+    },
+    "category": "Camera"
 }

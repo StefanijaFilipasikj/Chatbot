@@ -23,5 +23,6 @@
         "Порти": "2x USB 3.2 Gen 1, 1x HDMI 2.0, 1x Ethernet (RJ-45), 1x Headphone / microphone combo jack (3.5mm), 1x Power connector",
         "Power Adapter": "230W Slim Tip (3-pin)",
         "Батерија": "Integrated 60Wh - MobileMark 2018: 7.1 hr"
-    }
+    },
+    "category": "Laptop"
 }

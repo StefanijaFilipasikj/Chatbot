@@ -22,5 +22,6 @@
         "Bluetooth 5.3": "True",
         "Charging 18W": "True",
         "Батерија": "Li-Po 7538 mAh, (28.65 Wh)"
-    }
+    },
+    "category": "Tablet"
 }

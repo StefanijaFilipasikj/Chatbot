@@ -23,5 +23,6 @@
         "Backlit Chiclet Keyboard": "True",
         "Порти": "1x USB 3.2 Gen 2 Type-A, 2x Thunderbolt 4 supports display / power delivery, 1x HDMI 2.1 TMDS, 1x 3.5mm Combo Audio Jack, 65W AC Adapter",
         "Батерија": "63WHrs, 2S2P, 4-cell Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

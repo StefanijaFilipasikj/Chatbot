@@ -12,5 +12,6 @@
         "Windows 7": "True",
         "Windows 8": "True",
         "Windows 10": "True"
-    }
+    },
+    "category": "Keyboard"
 }

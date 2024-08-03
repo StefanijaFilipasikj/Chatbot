@@ -19,5 +19,6 @@
         "2 x HDMI": "True",
         "1 x DP": "True",
         "1x Headphone": "True"
-    }
+    },
+    "category": "Monitor"
 }

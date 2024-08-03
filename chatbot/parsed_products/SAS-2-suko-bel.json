@@ -8,5 +8,6 @@
         "Maximum load": "3680W",
         "Voltage": "250V",
         "Maximum current": "16A"
-    }
+    },
+    "category": "Electronics"
 }

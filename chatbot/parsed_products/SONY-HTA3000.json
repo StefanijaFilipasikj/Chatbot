@@ -20,5 +20,6 @@
         "Влез / излез": "- / 1 (eARC / ARC), HDMI® CEC",
         "HDMI eARC, USB, Оптички влез": "true",
         "Chromecast built-in, Spotify Connect": "true"
-    }
+    },
+    "category": "Soundbars"
 }

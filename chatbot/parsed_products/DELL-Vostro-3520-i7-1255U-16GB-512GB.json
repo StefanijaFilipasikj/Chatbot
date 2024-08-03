@@ -17,5 +17,6 @@
         "Оперативен систем": "Ubuntu 20.04",
         "Порти": "2 x USB 3.2 Gen 1 port, 1 x USB 2.0 port, 1 x Audio jack, 1 x HDMI 1.4 port, 1 x Flip-Down RJ-45 port, 1 x SD 3.0 card slot",
         "Батерија": "4-Cell Battery, 54WHr"
-    }
+    },
+    "category": "Laptop"
 }

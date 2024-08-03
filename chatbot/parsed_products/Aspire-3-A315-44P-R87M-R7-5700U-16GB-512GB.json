@@ -18,5 +18,6 @@
         "Приклучоци": "2x USB-A 3.2 Gen 1, 1x USB-C® 3.2 Gen 1 (support DisplayPort over USB-C, USB charging), 1x HDMI®, 1x Headphone / microphone combo jack (3.5mm), 1x Power connector",
         "Камера": "HD 720p",
         "Аудио": "Dual speakers"
-    }
+    },
+    "category": "Laptop"
 }

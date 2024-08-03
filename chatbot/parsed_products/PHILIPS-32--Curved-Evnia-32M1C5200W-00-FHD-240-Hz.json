@@ -23,5 +23,6 @@
         "Flicker Free": "True",
         "HDMI": "True",
         "DisplayPort": "True"
-    }
+    },
+    "category": "Monitor"
 }

@@ -14,5 +14,6 @@
         "Pixma XL inks": "True",
         "Wi-Fi": "IEEE802.11 b/g/n",
         "Hi-Speed USB": "True"
-    }
+    },
+    "category": "Printer"
 }

@@ -10,5 +10,6 @@
         "Аутпут": "3.5 mm Jack Socket, VGA Socket",
         "Должина на кабелот": "0.15 m",
         "Резолуција": "FHD 1080p"
-    }
+    },
+    "category": "Cable"
 }

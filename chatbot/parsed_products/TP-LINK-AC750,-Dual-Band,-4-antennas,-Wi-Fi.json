@@ -10,5 +10,6 @@
         "Operating frequency": "5 GHz",
         "1 x WAN (RJ-45)": "True",
         "WiFi": "WEP, WPA, WPA2, WPA/WPA2-Enterprise (802.1x)"
-    }
+    },
+    "category": "Networking"
 }

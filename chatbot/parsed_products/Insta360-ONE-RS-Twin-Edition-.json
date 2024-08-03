@@ -17,5 +17,6 @@
         "Поддржува надворешен микрофон": "True",
         "Micro SD картичка": "UHS-I V30 speed class",
         "Батерија": "1190mAh - Charge: Type-C"
-    }
+    },
+    "category": "Camera"
 }

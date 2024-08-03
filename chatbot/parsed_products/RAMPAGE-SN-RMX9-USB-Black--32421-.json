@@ -10,5 +10,6 @@
         "USB Type A Male": "True",
         "3.5mm AUX": "True",
         "Сензитивност": "-32dB ±3dB"
-    }
+    },
+    "category": "Audio"
 }

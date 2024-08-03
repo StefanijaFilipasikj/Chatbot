@@ -18,5 +18,6 @@
         "Порти": "1x RJ45 LAN port, 1x Thunderbolt 4 support DisplayPort, 1x USB 3.2 Gen 2 Type-C support DisplayPort / power delivery / G-SYNC, 2x USB 3.2 Gen 2 Type-A, 1x HDMI 2.1 FRL, 1x 3.5mm Combo Audio Jack, 720P HD camera, Вгаден микрофон, Осветлена тастатура: Backlit Chiclet Keyboard 4-Zone RGB, 2x звучници со Smart Amplifier технологија, Аудио:Tech AI noise-canceling - Dolby Atmos, Security BIOS Administrator Password and User Password Protection",
         "Батерија": "90WHrs, 4S1P, 4-cell Li-ion",
         "280W AC Adapter": "True"
-    }
+    },
+    "category": "Laptop"
 }

@@ -18,5 +18,6 @@
         "1*IR Reciver - Remote Reciver Connect": "True",
         "1*RJ45 - Ethernet InterfaceSupport 10/100M": "True",
         "1*TF CARD": "True"
-    }
+    },
+    "category": "MediaPlayers"
 }

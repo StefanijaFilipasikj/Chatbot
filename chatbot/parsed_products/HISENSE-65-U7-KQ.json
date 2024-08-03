@@ -26,5 +26,6 @@
         "(CI+): V1.4, 1x USB (2.0), 1x USB (3.0), 1x S/PDIF, аудио влез(L/D), 1x AUX, 2x RF тјунери, 1x композитen (AV) влез, 1x RJ45": "true",
         "Сензор за светлина": "true",
         "Airplay 2 поддршка": "true"
-    }
+    },
+    "category": "Television"
 }

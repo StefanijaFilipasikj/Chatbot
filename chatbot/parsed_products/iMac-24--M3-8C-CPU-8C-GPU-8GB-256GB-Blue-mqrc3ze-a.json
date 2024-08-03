@@ -18,5 +18,6 @@
         "Bluetooth 5.3": "true",
         "Wi-Fi 6E (ax)": "true",
         "Вклучено во пакувањето": "iMac, Magic Keyboard, Magic Mouse, 143W power adapter, Power cord (2 m), USB-C to Lightning Cable"
-    }
+    },
+    "category": "Desktop"
 }

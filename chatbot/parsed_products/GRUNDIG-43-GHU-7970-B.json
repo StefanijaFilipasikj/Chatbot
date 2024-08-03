@@ -15,5 +15,6 @@
         "3xHDMI,2xUSB": "true",
         "DVB-T2/C/S2": "true",
         "Вграден Wi-Fi": "true"
-    }
+    },
+    "category": "Television"
 }

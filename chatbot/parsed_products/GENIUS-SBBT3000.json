@@ -9,5 +9,6 @@
         "Тастатура USB": "True",
         "Маус 1000 dpi": "True",
         "Слушалки 20 Hz - 20 kHz - 3,5 mm jack": "True"
-    }
+    },
+    "category": "Keyboard"
 }

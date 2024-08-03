@@ -23,5 +23,6 @@
         "USB 2.0 x1": "True",
         "Power interface x1": "True",
         "Audio output x1": "True"
-    }
+    },
+    "category": "Electronics"
 }

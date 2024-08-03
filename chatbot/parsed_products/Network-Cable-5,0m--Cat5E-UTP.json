@@ -7,5 +7,6 @@
     "description": {
         "Network Cable": "5,0m",
         "Cat5E": "UTP"
-    }
+    },
+    "category": "Networking"
 }

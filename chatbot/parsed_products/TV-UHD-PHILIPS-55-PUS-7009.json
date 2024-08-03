@@ -37,5 +37,6 @@
         "Конекција": "3xHDMI, 2xUSB",
         "DVB-T/T2/T2-HD/C/S/S2": "true",
         "Вграден Wifi": "true"
-    }
+    },
+    "category": "Television"
 }

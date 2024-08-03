@@ -22,5 +22,6 @@
         "OTG": "True",
         "Charging 10W": "True",
         "Батерија": "Li-Po 8000 mAh"
-    }
+    },
+    "category": "Tablet"
 }

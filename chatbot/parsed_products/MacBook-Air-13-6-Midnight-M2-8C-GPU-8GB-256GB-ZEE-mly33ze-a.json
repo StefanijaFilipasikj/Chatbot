@@ -17,5 +17,6 @@
         "Thunderbolt (USB-C)": "True",
         "Батерија": "18 часа",
         "macOS": "True"
-    }
+    },
+    "category": "Laptop"
 }

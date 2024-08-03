@@ -22,5 +22,6 @@
         "Wireless Rate": "11Mbps (802.11b), 54Mbps (802.11g), 150Mbps (802.11n)",
         "Frequency": "2.4 GHz",
         "Wireless Security": "WEP, WPA / WPA2-PSK"
-    }
+    },
+    "category": "Camera"
 }

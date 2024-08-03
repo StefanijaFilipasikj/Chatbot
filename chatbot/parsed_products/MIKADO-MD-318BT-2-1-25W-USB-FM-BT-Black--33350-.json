@@ -12,5 +12,6 @@
         "Usb": "true",
         "Fm": "true",
         "Bluetooth": "true"
-    }
+    },
+    "category": "Speaker"
 }

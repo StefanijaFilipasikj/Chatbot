@@ -9,5 +9,6 @@
         "DPI": "1000",
         "Оптички": "True",
         "USB": "True"
-    }
+    },
+    "category": "Mouse"
 }

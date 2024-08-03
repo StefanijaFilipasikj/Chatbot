@@ -27,5 +27,6 @@
         "Bluetooth v5.2": "true",
         "Wi-Fi 5": "true",
         "DVB-T2CS2": "true"
-    }
+    },
+    "category": "Television"
 }

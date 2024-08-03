@@ -11,5 +11,6 @@
         "Internet Protocol version (IPv6)": "True",
         "Брзина": "300Mbps",
         "3x LAN": "True"
-    }
+    },
+    "category": "Networking"
 }

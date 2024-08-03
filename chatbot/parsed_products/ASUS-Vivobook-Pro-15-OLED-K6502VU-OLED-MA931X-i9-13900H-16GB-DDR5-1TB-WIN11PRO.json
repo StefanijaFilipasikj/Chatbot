@@ -30,5 +30,6 @@
         "harman/kardon (Mainstream)": "True",
         "150W AC Adapter": "True",
         "Батерија": "70WHrs, 3S1P, 3-cell Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

@@ -31,5 +31,6 @@
         "Fast wireless charging 15W": "True",
         "Reverse wireless charging 4.5W": "True",
         "Батерија:Li-Po 4400 mAh": "True"
-    }
+    },
+    "category": "Smartphone"
 }

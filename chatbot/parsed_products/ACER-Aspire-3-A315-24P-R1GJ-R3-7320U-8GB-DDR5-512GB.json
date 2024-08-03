@@ -17,5 +17,6 @@
         "Bluetooth": "5.2",
         "HD аудио": "True",
         "Приклучоци": "HDMI\nAudio излез\nUSB - C"
-    }
+    },
+    "category": "Laptop"
 }

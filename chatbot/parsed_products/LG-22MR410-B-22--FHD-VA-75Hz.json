@@ -24,5 +24,6 @@
         "Камера": "True",
         "HDMI": "True",
         "D-SUB (VGA)": "True"
-    }
+    },
+    "category": "Monitor"
 }

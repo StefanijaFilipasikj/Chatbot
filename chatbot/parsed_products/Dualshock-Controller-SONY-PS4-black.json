@@ -10,5 +10,6 @@
         "разговор онлајн преку слушалки": "True",
         "Стрим игра во живо на Twitch, YouTube и Dailymotion": "True",
         "Потребни батерии": "1 x Li-Ion"
-    }
+    },
+    "category": "Controller"
 }

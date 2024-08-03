@@ -15,5 +15,6 @@
         "microSD": "True",
         "microSDHC": "(до 32 GB)",
         "Батерија": "Li-Ion 400 mAh"
-    }
+    },
+    "category": "Smartphone"
 }

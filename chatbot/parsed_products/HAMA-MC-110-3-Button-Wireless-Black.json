@@ -12,5 +12,6 @@
         "Број на батерии": "2",
         "Wireless": "True",
         "Компатибилен": "MAC OS 10.10 or higher/Windows 11/10/8/7"
-    }
+    },
+    "category": "Mouse"
 }

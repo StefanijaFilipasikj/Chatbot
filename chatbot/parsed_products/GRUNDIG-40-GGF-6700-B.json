@@ -22,5 +22,6 @@
         "1 x CI slot": "True",
         "WLAN": "True",
         "DVB-T2/C/S2": "True"
-    }
+    },
+    "category": "Television"
 }

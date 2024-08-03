@@ -8,5 +8,6 @@
         "Батерии": "true",
         "2хАА": "true",
         "Alcaline": "true"
-    }
+    },
+    "category": "Batteries"
 }

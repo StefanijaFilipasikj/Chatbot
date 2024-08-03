@@ -19,5 +19,6 @@
         "AUX In (3.5mm)": "True",
         "USB": "True",
         "Bluetooth 4.2": "True"
-    }
+    },
+    "category": "Speaker"
 }

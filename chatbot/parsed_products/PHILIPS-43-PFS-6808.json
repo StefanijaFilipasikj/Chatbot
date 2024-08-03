@@ -22,5 +22,6 @@
         "1 x CI+ Card Slot": "1 x CI+ Card Slot",
         "DVB-T/T2/T2-HD/C/S/S2": "DVB-T/T2/T2-HD/C/S/S2",
         "WiFi вградено": "WiFi вградено"
-    }
+    },
+    "category": "Television"
 }

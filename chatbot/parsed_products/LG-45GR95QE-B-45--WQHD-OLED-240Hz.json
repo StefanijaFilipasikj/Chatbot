@@ -35,5 +35,6 @@
         "Ergonomic information": "True",
         "Swivel (Angle)": "-10º ~ 10º degree",
         "Tilt (Angle)": "-5~15°"
-    }
+    },
+    "category": "Monitor"
 }

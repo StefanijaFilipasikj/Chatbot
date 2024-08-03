@@ -7,5 +7,6 @@
     "description": {
         "Батерија": "True",
         "Моќност": "3V"
-    }
+    },
+    "category": "Batteries"
 }

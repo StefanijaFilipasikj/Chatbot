@@ -13,5 +13,6 @@
         "Bluetooth® v.5.0": "true",
         "3.5 mm jack": "true",
         "Конекција": "rechargeable микро USB"
-    }
+    },
+    "category": "Speaker"
 }

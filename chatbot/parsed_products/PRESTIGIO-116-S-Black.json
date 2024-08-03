@@ -10,5 +10,6 @@
         "Bluetooth 4.2": "True",
         "USB Type-C": "True",
         "Батерија": "1000 mAh"
-    }
+    },
+    "category": "Speaker"
 }

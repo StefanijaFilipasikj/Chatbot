@@ -16,5 +16,6 @@
         "Водоотпорен": "true",
         "Max TimeWarp": "true",
         "Touch Screen": "true"
-    }
+    },
+    "category": "Camera"
 }

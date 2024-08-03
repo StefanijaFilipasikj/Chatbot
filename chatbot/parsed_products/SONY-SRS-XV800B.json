@@ -14,5 +14,6 @@
         "Bluetooth 5.2": "True",
         "Фреквентен опсег": "20-20000 Hz",
         "Приклучоци": "Stereo mini jack, USB A, Optical digital input, Mic input, Guitar/MIC input"
-    }
+    },
+    "category": "Speaker"
 }

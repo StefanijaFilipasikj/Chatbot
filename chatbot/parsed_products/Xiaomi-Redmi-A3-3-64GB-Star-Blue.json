@@ -24,5 +24,6 @@
         "USB Type-C 2.0": "True",
         "Charging": "10W wired",
         "Батерија": "5000mAh"
-    }
+    },
+    "category": "Smartphone"
 }

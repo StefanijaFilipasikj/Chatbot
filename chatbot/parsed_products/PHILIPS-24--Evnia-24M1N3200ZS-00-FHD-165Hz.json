@@ -22,5 +22,6 @@
         "HDMI x 2": "True",
         "DisplayPort x 1": "True",
         "Tilt": "-5/20"
-    }
+    },
+    "category": "Monitor"
 }

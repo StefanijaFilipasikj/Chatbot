@@ -10,5 +10,6 @@
         "USB + Sd card + FM": "True",
         "Фреквенција": "50Hz - 18 Khz",
         "4 Ohm": "True"
-    }
+    },
+    "category": "Speaker"
 }

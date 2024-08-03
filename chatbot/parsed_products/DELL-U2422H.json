@@ -17,5 +17,6 @@
         "DisplayPort": "True",
         "USB Type-C": "True",
         "3.5mm": "True"
-    }
+    },
+    "category": "Monitor"
 }

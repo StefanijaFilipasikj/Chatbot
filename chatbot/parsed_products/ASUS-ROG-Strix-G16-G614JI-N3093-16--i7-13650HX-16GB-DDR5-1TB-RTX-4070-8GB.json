@@ -24,5 +24,6 @@
         "Security BIOS Administrator Password and User Password Protection": "true",
         "Батерија": "90WHrs, 4S1P, 4-cell Li-ion",
         "Адаптер": "280W"
-    }
+    },
+    "category": "Laptop"
 }

@@ -19,5 +19,6 @@
         "Порти": "2 x Thunderbolt™ 4 (USB Type-C™ with DisplayPort and Power Delivery), USB-C to USB-A 3.0 adapter (included in the box), USB-C to 3.5mm headset adapter (included in the box)",
         "Батерија": "3 Cell, 55 Wh, integrated",
         "Полнач": "60 Watt AC Adapter USB-C"
-    }
+    },
+    "category": "Laptop"
 }

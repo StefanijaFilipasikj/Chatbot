@@ -24,5 +24,6 @@
         "USB": "Type-C",
         "Батерија": "1650mAh",
         "Полнење": "46min (30W fast charging adapter), 63min: 5V/3A"
-    }
+    },
+    "category": "Camera"
 }

@@ -18,5 +18,6 @@
         "HDMI": "True",
         "USB 3.2 Gen 1 upstream": "True",
         "4 x USB 3.2 Gen 1": "True"
-    }
+    },
+    "category": "Monitor"
 }

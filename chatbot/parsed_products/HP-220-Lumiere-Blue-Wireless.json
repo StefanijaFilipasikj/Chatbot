@@ -10,5 +10,6 @@
         "Резолуција": "1600dpi",
         "Buttons": "3 + scroll",
         "USB приклучок": "True"
-    }
+    },
+    "category": "Mouse"
 }

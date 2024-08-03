@@ -20,5 +20,6 @@
         "3 x HDMI 2.1": "True",
         "2 x USB 2.0": "True",
         "DVB-T2/C/S2": "True"
-    }
+    },
+    "category": "Television"
 }

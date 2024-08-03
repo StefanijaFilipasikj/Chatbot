@@ -19,5 +19,6 @@
         "Fingerprint Reader": "True",
         "Backlit Keyboard": "True",
         "Приклучоци": "2x USB Type-C, 2x USB Standard-A, 1x HDMI® 2.1, 1x Headphone/speaker jack"
-    }
+    },
+    "category": "Laptop"
 }

@@ -32,5 +32,6 @@
         "USB": "Type-C",
         "Батерија": "1800mAh - Charge: Type-C",
         "Полнење": "90мин"
-    }
+    },
+    "category": "Camera"
 }

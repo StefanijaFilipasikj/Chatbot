@@ -17,5 +17,6 @@
         "Chromecast": "True",
         "AirPlay": "True",
         "Аудио влезови": "Optical, Bluetooth, USB"
-    }
+    },
+    "category": "Soundbars"
 }

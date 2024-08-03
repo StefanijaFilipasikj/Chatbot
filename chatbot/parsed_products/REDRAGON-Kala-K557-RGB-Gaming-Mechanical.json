@@ -8,5 +8,6 @@
         "Тастатура": "True",
         "7 LED Backlit": "True",
         "Конекција": "USB 2.0"
-    }
+    },
+    "category": "Keyboard"
 }

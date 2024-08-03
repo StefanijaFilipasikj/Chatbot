@@ -24,5 +24,6 @@
         "Оперативен систем: webOS": "true",
         "3 x HDMI,2 x USB, eARC (HDMI 2), CI Slot": "true",
         "DVB-T2/C/S2": "true"
-    }
+    },
+    "category": "Television"
 }

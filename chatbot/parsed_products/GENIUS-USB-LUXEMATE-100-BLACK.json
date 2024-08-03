@@ -7,5 +7,6 @@
     "description": {
         "Тастатура": "True",
         "USB конекција": "True"
-    }
+    },
+    "category": "Keyboard"
 }

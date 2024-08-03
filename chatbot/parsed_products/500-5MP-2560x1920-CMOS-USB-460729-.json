@@ -11,5 +11,6 @@
         "Формат": "MJPG, YUY2",
         "Компатибилен": "7/8.1/10",
         "Frames per second (fps)": "30"
-    }
+    },
+    "category": "Webcam"
 }

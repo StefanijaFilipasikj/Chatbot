@@ -12,5 +12,6 @@
         "USB": "True",
         "Buttons": "4",
         "Компатибилност": "Windows 10, 8.1, 7, Vista, XP"
-    }
+    },
+    "category": "Mouse"
 }

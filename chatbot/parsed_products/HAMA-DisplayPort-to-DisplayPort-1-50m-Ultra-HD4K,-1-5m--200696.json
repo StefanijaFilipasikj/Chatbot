@@ -8,5 +8,6 @@
         "Кабел": "True",
         "Display port": "True",
         "Должина на кабелот": "1.5m"
-    }
+    },
+    "category": "Cable"
 }

@@ -21,5 +21,6 @@
         "Конекција": "1 Hi-Speed USB 2.0",
         "Wi-Fi 802.11a/b/g/n": "True",
         "Wireless Network Supported": "True"
-    }
+    },
+    "category": "Printer"
 }

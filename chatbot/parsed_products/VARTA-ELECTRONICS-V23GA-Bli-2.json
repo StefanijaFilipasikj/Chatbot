@@ -9,5 +9,6 @@
         "50mAh": "true",
         "Количина": "2",
         "Технологија": "Alkali-manganese"
-    }
+    },
+    "category": "Batteries"
 }

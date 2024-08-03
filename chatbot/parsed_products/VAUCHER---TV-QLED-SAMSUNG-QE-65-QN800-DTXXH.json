@@ -34,5 +34,6 @@
         "CI+(1.4)": "true",
         "One Connect (Y24 8K)": "true",
         "DVB-T2CS2 x 2": "true"
-    }
+    },
+    "category": "Television"
 }

@@ -22,5 +22,6 @@
         "MagSafe": "True",
         "Thunderbolt": "True",
         "Батерија": "до 22часа"
-    }
+    },
+    "category": "Laptop"
 }

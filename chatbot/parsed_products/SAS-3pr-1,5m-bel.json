@@ -9,5 +9,6 @@
         "Max load": "3500W",
         "Voltage": "230V",
         "Volume": "16A"
-    }
+    },
+    "category": "Cable"
 }

@@ -10,5 +10,6 @@
         "LED осветлување": "true",
         "BT/TF/Card/USB/FM Radio": "true",
         "Фрекфенција": "45Hz - 18KHz"
-    }
+    },
+    "category": "Speaker"
 }

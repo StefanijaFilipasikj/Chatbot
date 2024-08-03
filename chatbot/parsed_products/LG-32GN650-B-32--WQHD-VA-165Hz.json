@@ -27,5 +27,6 @@
         "HDR (High Dynamic Range)": "True",
         "HDR Effect": "True",
         "OnScreen Control (OSC)": "True"
-    }
+    },
+    "category": "Monitor"
 }

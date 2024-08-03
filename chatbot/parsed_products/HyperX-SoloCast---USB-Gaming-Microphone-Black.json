@@ -13,5 +13,6 @@
         "Tap-to-Mute": "True",
         "LED светлосен индикатор": "True",
         "Hi-Res 24-bit/96kHz, снимање": "True"
-    }
+    },
+    "category": "Audio"
 }

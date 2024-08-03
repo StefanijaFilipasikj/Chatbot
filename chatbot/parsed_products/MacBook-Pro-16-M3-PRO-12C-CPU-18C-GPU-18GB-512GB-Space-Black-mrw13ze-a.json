@@ -24,5 +24,6 @@
         "Три Thunderbolt": "True",
         "Thunderbolt 4 (до 40Gb/s)": "True",
         "Батерија": "до 22часа"
-    }
+    },
+    "category": "Laptop"
 }

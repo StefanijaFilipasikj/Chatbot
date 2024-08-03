@@ -19,5 +19,6 @@
         "CI+": "true",
         "DVB-T/T2/C": "true",
         "Вграден Wi-Fi": "true"
-    }
+    },
+    "category": "Television"
 }

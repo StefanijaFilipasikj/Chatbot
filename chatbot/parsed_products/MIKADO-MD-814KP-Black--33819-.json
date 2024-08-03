@@ -14,5 +14,6 @@
         "Bluetooth": "True",
         "RGB-LED": "True",
         "Батерија": "3.7V1200mAh"
-    }
+    },
+    "category": "Speaker"
 }

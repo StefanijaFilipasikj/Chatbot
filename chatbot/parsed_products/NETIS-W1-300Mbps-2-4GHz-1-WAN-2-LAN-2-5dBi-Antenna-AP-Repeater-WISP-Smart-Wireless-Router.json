@@ -13,5 +13,6 @@
         "Брзина": "300Mbps",
         "2x LAN": "True",
         "Антени": "2 х 5dBi"
-    }
+    },
+    "category": "Networking"
 }

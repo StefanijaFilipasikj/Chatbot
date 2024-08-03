@@ -17,5 +17,6 @@
         "Камера": "QHD Camera",
         "Батерија": "65Wh Li-ion battery",
         "Полнач": "65W TypeC WM adapter"
-    }
+    },
+    "category": "Laptop"
 }

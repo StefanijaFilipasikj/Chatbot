@@ -11,5 +11,6 @@
         "USB": "True",
         "AUX": "True",
         "TF": "True"
-    }
+    },
+    "category": "Soundbar"
 }

@@ -27,5 +27,6 @@
         "Вграден Wi-Fi": "true",
         "AirSlim": "true",
         "Smart Hub": "true"
-    }
+    },
+    "category": "Television"
 }

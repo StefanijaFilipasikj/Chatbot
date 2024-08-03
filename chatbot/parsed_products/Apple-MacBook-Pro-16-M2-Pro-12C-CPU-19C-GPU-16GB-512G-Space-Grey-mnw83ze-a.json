@@ -30,5 +30,6 @@
         "USB 4 (up to 40Gb/s)": "True",
         "140W USB-C Apple MagSafe 3 Power Adapter": "True",
         "Батерија": "100 Wh - 22 h"
-    }
+    },
+    "category": "Laptop"
 }

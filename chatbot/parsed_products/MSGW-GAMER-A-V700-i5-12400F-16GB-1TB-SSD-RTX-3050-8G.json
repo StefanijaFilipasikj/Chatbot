@@ -12,5 +12,6 @@
         "Диск (Storage)": "1TB SSD PCIE M.2 NVME",
         "Напојување": "500W",
         "Без оперативен систем": "true"
-    }
+    },
+    "category": "Desktop"
 }

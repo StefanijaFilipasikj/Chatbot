@@ -14,5 +14,6 @@
         "1x10/100М LAN порт": "True",
         "WPA-PSK / WPA2-PSK (TKIP / AES)": "True",
         "Опсег": "100m"
-    }
+    },
+    "category": "Networking"
 }

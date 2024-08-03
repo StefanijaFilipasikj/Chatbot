@@ -36,5 +36,6 @@
         "Speaker Output": "5W x 2ch",
         "Ergonomic information": "True",
         "Tilt (Angle)": "-2°(±2°) ~ 15°(±2°)"
-    }
+    },
+    "category": "Monitor"
 }

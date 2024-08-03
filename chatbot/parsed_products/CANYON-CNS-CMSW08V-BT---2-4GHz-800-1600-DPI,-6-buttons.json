@@ -9,5 +9,6 @@
         "2.4 GHz": "True",
         "800-1600 DPI": "True",
         "6 buttons": "True"
-    }
+    },
+    "category": "Mouse"
 }

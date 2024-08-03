@@ -8,5 +8,6 @@
         "Тастатура + mouse": "True",
         "Конекција": "USB-Typ-A-Plug",
         "Wireless": "True"
-    }
+    },
+    "category": "Keyboard"
 }

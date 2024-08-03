@@ -17,5 +17,6 @@
         "HDMI": "True",
         "HDMI ARC": "True",
         "Tap Sound": "True"
-    }
+    },
+    "category": "Soundbars"
 }

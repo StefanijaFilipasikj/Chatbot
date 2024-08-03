@@ -10,5 +10,6 @@
         "USB interface": "true",
         "2.4GHz": "true",
         "Бежичен": "true"
-    }
+    },
+    "category": "Mouse"
 }

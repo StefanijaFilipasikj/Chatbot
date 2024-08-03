@@ -32,5 +32,6 @@
         "Батерија": "Lithium-Ion 73Wh",
         "Полнач": "180W AC Adapter, 100W PD",
         "Тежина": "~2.5kg"
-    }
+    },
+    "category": "Laptop"
 }

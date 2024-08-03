@@ -11,5 +11,6 @@
         "security": "64 /? 128 bit WEP, WPA, WPA2, WPS",
         "antennas": "2 x Ext.",
         "power consumption": "unspecified (operation)"
-    }
+    },
+    "category": "Networking"
 }

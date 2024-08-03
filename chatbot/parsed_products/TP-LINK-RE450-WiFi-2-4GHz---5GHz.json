@@ -19,5 +19,6 @@
         "LED Control": "true",
         "RE/AP Mode": "true",
         "OneMesh": "true"
-    }
+    },
+    "category": "Networking"
 }

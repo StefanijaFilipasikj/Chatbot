@@ -14,5 +14,6 @@
         "Plug and Play": "True",
         "USB-A 2.0": "True",
         "Должина на кабелот": "110cm"
-    }
+    },
+    "category": "Webcam"
 }

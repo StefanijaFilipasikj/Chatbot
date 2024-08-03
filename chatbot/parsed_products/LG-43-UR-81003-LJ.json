@@ -32,5 +32,6 @@
         "Game Optimizer": "true",
         "3 x HDMI,2xUSB,LAN,eARC, CI Slot, Bluetooth": "true",
         "DVB-C/T2/S2": "true"
-    }
+    },
+    "category": "Television"
 }

@@ -9,5 +9,6 @@
         "Капацитет": "64GB",
         "USB 3.2 Gen 1": "True",
         "Компатибилност": "Windows® 11, 10, macOS (v. 10.15.x +) , Linux (v. 4.4 +), Chrome™ OS"
-    }
+    },
+    "category": "Storage"
 }

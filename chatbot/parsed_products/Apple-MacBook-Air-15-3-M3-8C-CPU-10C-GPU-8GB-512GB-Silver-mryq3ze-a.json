@@ -28,5 +28,6 @@
         "USB 4 (до 40Gb/s)": "True",
         "35W USB-C Power Adapter": "True",
         "Батерија": "66.5 Wh - 18 часа"
-    }
+    },
+    "category": "Laptop"
 }

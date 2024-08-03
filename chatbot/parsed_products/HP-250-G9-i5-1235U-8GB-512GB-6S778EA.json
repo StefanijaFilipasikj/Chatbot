@@ -19,5 +19,6 @@
         "Wireless": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® и Bluetooth® 5 wireless card",
         "Power": "HP Smart 45 W External AC power adapter",
         "Батерија": "HP Long Life 3-cell, 41 Wh Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

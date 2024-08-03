@@ -21,5 +21,6 @@
         "Ambient Aware": "True",
         "Hands Free Call": "True",
         "Multi-Point Connection": "True"
-    }
+    },
+    "category": "Headphones"
 }

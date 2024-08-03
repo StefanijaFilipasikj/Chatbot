@@ -10,5 +10,6 @@
         "USB конекција": "True",
         "Микрофон": "True",
         "Rainbow Led": "True"
-    }
+    },
+    "category": "Headphones"
 }

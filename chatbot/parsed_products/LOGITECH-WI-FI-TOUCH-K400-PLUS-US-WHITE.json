@@ -12,5 +12,6 @@
         "Special Keys:Mute": "true",
         "Volume Down": "true",
         "Volume Up": "true"
-    }
+    },
+    "category": "Keyboard"
 }

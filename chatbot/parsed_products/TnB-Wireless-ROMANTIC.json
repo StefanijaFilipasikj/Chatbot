@@ -10,5 +10,6 @@
         "Wireless 2.4 Ghz": "True",
         "Батерија": "1xAA",
         "USB 2.0": "True"
-    }
+    },
+    "category": "Mouse"
 }

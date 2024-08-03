@@ -16,5 +16,6 @@
         "Bluetooth® version": "5.1",
         "Инпут за микрофон и гитара": "True",
         "PartyBox app": "True"
-    }
+    },
+    "category": "Speaker"
 }

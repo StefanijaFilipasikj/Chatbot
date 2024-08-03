@@ -16,5 +16,6 @@
         "Jacket thickness": "0.8mm",
         "Дијаметар": "6.8mm",
         "Должина на кабел": "1.8 m (6 ft.)"
-    }
+    },
+    "category": "Cable"
 }

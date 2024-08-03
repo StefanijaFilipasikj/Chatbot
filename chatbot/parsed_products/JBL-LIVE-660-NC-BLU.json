@@ -13,5 +13,6 @@
         "Сензитивност": "97 dB SPL@1 kHz/1 mW",
         "Active Noise Cancelling": "True",
         "Микрофон": "True"
-    }
+    },
+    "category": "Headphones"
 }

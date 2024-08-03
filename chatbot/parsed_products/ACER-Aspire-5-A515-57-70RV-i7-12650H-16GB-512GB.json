@@ -17,5 +17,6 @@
         "Камера": "HD TNR Camera",
         "Батерија": "50Wh Li-ion battery",
         "Полнач": "90W"
-    }
+    },
+    "category": "Laptop"
 }

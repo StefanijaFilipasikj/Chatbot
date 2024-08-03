@@ -29,5 +29,6 @@
         "Video FrameRate": "100Mbps",
         "Батерија": "1630mAh - Charge: Type-C",
         "Полнење": "85мин"
-    }
+    },
+    "category": "Camera"
 }

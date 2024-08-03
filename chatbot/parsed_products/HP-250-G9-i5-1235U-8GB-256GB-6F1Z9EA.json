@@ -25,5 +25,6 @@
         "1 AC power": "True",
         "Power": "HP Smart 45 W External AC power adapter",
         "Батерија": "3-cell, 41 Wh Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

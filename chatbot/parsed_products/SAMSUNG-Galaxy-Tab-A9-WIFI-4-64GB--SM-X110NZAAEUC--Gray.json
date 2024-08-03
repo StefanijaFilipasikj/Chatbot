@@ -25,5 +25,6 @@
         "USB Type-C": "2.0",
         "Fast charging": "15W",
         "Батерија": "5100 mAh"
-    }
+    },
+    "category": "Tablet"
 }

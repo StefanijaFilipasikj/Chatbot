@@ -18,5 +18,6 @@
         "Компатибилни фајлови": "3mf, .stl, .obj, G-code",
         "Технологија": "FDM",
         "WiFi/ USB": "true"
-    }
+    },
+    "category": "3D printer"
 }

@@ -40,5 +40,6 @@
         "4 x HDMI,3xUSB,LAN,eARC, CI Slot, Bluetooth 5.0": "true",
         "Wi-Fi 6": "true",
         "DVB-T2/C/S2": "true"
-    }
+    },
+    "category": "Television"
 }

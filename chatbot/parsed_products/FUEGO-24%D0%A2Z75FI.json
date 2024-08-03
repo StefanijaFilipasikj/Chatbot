@@ -22,5 +22,6 @@
         "AUDIO IN": "True",
         "Headphone": "True",
         "Speaker": "True"
-    }
+    },
+    "category": "Monitor"
 }

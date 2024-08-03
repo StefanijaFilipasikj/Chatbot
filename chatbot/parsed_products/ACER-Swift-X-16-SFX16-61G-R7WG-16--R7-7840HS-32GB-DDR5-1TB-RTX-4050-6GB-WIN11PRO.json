@@ -17,5 +17,6 @@
         "Камера": "FHD USB Camera",
         "Батерија": "76Wh Li-ion battery",
         "Полнач": "3-pin 135W AC adapter"
-    }
+    },
+    "category": "Laptop"
 }

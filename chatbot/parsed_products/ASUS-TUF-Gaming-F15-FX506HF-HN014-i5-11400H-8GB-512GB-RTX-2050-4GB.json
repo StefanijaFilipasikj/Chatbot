@@ -29,5 +29,6 @@
         "Security BIOS Administrator Password and User Password Protection": "True",
         "Батерија": "48WHrs, 3S1P, 3-cell Li-ion",
         "Полнач": "150W AC Adapter, Output: 20V DC, 7.5A, 150W, Input: 100~240V AC, 50/60Hz universal"
-    }
+    },
+    "category": "Laptop"
 }

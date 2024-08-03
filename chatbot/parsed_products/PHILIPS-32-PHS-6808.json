@@ -21,5 +21,6 @@
         "1 x CI+": "true",
         "DVB-T/T2/T2-HD/C/S/S2": "true",
         "WiFi вградено": "true"
-    }
+    },
+    "category": "Television"
 }

@@ -11,5 +11,6 @@
         "2.4 GHz": "True",
         "USB 2.0": "True",
         "Домет": "10m"
-    }
+    },
+    "category": "Mouse"
 }

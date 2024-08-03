@@ -19,5 +19,6 @@
         "HDMI": "True",
         "optic": "True",
         "LG TV Sound Sync (Optical)": "True"
-    }
+    },
+    "category": "Soundbars"
 }

@@ -15,5 +15,6 @@
         "Siri/ Google Now": "True",
         "Multi-Point конекција": "True",
         "Сензитивност": "102 dB SPL@ 1kHz 1mW"
-    }
+    },
+    "category": "Headphones"
 }

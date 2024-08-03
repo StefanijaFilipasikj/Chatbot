@@ -8,5 +8,6 @@
         "Тастатура": "true",
         "USB 2.0": "true",
         "Компатибилен": "true"
-    }
+    },
+    "category": "Keyboard"
 }

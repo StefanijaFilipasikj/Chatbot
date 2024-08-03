@@ -11,5 +11,6 @@
         "Брзина": "1200Mbps DualBand",
         "4 Антени x 6dB": "True",
         "4 LAN приклучоци": "True"
-    }
+    },
+    "category": "Networking"
 }

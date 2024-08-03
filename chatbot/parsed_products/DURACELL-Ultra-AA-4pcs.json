@@ -8,5 +8,6 @@
         "Батерии": "True",
         "Количина": "4",
         "AA": "True"
-    }
+    },
+    "category": "Batteries"
 }

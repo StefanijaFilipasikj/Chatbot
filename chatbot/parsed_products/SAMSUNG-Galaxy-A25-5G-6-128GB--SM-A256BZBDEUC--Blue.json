@@ -29,5 +29,6 @@
         "QZSS": "True",
         "USB Type-C": "2.0",
         "Батерија": "Li-Po 5000 mAh"
-    }
+    },
+    "category": "Smartphone"
 }

@@ -29,5 +29,6 @@
         "Bluetooth": "True",
         "4 x HDMI,3xUSB,LAN,eARC, CI Slot": "True",
         "DVB-T2/C/S2": "True"
-    }
+    },
+    "category": "Television"
 }

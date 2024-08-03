@@ -36,5 +36,6 @@
         "2 x USB2.0": "2 x USB2.0",
         "1 x CI": "1 x CI",
         "DVB-T/T2/C/S/S2": "DVB-T/T2/C/S/S2"
-    }
+    },
+    "category": "Television"
 }

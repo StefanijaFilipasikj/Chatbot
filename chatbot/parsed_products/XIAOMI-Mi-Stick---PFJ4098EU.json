@@ -18,5 +18,6 @@
         "Звучен декодер": "DOLBY, DTS",
         "Звучен формат": "MP3, AAC, FLAC, OGG",
         "Декодер за слика": "JPG, BMP, GIF, PNG"
-    }
+    },
+    "category": "Electronics"
 }

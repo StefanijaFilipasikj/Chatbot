@@ -23,5 +23,6 @@
         "WLAN + Bluetooth": "Wi-Fi® 6E, 11ax 2x2 + BT5.1",
         "Порти": "1x HDMI® 1.4b, 1x Headphone / microphone combo jack (3.5mm), 1x USB 3.2 Gen 1 (Always On), 1x microSD card reader, 2x Thunderbolt™ 4 / USB4® 40Gbps (support data transfer, Power Delivery 3.0 and DisplayPort™ 1.4), Power Adapter - 65W USB-C® (3-pin)",
         "Батерија": "Integrated 71Wh"
-    }
+    },
+    "category": "Laptop"
 }

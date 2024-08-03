@@ -25,5 +25,6 @@
         "Wi-Fi": "true",
         "AirPlay 2": "true",
         "Bluetooth": "true"
-    }
+    },
+    "category": "Electronics"
 }

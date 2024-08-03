@@ -27,5 +27,6 @@
         "Моќност на звучник": "5W",
         "HDMI": "True",
         "DisplayPort": "True"
-    }
+    },
+    "category": "Monitor"
 }

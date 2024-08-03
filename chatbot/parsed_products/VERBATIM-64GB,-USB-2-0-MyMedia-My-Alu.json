@@ -8,5 +8,6 @@
         "USB 2.0 флеш меморија": "True",
         "Капацитет": "64GB",
         "Компатибилност": "Windows, Mac OS"
-    }
+    },
+    "category": "Storage"
 }

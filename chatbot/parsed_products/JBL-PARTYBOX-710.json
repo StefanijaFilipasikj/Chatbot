@@ -19,5 +19,6 @@
         "BASS boost": "True",
         "Echo звук": "True",
         "Караоке": "True"
-    }
+    },
+    "category": "Speaker"
 }

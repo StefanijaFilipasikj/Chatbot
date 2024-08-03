@@ -15,5 +15,6 @@
         "Autofocus": "True",
         "Тежина": "50g",
         "Димнзии": "20x22x60mm"
-    }
+    },
+    "category": "Webcam"
 }

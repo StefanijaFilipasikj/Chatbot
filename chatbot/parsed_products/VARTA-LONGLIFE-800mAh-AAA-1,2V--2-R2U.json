@@ -8,5 +8,6 @@
         "Батерии": "True",
         "2x ААА": "True",
         "800mAh": "True"
-    }
+    },
+    "category": "Batteries"
 }

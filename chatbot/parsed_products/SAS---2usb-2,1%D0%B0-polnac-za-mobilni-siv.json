@@ -8,5 +8,6 @@
         "1 socket": "True",
         "2 USB ports": "True",
         "Power Indicator Lamp": "True"
-    }
+    },
+    "category": "Electronics"
 }

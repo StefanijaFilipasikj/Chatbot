@@ -11,5 +11,6 @@
         "Фрекфенција": "150 Hz - 20 KHz",
         "Структура на каналот": "2.1",
         "Контроли": "Volume +/-, Mode Buttons, Next, Previous, Stop, Play"
-    }
+    },
+    "category": "Speaker"
 }

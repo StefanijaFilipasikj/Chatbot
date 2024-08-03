@@ -30,5 +30,6 @@
         "HDR Effect": "True",
         "FreeSync (Low Frame Compensation)": "True",
         "OnScreen Control (OSC)": "True"
-    }
+    },
+    "category": "Monitor"
 }

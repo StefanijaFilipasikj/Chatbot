@@ -23,5 +23,6 @@
         "DVD": "True",
         "Multimedia-Karaoke": "True",
         "Wifi": "True"
-    }
+    },
+    "category": "Speaker"
 }

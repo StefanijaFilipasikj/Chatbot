@@ -26,5 +26,6 @@
         "USB Type-C 2.0": "True",
         "Fingerprint (side-mounted)": "True",
         "Батерија": "Li-Po 5000 mAh"
-    }
+    },
+    "category": "Smartphone"
 }

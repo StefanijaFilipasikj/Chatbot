@@ -19,5 +19,6 @@
         "USB-C": "True",
         "USB(USB 3.2 Gen1)": "True",
         "RJ45": "True"
-    }
+    },
+    "category": "Monitor"
 }

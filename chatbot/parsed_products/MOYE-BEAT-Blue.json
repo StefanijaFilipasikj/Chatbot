@@ -13,5 +13,6 @@
         "Капацитет на батерија": "4000mAh, up to 12 hours playtime",
         "Charge port": "Type C",
         "Wireless Range": "10m"
-    }
+    },
+    "category": "Speaker"
 }

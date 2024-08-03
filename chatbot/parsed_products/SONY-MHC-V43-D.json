@@ -22,5 +22,6 @@
         "USB приклучокот овозможува приклучување и репродукција": "True",
         "Dolby® Digital": "True",
         "CD, DVD, FM, TV, Bluetooth, HDMI, Влез за микрофон": "True"
-    }
+    },
+    "category": "Speaker"
 }

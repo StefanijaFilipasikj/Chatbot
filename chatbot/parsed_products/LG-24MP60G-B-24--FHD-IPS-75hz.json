@@ -22,5 +22,6 @@
         "Display Port": "True",
         "Headphone Out": "True",
         "AMD FreeSync™": "True"
-    }
+    },
+    "category": "Monitor"
 }

@@ -19,5 +19,6 @@
         "HDMI": "True",
         "D-Sub": "True",
         "Headphone": "True"
-    }
+    },
+    "category": "Monitor"
 }

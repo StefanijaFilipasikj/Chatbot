@@ -20,5 +20,6 @@
         "Порти": "1 USB Type-C® 5Gbps сигнален рејтинг, 2 USB Type-A 5Gbps сигнален рејтинг, 1 AC smart pin, 1 HDMI 1.4b, 1 слушалка/микрофон комбо",
         "Power": "45 W Smart AC power adapter",
         "Батерија": "3-cell, 41 Wh Li-ion полимер до 10 часа"
-    }
+    },
+    "category": "Laptop"
 }

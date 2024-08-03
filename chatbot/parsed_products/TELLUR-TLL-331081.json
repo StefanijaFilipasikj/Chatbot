@@ -13,5 +13,6 @@
         "WiFi-стандард": "True",
         "IEEE 802.11b / g / n": "True",
         "WiFi мрежа": "2.4GHz"
-    }
+    },
+    "category": "Batteries"
 }

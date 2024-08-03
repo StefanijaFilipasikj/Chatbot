@@ -8,5 +8,6 @@
         "Gaming mouse": "True",
         "Резолуција": "500/1000/2000/3000/5000 DPI",
         "USB конектор": "True"
-    }
+    },
+    "category": "Mouse"
 }

@@ -7,5 +7,6 @@
     "description": {
         "DPI": "1000, 1600",
         "Сензор": "optical"
-    }
+    },
+    "category": "Mouse"
 }

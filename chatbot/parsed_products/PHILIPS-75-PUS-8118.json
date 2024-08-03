@@ -23,5 +23,6 @@
         "LAN": "true",
         "CI+": "true",
         "DVB-T/T2/T2-HD/C/S/S2": "true"
-    }
+    },
+    "category": "Television"
 }

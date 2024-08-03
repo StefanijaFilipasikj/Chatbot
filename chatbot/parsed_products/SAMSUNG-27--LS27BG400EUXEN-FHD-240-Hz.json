@@ -22,5 +22,6 @@
         "Nvidia G-Sync compatible": "True",
         "FreeSync Premium": "True",
         "HDMI": "True"
-    }
+    },
+    "category": "Monitor"
 }

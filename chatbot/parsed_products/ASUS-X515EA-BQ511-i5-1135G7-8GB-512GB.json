@@ -21,5 +21,6 @@
         "Voice control with Cortana support": "True",
         "AC Adapter 4.0, 45W AC Adapter, Output: 19V DC, 2.37A, 45W, Input: 100~240V AC 50/60Hz universal": "True",
         "Батерија": "37WHrs, 2S1P, 2-cell Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

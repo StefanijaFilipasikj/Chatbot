@@ -11,5 +11,6 @@
         "Bluetooth® v.5.1": "true",
         "Батерија": "Lithium-ion battery 3.885 Wh",
         "Фрекфенција": "100 Hz–20 kHz"
-    }
+    },
+    "category": "Speaker"
 }

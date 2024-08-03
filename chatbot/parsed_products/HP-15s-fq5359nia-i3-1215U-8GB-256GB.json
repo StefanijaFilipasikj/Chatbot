@@ -19,5 +19,6 @@
         "Wireless": "Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® и Bluetooth® 4.2 wireless card",
         "Power": "45 W Smart AC power adapter",
         "Батерија": "HP Long Life 3-cell, 41 Wh Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

@@ -18,5 +18,6 @@
         "Караоке режим": "True",
         "Далечински управувач": "True",
         "Апликација Samsung Sound Tower (Bluetooth)": "True"
-    }
+    },
+    "category": "Speaker"
 }

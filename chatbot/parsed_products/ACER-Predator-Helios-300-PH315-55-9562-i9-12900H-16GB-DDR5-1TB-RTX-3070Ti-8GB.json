@@ -18,5 +18,6 @@
         "FHD USB Camera": "True",
         "Батерија": "90Wh Li-ion battery",
         "280W AC Adapter": "True"
-    }
+    },
+    "category": "Laptop"
 }

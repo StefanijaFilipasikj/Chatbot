@@ -25,5 +25,6 @@
         "MagSafe wireless charging up to 15W**": "True",
         "Qi wireless charging up to 7.5W**": "True",
         "Батерија": "Li-Ion 3240 mAh, non-removable (12.41 Wh)"
-    }
+    },
+    "category": "Smartphone"
 }

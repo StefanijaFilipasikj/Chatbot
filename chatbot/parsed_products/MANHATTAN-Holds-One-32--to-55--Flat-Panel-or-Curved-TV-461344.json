@@ -10,5 +10,6 @@
         "Максимална тежина 40kg": "True",
         "VESA 400x400": "True",
         "-15° to +5° tilt,±60° swivel,±3°": "True"
-    }
+    },
+    "category": "Accessories"
 }

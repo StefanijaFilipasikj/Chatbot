@@ -14,5 +14,6 @@
         "WPA-PSK": "True",
         "WPA2-PSK": "True",
         "WEP": "True"
-    }
+    },
+    "category": "Networking"
 }

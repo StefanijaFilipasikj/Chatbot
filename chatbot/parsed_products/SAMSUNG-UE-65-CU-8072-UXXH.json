@@ -28,5 +28,6 @@
         "WiFi5": "true",
         "Дигитален аудио излез (оптички)": "true",
         "DVB-T2CS2": "true"
-    }
+    },
+    "category": "Television"
 }

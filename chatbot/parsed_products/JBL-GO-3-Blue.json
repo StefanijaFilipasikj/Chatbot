@@ -10,5 +10,6 @@
         "Bluetooth v5.1": "true",
         "Батерија": "5h",
         "Output rating": "4.2 W"
-    }
+    },
+    "category": "Speaker"
 }

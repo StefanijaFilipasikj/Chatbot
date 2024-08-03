@@ -19,5 +19,6 @@
         "2 x USB 2.0": "True",
         "CI+": "True",
         "DVB-T2/C/S2": "True"
-    }
+    },
+    "category": "Television"
 }

@@ -23,5 +23,6 @@
         "HDMI": "true",
         "DisplayPort": "true",
         "USB 3.2": "true"
-    }
+    },
+    "category": "Monitor"
 }

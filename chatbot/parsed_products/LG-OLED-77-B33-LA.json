@@ -26,5 +26,6 @@
         "WI-FI 5 (802.11AC)": "true",
         "4 x HDMI,2xUSB,LAN,eARC, CI Slot": "true",
         "DVB-T2/C/S2": "true"
-    }
+    },
+    "category": "Television"
 }

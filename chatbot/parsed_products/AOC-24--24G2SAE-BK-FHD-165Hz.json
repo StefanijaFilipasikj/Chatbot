@@ -19,5 +19,6 @@
         "Freesync Premium": "True",
         "HDMI": "True",
         "DisplayPort": "True"
-    }
+    },
+    "category": "Monitor"
 }

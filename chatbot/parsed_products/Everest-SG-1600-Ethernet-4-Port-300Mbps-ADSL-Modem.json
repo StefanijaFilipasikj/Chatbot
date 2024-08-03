@@ -11,5 +11,6 @@
         "Брзина": "300Mbps",
         "2 антени x 5dB": "True",
         "4 x LAN порти": "True"
-    }
+    },
+    "category": "Networking"
 }

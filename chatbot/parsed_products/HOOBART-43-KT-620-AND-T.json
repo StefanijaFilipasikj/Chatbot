@@ -19,5 +19,6 @@
         "CI+": "CI+",
         "DVB-T/T2/C": "DVB-T/T2/C",
         "Вграден Wi-Fi": "Вграден Wi-Fi"
-    }
+    },
+    "category": "Television"
 }

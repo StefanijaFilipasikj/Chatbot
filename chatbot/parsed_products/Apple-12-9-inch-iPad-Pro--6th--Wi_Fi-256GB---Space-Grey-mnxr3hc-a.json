@@ -21,5 +21,6 @@
         "Wi-Fi": "True",
         "Bluetooth 5.3": "True",
         "Батерија": "Li-Po 10758 mAh"
-    }
+    },
+    "category": "Tablet"
 }

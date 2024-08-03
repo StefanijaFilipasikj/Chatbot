@@ -12,5 +12,6 @@
         "PIXMA G2420": "true",
         "PIXMA G2460": "true",
         "Капацитет": "7700 стр"
-    }
+    },
+    "category": "Printer"
 }

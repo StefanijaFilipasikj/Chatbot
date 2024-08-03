@@ -16,5 +16,6 @@
         "Aspect ratio": "16:9",
         "HDMI 2.0 x 2": "True",
         "DisplayPort 1.2 x 1": "True"
-    }
+    },
+    "category": "Monitor"
 }

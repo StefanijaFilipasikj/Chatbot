@@ -20,5 +20,6 @@
         "Display Port": "True",
         "HDMI": "True",
         "Аудио влез": "True"
-    }
+    },
+    "category": "Monitor"
 }

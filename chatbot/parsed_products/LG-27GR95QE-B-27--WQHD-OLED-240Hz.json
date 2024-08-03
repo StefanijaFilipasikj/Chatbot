@@ -35,5 +35,6 @@
         "Swivel (Angle)": "-10º ~ 10º degree",
         "Tilt (Angle)": "-5~15°",
         "Pivot": "True"
-    }
+    },
+    "category": "Monitor"
 }

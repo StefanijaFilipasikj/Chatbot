@@ -26,5 +26,6 @@
         "HDMI": "True",
         "DisplayPort": "True",
         "Навалување": "-2 ~ 18"
-    }
+    },
+    "category": "Monitor"
 }

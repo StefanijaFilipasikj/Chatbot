@@ -18,5 +18,6 @@
         "Порти": "True",
         "Батерија": "4 Cell, 54 Wh, integrated",
         "Полнач": "65 Watt AC Adapter"
-    }
+    },
+    "category": "Laptop"
 }

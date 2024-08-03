@@ -30,5 +30,6 @@
         "CI слот": "true",
         "Bluetooth v5.2": "true",
         "DVB-T2CS2": "true"
-    }
+    },
+    "category": "Television"
 }

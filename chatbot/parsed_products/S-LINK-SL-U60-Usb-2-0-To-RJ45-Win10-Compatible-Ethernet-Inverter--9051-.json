@@ -8,5 +8,6 @@
         "Кабел": "true",
         "USB 2.0": "true",
         "LAN": "true"
-    }
+    },
+    "category": "Networking"
 }

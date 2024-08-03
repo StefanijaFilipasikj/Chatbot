@@ -12,5 +12,6 @@
         "Power": "DC 5V, 80mA from USB Port",
         "Компатибилен": "Windows/Mac OS/Linux",
         "Осветлена тастатура": "True"
-    }
+    },
+    "category": "Keyboard"
 }

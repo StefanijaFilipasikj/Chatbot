@@ -8,5 +8,6 @@
         "Inkjet": "True",
         "Canon": "True",
         "CL-541XL BL EUR": "True"
-    }
+    },
+    "category": "Printer"
 }

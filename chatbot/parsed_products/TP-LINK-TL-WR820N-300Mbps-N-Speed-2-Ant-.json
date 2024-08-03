@@ -14,5 +14,6 @@
         "SPI Firewall": "True",
         "2× 10/100 Mbps LAN порти": "True",
         "Оперативна фреквенција": "2.4GHz"
-    }
+    },
+    "category": "Networking"
 }

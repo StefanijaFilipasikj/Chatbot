@@ -26,5 +26,6 @@
         "RF": "true",
         "DVB-T/T2/C/S/S2": "true",
         "Снимање на USB": "true"
-    }
+    },
+    "category": "Television"
 }

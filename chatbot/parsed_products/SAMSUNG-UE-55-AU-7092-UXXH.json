@@ -21,5 +21,6 @@
         "Bluetooth v4.2": "true",
         "1 x USB,3 x HDMI, LAN, CI+, eARC": "true",
         "DVB-T2/C/S2": "true"
-    }
+    },
+    "category": "Television"
 }

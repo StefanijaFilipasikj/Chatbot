@@ -22,5 +22,6 @@
         "Wi-Fi 802.11n, 2 x 2, Dual band": "True",
         "Bluetooth 5.0": "True",
         "DVB-T/T2/T2-HD/C/S/S2": "True"
-    }
+    },
+    "category": "Television"
 }

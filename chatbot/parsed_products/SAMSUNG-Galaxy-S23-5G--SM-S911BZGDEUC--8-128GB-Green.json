@@ -30,5 +30,6 @@
         "USB Power Delivery 3.0": "True",
         "Fast wireless charging 4.5W": "True",
         "Батерија:Li-Ion 3900mAh": "True"
-    }
+    },
+    "category": "Smartphone"
 }

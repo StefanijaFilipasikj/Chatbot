@@ -29,5 +29,6 @@
         "15W wireless (Qi/PMA)": "True",
         "4.5W reverse wireless": "True",
         "Батерија:Li-Ion 4900mAh": "True"
-    }
+    },
+    "category": "Smartphone"
 }

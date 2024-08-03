@@ -7,5 +7,6 @@
     "description": {
         "NETWORK CABLE": "True",
         "Должина на кабелот": "20m"
-    }
+    },
+    "category": "Networking"
 }

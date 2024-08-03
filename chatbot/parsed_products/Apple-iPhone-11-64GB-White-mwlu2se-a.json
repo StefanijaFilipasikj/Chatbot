@@ -19,5 +19,6 @@
         "Bluetooth": "5.0,A2DP,LE,NFC",
         "GPS": "with A-GPS,GLONASS,Galileo",
         "Батерија": "Li-Ion 3110mAh"
-    }
+    },
+    "category": "Smartphone"
 }

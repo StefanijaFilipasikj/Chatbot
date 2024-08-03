@@ -25,5 +25,6 @@
         "USB": "Type-C",
         "Батерија": "310mAh, Action Pod:1270mAh",
         "Полнење": "GO 3: 23 min. to 80% | 35 mins to 100%, Action Pod: 47 mins to 80% | 65 mins to 100%"
-    }
+    },
+    "category": "Camera"
 }

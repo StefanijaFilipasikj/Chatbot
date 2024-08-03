@@ -22,5 +22,6 @@
         "FingerPrint": "True",
         "Порти": "1x USB 3.2 Gen 2 Type-A, 2x USB 3.2 Gen 2 Type-C support display / power delivery, 1x HDMI 2.1 TMDS, 1x 3.5mm Combo Audio Jack, Micro SD card reader, 65W AC Adapter",
         "Батерија": "75WHrs, 2S2P, 4-cell Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

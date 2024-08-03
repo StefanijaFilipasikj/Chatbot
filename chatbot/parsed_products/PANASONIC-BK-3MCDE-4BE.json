@@ -9,5 +9,6 @@
         "4 x 1.2V": "True",
         "Капацитет": "2000mAh",
         "АА size": "True"
-    }
+    },
+    "category": "Batteries"
 }

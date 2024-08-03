@@ -11,5 +11,6 @@
         "DPI 1200-3200": "True",
         "Bluetooth": "True",
         "1× AA": "True"
-    }
+    },
+    "category": "Mouse"
 }

@@ -20,5 +20,6 @@
         "Батерија": "90Wh Li-ion 4-cell battery",
         "Power": "280 W",
         "Тежина": "2.6kg"
-    }
+    },
+    "category": "Laptop"
 }

@@ -20,5 +20,6 @@
         "Резолуција за печатење": "600 x 600 dpi",
         "Месечен циклус": "До 8000 страници",
         "Apple® macOS Catalina (v10.15) macOS Big Sur (v11.0) macOS Monterey (v12.0); 2 GB HD; Потребен е интернет": "True"
-    }
+    },
+    "category": "Printer"
 }

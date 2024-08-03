@@ -34,5 +34,6 @@
         "DVB-T/T2/T2-HD/C/S/S2": "true",
         "Вграден Wifi": "true",
         "Bluetooth 5.0": "true"
-    }
+    },
+    "category": "Television"
 }

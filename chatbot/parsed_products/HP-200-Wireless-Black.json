@@ -8,5 +8,6 @@
         "Wifi Mouse": "true",
         "USB 2.4GHz": "true",
         "1000 dpi": "true"
-    }
+    },
+    "category": "Mouse"
 }

@@ -20,5 +20,6 @@
         "Standard Wi-Fi": "802.11b",
         "Фрекфенција": "2400 MHz",
         "Температура": "-30°C to 60°C, humidity <95 %"
-    }
+    },
+    "category": "Camera"
 }

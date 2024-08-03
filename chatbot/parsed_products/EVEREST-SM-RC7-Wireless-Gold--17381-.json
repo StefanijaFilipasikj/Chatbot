@@ -10,5 +10,6 @@
         "2.5GHz": "True",
         "Buttons": "2",
         "Scroll": "True"
-    }
+    },
+    "category": "Mouse"
 }

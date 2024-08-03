@@ -19,5 +19,6 @@
         "Оперативен систем": "UEFI Shell",
         "Порти": "HDMI, USB, LAN, Type C",
         "Батерија": "4-cell (Li-Ion) - 8ч"
-    }
+    },
+    "category": "Laptop"
 }

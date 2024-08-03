@@ -26,5 +26,6 @@
         "Dynamic Action Sync": "True",
         "Color Weakness": "True",
         "Black Stabilizer": "True"
-    }
+    },
+    "category": "Monitor"
 }

@@ -29,5 +29,6 @@
         "MagSafe wireless charging up to 15W**": "true",
         "Qi wireless charging up to 7.5W**": "true",
         "Батерија": "Li-Ion"
-    }
+    },
+    "category": "Smartphone"
 }

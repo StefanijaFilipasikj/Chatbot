@@ -14,5 +14,6 @@
         "Bluetooth": "True",
         "USB": "True",
         "Тежина": "17,4 кг"
-    }
+    },
+    "category": "Speaker"
 }

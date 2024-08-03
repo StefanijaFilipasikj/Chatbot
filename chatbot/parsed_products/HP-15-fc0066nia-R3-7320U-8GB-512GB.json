@@ -19,5 +19,6 @@
         "Wireless": "Realtek Wi-Fi 6 (1x1) и Bluetooth® 5.3 wireless card",
         "Power": "45 W Smart AC power adapter",
         "Батерија": "HP Long Life 3-cell, 41 Wh Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

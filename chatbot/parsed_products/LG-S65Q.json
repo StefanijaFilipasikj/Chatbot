@@ -19,5 +19,6 @@
         "USB": "True",
         "HDMI": "True",
         "optic": "True"
-    }
+    },
+    "category": "Soundbars"
 }

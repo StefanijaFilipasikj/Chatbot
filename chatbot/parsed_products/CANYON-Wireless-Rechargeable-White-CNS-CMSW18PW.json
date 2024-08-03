@@ -14,5 +14,6 @@
         "Silent buttons": "True",
         "Капацитет на батерија": "300mAh",
         "Тип на батерија": "Lithium Polymer"
-    }
+    },
+    "category": "Mouse"
 }

@@ -22,5 +22,6 @@
         "GPS": "with A-GPS",
         "microUSB": "2.0",
         "Батерија": "Li-Po 5000 mAh"
-    }
+    },
+    "category": "Smartphone"
 }

@@ -16,5 +16,6 @@
         "Canon PRINT Inkjet": "True",
         "My image garden": "True",
         "Hi-Speed USB": "True"
-    }
+    },
+    "category": "Printer"
 }

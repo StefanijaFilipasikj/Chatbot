@@ -19,5 +19,6 @@
         "Порти": "3 SuperSpeed USB Type-A, 1 SuperSpeed USB Type-C®, 1 headphone/microphone combo, 1 AC power, 1 RJ-45, 1 HDMI 2.1b",
         "Power": "HP Smart 65 W External AC power adapter",
         "Батерија": "HP Long Life 3-cell, 51 Wh Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

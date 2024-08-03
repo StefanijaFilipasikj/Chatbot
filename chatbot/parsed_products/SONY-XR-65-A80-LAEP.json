@@ -28,5 +28,6 @@
         "USB HDD recording": "true",
         "4 x HDMI, 2 x USB, 1 x Digital Audio, 1 x Audio Out": "true",
         "DVB-C/T/T2/S2": "true"
-    }
+    },
+    "category": "Television"
 }

@@ -21,5 +21,6 @@
         "Аудио": "SonicMaster",
         "Security BIOS Booting User Password Protection": "True",
         "Батерија": "42WHrs, 3S1P, 3-cell Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

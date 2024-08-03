@@ -31,5 +31,6 @@
         "Батерија": "40WHrs, 4S1P, 4-cell Li-ion",
         "Полнач": "65W AC Adapter",
         "Gyro": "6-Axis IMU"
-    }
+    },
+    "category": "Electronics"
 }

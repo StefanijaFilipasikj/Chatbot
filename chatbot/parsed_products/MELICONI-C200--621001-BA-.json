@@ -7,5 +7,6 @@
     "description": {
         "Спреј за чистење LCD екрани": "True",
         "Микрофибер крпа": "True"
-    }
+    },
+    "category": "Cleaning"
 }

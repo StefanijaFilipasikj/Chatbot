@@ -20,5 +20,6 @@
         "Headphone Jack": "true",
         "Ethernet-LAN RJ-45": "true",
         "Wi-Fi": "true"
-    }
+    },
+    "category": "Television"
 }

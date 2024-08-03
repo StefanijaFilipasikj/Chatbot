@@ -27,5 +27,6 @@
         "USB Type-C, OTG": "True",
         "Батерија": "Li-Ion 4500 mAh",
         "Charging": "25W wired, PD2.0, 50% in 30 min"
-    }
+    },
+    "category": "Smartphone"
 }

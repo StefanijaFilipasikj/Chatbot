@@ -13,5 +13,6 @@
         "Детекција": "True",
         "Вграден микрофон": "True",
         "Wi-Fi": "True"
-    }
+    },
+    "category": "Camera"
 }

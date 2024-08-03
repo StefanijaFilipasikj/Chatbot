@@ -31,5 +31,6 @@
         "eARC": "true",
         "CI+(1.4)": "true",
         "DVB-T2/C/S2 x2": "true"
-    }
+    },
+    "category": "Television"
 }

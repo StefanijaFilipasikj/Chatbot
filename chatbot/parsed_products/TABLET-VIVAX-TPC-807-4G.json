@@ -19,5 +19,6 @@
         "USB Type-C 2.0": "True",
         "MicroSD up to 64GB": "True",
         "Батерија": "4000 mAh"
-    }
+    },
+    "category": "Tablet"
 }

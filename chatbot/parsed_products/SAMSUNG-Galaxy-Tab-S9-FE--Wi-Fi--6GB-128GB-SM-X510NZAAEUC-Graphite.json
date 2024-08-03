@@ -21,5 +21,6 @@
         "USB": "Type-C 3.2, magnetic connector",
         "Fast charging": "45W wired",
         "Батерија": "Li-Po 8000 mAh"
-    }
+    },
+    "category": "Tablet"
 }

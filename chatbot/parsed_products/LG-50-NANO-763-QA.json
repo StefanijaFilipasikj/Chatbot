@@ -40,5 +40,6 @@
         "Magic Explorer": "True",
         "3 x HDMI,2xUSB,LAN,eARC, CI Slot, Bluetooth": "True",
         "DVB-C/T2/S2": "True"
-    }
+    },
+    "category": "Television"
 }

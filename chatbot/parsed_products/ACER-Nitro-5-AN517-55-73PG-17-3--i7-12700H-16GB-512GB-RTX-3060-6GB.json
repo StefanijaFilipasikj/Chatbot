@@ -25,5 +25,6 @@
         "1 x RJ-45": "True",
         "Батерија": "4 cell - Li-Ion",
         "Power": "90 W"
-    }
+    },
+    "category": "Laptop"
 }

@@ -16,5 +16,6 @@
         "Wireless-Wi-Fi 802.11ax": "True",
         "Wireless-Wi-Fi 802.11g": "True",
         "Maximum Wireless Data Rate": "1900 Mbps"
-    }
+    },
+    "category": "Networking"
 }

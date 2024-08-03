@@ -25,5 +25,6 @@
         "1x DC-in": "True",
         "45W AC Adapter": "True",
         "Батерија": "42WHrs, 3S1P, 3-cell Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

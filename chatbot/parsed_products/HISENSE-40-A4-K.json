@@ -19,5 +19,6 @@
         "Ethernet-LAN RJ-45": "True",
         "DVB-T/T2/C/S/S2": "True",
         "Вграден WI-Fi": "True"
-    }
+    },
+    "category": "Television"
 }

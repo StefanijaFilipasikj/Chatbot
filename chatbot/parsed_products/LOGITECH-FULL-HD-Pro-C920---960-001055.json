@@ -13,5 +13,6 @@
         "USB-A": "True",
         "Autofocus": "True",
         "Кабел": "1.5m"
-    }
+    },
+    "category": "Camera"
 }

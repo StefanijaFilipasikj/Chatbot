@@ -12,5 +12,6 @@
         "Репродукција до 3 часа (на максимална јачина)": "false",
         "Lithium-ion 3600mAh батерија 7.4V": "false",
         "Bluetooth": "true"
-    }
+    },
+    "category": "Speaker"
 }

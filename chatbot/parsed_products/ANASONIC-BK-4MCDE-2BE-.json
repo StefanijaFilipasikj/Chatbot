@@ -8,5 +8,6 @@
         "Батерии ААА": "true",
         "800mAh": "true",
         "Количина": "2"
-    }
+    },
+    "category": "Batteries"
 }

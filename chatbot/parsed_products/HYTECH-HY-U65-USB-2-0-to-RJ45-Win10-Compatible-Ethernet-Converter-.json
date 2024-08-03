@@ -10,5 +10,6 @@
         "USB 2.0": "True",
         "RJ45: 10-100 Mbps": "True",
         "Должина на кабелот": "150 mm"
-    }
+    },
+    "category": "Adapter"
 }

@@ -8,5 +8,6 @@
         "KABEL": "3.5mm to 3.5mm",
         "length": "1.5m",
         "material": "Gold"
-    }
+    },
+    "category": "Cable"
 }

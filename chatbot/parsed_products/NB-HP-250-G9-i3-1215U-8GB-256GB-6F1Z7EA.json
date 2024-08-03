@@ -19,5 +19,6 @@
         "Порти": "1 SuperSpeed USB Type-C® 5Gbps signaling rate, 2 SuperSpeed USB Type-A 5Gbps signaling rate, 1 HDMI 1.4b, 1 RJ-45, 1 AC smart pin, 1 headphone/microphone combo",
         "Power": "HP Smart 45 W External AC power adapter",
         "Батерија": "3-cell, 41 Wh Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

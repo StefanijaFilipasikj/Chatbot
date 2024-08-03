@@ -22,5 +22,6 @@
         "USB": "Type-C 2.0, OTG",
         "Fingerprint": "under display",
         "Батерија": "Li-Po 5000 mAh"
-    }
+    },
+    "category": "Smartphone"
 }

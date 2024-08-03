@@ -22,5 +22,6 @@
         "USB Recording 4.0": "true",
         "WLAN": "true",
         "DVB-T2/C/S2": "true"
-    }
+    },
+    "category": "Television"
 }

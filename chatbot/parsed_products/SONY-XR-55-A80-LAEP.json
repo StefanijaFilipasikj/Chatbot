@@ -31,5 +31,6 @@
         "1 x Digital Audio": "True",
         "1 x Audio Out": "True",
         "DVB-C/T/T2/S2": "True"
-    }
+    },
+    "category": "Television"
 }

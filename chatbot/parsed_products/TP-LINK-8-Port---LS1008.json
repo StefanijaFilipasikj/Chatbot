@@ -11,5 +11,6 @@
         "MAC address table": "4000 entries",
         "Switching capacity": "16 Gbit / s",
         "Forwarding Rate": "11.9 Mpps"
-    }
+    },
+    "category": "Networking"
 }

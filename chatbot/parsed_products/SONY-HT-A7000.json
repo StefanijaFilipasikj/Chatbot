@@ -22,5 +22,6 @@
         "HDMI eARC": "2 / 1 (eARC/ARC), 4K/60p/YUV4:4:4, HDMI® CEC, HLG",
         "USB": "HDMI eARC, USB, Оптички влез",
         "Chromecast built-in": "Chromecast built-in, Spotify Connect, копче за услуги за музика, може да се користи со Google Assistant, AirPlay2"
-    }
+    },
+    "category": "Soundbars"
 }

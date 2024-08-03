@@ -26,5 +26,6 @@
         "WiFi 5": "true",
         "3xHDMI,2xUSB,LAN,CI Slot, RF": "true",
         "DVB-C/T2/S2": "true"
-    }
+    },
+    "category": "Television"
 }

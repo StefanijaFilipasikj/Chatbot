@@ -10,5 +10,6 @@
         "2.4GHz wireless technology": "True",
         "Buttons": "3+scroll",
         "USB": "True"
-    }
+    },
+    "category": "Mouse"
 }

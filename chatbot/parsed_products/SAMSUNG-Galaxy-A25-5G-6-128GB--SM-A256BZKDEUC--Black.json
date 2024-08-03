@@ -25,5 +25,6 @@
         "GPS, GLONASS, GALILEO, BDS, QZSS": "True",
         "USB Type-C 2.0": "True",
         "Батерија": "Li-Po 5000 mAh"
-    }
+    },
+    "category": "Smartphone"
 }

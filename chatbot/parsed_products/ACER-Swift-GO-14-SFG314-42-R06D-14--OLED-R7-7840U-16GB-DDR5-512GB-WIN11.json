@@ -25,5 +25,6 @@
         "1x Headphone/speaker jack": "True",
         "Батерија": "65Wh Li-ion battery",
         "Тежина": "1.78kg"
-    }
+    },
+    "category": "Laptop"
 }

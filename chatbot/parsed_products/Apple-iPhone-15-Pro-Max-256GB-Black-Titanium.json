@@ -28,5 +28,6 @@
         "USB Power Delivery": "2.0",
         "MagSafe wireless charging": "15W",
         "Qi magnetic fast wireless charging": "7.5W"
-    }
+    },
+    "category": "Smartphone"
 }

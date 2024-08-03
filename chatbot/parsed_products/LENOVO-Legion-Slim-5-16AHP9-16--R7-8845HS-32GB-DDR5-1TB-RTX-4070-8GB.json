@@ -23,5 +23,6 @@
         "Порти": "1x USB-A (USB 10Gbps / USB 3.2 Gen 2), Always On\n1x USB-A (USB 10Gbps / USB 3.2 Gen 2)\n1x USB-C® (USB 10Gbps / USB 3.2 Gen 2), with PD 140W and DisplayPort™ 1.4\n1x USB-C® (USB 10Gbps / USB 3.2 Gen 2), with DisplayPort™ 1.4\n1x HDMI® 2.1, up to 8K/60Hz\n1x Headphone / microphone combo jack (3.5mm)\n1x Ethernet (RJ-45)\n1x Card reader\n1x Power connector",
         "Power Adapter": "230W Slim Tip (3-pin)",
         "Батерија": "Integrated 80Wh"
-    }
+    },
+    "category": "Laptop"
 }

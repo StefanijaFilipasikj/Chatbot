@@ -33,5 +33,6 @@
         "Оперативен систем": "GoogleTV",
         "Сензор за амбиентално светло": "true",
         "DVB-T2/C/S2": "true"
-    }
+    },
+    "category": "Television"
 }

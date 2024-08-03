@@ -10,5 +10,6 @@
         "Конекција": "USB-Typ-A-Plug",
         "3 копчиња": "True",
         "Компативилен": "MAC OS 10.10 or higher/Windows 11/10/8/7"
-    }
+    },
+    "category": "Mouse"
 }

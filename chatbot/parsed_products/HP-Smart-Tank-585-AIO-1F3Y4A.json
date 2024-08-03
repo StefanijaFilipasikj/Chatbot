@@ -19,5 +19,6 @@
         "Печатење од телефон или таблет": "True",
         "scan to PDF": "True",
         "Боја за дополнување (кертриџи)": "HP GT53 Black, HP GT52 Cyan, HP GT52 Magenta, HP GT52 Yellow"
-    }
+    },
+    "category": "Printer"
 }

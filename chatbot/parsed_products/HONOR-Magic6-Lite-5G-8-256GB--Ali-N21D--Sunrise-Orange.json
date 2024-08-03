@@ -24,5 +24,6 @@
         "USB Type-C 2.0, OTG": "True",
         "Fast charging 35W wired": "True",
         "Батерија": "5300mAh"
-    }
+    },
+    "category": "Smartphone"
 }

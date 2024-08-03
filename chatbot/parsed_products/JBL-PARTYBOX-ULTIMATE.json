@@ -17,5 +17,6 @@
         "Dual Mic & Guitar input": "True",
         "JBL Party Pad": "True",
         "JBL One app": "True"
-    }
+    },
+    "category": "Speaker"
 }

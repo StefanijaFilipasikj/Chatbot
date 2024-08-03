@@ -29,5 +29,6 @@
         "1x Power connector": "True",
         "Power Adapter": "170W Slim Tip (3-pin)",
         "Батерија": "Integrated 60Wh"
-    }
+    },
+    "category": "Laptop"
 }

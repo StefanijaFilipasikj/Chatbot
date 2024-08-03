@@ -33,5 +33,6 @@
         "HDMI,USB,eARC/ARC,LAN": "True",
         "DVB-T2/C/S2": "True",
         "Wi-Fi": "True"
-    }
+    },
+    "category": "Television"
 }

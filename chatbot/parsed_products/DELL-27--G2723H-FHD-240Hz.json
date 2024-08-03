@@ -18,5 +18,6 @@
         "FreeSync Premium": "True",
         "G-Sync": "True",
         "Порти": "2 x HDMI, DisplayPort 1.4, Headphones (mini-jack), USB 3.2 Gen 1 upstream (Type B), 3 x USB 3.2 Gen 1 downstream (Type A), USB 3.2 Gen 1 downstream with Battery Charging 1.2 (Type A)"
-    }
+    },
+    "category": "Monitor"
 }

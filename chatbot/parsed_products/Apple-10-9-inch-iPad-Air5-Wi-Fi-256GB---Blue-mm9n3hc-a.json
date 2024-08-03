@@ -17,5 +17,6 @@
         "Wi-Fi 6 (802.11ax) with 2x2 MIMO": "speeds up to 1.2 Gbps",
         "Bluetooth 5.0": "",
         "Батерија": "Li-Po, 28.6wh, 10h"
-    }
+    },
+    "category": "Tablet"
 }

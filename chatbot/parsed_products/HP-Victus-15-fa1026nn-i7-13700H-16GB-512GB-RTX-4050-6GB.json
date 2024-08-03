@@ -19,5 +19,6 @@
         "Порти": "1 USB Type-A 5Gbps сигнален рејтинг, 1 USB Type-A 5Gbps сигнален рејтинг (HP Sleep and Charge), 1 USB Type-C® 5Gbps сигнален рејтинг (DisplayPort™ 1.4, HP Sleep and Charge), 1 HDMI 2.1, 1 RJ-45, 1 AC smart pin, 1 слушалка/микрофон комбо",
         "Power": "200 W Smart AC адаптер за напојување",
         "Батерија": "4-cell, 70 Wh Li-ion полимер"
-    }
+    },
+    "category": "Laptop"
 }

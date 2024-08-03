@@ -18,5 +18,6 @@
         "Порти": "1 x USB 3.2 Gen 1 Type-A\n1 x USB 3.2 Gen 1 Type-C\n2 x USB 2.0 Type-A//1x HDMI 1.4\n1 x 3.5mm Combo Audio Jack\n1 x DC-in//N/A",
         "AC Adapter": "4.0, 45W AC Adapter, Output: 19V DC, 2.37A, 45W, Input: 100~240V AC 50/60Hz universal",
         "Батерија": "37WHrs, 2S1P, 2-cell Li-ion"
-    }
+    },
+    "category": "Laptop"
 }

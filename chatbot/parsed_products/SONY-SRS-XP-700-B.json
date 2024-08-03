@@ -16,5 +16,6 @@
         "USB A": "True",
         "влез за микрофон": "True",
         "гитара": "True"
-    }
+    },
+    "category": "Speaker"
 }

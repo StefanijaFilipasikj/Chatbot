@@ -8,5 +8,6 @@
         "Слушалки": "True",
         "Микрофон": "True",
         "3.5mm конектор": "True"
-    }
+    },
+    "category": "Headphones"
 }

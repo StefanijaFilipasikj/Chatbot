@@ -16,5 +16,6 @@
         "Задни порти": "2 USB 2.0 ports with Smart Power, 2 USB 3.2 Gen 1 ports, 1 Audio line-out port, 1 RJ-45 Ethernet port, 1 AC power-supply port, 1 HDMI 1.4b port",
         "Напојување": "180 W internal Power Supply Unit (PSU)",
         "Без оперативен систем": "true"
-    }
+    },
+    "category": "Desktop"
 }

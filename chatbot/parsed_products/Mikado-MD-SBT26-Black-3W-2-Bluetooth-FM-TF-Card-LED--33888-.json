@@ -15,5 +15,6 @@
         "FM Radio": "True",
         "Aux": "True",
         "Bluetooth": "True"
-    }
+    },
+    "category": "Soundbar"
 }

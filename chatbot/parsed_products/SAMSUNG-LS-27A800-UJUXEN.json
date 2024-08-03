@@ -22,5 +22,6 @@
         "USB x 3": "True",
         "1 x Display Port": "True",
         "USB-C": "True"
-    }
+    },
+    "category": "Monitor"
 }

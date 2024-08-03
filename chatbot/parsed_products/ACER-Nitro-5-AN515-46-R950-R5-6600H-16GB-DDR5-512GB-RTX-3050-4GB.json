@@ -18,5 +18,6 @@
         "Bluetooth 5.2": "True",
         "57Wh Li-ion battery": "True",
         "Power": "230W"
-    }
+    },
+    "category": "Laptop"
 }

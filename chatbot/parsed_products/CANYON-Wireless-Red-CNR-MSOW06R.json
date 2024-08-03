@@ -11,5 +11,6 @@
         "USB": "True",
         "Buttons": "6",
         "Компатибилност": "Windows/Mac OS"
-    }
+    },
+    "category": "Mouse"
 }

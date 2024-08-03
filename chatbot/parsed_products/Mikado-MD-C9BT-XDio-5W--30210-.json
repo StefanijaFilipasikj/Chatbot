@@ -11,5 +11,6 @@
         "Bluetooth CSR4.0": "True",
         "Mikro USB": "True",
         "Ниво на бучава": "75dB"
-    }
+    },
+    "category": "Speaker"
 }

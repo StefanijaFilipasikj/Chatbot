@@ -13,5 +13,6 @@
         "Wireless Standards": "IEEE 802.11ac, IEEE 802.11a, IEEE 802.11n, IEEE 802.11g, IEEE 802.11b",
         "Transmit Power": "<20dBm (EIRP)",
         "Wireless Security": "Support 64/128 bit WEP, WPA-PSK/WPA2-PSK, 802.1x"
-    }
+    },
+    "category": "Networking"
 }

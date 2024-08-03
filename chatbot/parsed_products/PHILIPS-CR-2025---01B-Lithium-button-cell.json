@@ -6,5 +6,6 @@
     "happy_price": "",
     "description": {
         "Батерија": "True"
-    }
+    },
+    "category": "Batteries"
 }

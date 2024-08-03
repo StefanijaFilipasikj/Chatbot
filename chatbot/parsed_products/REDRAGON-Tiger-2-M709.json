@@ -10,5 +10,6 @@
         "USB конекција": "True",
         "DPI 3200": "True",
         "Интерфејс": "USB 2.0 full speed 3.0"
-    }
+    },
+    "category": "Mouse"
 }

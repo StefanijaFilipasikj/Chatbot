@@ -22,5 +22,6 @@
         "Порти": "1x Ethernet (RJ-45), 1x HDMI® 2.1, up to 8K/60Hz, 1x Headphone / microphone combo jack (3.5mm), 1x Power connector, 1x USB 3.2 Gen 1, 1x USB-C® 3.2 Gen 2 (support data transfer, Power Delivery 140W and DisplayPort™ 1.4), 2x USB 3.2 Gen 2",
         "Power Adapter": "135W Slim Tip (3-pin)",
         "Батерија": "Integrated 60Wh"
-    }
+    },
+    "category": "Laptop"
 }

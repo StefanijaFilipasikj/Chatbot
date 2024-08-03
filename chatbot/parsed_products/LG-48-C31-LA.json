@@ -33,5 +33,6 @@
         "eARC": "True",
         "CI Slot": "True",
         "DVB-T2/C/S2": "True"
-    }
+    },
+    "category": "Television"
 }

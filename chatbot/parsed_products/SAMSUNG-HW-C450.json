@@ -16,5 +16,6 @@
         "USB": "True",
         "дигитален аудио влез": "True",
         "Bluetooth": "True"
-    }
+    },
+    "category": "Soundbars"
 }

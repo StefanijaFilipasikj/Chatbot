@@ -22,5 +22,6 @@
         "Слика во слика": "True",
         "HDMI": "True",
         "USB": "True"
-    }
+    },
+    "category": "Monitor"
 }

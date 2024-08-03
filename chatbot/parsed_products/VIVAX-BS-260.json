@@ -13,5 +13,6 @@
         "Фрекфенција": "80Hz - 16kHz",
         "Батерија": "8h",
         "Lithium Battery": "3600mAh, 7,4V"
-    }
+    },
+    "category": "Speaker"
 }

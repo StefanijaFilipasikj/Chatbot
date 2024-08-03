@@ -32,5 +32,6 @@
         "Батерија": "Lithium-Ion 54Wh",
         "Adapter": "150W",
         "Тежина": "~2.53kg"
-    }
+    },
+    "category": "Laptop"
 }

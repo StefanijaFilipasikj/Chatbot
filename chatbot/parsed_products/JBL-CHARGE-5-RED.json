@@ -15,5 +15,6 @@
         "Wireless Bluetooth Streaming": "True",
         "Време за репродукција на музика": "20ч",
         "USB порт": "Type C"
-    }
+    },
+    "category": "Speaker"
 }

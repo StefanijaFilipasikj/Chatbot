@@ -32,5 +32,6 @@
         "eARC": "true",
         "CI слот": "true",
         "DVB-T2CS2": "true"
-    }
+    },
+    "category": "Television"
 }

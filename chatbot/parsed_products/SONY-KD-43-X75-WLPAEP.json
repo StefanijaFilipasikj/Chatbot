@@ -31,5 +31,6 @@
         "1 x Audio Out": "true",
         "DVB-T2/C/S2": "true",
         "Wi-Fi": "true"
-    }
+    },
+    "category": "Television"
 }

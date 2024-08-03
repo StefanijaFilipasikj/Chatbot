@@ -17,5 +17,6 @@
         "Thunderbolt (USB-C)": "true",
         "Батерија": "Li-Poly 49.9 Wh - 18 часа - 30 W",
         "macOS": "11.0"
-    }
+    },
+    "category": "Laptop"
 }

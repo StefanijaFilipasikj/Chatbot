@@ -27,5 +27,6 @@
         "Вграден микрофон": "True",
         "Батерија": "42WHrs, 3S1P, 3-cell Li-ion",
         "33W AC Adapte": "True"
-    }
+    },
+    "category": "Laptop"
 }

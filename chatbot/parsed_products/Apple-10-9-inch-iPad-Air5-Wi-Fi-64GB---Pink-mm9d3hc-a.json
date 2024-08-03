@@ -17,5 +17,6 @@
         "Wi-Fi": "True",
         "Bluetooth 5.0": "True",
         "Батерија": "Li-Po, 10h"
-    }
+    },
+    "category": "Tablet"
 }

@@ -7,5 +7,6 @@
     "description": {
         "Network Cable 10m": "true",
         "Cat5E UTP": "true"
-    }
+    },
+    "category": "Networking"
 }

@@ -6,5 +6,6 @@
     "happy_price": "",
     "description": {
         "Адаптер за мрежен кабел": "True"
-    }
+    },
+    "category": "Adapter"
 }

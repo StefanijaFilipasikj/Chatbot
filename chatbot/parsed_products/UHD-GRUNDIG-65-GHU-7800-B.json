@@ -20,5 +20,6 @@
         "Wi-Fi": "true",
         "3 x HDMI, 2 x USB": "true",
         "DVB-T2/C/S2": "true"
-    }
+    },
+    "category": "Television"
 }

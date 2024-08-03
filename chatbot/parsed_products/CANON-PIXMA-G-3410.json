@@ -21,5 +21,6 @@
         "PIXMA Cloud Link (from smartphone or tablet)": "True",
         "A4 печатење црна": "6000 страни",
         "A4 печатење боја": "7000 страни"
-    }
+    },
+    "category": "Printer"
 }

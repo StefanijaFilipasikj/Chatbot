@@ -36,5 +36,6 @@
         "CI Slot": "true",
         "Bluetooth 5.0": "true",
         "DVB-T2/C/S2": "true"
-    }
+    },
+    "category": "Television"
 }

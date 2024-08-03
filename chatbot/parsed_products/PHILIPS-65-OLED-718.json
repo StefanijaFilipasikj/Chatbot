@@ -29,5 +29,6 @@
         "1 x Headphone out": "true",
         "DVB-T/T2/T2-HD/C/S/S2": "true",
         "Вграден Wifi": "true"
-    }
+    },
+    "category": "Television"
 }

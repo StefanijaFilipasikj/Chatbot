@@ -9,5 +9,6 @@
         "Резолуција": "1000dpi",
         "Buttons": "2+scroll",
         "USB": "True"
-    }
+    },
+    "category": "Mouse"
 }

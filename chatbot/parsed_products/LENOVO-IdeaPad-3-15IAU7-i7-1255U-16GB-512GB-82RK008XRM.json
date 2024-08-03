@@ -22,5 +22,6 @@
         "Порти": "1x USB 2.0, 1x USB 3.2 Gen 1, 1x USB-C 3.2 Gen 1 (support data transfer, Power Delivery 3.0 and DisplayPort 1.2), 1x HDMI 1.4b, 1x Card reader, 1x Headphone / microphone combo jack (3.5mm), 1x Power connector",
         "Power Adapter": "65W Round Tip (3-pin)",
         "Батерија": "38Wh - MobileMark 2018: 5 hr"
-    }
+    },
+    "category": "Laptop"
 }

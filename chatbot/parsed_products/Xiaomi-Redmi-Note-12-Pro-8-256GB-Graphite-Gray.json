@@ -29,5 +29,6 @@
         "USB Type-C 2.0, OTG": "True",
         "Fast charging 67W wired": "True",
         "Батерија": "Li-Po 5000 mAh"
-    }
+    },
+    "category": "Smartphone"
 }

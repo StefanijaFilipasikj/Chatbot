@@ -20,5 +20,6 @@
         "Bluetooth": "5.0",
         "Charging": "20W",
         "Батерија": "28.65 Wh"
-    }
+    },
+    "category": "Tablet"
 }

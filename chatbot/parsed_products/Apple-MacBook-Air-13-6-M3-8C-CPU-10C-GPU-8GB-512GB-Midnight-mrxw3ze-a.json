@@ -29,5 +29,6 @@
         "USB 3.1 Gen 2 (до 10Gb/s)": "True",
         "30W USB-C Power Adapter": "True",
         "Батерија": "52,6 Wh - 18 часа"
-    }
+    },
+    "category": "Laptop"
 }

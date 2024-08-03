@@ -31,5 +31,6 @@
         "(eARC/ARC)": "True",
         "RF": "True",
         "DVB-T/T2/C/S/S2": "True"
-    }
+    },
+    "category": "Television"
 }

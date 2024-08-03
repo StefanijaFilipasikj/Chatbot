@@ -17,5 +17,6 @@
         "Оперативен систем": "Ubuntu 20.04",
         "Порти": "2 USB 3.2 Gen 1 port, 1 USB 2.0 port, 1 headset (headphone and microphone combo) port, 1 HDMI 1.4 port, HDMI 1.4 (Maximum resolution supported over HDMI is 1920x1080 @60Hz. No 4K/2K output), 1 RJ45 Ethernet port (flip-down)",
         "Батерија": "4-Cell Battery, 54WHr"
-    }
+    },
+    "category": "Laptop"
 }

@@ -11,5 +11,6 @@
         "DPI": "6400 DPI",
         "Компатибилен": "Windows/Linux/Mac OS",
         "DC": "5V, 200mAh from USB Port"
-    }
+    },
+    "category": "Mouse"
 }

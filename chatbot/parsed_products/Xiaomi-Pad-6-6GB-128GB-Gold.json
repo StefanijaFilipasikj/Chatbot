@@ -22,5 +22,6 @@
         "USB Type-C": "3.2",
         "Charging": "33W",
         "Батерија": "Li-Po 8840mAh"
-    }
+    },
+    "category": "Tablet"
 }

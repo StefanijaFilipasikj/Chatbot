@@ -19,5 +19,6 @@
         "MX455": "True",
         "MX515": "True",
         "MX55": "True"
-    }
+    },
+    "category": "Printer"
 }

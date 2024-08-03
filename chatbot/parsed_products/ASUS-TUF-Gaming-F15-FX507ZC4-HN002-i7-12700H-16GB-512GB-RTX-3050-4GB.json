@@ -30,5 +30,6 @@
         "Security BIOS Administrator Password and User Password Protection": "True",
         "Батерија": "56WHrs, 4S1P, 4-cell Li-ion",
         "Полнач": "6.0, 200W AC Adapter, Output: 20V DC, 10A, 200W, Input: 100-240V AC, 50/60Hz universal"
-    }
+    },
+    "category": "Laptop"
 }

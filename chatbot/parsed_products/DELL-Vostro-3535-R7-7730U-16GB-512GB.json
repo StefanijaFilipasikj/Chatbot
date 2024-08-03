@@ -19,5 +19,6 @@
         "Backlit Keyboard + FingerPrint": "True",
         "Порти": "1 USB 3.2 Gen 1 port, 1 USB 3.2 Gen 1 Type-C® port, 1 USB 2.0 port, 1 headset (headphone and microphone combo) port, 1 HDMI 1.4 port, 1 RJ45 Ethernet port (flip-down)",
         "Батерија": "4 Cell, 54 Wh"
-    }
+    },
+    "category": "Laptop"
 }

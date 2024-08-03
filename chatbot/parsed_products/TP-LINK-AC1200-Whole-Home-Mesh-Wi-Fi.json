@@ -13,5 +13,6 @@
         "IEEE 802.11ac": "True",
         "LAN \\ WAN ports:2": "True",
         "Number of antennas:2": "True"
-    }
+    },
+    "category": "Networking"
 }

@@ -10,5 +10,6 @@
         "UTP": "true",
         "CAT-5E": "true",
         "Length": "1m"
-    }
+    },
+    "category": "Networking"
 }

@@ -18,5 +18,6 @@
         "HDMI": "True",
         "VGA": "True",
         "Headphone out (3,5mm)": "True"
-    }
+    },
+    "category": "Monitor"
 }

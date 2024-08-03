@@ -16,5 +16,6 @@
         "Waterproof:33ft (10m)": "True",
         "Говорни команди": "True",
         "Капацитет на батерија": "1500mAh"
-    }
+    },
+    "category": "Camera"
 }

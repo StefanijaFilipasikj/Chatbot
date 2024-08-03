@@ -25,5 +25,6 @@
         "Magic controller": "true",
         "4xHDMI,2xHDMI2,1,2xUSB,LAN,eARC / ARC, CI Slot": "true",
         "Вграден Wi-Fi / Wi-Fi 5": "true"
-    }
+    },
+    "category": "Television"
 }

@@ -26,5 +26,6 @@
         "USB Type-C 2.0, OTG": "True",
         "Батерија": "Li-Po 4500mAh",
         "Полнење": "35W wired"
-    }
+    },
+    "category": "Smartphone"
 }

@@ -11,5 +11,6 @@
         "LED дисплеј": "True",
         "Аларм": "True",
         "Snooze копче": "True"
-    }
+    },
+    "category": "Electronics"
 }

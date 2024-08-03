@@ -30,5 +30,6 @@
         "eARC": "True",
         "Bluetooth v5.2": "True",
         "Вграден Wi-Fi": "True"
-    }
+    },
+    "category": "Television"
 }

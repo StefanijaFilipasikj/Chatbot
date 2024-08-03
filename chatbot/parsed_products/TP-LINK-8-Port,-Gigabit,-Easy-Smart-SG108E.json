@@ -14,5 +14,6 @@
         "Transmission Method": "Store-And-Forward",
         "Системска подршка": "Microsoft® Windows® Management Utility",
         "VLAN": "32 VLANs simultaneously (out of 4K VLAN IDs) MTU/Port/Tag VLAN"
-    }
+    },
+    "category": "Networking"
 }

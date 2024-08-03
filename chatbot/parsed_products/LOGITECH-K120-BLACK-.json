@@ -11,5 +11,6 @@
         "Windows 10": "True",
         "Тастатура": "True",
         "Spilt resistant": "True"
-    }
+    },
+    "category": "Keyboard"
 }

@@ -9,5 +9,6 @@
         "USB порт x 2": "True",
         "2100mА": "True",
         "2.1 Amper": "True"
-    }
+    },
+    "category": "Accessories"
 }

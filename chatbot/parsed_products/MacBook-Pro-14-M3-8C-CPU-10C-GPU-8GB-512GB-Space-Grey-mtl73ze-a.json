@@ -21,5 +21,6 @@
         "3.5 мм слушалки жак": "True",
         "MagSafe 3 порт": "True",
         "Три Thunderbolt 4 (USB-C) порти": "True"
-    }
+    },
+    "category": "Laptop"
 }

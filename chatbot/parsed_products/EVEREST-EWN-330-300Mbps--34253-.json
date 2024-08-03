@@ -14,5 +14,6 @@
         "Брзина": "300Mbps",
         "2.4 Ghz": "True",
         "USB 2.0": "True"
-    }
+    },
+    "category": "Networking"
 }

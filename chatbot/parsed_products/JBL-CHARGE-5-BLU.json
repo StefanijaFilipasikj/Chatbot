@@ -15,5 +15,6 @@
         "Wireless Bluetooth Streaming": "True",
         "Music play time": "20h",
         "USB порт": "Type C"
-    }
+    },
+    "category": "Speaker"
 }

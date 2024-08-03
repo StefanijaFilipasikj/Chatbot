@@ -23,5 +23,6 @@
         "Фрекфенција": "2400 MHz",
         "Power": "DC 5 V/ 1 A (included)",
         "Температура": "-10°C to 45°C, humidity <95 %"
-    }
+    },
+    "category": "Camera"
 }

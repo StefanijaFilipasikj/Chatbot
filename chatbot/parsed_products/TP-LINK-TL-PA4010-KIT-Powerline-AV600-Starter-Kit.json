@@ -9,5 +9,6 @@
         "LAN": "10 / 100 Mbps",
         "LAN порт x 1": "True",
         "Powerline data transfer rate": "600 Mbps"
-    }
+    },
+    "category": "Networking"
 }

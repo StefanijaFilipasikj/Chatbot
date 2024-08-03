@@ -26,5 +26,6 @@
         "Dolby Audio, Dolby Atmos": "true",
         "4 x HDMI. 2 x USB, bluetooth v4.2": "true",
         "DVB-C/T2/S2": "true"
-    }
+    },
+    "category": "Television"
 }

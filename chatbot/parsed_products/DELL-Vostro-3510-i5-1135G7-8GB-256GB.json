@@ -19,5 +19,6 @@
         "Оперативен систем": "Ubuntu Linux",
         "Порти": "True",
         "Батерија": "3cell 41WHr"
-    }
+    },
+    "category": "Laptop"
 }

@@ -18,5 +18,6 @@
         "Bluetooth": "True",
         "57Wh Li-ion battery": "True",
         "Power": "180W"
-    }
+    },
+    "category": "Laptop"
 }

@@ -29,5 +29,6 @@
         "eARC (HDMI 2)": "True",
         "CI Slot": "True",
         "DVB-T2/T/C/S2/S": "True"
-    }
+    },
+    "category": "Television"
 }

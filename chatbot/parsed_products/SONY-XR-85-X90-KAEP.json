@@ -26,5 +26,6 @@
         "LAN": "True",
         "(eARC/ARC)": "True",
         "DVB-T/T2/C/S/S2": "True"
-    }
+    },
+    "category": "Television"
 }

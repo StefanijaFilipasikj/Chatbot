@@ -29,5 +29,6 @@
         "CI+(1.4)": "True",
         "Bluetooth v5.2": "True",
         "DVB-T2CS2": "True"
-    }
+    },
+    "category": "Television"
 }

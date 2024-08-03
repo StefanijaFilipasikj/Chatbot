@@ -27,5 +27,6 @@
         "Bluetooth 5.2": "True",
         "Anynet+ (HDMI-CEC)": "True",
         "Автоматско исклучување": "True"
-    }
+    },
+    "category": "Electronics"
 }

@@ -12,5 +12,6 @@
         "Buttons 6 + scroll": "True",
         "USB Type-A": "True",
         "Wireless Range": "10m"
-    }
+    },
+    "category": "Mouse"
 }

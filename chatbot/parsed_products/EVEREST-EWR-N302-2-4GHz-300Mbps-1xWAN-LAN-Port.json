@@ -10,5 +10,6 @@
         "Wi-Fi frequency band": "2.4 GHz",
         "2 антени": "2x2dbi",
         "1 x порт LAN": "True"
-    }
+    },
+    "category": "Networking"
 }

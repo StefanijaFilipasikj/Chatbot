@@ -19,5 +19,6 @@
         "Компатибилност": "iOS & Android",
         "OTA (over-the-air) software updates": "true",
         "Тежина": "0.31kg"
-    }
+    },
+    "category": "Speaker"
 }

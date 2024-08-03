@@ -21,5 +21,6 @@
         "Батерија": "5000 mAh",
         "Type-C Charging": "True",
         "Тежина": "340g"
-    }
+    },
+    "category": "Tablet"
 }

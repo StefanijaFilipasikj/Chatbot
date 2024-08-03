@@ -20,5 +20,6 @@
         "3 x HDMI 2.0 (ARC/CEC)": "true",
         "2 x USB 2.0": "true",
         "DVB-T2/C/S2": "true"
-    }
+    },
+    "category": "Television"
 }

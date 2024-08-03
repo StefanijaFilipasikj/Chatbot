@@ -7,5 +7,6 @@
     "description": {
         "Мрежен кабел": "True",
         "Должина на кабелот": "5 m"
-    }
+    },
+    "category": "Networking"
 }

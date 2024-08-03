@@ -9,5 +9,6 @@
         "Windows/Mac OS/Linux": "True",
         "Батерии": "2 x AAA",
         "USB 2.0": "True"
-    }
+    },
+    "category": "Keyboard"
 }

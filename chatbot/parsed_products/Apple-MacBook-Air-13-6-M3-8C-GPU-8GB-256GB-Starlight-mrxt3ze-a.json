@@ -24,5 +24,6 @@
         "Two Thunderbolt / USB 4 ports with support for": "Charging, DisplayPort, Thunderbolt 3 (до 40Gb/s), USB 4 (до 40Gb/s)",
         "30W USB-C Power Adapter": "True",
         "Батерија": "52,6 Wh - 18 часа"
-    }
+    },
+    "category": "Laptop"
 }

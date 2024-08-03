@@ -9,5 +9,6 @@
         "Инпут": "USB",
         "Backlight": "RGB",
         "Windows 7/8/10": "True"
-    }
+    },
+    "category": "Keyboard"
 }

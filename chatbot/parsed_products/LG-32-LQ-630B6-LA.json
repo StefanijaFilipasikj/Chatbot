@@ -4,5 +4,6 @@
     "warranty": "24",
     "regular_price": "15.999",
     "happy_price": "12.999",
-    "description": {}
+    "description": {},
+    "category": "Television"
 }

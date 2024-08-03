@@ -12,5 +12,6 @@
         "Switching capacity:10 Gbit / s": "true",
         "Forwarding Rate:7.4 Mpps": "true",
         "Buffer buffer:1.5 MB": "true"
-    }
+    },
+    "category": "Networking"
 }

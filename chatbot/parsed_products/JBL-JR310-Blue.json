@@ -9,5 +9,6 @@
         "Фрекфенција": "20Hz:20 kHz",
         "Инпут": "3.5 mm audio jack",
         "Safe Sound(<85dB)": "True"
-    }
+    },
+    "category": "Headphones"
 }

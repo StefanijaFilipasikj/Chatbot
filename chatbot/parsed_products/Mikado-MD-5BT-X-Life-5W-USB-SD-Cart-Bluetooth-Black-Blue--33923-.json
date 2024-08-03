@@ -15,5 +15,6 @@
         "Bluetooth 5.0": "True",
         "Батерија": "3.7V/1200mAh",
         "LED осветлување": "True"
-    }
+    },
+    "category": "Speaker"
 }

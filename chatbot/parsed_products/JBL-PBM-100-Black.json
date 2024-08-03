@@ -9,5 +9,6 @@
         "Фрекфенција": "50Hz- 15 kHz",
         "Осетливост": "-55±3dBV/Pa",
         "6.3mm audio out": "True"
-    }
+    },
+    "category": "Audio"
 }

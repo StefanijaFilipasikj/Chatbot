@@ -8,5 +8,6 @@
         "Алкални батерии": "True",
         "4+2AA": "True",
         "1.5V": "True"
-    }
+    },
+    "category": "Batteries"
 }

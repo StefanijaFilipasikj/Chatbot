@@ -8,5 +8,6 @@
         "Network Cable": "true",
         "0.5m": "true",
         "Cat5E UTP": "true"
-    }
+    },
+    "category": "Networking"
 }

@@ -10,5 +10,6 @@
         "Осветлување": "True",
         "3.5mm Mic/Headset Jack": "True",
         "2.0 channel stereo": "True"
-    }
+    },
+    "category": "Speaker"
 }

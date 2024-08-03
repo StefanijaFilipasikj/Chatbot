@@ -11,5 +11,6 @@
         "2xHDMI": "True",
         "USB": "True",
         "DVB-T2/C": "True"
-    }
+    },
+    "category": "Television"
 }

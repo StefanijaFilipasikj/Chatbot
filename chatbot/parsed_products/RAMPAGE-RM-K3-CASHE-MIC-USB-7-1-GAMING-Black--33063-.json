@@ -12,5 +12,6 @@
         "Микрофон": "True",
         "Конекција": "USB Type A",
         "Волум контрол": "True"
-    }
+    },
+    "category": "Headphones"
 }

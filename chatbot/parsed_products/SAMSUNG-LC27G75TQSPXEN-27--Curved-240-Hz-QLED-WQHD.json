@@ -20,5 +20,6 @@
         "G-Sync": "True",
         "Display Port": "True",
         "HDMI": "True"
-    }
+    },
+    "category": "Monitor"
 }

@@ -57,6 +57,12 @@ const ChatbotService = {
     },
     makeOrder: (cartId) => {
         return axios.post(`/orders/make-order/${cartId}`);
+    },
+    login: (username, password) => {
+        return axios.post("/login", {
+            "username": username,
+            "password": password
+        })
     }
 }
 

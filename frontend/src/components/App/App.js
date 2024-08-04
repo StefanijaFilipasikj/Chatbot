@@ -8,6 +8,8 @@ import ShoppingCart from "../ShoppingCart/ShoppingCart";
 import OrderList from "../Order/OrderList";
 import ProductAdd from "../Product/ProductAdd";
 import ProductEdit from "../Product/ProductEdit";
+import Header from '../Header/Header';
+import Login from '../Auth/Login';
 
 class App extends Component {
     constructor(props) {
@@ -21,18 +23,22 @@ class App extends Component {
     }
 
     render(){
-        return (
-            <Router>
-                <Routes>
-                    <Route path={'/products/add'} element={<ProductAdd onAddProduct={this.addProduct}/>}></Route>
-                    <Route path={'/products/edit/:id'} element={<ProductEdit product={this.state.selectedProduct} onEditProduct={this.editProduct} />}></Route>
-                    <Route path={'/products'} element={<ProductList products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct}/>}></Route>
-                    <Route path={'/product/:id'} element={<ProductDetails product={this.state.selectedProduct} getProduct={this.getProduct} onAddToCart={this.addProductToCart}/>}></Route>
-                    <Route path={'/shopping-cart/:username'} element={<ShoppingCart shoppingCart={this.state.selectedShoppingCart} getShoppingCart={this.getShoppingCart} onEditProduct={this.editProductInCart} onRemoveProduct={this.removeProductFromCart} onOrder={this.makeOrder}/>}></Route>
-                    <Route path={'/orders/:username'} element={<OrderList orders={this.state.orders} getOrders={this.getOrders}/>}></Route>
-                    <Route path={'/'} element={<div>hi im your chatbot</div>}></Route>
-                </Routes>
-            </Router>
+        return (<>
+                <Router>
+                <Header/>
+                    <Routes>
+                        <Route path={'/products/add'} element={<ProductAdd onAddProduct={this.addProduct}/>}></Route>
+                        <Route path={'/products/edit/:id'} element={<ProductEdit product={this.state.selectedProduct} onEditProduct={this.editProduct} />}></Route>
+                        <Route path={'/products'} element={<ProductList products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct}/>}></Route>
+                        <Route path={'/product/:id'} element={<ProductDetails product={this.state.selectedProduct} getProduct={this.getProduct} onAddToCart={this.addProductToCart}/>}></Route>
+                        <Route path={'/shopping-cart/:username'} element={<ShoppingCart shoppingCart={this.state.selectedShoppingCart} getShoppingCart={this.getShoppingCart} onEditProduct={this.editProductInCart} onRemoveProduct={this.removeProductFromCart} onOrder={this.makeOrder}/>}></Route>
+                        <Route path={'/orders/:username'} element={<OrderList orders={this.state.orders} getOrders={this.getOrders}/>}></Route>
+                        <Route path={"/login"} element={<Login onLogin={this.loadProducts}/>}/>
+                        <Route path={'/'} element={<div>hi im your chatbot</div>}></Route>
+                    </Routes>
+                </Router>
+                 
+            </>
         )
     }
 

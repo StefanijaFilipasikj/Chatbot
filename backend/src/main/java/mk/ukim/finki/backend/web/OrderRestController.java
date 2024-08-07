@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import mk.ukim.finki.backend.model.dto.OrderDto;
 import mk.ukim.finki.backend.service.OrderService;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -17,6 +18,7 @@ public class OrderRestController {
     private final OrderService orderService;
 
     @GetMapping("/{username}")
+    @PreAuthorize("hasRole('ADMIN')")
     List<OrderDto> getAllOrdersFromUser (@PathVariable String username){
         return this.orderService.getAllOrdersFromUser(username);
     }

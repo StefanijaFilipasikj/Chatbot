@@ -12,10 +12,10 @@ import mk.ukim.finki.backend.model.dto.UserDetailsDto;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 
 import java.io.IOException;
+import java.util.Collections;
 
 
 public class JWTAuthorizationFilter extends BasicAuthenticationFilter {
@@ -40,7 +40,7 @@ public class JWTAuthorizationFilter extends BasicAuthenticationFilter {
             return;
         }
         UserDetailsDto userDetailsDto = new ObjectMapper().readValue(user, UserDetailsDto.class);
-        UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(userDetailsDto.getUsername(), userDetailsDto.getRole());
+        UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(userDetailsDto.getUsername(), null, Collections.singletonList(userDetailsDto.getRole()));
         SecurityContextHolder.getContext().setAuthentication(token);
         chain.doFilter(request,response);
     }

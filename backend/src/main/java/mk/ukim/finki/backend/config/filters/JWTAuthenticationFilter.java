@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import mk.ukim.finki.backend.config.JWTAuthConstants;
 import mk.ukim.finki.backend.model.User;
 import mk.ukim.finki.backend.model.dto.UserDetailsDto;
-import mk.ukim.finki.backend.model.exceptions.PasswordsDoNotMatchException;
+import mk.ukim.finki.backend.model.exceptions.CustomMessageException;
 import mk.ukim.finki.backend.service.UserService;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -53,7 +53,7 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
         }
         UserDetails userDetails = userDetailsService.loadUserByUsername(creds.getUsername());
         if(!passwordEncoder.matches(creds.getPassword(), userDetails.getPassword())){
-            throw new PasswordsDoNotMatchException("Passwords don't match");
+            throw new CustomMessageException("Passwords don't match!");
         }
         return authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
                 userDetails.getUsername(), creds.getPassword(), userDetails.getAuthorities()));

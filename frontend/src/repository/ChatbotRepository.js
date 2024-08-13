@@ -58,11 +58,26 @@ const ChatbotService = {
     makeOrder: (cartId) => {
         return axios.post(`/orders/make-order/${cartId}`);
     },
+    getAllRoles: () => {
+        return axios.get("/user/roles")
+    },
     login: (username, password) => {
         return axios.post("/login", {
             "username": username,
             "password": password
         })
+    },
+    
+    register: (username, password, repeatPassword, role) => {
+        return axios.post("/user/register", {
+            "username": username,
+            "password": password,
+            "repeatPassword": repeatPassword,
+            "role": role
+        })
+    },
+    getUserRole: () => {
+        return axios.get("/user/role")
     }
 }
 

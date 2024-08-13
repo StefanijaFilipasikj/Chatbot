@@ -13,9 +13,9 @@ export default function Header(props) {
             <nav className="navbar navbar-light bg-light">
                 <a className="navbar-brand ms-1">Navbar</a>
                 <div>
-                    <a className="btn btn-success my-2 my-sm-0 me-1" type="submit">
+                    <Link className="btn btn-success my-2 my-sm-0 me-1" to={"/register"}>
                         Register
-                    </a>
+                    </Link>
                     {authenticate}
                 </div>
             </nav>

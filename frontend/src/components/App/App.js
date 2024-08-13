@@ -10,6 +10,7 @@ import ProductAdd from "../Product/ProductAdd";
 import ProductEdit from "../Product/ProductEdit";
 import Header from '../Header/Header';
 import Login from '../Auth/Login';
+import Register from '../Auth/Register';
 
 class App extends Component {
     constructor(props) {
@@ -19,6 +20,7 @@ class App extends Component {
             selectedProduct: {},
             selectedShoppingCart: {},
             orders: [],
+            roles: [],
         }
     }
 
@@ -33,7 +35,8 @@ class App extends Component {
                         <Route path={'/product/:id'} element={<ProductDetails product={this.state.selectedProduct} getProduct={this.getProduct} onAddToCart={this.addProductToCart}/>}></Route>
                         <Route path={'/shopping-cart/:username'} element={<ShoppingCart shoppingCart={this.state.selectedShoppingCart} getShoppingCart={this.getShoppingCart} onEditProduct={this.editProductInCart} onRemoveProduct={this.removeProductFromCart} onOrder={this.makeOrder}/>}></Route>
                         <Route path={'/orders/:username'} element={<OrderList orders={this.state.orders} getOrders={this.getOrders}/>}></Route>
-                        <Route path={"/login"} element={<Login onLogin={this.loadProducts}/>}/>
+                        <Route path={"/login"} element={<Login/>}/>
+                        <Route path='/register' element={<Register roles={this.state.roles}/>}/>
                         <Route path={'/'} element={<div>hi im your chatbot</div>}></Route>
                     </Routes>
                 </Router>
@@ -47,6 +50,18 @@ class App extends Component {
             .then((data) => {
                 this.setState({
                     products: data.data
+                })
+            })
+            .catch((error) => {
+                console.log(error)
+            });
+    }
+
+    loadRoles = () => {
+        ChatbotService.getAllRoles()
+            .then((data) => {
+                this.setState({
+                    roles: data.data
                 })
             })
             .catch((error) => {
@@ -176,6 +191,7 @@ class App extends Component {
 
     componentDidMount(){
         this.loadProducts();
+        this.loadRoles();
     }
 }
 

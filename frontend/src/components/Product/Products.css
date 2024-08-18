@@ -1,0 +1,16 @@
+.card{
+    box-shadow: 0 2px 4px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.card-title{
+    height: 4em;
+    overflow-y: hidden;
+}
+
+.details{
+    min-height: 45em;
+}
+
+.bg-lightblue{
+    background-color: #e9edf3;
+}

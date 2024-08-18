@@ -36,8 +36,14 @@ public class JWTWebSecurityConfig{
 
     @Bean
     public CorsConfigurationSource corsConfigurationSource(){
+        CorsConfiguration corsConfiguration = new CorsConfiguration();
+        corsConfiguration.setAllowedOrigins(List.of("http://localhost:3000/"));
+        corsConfiguration.setAllowedMethods(List.of("*"));
+        corsConfiguration.setAllowCredentials(true);
+        corsConfiguration.setAllowedHeaders(List.of("*"));
+        corsConfiguration.setExposedHeaders(List.of("Authorization"));
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        source.registerCorsConfiguration("/**", new CorsConfiguration().applyPermitDefaultValues());
+        source.registerCorsConfiguration("/**", corsConfiguration);
         return source;
     }
 
@@ -49,7 +55,7 @@ public class JWTWebSecurityConfig{
                 .authorizeHttpRequests( (requests) -> requests
                         .requestMatchers(HttpMethod.POST, "/**").permitAll()
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                        .requestMatchers("/", "/home", "/assets/**", "/api/login", "/api/products","api/user/register", "api/user/roles", "/api/user/role")
+                        .requestMatchers("/", "/home", "/assets/**", "/api/login", "/api/products","api/user/register", "api/user/roles", "/api/user/role", "/api/user/username")
                         .permitAll()
                         .anyRequest()
                         .authenticated()

@@ -70,45 +70,48 @@ const ProductEdit = (props) => {
     }
 
     return (
-        <form onSubmit={onFormSubmit}>
-            <div>
-                <label htmlFor="url">Product url</label>
-                <input type="text" id="url" name="url" required value={formData.url} placeholder={props.product.url} onChange={handleChange} />
-            </div>
-            <div>
-                <label htmlFor="title">Title</label>
-                <input type="text" id="title" name="title" placeholder={props.product.title} required value={formData.title} onChange={handleChange} />
-            </div>
-            <div>
-                <label htmlFor="warranty">Warranty</label>
-                <input type="number" id="warranty" name="warranty" placeholder={props.product.warranty} required value={formData.warranty} onChange={handleChange} />
-            </div>
-            <div>
-                <label htmlFor="regularPrice">Regular Price</label>
-                <input type="number" step={0.01} id="regularPrice" name="regularPrice" placeholder={props.product.regularPrice} required value={formData.regularPrice} onChange={handleChange} />
-            </div>
-            <div>
-                <label htmlFor="happyPrice">Happy Price</label>
-                <input type="number" step={0.01} id="happyPrice" name="happyPrice" placeholder={props.product.happyPrice} required value={formData.happyPrice} onChange={handleChange} />
-            </div>
-            <div>
-                <label htmlFor="imageUrl">Product image url</label>
-                <input type="text" id="imageUrl" name="imageUrl" placeholder={props.product.imageUrl} required value={formData.imageUrl} onChange={handleChange} />
-            </div>
-            <div>
-                <label>Descriptions</label>
-                {formData.descriptions.map((description, index) => (
-                    <div key={index}>
-                        <input type="text" name="key" placeholder="Enter description key" value={description.key} onChange={(e) => handleDescriptionChange(index, e)} required />
-                        <input type="text" name="value" placeholder="Enter description value" value={description.value} onChange={(e) => handleDescriptionChange(index, e)} required />
-                        <button type="button" onClick={() => removeDescription(index)}>Remove</button>
-                    </div>
-                ))}
-                <button type="button" onClick={addDescription}>Add Description</button>
-            </div>
+        <div className="container p-5 my-5 border rounded-3">
+            <h1 className="text-center text-primary mb-4">Edit Product</h1>
+            <form onSubmit={onFormSubmit}>
+                <div className="form-group mb-3">
+                    <label htmlFor="url">Product url</label>
+                    <input className="form-control" type="text" id="url" name="url" required value={formData.url} placeholder={props.product.url} onChange={handleChange} />
+                </div>
+                <div className="form-group mb-3">
+                    <label htmlFor="title">Title</label>
+                    <input className="form-control" type="text" id="title" name="title" placeholder={props.product.title} required value={formData.title} onChange={handleChange} />
+                </div>
+                <div className="form-group mb-3">
+                    <label htmlFor="warranty">Warranty</label>
+                    <input className="form-control" type="number" id="warranty" name="warranty" placeholder={props.product.warranty} required value={formData.warranty} onChange={handleChange} />
+                </div>
+                <div className="form-group mb-3">
+                    <label htmlFor="regularPrice">Regular Price</label>
+                    <input className="form-control" type="number" step={0.01} id="regularPrice" name="regularPrice" placeholder={props.product.regularPrice} required value={formData.regularPrice} onChange={handleChange} />
+                </div>
+                <div className="form-group mb-3">
+                    <label htmlFor="happyPrice">Happy Price</label>
+                    <input className="form-control" type="number" step={0.01} id="happyPrice" name="happyPrice" placeholder={props.product.happyPrice} required value={formData.happyPrice} onChange={handleChange} />
+                </div>
+                <div className="form-group mb-3">
+                    <label htmlFor="imageUrl">Product image url</label>
+                    <input className="form-control" type="text" id="imageUrl" name="imageUrl" placeholder={props.product.imageUrl} required value={formData.imageUrl} onChange={handleChange} />
+                </div>
+                <div className="form-group mb-3 border rounded-3 p-3">
+                    <label className="mb-3">Descriptions</label>
+                    {formData.descriptions.map((description, index) => (
+                        <div className="d-flex mb-3" key={index}>
+                            <input className="form-control me-2" type="text" name="key" placeholder="Enter description key" value={description.key} onChange={(e) => handleDescriptionChange(index, e)} required />
+                            <input className="form-control me-2" type="text" name="value" placeholder="Enter description value" value={description.value} onChange={(e) => handleDescriptionChange(index, e)} required />
+                            <button className="btn btn-info" onClick={() => removeDescription(index)}>Remove</button>
+                        </div>
+                    ))}
+                    <button className="btn btn-info" type="button" onClick={addDescription}>Add Description</button>
+                </div>
 
-            <button id="submit" type="submit" className="btn btn-primary">Submit</button>
-        </form>
+                <button className="btn btn-warning w-100 text-white" id="submit" type="submit">Submit</button>
+            </form>
+        </div>
     );
 }
 

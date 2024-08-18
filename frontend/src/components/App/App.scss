@@ -1,0 +1,34 @@
+$primary: #283052;
+$info: #4c577d;
+$secondary: #6c757d;
+$success: #4ecc79;
+$warning: #ef7457;
+$danger: #ee3b11;
+@import "bootstrap";
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:hover, &:focus, &:active{
+    background-color: darken($primary, 7.5%) !important;
+    border-color: darken($primary, 10%) !important;
+  }
+}
+
+.btn-info {
+  background-color: $info;
+  border-color: $info;
+  &:hover, &:focus, &:active{
+    background-color: darken($info, 7.5%) !important;
+    border-color: darken($info, 10%) !important;
+  }
+}
+
+.btn-warning {
+  background-color: $warning;
+  border-color: $warning;
+  &:hover, &:focus, &:active{
+    background-color: darken($warning, 7.5%) !important;
+    border-color: darken($warning, 10%) !important;
+  }
+}

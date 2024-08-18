@@ -1,5 +1,6 @@
 import React, {useEffect} from "react";
 import {Link, useParams} from 'react-router-dom';
+import "./OrderList.css";
 
 const Orders = ( props ) => {
 
@@ -9,40 +10,40 @@ const Orders = ( props ) => {
     }, [username, props.getOrders]);
 
     return (
-        <div>
-            <h1>Orders for {username}</h1>
+        <div className="container py-5">
+            <h1 className="mb-5">Orders for {username}</h1>
             <div>
                 {props.orders.map((o) => {
-                    // let totalRegular = o.productsInOrder && o.productsInOrder.map((p) => p.quantity * p.product.regularPrice).reduce((acc, current) => acc + current, 0);
-                    let totalHappy = o.productsInOrder && o.productsInOrder.map((p) => p.quantity * p.product.happyPrice).reduce((acc, current) => acc + current, 0);
+                    let total = o.productsInOrder?.map((p) => p.quantity * (p.product.happyPrice != 0.0 ? p.product.happyPrice : p.product.regularPrice)).reduce((sum, price) => sum + price, 0) || 0.0;
+
                     return(
-                        <table className={"table"}>
-                            <thead>
+                        <div className={"mb-5"}>
+                            <h6>Order: #{o.id}</h6>
+                            <h6>Time of order: {o.orderedAt}</h6>
+                            <table className={"table border rounded-3"}>
+                                <thead>
                                 <tr>
-                                    <th scope={"col"}>Product</th>
-                                    <th scope={"col"}>Regular Price</th>
-                                    <th scope={"col"}>Happy Price</th>
-                                    <th scope={"col"}>Quantity</th>
-                                    <th scope={"col"}></th>
+                                    <th className="p-3 bg-lightblue" scope={"col"}>Product</th>
+                                    <th className="p-3 bg-lightblue text-end" scope={"col"}>Price</th>
+                                    <th className="p-3 bg-lightblue text-end" scope={"col"}>Quantity</th>
                                 </tr>
-                            </thead>
-                            <tbody>
+                                </thead>
+                                <tbody>
                                 {o.productsInOrder && o.productsInOrder.map((p) => {
                                     return(
                                         <tr key={p.id}>
-                                            <td>{p.product.title}</td>
-                                            <td>{p.product.regularPrice}</td>
-                                            <td>{p.product.happyPrice}</td>
-                                            <td>{p.quantity}</td>
-                                            <td></td>
+                                            <td className="p-3">{p.product.title}</td>
+                                            <td className="p-3 text-end">{p.product.happyPrice != 0.0 ? p.product.happyPrice : p.product.regularPrice}</td>
+                                            <td className="p-3 text-end">{p.quantity}</td>
                                         </tr>
                                     )
                                 })}
-                                <tr aria-colspan={5}><b>Time of order: {o.orderedAt}</b></tr>
-                                {/*<tr aria-colspan={5}><b>Total regular price: {totalRegular}</b></tr>*/}
-                                <tr aria-colspan={5}><b>Total happy price: {totalHappy}</b></tr>
-                            </tbody>
-                        </table>
+                                <tr className="p-3 fw-bold text-end">
+                                    <td className="bg-light" colSpan={3}>Total price: {total.toFixed(2)}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     )
                 })}
             </div>

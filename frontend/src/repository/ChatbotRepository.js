@@ -67,7 +67,6 @@ const ChatbotService = {
             "password": password
         })
     },
-    
     register: (username, password, repeatPassword, role) => {
         return axios.post("/user/register", {
             "username": username,
@@ -78,6 +77,9 @@ const ChatbotService = {
     },
     getUserRole: () => {
         return axios.get("/user/role")
+    },
+    getUserUsername: () => {
+        return axios.get("/user/username")
     }
 }
 

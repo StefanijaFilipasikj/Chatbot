@@ -1,0 +1,36 @@
+.footer{
+    padding: 2em 10em 2em 20em;
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #dcdcdc;
+}
+
+.logo{
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+footer h5{
+    color: #ffffff !important;
+    cursor: pointer;
+}
+
+h5, a, a>h1{
+    transition: color 0.2s ease-in-out;
+}
+
+footer h5:hover, footer a:hover, footer a>h1:hover{
+    color: rgb(236, 183, 170) !important;
+}

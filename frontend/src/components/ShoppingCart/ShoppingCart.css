@@ -1,0 +1,32 @@
+.card{
+    box-shadow: 0 2px 4px rgba(100, 100, 100, 0.1);
+}
+
+.card:hover{
+    border: 1px solid #e6e6e6 !important;
+}
+
+.card-img {
+    width: 20em;
+}
+
+.btn-close-absolute{
+    background-color: transparent;
+    border: none;
+}
+
+.order-summary{
+    background-color: #e9edf3;
+    height: max-content;
+    position: fixed;
+    right: 1em;
+    box-shadow: 0 2px 4px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.btn-close-absolute{
+    position: absolute;
+    right: 9px;
+    top: 2px;
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import './ShoppingCart.css';
 
 const ShoppingCart = ({ getShoppingCart, shoppingCart, onEditProduct, onRemoveProduct, onOrder }) => {
     const navigate = useNavigate();
@@ -41,53 +42,57 @@ const ShoppingCart = ({ getShoppingCart, shoppingCart, onEditProduct, onRemovePr
         onEditProduct(id, productId, quantity, navigate);
     }
 
-    let totalRegular = shoppingCart.productsInCart && shoppingCart.productsInCart.map((p) => p.quantity * p.product.regularPrice).reduce((acc, current) => acc + current, 0);
-    let totalHappy = shoppingCart.productsInCart && shoppingCart.productsInCart.map((p) => p.quantity * p.product.happyPrice).reduce((acc, current) => acc + current, 0);
+    let total = shoppingCart.productsInCart?.map((p) => p.quantity * (p.product.happyPrice != 0.0 ? p.product.happyPrice : p.product.regularPrice)).reduce((sum, price) => sum + price, 0) || 0.0;
+    let count = shoppingCart.productsInCart?.map(p => p.quantity).reduce((sum, quantity) => sum + quantity, 0);
 
     return (
-        <div>
-            <h1>Shopping Cart for {username}</h1>
-            <h2>{shoppingCart.id}</h2>
+        <div className={"row m-4 p-1"}>
+            {/*<h1>Shopping Cart for {username}</h1>*/}
+            <div className={"col-8"}>
+                {shoppingCart.productsInCart && shoppingCart.productsInCart.map((p, index) => (
+                    <div className="card border-0 rounded-0 me-5 position-relative" key={p.id}>
+                        <button className="btn-close-absolute text-primary" type="button" onClick={() => onRemoveProduct(p.id, navigate)}>&#10005;</button>
+                        <div className="row d-flex align-items-center">
 
-            <table className={"table"}>
-                <thead>
-                <tr>
-                    <th scope={"col"}>Product</th>
-                    <th scope={"col"}>Regular Price</th>
-                    <th scope={"col"}>Happy Price</th>
-                    <th scope={"col"}>Quantity</th>
-                    <th scope={"col"}></th>
-                    <th scope={"col"}></th>
-                </tr>
-                </thead>
-                <tbody>
-                {shoppingCart.productsInCart && shoppingCart.productsInCart.map((p) => (
-                    <tr key={p.id}>
-                        {p.product && (
-                            <>
-                                <td>id: {p.product.id}, {p.product.title}</td>
-                                <td>{p.product.regularPrice}</td>
-                                <td>{p.product.happyPrice}</td>
-                                <td>
-                                    <form onSubmit={(e) => onFormSubmit(e, p.id)}>
-                                        <input type="hidden" name="productId" value={p.product.id}/>
-                                        <input type="number" min={1} name="quantity" value={formData[p.id]?.quantity || p.quantity} onChange={(e) => handleChange(e, p.id)} />
-                                        <button type="submit">Change</button>
-                                    </form>
-                                </td>
-                                <td>
-                                    <button onClick={() => onRemoveProduct(p.id, navigate)}>Remove from cart</button>
-                                </td>
-                            </>
-                        )}
-                    </tr>
+                            {p.product && (
+                                <>
+                                    <div className="row d-flex p-5">
+                                        <div className={"col-4 align-self-center"}>
+                                            <img className={"card-img"} src={p.product.imageUrl} alt={"Product img"}/>
+                                        </div>
+                                        <div className={"col-5 align-self-center"}>
+                                            <div>
+                                                <h5>{p.product.title}</h5>
+                                            </div>
+                                            <div className={"mt-4"}>
+                                                <h6>Quantity: <strong>{p.quantity}</strong></h6>
+                                                <h6>Price: <strong>{p.quantity * (p.product.happyPrice != 0.0 ? p.product.happyPrice : p.product.regularPrice)}</strong></h6>
+                                            </div>
+                                        </div>
+                                        <div className={"col-3 align-self-center"}>
+                                            <form onSubmit={(e) => onFormSubmit(e, p.id)}>
+                                                <input type="hidden" name="productId" value={p.product.id}/>
+                                                <label>Quantity</label>
+                                                <div className="d-flex">
+                                                    <input className="form-control rounded-0" type="number" min={1} name="quantity" value={formData[p.id]?.quantity || p.quantity} onChange={(e) => handleChange(e, p.id)} />
+                                                    <button className="btn btn-warning text-white" type="submit">Change</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </>
+                            )}
+                        </div>
+                    </div>
                 ))}
-                </tbody>
-            </table>
-            <p>Total Regular price: {totalRegular}</p>
-            <p>Total Happy price: {totalHappy}</p>
-
-            <button onClick={() => onOrder(shoppingCart.id, navigate)}>Order Now</button>
+            </div>
+            <div className={"col-4 order-summary mx-4 p-3"}>
+                <h3 className={"m-2 text-primary"}><strong>Order Summary</strong></h3>
+                <hr/>
+                <h5>Item count: {count}</h5>
+                <h5>Total price: {total.toFixed(2)}$</h5>
+                <button className="btn btn-primary w-100 mt-3 p-2 rounded-0 fs-5" onClick={() => onOrder(shoppingCart.id, navigate)}>Order Now</button>
+            </div>
         </div>
     );
 };

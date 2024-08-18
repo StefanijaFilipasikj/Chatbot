@@ -6,6 +6,7 @@ import mk.ukim.finki.backend.model.enumerations.Role;
 import mk.ukim.finki.backend.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -52,5 +53,15 @@ public class UserRestController {
     @GetMapping("/role")
     public List<? extends GrantedAuthority> getLoggedUserRole(){
         return SecurityContextHolder.getContext().getAuthentication().getAuthorities().stream().toList();
+    }
+
+    @GetMapping("/username")
+    public String getLoggedUserUsername() {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        if (authentication != null && authentication.isAuthenticated()) {
+            return authentication.getName();
+        } else {
+            return null;
+        }
     }
 }

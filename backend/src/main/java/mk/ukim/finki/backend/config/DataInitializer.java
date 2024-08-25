@@ -2,11 +2,15 @@ package mk.ukim.finki.backend.config;
 
 import jakarta.annotation.PostConstruct;
 import lombok.AllArgsConstructor;
+import mk.ukim.finki.backend.BackendApplication;
 import mk.ukim.finki.backend.model.*;
 import mk.ukim.finki.backend.model.enumerations.Role;
 import mk.ukim.finki.backend.repository.*;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
+
+import java.io.InputStream;
+import java.util.Scanner;
 
 @Component
 @AllArgsConstructor
@@ -26,15 +30,32 @@ public class DataInitializer {
         User user = userRepository.save(new User("user", passwordEncoder.encode("user"), Role.ROLE_USER));
         User user2 = userRepository.save(new User("admin", passwordEncoder.encode("admin"), Role.ROLE_ADMIN));
         ShoppingCart cart = cartRepository.save(new ShoppingCart(user));
-        ShoppingCart cart2 = cartRepository.save(new ShoppingCart(user2));
 
-        Product product = productRepository.save(new Product("https://www.neptun.mk/categories/prenosni_kompjuteri/ACER-Aspire-3-A315-58-54EF-i5-1135G7-8GB-512GB", "ЛАПТОП ACER ASPIRE 3 A315-58-54EF I5-1135G7/8GB/512GB/WIN11", 24, 32.999, 26.499, "https://www.neptun.mk/2023/05/18/Acer_c03e89e0-ab6c-4513-a158-960c1ab9fcef.JPG"));
-        Description desc1 = descriptionRepository.save(new Description("Лаптоп", "true", product));
-        Description desc2 = descriptionRepository.save(new Description("Полнач", "45W", product));
+        ClassLoader loader = BackendApplication.class.getClassLoader();
 
-        ProductInCart productInCart1 = productInCartRepository.save(new ProductInCart(product, cart, 1));
+        // Load products
+        InputStream productsStream = loader.getResourceAsStream("csv/products.csv");
+        Scanner productsScanner = new Scanner(productsStream, "UTF-8");
+        productsScanner.nextLine();
 
-        Order order = orderRepository.save(new Order(user));
-        ProductInOrder productInOrder = productInOrderRepository.save(new ProductInOrder(product, order, 2));
+        while (productsScanner.hasNextLine()) {
+            String line = productsScanner.nextLine();
+            String[] parts = line.split(",");
+            Product product = new Product(Long.parseLong(parts[0]), parts[1], parts[2], Integer.parseInt(parts[3]), Double.parseDouble(parts[4]), Double.parseDouble(parts[5]), parts[6], parts[7]);
+            this.productRepository.save(product);
+        }
+
+        // Load product descriptions
+        InputStream descriptionsStream = loader.getResourceAsStream("csv/descriptions.csv");
+        Scanner descriptionsScanner = new Scanner(descriptionsStream, "UTF-8");
+        descriptionsScanner.nextLine();
+
+        while (descriptionsScanner.hasNextLine()) {
+            String line = descriptionsScanner.nextLine();
+            String[] parts = line.split(",");
+            Product product = this.productRepository.findById(Long.parseLong(parts[0])).get();
+            Description description = new Description(parts[1], parts[2], product);
+            this.descriptionRepository.save(description);
+        }
     }
 }

@@ -52,7 +52,7 @@ public class ProductServiceImpl implements ProductService {
     @Override
     @Transactional
     public Optional<ProductDto> create(ProductFormDto dto) {
-        Product product = new Product(dto.getUrl(), dto.getTitle(), dto.getWarranty(), dto.getRegularPrice(), dto.getHappyPrice(), dto.getImageUrl());
+        Product product = new Product(dto.getUrl(), dto.getTitle(), dto.getWarranty(), dto.getRegularPrice(), dto.getHappyPrice(), dto.getCategory(), dto.getImageUrl());
         Product savedProduct = productRepository.save(product);
 
         List<Description> descriptions = dto.getDescriptions().stream().map(d -> new Description(d.getKey(), d.getValue(), savedProduct)).toList();
@@ -100,6 +100,6 @@ public class ProductServiceImpl implements ProductService {
                         description.getValue()
                 )).collect(Collectors.toList());
 
-        return Optional.of(new ProductDto(product.getId(), product.getUrl(), product.getTitle(), product.getWarranty(), product.getRegularPrice(), product.getHappyPrice(), product.getImageUrl(), descriptions));
+        return Optional.of(new ProductDto(product.getId(), product.getUrl(), product.getTitle(), product.getWarranty(), product.getRegularPrice(), product.getHappyPrice(), product.getCategory(), product.getImageUrl(), descriptions));
     }
 }

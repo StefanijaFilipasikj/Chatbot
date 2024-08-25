@@ -85,6 +85,7 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
                                 productInCart.getProduct().getWarranty(),
                                 productInCart.getProduct().getRegularPrice(),
                                 productInCart.getProduct().getHappyPrice(),
+                                productInCart.getProduct().getCategory(),
                                 productInCart.getProduct().getImageUrl(),
                                 productInCart.getProduct().getDescriptions()
                                         .stream().map(description -> new DescriptionDto(

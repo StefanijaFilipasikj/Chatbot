@@ -61,6 +61,7 @@ public class OrderServiceImpl implements OrderService {
                                 productInOrder.getProduct().getWarranty(),
                                 productInOrder.getProduct().getRegularPrice(),
                                 productInOrder.getProduct().getHappyPrice(),
+                                productInOrder.getProduct().getCategory(),
                                 productInOrder.getProduct().getImageUrl(),
                                 productInOrder.getProduct().getDescriptions()
                                         .stream().map(description -> new DescriptionDto(

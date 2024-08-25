@@ -3,7 +3,6 @@ package mk.ukim.finki.backend.model.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import mk.ukim.finki.backend.model.Description;
 
 import java.util.List;
 
@@ -17,6 +16,7 @@ public class ProductDto {
     private Integer warranty;
     private Double regularPrice;
     private Double happyPrice;
+    private String category;
     private String imageUrl;
     private List<DescriptionDto> descriptions;
 }

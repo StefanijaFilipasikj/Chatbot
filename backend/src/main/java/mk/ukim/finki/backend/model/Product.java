@@ -20,17 +20,31 @@ public class Product {
     private Integer warranty;
     private Double regularPrice;
     private Double happyPrice;
+    private String category;
     private String imageUrl;
     @OneToMany(mappedBy = "product", fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonManagedReference
     private List<Description> descriptions;
 
-    public Product(String url, String title, Integer warranty, Double regularPrice, Double happyPrice, String imageUrl) {
+    public Product(String url, String title, Integer warranty, Double regularPrice, Double happyPrice, String category, String imageUrl) {
         this.url = url;
         this.title = title;
         this.warranty = warranty;
         this.regularPrice = regularPrice;
         this.happyPrice = happyPrice;
+        this.category = category;
+        this.imageUrl = imageUrl;
+        this.descriptions = new ArrayList<>();
+    }
+
+    public Product(Long id, String url, String title, Integer warranty, Double regularPrice, Double happyPrice, String category, String imageUrl) {
+        this.id = id;
+        this.url = url;
+        this.title = title;
+        this.warranty = warranty;
+        this.regularPrice = regularPrice;
+        this.happyPrice = happyPrice;
+        this.category = category;
         this.imageUrl = imageUrl;
         this.descriptions = new ArrayList<>();
     }

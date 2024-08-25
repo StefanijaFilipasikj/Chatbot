@@ -16,6 +16,7 @@ public class ProductFormDto {
     private Integer warranty;
     private Double regularPrice;
     private Double happyPrice;
+    private String category;
     private String imageUrl;
     private List<DescriptionDto> descriptions;
 }

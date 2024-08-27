@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/GAMING_DESKTOP_KOMPJUTERI/EWE-PC-GAMER-X3402-R5-5600X-16GB-1TB-SSD-RX-7600-8GB",
-    "title": "",
+    "title": "EWE PC GAMER X3402 R5 5600X 16GB 1TB SSD RX 7600 8GB",
     "warranty": "36",
     "regular_price": "47.999",
     "happy_price": "45.999",
@@ -14,5 +14,6 @@
         "Куќиште": "IG-MAX X3402 3RGB",
         "Без оперативен систем": "True"
     },
-    "category": "Desktop"
+    "category": "Desktop",
+    "image": "https://www.neptun.mk/2024/01/11/X3402_b3ad38de-a892-4b72-8f15-9e3b21d778a1.jpg"
 }

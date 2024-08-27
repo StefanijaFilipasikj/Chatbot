@@ -11,5 +11,6 @@
         "1 x WAN (RJ-45)": "True",
         "WiFi": "WEP, WPA, WPA2, WPA/WPA2-Enterprise (802.1x)"
     },
-    "category": "Networking"
+    "category": "Networking",
+    "image": "https://www.neptun.mk/2021/01/22/11_a00f0543-34f8-4b49-a883-e4d7cc99f390.jpg"
 }

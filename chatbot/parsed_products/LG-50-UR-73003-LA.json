@@ -24,5 +24,6 @@
         "2xHDMI,2xUSB,LAN,CI Slot, RF": "true",
         "DVB-C/T2/S2": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2023/08/01/LG_b3041bfe-4ff4-4c0c-97f7-15cc56405a0b.JPG"
 }

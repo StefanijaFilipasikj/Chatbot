@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-Predator-Helios-300-PH315-55-95CR-i9-12900H-16GB-DDR5-1TB-RTX-3070-8GB",
-    "title": "",
+    "title": "ACER Predator Helios 300 PH315 55 95CR i9 12900H 16GB DDR5 1TB RTX 3070 8GB",
     "warranty": "24",
     "regular_price": "92.999",
     "happy_price": "76.999",
@@ -25,5 +25,6 @@
         "Power": "280 W",
         "Тежина": "2.6kg"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

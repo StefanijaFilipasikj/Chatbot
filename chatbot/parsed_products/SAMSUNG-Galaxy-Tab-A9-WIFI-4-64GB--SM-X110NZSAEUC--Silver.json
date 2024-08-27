@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/TABLETI/SAMSUNG-Galaxy-Tab-A9-WIFI-4-64GB--SM-X110NZSAEUC--Silver",
-    "title": "",
+    "title": "SAMSUNG Galaxy Tab A9 WIFI 4 64GB  SM X110NZSAEUC  Silver",
     "warranty": "24",
     "regular_price": "9.999",
     "happy_price": "8.699",
@@ -26,5 +26,6 @@
         "Fast charging": "15W",
         "Батерија": "5100 mAh"
     },
-    "category": "Tablet"
+    "category": "Tablet",
+    "image": "https://www.neptun.mk/2023/10/28/al-galaxy-tab-a9-sm-x110-sm-x110nzsaeuc-538772159_81d8d143-39de-425a-a04c-ad9b61d9853e.webp"
 }

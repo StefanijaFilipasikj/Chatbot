@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-Nitro-5-AN515-46-R0DK-R7-6800H-16GB-DDR5-512GB-RTX-3050-4GB",
-    "title": "",
+    "title": "ACER Nitro 5 AN515 46 R0DK R7 6800H 16GB DDR5 512GB RTX 3050 4GB",
     "warranty": "24",
     "regular_price": "63.999",
     "happy_price": "60.999",
@@ -19,5 +19,6 @@
         "57Wh Li-ion battery": "True",
         "Power": "230W"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/09/04/Acer_b085a829-0420-48f1-af2f-58fefc86dc36.JPG"
 }

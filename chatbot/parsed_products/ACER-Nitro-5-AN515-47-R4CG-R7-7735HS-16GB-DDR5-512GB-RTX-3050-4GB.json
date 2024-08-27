@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-Nitro-5-AN515-47-R4CG-R7-7735HS-16GB-DDR5-512GB-RTX-3050-4GB",
-    "title": "",
+    "title": "ACER Nitro 5 AN515 47 R4CG R7 7735HS 16GB DDR5 512GB RTX 3050 4GB",
     "warranty": "24",
     "regular_price": "75.999",
     "happy_price": "65.999",
@@ -19,5 +19,6 @@
         "57Wh Li-ion battery": "True",
         "Power": "180W"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/03/16/Capture.JPG"
 }

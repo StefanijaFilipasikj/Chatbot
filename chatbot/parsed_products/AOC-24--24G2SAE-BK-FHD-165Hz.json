@@ -20,5 +20,6 @@
         "HDMI": "True",
         "DisplayPort": "True"
     },
-    "category": "Monitor"
+    "category": "Monitor",
+    "image": "https://www.neptun.mk/2023/07/04/AOC.JPG"
 }

@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-Yoga-Slim-6-14IRP8-14--2-2K-i5-1340P-16GB-DDR5-512GB-WIN11",
-    "title": "",
+    "title": "LENOVO Yoga Slim 6 14IRP8 14  2 2K i5 1340P 16GB DDR5 512GB WIN11",
     "warranty": "24",
     "regular_price": "54.999",
     "happy_price": "50.999",
@@ -27,5 +27,6 @@
         "Power Adapter - 65W USB-C® (3-pin)": "True",
         "Батерија": "65Wh"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2024/04/08/82WV0049RM_de141597-5987-401d-9ec1-dd5b8aae129e.JPG"
 }

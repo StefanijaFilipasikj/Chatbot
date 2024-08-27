@@ -23,5 +23,6 @@
         "Bluetooth 5.0": "true",
         "DVB-T/T2/T2-HD/C/S/S2": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2023/09/05/0102_33d03cb5-1b93-4434-a4a4-02e3196456f2.JPG"
 }

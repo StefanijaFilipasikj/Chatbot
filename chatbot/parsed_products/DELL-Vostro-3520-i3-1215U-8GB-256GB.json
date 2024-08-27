@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/DELL-Vostro-3520-i3-1215U-8GB-256GB",
-    "title": "",
+    "title": "DELL Vostro 3520 i3 1215U 8GB 256GB",
     "warranty": "36",
     "regular_price": "24.999",
     "happy_price": "20.499",
@@ -20,5 +20,6 @@
         "Батерија": "3cell 41WHr",
         "Полнач": "65 Watt AC Adapter"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/09/28/v3520-1_8e51b362-05d3-4fa3-812e-0e44dc7bc366.jpg"
 }

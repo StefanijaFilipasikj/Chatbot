@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Vivobook-15-X1502ZA-BQ321-i3-1215U-8GB-512GB",
-    "title": "",
+    "title": "ASUS Vivobook 15 X1502ZA BQ321 i3 1215U 8GB 512GB",
     "warranty": "24",
     "regular_price": "23.999",
     "happy_price": "19.999",
@@ -22,5 +22,6 @@
         "Батерија": "42WHrs, 3S1P, 3-cell Li-ion",
         "45W AC Adapter": "True"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2024/01/05/Asus001_e9f4185f-8893-4306-b2b1-437af88b7c43.PNG"
 }

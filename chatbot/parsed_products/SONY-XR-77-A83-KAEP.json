@@ -37,5 +37,6 @@
         "DVB-T/T2/C/S/S2": "true",
         "Wi-Fi": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2022/08/17/567_f735040e-c4a2-4ff4-abf0-1c8da6b2f02f.JPG"
 }

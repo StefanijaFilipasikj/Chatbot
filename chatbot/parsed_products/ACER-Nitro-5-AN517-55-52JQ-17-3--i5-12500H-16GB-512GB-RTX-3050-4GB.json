@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-Nitro-5-AN517-55-52JQ-17-3--i5-12500H-16GB-512GB-RTX-3050-4GB",
-    "title": "",
+    "title": "ACER Nitro 5 AN517 55 52JQ 17 3  i5 12500H 16GB 512GB RTX 3050 4GB",
     "warranty": "24",
     "regular_price": "62.999",
     "happy_price": "59.999",
@@ -19,5 +19,6 @@
         "Батерија": "90Wh Li-ion battery",
         "330W AC Adapter": "True"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

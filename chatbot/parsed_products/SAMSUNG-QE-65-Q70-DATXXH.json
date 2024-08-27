@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/televizori/SAMSUNG-QE-65-Q70-DATXXH",
-    "title": "",
+    "title": "SAMSUNG QE 65 Q70 DATXXH",
     "warranty": "24",
     "regular_price": "81.999",
     "happy_price": "71.999",
@@ -32,5 +32,6 @@
         "Bluetooth v5.2": "true",
         "DVB-T2CS2 x 2": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2024/05/14/QE65Q70DATXXH_cb2d7f9d-f292-490c-9143-580c3344a7a0.JPG"
 }

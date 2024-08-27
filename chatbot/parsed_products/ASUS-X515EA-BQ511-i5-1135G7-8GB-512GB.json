@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-X515EA-BQ511-i5-1135G7-8GB-512GB",
-    "title": "",
+    "title": "ASUS X515EA BQ511 i5 1135G7 8GB 512GB",
     "warranty": "24",
     "regular_price": "31.999",
     "happy_price": "23.499",
@@ -22,5 +22,6 @@
         "AC Adapter 4.0, 45W AC Adapter, Output: 19V DC, 2.37A, 45W, Input: 100~240V AC 50/60Hz universal": "True",
         "Батерија": "37WHrs, 2S1P, 2-cell Li-ion"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2022/02/03/X515_dd8b1564-bd41-4fb8-893a-32001cb0aff4.jpg"
 }

@@ -26,5 +26,6 @@
         "HDMI, USB, LAN,CI +": "true",
         "DVB-T2/T/C/S2/S": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2023/09/01/43A6K.jpg"
 }

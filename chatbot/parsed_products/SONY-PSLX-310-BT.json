@@ -19,5 +19,6 @@
         "Ниски (-4 dB) / Средни (0 dB) / Високи (+6 dB)": "True",
         "Прекинувач за избор на моно / линиски излез": "True"
     },
-    "category": "Speaker"
+    "category": "Speaker",
+    "image": "https://www.neptun.mk/2021/05/15/11.jpg"
 }

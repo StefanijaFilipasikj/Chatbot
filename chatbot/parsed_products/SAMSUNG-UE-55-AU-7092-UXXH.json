@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/televizori/SAMSUNG-UE-55-AU-7092-UXXH",
-    "title": "",
+    "title": "SAMSUNG UE 55 AU 7092 UXXH",
     "warranty": "24",
     "regular_price": "33.999",
     "happy_price": "25.999",
@@ -22,5 +22,6 @@
         "1 x USB,3 x HDMI, LAN, CI+, eARC": "true",
         "DVB-T2/C/S2": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

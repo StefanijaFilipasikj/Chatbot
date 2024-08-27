@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/MacBook-Air-13-6-Starlight-M2-8C-GPU-8GB-256GB-ZEE-mly13ze-a",
-    "title": "",
+    "title": "MacBook Air 13 6 Starlight M2 8C GPU 8GB 256GB ZEE mly13ze a",
     "warranty": "12",
     "regular_price": "90.399",
     "happy_price": "71.999",
@@ -26,5 +26,6 @@
         "30W USB-C Power Adapter": "True",
         "Батерија": "52,6 Wh - 18 часа"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/02/23/mac_book_yellow.JPG"
 }

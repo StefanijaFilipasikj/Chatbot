@@ -31,5 +31,6 @@
         "Bluetooth v5.2": "true",
         "DVB-T2CS2": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2023/04/24/50_ka_sam_5.JPG"
 }

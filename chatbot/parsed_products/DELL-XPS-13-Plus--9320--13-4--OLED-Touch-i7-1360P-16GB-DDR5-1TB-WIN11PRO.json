@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/DELL-XPS-13-Plus--9320--13-4--OLED-Touch-i7-1360P-16GB-DDR5-1TB-WIN11PRO",
-    "title": "",
+    "title": "DELL XPS 13 Plus  9320  13 4  OLED Touch i7 1360P 16GB DDR5 1TB WIN11PRO",
     "warranty": "36",
     "regular_price": "152.999",
     "happy_price": "141.999",
@@ -20,5 +20,6 @@
         "Батерија": "3 Cell, 55 Wh, integrated",
         "Полнач": "60 Watt AC Adapter USB-C"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2024/03/05/xps13.jpg"
 }

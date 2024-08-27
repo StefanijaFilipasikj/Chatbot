@@ -27,5 +27,6 @@
         "CI+": "True",
         "DVB-T/T2/T2-HD/C/S/S2": "True"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2024/02/08/8508_8518_8548_8558_43_50_55_65_F5_V2_RGB_FCB.JPG"
 }

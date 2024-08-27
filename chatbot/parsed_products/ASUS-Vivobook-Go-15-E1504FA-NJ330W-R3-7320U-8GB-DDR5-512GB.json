@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Vivobook-Go-15-E1504FA-NJ330W-R3-7320U-8GB-DDR5-512GB",
-    "title": "",
+    "title": "ASUS Vivobook Go 15 E1504FA NJ330W R3 7320U 8GB DDR5 512GB",
     "warranty": "24",
     "regular_price": "26.999",
     "happy_price": "23.499",
@@ -29,5 +29,6 @@
         "Батерија": "42WHrs, 3S1P, 3-cell Li-ion",
         "45W AC Adapter": "True"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2024/02/22/Asus01_6ee39912-44b7-4d26-a3bf-bf340f259489.JPG"
 }

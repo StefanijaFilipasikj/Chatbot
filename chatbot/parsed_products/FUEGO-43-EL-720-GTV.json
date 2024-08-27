@@ -28,5 +28,6 @@
         "Графика": "Mali-G31 MP2",
         "Приклучоци и конектори": "1xRJ45, 1xOPTICAL, 3xHDMI1.4, 1xAV IN, 1x*TV1(S2), 1xTV2(ATV/DVB-T/C/T2), 2xUSB2.0, 1xCI, DVB-T/T2/C/S/S2"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2024/07/10/84103761.JPG"
 }

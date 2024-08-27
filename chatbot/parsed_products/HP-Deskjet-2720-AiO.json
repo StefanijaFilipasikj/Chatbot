@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/PECATARI/HP-Deskjet-2720-AiO",
-    "title": "",
+    "title": "HP Deskjet 2720 AiO",
     "warranty": "12",
     "regular_price": "4.299",
     "happy_price": "3.299",
@@ -22,5 +22,6 @@
         "Wi-Fi 802.11a/b/g/n": "True",
         "Wireless Network Supported": "True"
     },
-    "category": "Printer"
+    "category": "Printer",
+    "image": "https://www.neptun.mk/2022/06/17/123_4bfc4019-ed52-4bce-94c2-70dec4ff6d4c.JPG"
 }

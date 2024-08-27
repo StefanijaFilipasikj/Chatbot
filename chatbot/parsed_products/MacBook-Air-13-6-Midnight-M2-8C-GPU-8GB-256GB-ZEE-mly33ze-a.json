@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/MacBook-Air-13-6-Midnight-M2-8C-GPU-8GB-256GB-ZEE-mly33ze-a",
-    "title": "",
+    "title": "MacBook Air 13 6 Midnight M2 8C GPU 8GB 256GB ZEE mly33ze a",
     "warranty": "",
     "regular_price": "90.399",
     "happy_price": "71.999",
@@ -18,5 +18,6 @@
         "Батерија": "18 часа",
         "macOS": "True"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/03/08/apple.JPG"
 }

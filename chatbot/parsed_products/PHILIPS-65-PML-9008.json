@@ -31,5 +31,6 @@
         "DVB-T/T2/T2-HD/C/S/S2": "true",
         "Вграден Wifi": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2024/02/09/9008-0.JPG"
 }

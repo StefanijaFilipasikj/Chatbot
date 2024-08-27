@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/televizori/SONY-XR-65-X90-KAEP",
-    "title": "",
+    "title": "SONY XR 65 X90 KAEP",
     "warranty": "24",
     "regular_price": "114.999",
     "happy_price": "73.995",
@@ -26,5 +26,6 @@
         "(eARC/ARC)": "true",
         "DVB-T/T2/C/S/S2": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

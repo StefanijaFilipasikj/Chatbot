@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/televizori/SAMSUNG-UE-50-CU-7092-UXXH",
-    "title": "",
+    "title": "SAMSUNG UE 50 CU 7092 UXXH",
     "warranty": "24",
     "regular_price": "29.999",
     "happy_price": "25.999",
@@ -33,5 +33,6 @@
         "CI слот": "True",
         "DVB-T2CS2": "True"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2024/02/20/S_82f25cc8-e83d-4fdc-bcc0-1c25ef604f3c.JPG"
 }

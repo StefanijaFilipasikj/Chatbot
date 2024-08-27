@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/televizori/SAMSUNG-UE-65-CU-7172-UXXH",
-    "title": "",
+    "title": "SAMSUNG UE 65 CU 7172 UXXH",
     "warranty": "24",
     "regular_price": "49.999",
     "happy_price": "37.999",
@@ -31,5 +31,6 @@
         "Дигитален аудио излез (оптички)": "true",
         "DVB-T2CS2": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

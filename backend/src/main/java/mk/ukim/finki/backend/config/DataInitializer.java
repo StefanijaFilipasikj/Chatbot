@@ -40,8 +40,8 @@ public class DataInitializer {
 
         while (productsScanner.hasNextLine()) {
             String line = productsScanner.nextLine();
-            String[] parts = line.split(",");
-            Product product = new Product(Long.parseLong(parts[0]), parts[1], parts[2], Integer.parseInt(parts[3]), Double.parseDouble(parts[4]), Double.parseDouble(parts[5]), parts[6], parts[7]);
+            String[] parts = line.split("\\|");
+            Product product = new Product(Long.parseLong(parts[0]), parts[1], parts[2], Integer.parseInt(parts[3].split("\\.")[0]), Double.parseDouble(parts[4]), Double.parseDouble(parts[5]), parts[6], parts[7]);
             this.productRepository.save(product);
         }
 
@@ -52,9 +52,11 @@ public class DataInitializer {
 
         while (descriptionsScanner.hasNextLine()) {
             String line = descriptionsScanner.nextLine();
-            String[] parts = line.split(",");
+            String[] parts = line.split("\\|");
             Product product = this.productRepository.findById(Long.parseLong(parts[0])).get();
-            Description description = new Description(parts[1], parts[2], product);
+            String key = parts.length > 1 ? parts[1] : "";
+            String value = parts.length > 2 ? parts[2] : "";
+            Description description = new Description(key, value, product);
             this.descriptionRepository.save(description);
         }
     }

@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/gaming_laptopi/ACER-Aspire-7-A715-76G-50NJ-i5-12450H-8GB-512GB-RTX-2050-4GB",
-    "title": "",
+    "title": "ACER Aspire 7 A715 76G 50NJ i5 12450H 8GB 512GB RTX 2050 4GB",
     "warranty": "24",
     "regular_price": "44.999",
     "happy_price": "39.999",
@@ -23,5 +23,6 @@
         "Батерија": "5.5h, 3-cell , Lithium Ion (Li-Ion)",
         "Адаптер": "135W"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2024/01/02/Acer_19ee5395-3f0c-4bfc-a535-bf23ad745c44.JPG"
 }

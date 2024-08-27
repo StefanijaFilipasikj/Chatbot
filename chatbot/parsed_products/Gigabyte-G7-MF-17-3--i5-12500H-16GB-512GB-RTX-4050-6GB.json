@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/gaming_laptopi/Gigabyte-G7-MF-17-3--i5-12500H-16GB-512GB-RTX-4050-6GB",
-    "title": "",
+    "title": "Gigabyte G7 MF 17 3  i5 12500H 16GB 512GB RTX 4050 6GB",
     "warranty": "24",
     "regular_price": "63.999",
     "happy_price": "54.999",
@@ -33,5 +33,6 @@
         "Adapter": "150W",
         "Тежина": "~2.53kg"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

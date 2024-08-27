@@ -10,5 +10,6 @@
         "Wired-Ethernet (RJ-45)": "True",
         "Number of LAN Ports": "8"
     },
-    "category": "Networking"
+    "category": "Networking",
+    "image": "https://www.neptun.mk/2020/12/29/12321_83155574-9d6f-4961-a32e-35b434baadb1.jpg"
 }

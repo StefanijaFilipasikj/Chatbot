@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/TABLETI/SAMSUNG-Galaxy-Tab-A8-SM-X200-NZAEEUC",
-    "title": "",
+    "title": "SAMSUNG Galaxy Tab A8 SM X200 NZAEEUC",
     "warranty": "",
     "regular_price": "15.999",
     "happy_price": "12.999",
@@ -26,5 +26,6 @@
         "Сензори": "Акцелерометар, жиро сензор, геомагнетен сензор, сензор за хол, сензор за светлина",
         "Батерија": "7040mAh"
     },
-    "category": "Tablet"
+    "category": "Tablet",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-Yoga-7-14IRL8-14--Touch-i5-1340P-16GB-DDR5-512GB-WIN11",
-    "title": "",
+    "title": "LENOVO Yoga 7 14IRL8 14  Touch i5 1340P 16GB DDR5 512GB WIN11",
     "warranty": "24",
     "regular_price": "62.999",
     "happy_price": "56.999",
@@ -24,5 +24,6 @@
         "Порти": "1x HDMI® 1.4b, 1x Headphone / microphone combo jack (3.5mm), 1x USB 3.2 Gen 1 (Always On), 1x microSD card reader, 2x Thunderbolt™ 4 / USB4® 40Gbps (support data transfer, Power Delivery 3.0 and DisplayPort™ 1.4), Power Adapter - 65W USB-C® (3-pin)",
         "Батерија": "Integrated 71Wh"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

@@ -26,5 +26,6 @@
         "HDMI, USB, LAN,CI +": "true",
         "DVB-T2/T/C/S2/S": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2023/10/13/Hisense_7a7c7471-029a-4082-bad0-850d01047a4e.jpg"
 }

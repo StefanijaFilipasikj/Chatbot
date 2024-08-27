@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Vivobook-15-X1504VA-BQ322-i3-1315U-8GB-512GB",
-    "title": "",
+    "title": "ASUS Vivobook 15 X1504VA BQ322 i3 1315U 8GB 512GB",
     "warranty": "24",
     "regular_price": "27.999",
     "happy_price": "23.999",
@@ -19,5 +19,6 @@
         "Порти": "1x USB 2.0 Type-A, 1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 1.4, 1x 3.5mm Combo Audio Jack, 1x DC-in, 45W AC Adapter",
         "Батерија": "42WHrs, 3S1P, 3-cell Li-ion"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/09/06/Asus_2087670d-f283-47b4-969f-08090c7025fb.JPG"
 }

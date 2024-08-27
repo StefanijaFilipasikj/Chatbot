@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/televizori/SAMSUNG-UE-50-DU-7172-UXXH",
-    "title": "",
+    "title": "SAMSUNG UE 50 DU 7172 UXXH",
     "warranty": "24",
     "regular_price": "31.999",
     "happy_price": "",
@@ -33,5 +33,6 @@
         "Вграден Wi-Fi 5": "true",
         "DVB-T2CS2": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2024/05/13/UE50DU7172UXXH_fa299672-a08e-4f63-9d36-1d45efd9fe0f.JPG"
 }

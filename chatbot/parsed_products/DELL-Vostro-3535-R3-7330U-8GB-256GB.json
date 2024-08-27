@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/DELL-Vostro-3535-R3-7330U-8GB-256GB",
-    "title": "",
+    "title": "DELL Vostro 3535 R3 7330U 8GB 256GB",
     "warranty": "36",
     "regular_price": "21.999",
     "happy_price": "19.499",
@@ -19,5 +19,6 @@
         "Батерија": "4 Cell, 54 Wh, integrated",
         "Полнач": "65 Watt AC Adapter"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/10/24/Dell_6d903c5a-c4df-4fc6-b01e-8ff2d30465fc.jpg"
 }

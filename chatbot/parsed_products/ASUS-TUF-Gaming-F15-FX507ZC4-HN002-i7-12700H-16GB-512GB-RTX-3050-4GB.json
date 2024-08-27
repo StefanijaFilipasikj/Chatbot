@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/gaming_laptopi/ASUS-TUF-Gaming-F15-FX507ZC4-HN002-i7-12700H-16GB-512GB-RTX-3050-4GB",
-    "title": "",
+    "title": "ASUS TUF Gaming F15 FX507ZC4 HN002 i7 12700H 16GB 512GB RTX 3050 4GB",
     "warranty": "24",
     "regular_price": "64.999",
     "happy_price": "56.999",
@@ -31,5 +31,6 @@
         "Батерија": "56WHrs, 4S1P, 4-cell Li-ion",
         "Полнач": "6.0, 200W AC Adapter, Output: 20V DC, 10A, 200W, Input: 100-240V AC, 50/60Hz universal"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

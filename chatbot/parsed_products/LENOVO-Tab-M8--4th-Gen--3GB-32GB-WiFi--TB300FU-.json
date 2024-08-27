@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/TABLETI/LENOVO-Tab-M8--4th-Gen--3GB-32GB-WiFi--TB300FU-",
-    "title": "",
+    "title": "LENOVO Tab M8  4th Gen  3GB 32GB WiFi  TB300FU ",
     "warranty": "24",
     "regular_price": "6.999",
     "happy_price": "5.599",
@@ -22,5 +22,6 @@
         "Подарок заштитна футрола + заштитна фолија": "true",
         "Батерија": "5100mAh"
     },
-    "category": "Tablet"
+    "category": "Tablet",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

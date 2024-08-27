@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/IdeaPad-3-15IAU7-15-6--i3-1215U-8G-512GB-SSD",
-    "title": "",
+    "title": "IdeaPad 3 15IAU7 15 6  i3 1215U 8G 512GB SSD",
     "warranty": "24",
     "regular_price": "22.999",
     "happy_price": "19.999",
@@ -19,5 +19,6 @@
         "Звучник": "Stereo speakers, 1.5W x2, Dolby® Audio™",
         "Камера": "HD 720p with Privacy Shutter"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/09/27/Lenovo5_aa04c899-1d0b-4ab9-b20f-b5fc3250a2ab.JPG"
 }

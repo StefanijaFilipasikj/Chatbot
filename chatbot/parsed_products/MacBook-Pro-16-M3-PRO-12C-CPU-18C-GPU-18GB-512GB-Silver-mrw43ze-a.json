@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/MacBook-Pro-16-M3-PRO-12C-CPU-18C-GPU-18GB-512GB-Silver-mrw43ze-a",
-    "title": "",
+    "title": "MacBook Pro 16 M3 PRO 12C CPU 18C GPU 18GB 512GB Silver mrw43ze a",
     "warranty": "12",
     "regular_price": "182.999",
     "happy_price": "177.999",
@@ -27,5 +27,6 @@
         "Батерија": "до 18 часа",
         "Полнач": "96W USB-C"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/12/06/MacSilver_7879438b-e617-4901-b63f-18f5717f3666.JPG"
 }

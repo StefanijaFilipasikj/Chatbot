@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/televizori/LG-65-UR-91003-LA",
-    "title": "",
+    "title": "LG 65 UR 91003 LA",
     "warranty": "24",
     "regular_price": "54.999",
     "happy_price": "49.999",
@@ -37,5 +37,6 @@
         "Bluetooth 5.0": "true",
         "DVB-T2/C/S2": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2023/08/17/Lg003_5a764ad9-2d8b-4ffc-b37a-6781434e6771.JPG"
 }

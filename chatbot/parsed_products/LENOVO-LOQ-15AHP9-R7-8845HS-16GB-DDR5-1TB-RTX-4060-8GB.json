@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/gaming_laptopi/LENOVO-LOQ-15AHP9-R7-8845HS-16GB-DDR5-1TB-RTX-4060-8GB",
-    "title": "",
+    "title": "LENOVO LOQ 15AHP9 R7 8845HS 16GB DDR5 1TB RTX 4060 8GB",
     "warranty": "24",
     "regular_price": "75.999",
     "happy_price": "69.999",
@@ -24,5 +24,6 @@
         "Power Adapter": "230W Slim Tip (3-pin)",
         "Батерија": "Integrated 60Wh"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2024/03/22/Len.JPG"
 }

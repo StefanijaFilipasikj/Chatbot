@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-LOQ-15IRH8-i5-13500H-16GB-DDR5-512GB-RTX-4060-8GB",
-    "title": "",
+    "title": "LENOVO LOQ 15IRH8 i5 13500H 16GB DDR5 512GB RTX 4060 8GB",
     "warranty": "24",
     "regular_price": "75.999",
     "happy_price": "66.999",
@@ -23,5 +23,6 @@
         "Power Adapter": "230W Slim Tip (3-pin)",
         "Батерија": "Integrated 60Wh"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2024/01/12/LOQ15IRH8CT102_f3595da8-a21a-44db-b38a-8fd11cbad9cd.jpg"
 }

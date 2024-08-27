@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/televizori/SAMSUNG-UE-50-CU-7172-UXXH",
-    "title": "",
+    "title": "SAMSUNG UE 50 CU 7172 UXXH",
     "warranty": "24",
     "regular_price": "29.999",
     "happy_price": "24.999",
@@ -27,5 +27,6 @@
         "Bluetooth v5.2": "True",
         "DVB-T2CS2": "True"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2023/10/09/Samsung_ca2dd5ee-bb3f-44b5-854c-d0096b5b1ec8.JPG"
 }

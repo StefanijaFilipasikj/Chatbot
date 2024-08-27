@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-X515EA-BQ322W-i3-1115G4-8GB-512GB-WIN",
-    "title": "",
+    "title": "ASUS X515EA BQ322W i3 1115G4 8GB 512GB WIN",
     "warranty": "24",
     "regular_price": "31.999",
     "happy_price": "21.999",
@@ -19,5 +19,6 @@
         "AC Adapter": "4.0, 45W AC Adapter, Output: 19V DC, 2.37A, 45W, Input: 100~240V AC 50/60Hz universal",
         "Батерија": "37WHrs, 2S1P, 2-cell Li-ion"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/02/23/acerrr.JPG"
 }

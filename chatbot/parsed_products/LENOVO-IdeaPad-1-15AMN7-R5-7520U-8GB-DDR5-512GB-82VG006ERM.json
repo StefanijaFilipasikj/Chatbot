@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/LENOVO-IdeaPad-1-15AMN7-R5-7520U-8GB-DDR5-512GB-82VG006ERM",
-    "title": "",
+    "title": "LENOVO IdeaPad 1 15AMN7 R5 7520U 8GB DDR5 512GB 82VG006ERM",
     "warranty": "24",
     "regular_price": "30.999",
     "happy_price": "20.999",
@@ -23,5 +23,6 @@
         "Power Adapter": "65W Round Tip (3-pin)",
         "Батерија": "42Wh - MobileMark® 2018: 9.86 hr"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

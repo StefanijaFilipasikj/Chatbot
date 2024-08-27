@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/televizori/FUEGO-43-ELU-720-GTV",
-    "title": "",
+    "title": "FUEGO 43 ELU 720 GTV",
     "warranty": "24",
     "regular_price": "13.999",
     "happy_price": "11.999",
@@ -37,5 +37,6 @@
         "1 x CI": "true",
         "DVB-T/T2/C/S/S2": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2024/07/10/84103762.JPG"
 }

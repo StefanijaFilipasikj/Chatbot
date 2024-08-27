@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/ASUS-Vivobook-Go-15-E510MA-EJ1461-N4020-8GB-512GB",
-    "title": "",
+    "title": "ASUS Vivobook Go 15 E510MA EJ1461 N4020 8GB 512GB",
     "warranty": "24",
     "regular_price": "17.999",
     "happy_price": "14.999",
@@ -23,5 +23,6 @@
         "Батерија": "42WHrs, 3S1P, 3-cell Li-ion",
         "33W AC Adapter": "True"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2024/03/13/ASUSVivobookGo15E510MA-EJ1461_8ebe6e56-6669-4029-b363-2662690c47fe.JPG"
 }

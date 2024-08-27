@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/televizori/SAMSUNG-UE-65-CU-7092-UXXH",
-    "title": "",
+    "title": "SAMSUNG UE 65 CU 7092 UXXH",
     "warranty": "24",
     "regular_price": "45.999",
     "happy_price": "39.999",
@@ -33,5 +33,6 @@
         "CI слот": "true",
         "DVB-T2CS2": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2024/02/20/S_76b78d42-567f-4557-9cb9-c65d5a649b85.JPG"
 }

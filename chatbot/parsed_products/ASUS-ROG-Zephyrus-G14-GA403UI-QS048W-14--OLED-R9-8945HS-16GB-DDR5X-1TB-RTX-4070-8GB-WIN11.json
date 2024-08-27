@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/gaming_laptopi/ASUS-ROG-Zephyrus-G14-GA403UI-QS048W-14--OLED-R9-8945HS-16GB-DDR5X-1TB-RTX-4070-8GB-WIN11",
-    "title": "",
+    "title": "ASUS ROG Zephyrus G14 GA403UI QS048W 14  OLED R9 8945HS 16GB DDR5X 1TB RTX 4070 8GB WIN11",
     "warranty": "24",
     "regular_price": "139.999",
     "happy_price": "129.999",
@@ -30,5 +30,6 @@
         "Security BIOS Administrator Password and User Password Protection": "True",
         "Батерија": "73WHrs, 4S1P, 4-cell Li-ion"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2024/02/07/ROG_c5e41893-7c25-456b-83c3-7edebf40f59f.png"
 }

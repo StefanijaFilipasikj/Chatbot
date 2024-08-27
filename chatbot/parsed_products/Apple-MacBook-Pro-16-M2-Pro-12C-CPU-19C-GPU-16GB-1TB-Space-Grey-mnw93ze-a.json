@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/Apple-MacBook-Pro-16-M2-Pro-12C-CPU-19C-GPU-16GB-1TB-Space-Grey-mnw93ze-a",
-    "title": "",
+    "title": "Apple MacBook Pro 16 M2 Pro 12C CPU 19C GPU 16GB 1TB Space Grey mnw93ze a",
     "warranty": "12",
     "regular_price": "196.799",
     "happy_price": "167.999",
@@ -31,5 +31,6 @@
         "140W USB-C Apple MagSafe 3 Power Adapter": "True",
         "Батерија": "100 Wh - 22 h"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

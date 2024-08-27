@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/OPREMA_ZA_AVTOMOBILI/S-LINK-SMG-482-2000MA-2in1-2xUSB",
-    "title": "",
+    "title": "S LINK SMG 482 2000MA 2in1 2xUSB",
     "warranty": "24",
     "regular_price": "379",
     "happy_price": "265",
@@ -11,5 +11,6 @@
         "2000mА": "True",
         "2 Amper": "True"
     },
-    "category": "Accessories"
+    "category": "Accessories",
+    "image": "https://www.neptun.mk/2018/01/30/A_e1538e3b-4bbd-4d3f-8932-890f98f6642b.jpg"
 }

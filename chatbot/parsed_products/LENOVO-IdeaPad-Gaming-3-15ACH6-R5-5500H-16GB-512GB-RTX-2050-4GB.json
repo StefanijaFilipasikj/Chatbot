@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/gaming_laptopi/LENOVO-IdeaPad-Gaming-3-15ACH6-R5-5500H-16GB-512GB-RTX-2050-4GB",
-    "title": "",
+    "title": "LENOVO IdeaPad Gaming 3 15ACH6 R5 5500H 16GB 512GB RTX 2050 4GB",
     "warranty": "24",
     "regular_price": "39.999",
     "happy_price": "36.999",
@@ -25,5 +25,6 @@
         "Батерија": "Integrated 45Wh",
         "Power Adapter": "135W Slim Tip (3-pin)"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2024/04/18/IdeaPadGaming315ACH6CT107_e390ac7f-2a9b-4226-b75d-6da0d371c324.jpg"
 }

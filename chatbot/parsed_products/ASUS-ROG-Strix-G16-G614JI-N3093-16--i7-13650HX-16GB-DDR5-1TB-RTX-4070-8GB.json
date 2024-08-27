@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/gaming_laptopi/ASUS-ROG-Strix-G16-G614JI-N3093-16--i7-13650HX-16GB-DDR5-1TB-RTX-4070-8GB",
-    "title": "",
+    "title": "ASUS ROG Strix G16 G614JI N3093 16  i7 13650HX 16GB DDR5 1TB RTX 4070 8GB",
     "warranty": "24",
     "regular_price": "114.999",
     "happy_price": "105.999",
@@ -25,5 +25,6 @@
         "Батерија": "90WHrs, 4S1P, 4-cell Li-ion",
         "Адаптер": "280W"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/09/04/ROG_b372ed81-7811-4c7d-9be5-0107f885fc69.JPG"
 }

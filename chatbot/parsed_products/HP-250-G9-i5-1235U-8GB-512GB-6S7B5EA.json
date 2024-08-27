@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/HP-250-G9-i5-1235U-8GB-512GB-6S7B5EA",
-    "title": "",
+    "title": "HP 250 G9 i5 1235U 8GB 512GB 6S7B5EA",
     "warranty": "12",
     "regular_price": "31.999",
     "happy_price": "23.999",
@@ -20,5 +20,6 @@
         "Power": "HP Smart 45 W External AC power adapter",
         "Батерија": "3-cell, 41 Wh Li-ion"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/04/28/6S7B5EA_d57f4d1e-bfd1-4954-85d8-4827444f30e9.JPG"
 }

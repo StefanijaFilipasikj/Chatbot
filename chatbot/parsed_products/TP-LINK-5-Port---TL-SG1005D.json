@@ -9,5 +9,6 @@
         "Transfer rate": "1 Gbps",
         "10/100/1000 Mbps ports": "true"
     },
-    "category": "Networking"
+    "category": "Networking",
+    "image": "https://www.neptun.mk/2020/12/29/1.jpg"
 }

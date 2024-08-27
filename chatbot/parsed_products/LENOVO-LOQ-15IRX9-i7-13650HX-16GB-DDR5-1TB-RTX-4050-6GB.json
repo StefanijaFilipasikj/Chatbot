@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/gaming_laptopi/LENOVO-LOQ-15IRX9-i7-13650HX-16GB-DDR5-1TB-RTX-4050-6GB",
-    "title": "",
+    "title": "LENOVO LOQ 15IRX9 i7 13650HX 16GB DDR5 1TB RTX 4050 6GB",
     "warranty": "24",
     "regular_price": "71.999",
     "happy_price": "65.999",
@@ -24,5 +24,6 @@
         "Power Adapter": "170W Slim Tip (3-pin)",
         "Батерија": "Integrated 60Wh"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-pic-design-profile-vector-png-image_40966566.jpg"
 }

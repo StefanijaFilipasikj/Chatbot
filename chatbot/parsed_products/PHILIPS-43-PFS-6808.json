@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/televizori/PHILIPS-43-PFS-6808",
-    "title": "",
+    "title": "PHILIPS 43 PFS 6808",
     "warranty": "24",
     "regular_price": "20.999",
     "happy_price": "14.999",
@@ -23,5 +23,6 @@
         "DVB-T/T2/T2-HD/C/S/S2": "DVB-T/T2/T2-HD/C/S/S2",
         "WiFi вградено": "WiFi вградено"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2023/09/06/Philips_4e7f9aae-8c7c-44e1-b617-42197e4108ca.JPG"
 }

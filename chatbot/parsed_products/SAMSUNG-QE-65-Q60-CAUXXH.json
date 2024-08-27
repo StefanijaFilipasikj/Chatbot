@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/televizori/SAMSUNG-QE-65-Q60-CAUXXH",
-    "title": "",
+    "title": "SAMSUNG QE 65 Q60 CAUXXH",
     "warranty": "24",
     "regular_price": "65.999",
     "happy_price": "53.999",
@@ -30,5 +30,6 @@
         "Bluetooth v5.2": "true",
         "DVB-T2CS2": "true"
     },
-    "category": "Television"
+    "category": "Television",
+    "image": "https://www.neptun.mk/2023/05/10/Samsung01_ec01b8b8-161b-40bd-951f-954b5e5aa4f4.JPG"
 }

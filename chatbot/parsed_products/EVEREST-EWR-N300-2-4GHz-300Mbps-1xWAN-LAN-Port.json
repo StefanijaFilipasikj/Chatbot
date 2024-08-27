@@ -15,5 +15,6 @@
         "WPA-PSK / WPA2-PSK (TKIP / AES)": "True",
         "Опсег": "100m"
     },
-    "category": "Networking"
+    "category": "Networking",
+    "image": "https://www.neptun.mk/2023/11/07/EWRN30000_8c237c7d-ff1b-4bda-996d-b5502ab38a75.jpg"
 }

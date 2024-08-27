@@ -1,6 +1,6 @@
 {
     "url": "https://www.neptun.mk/categories/prenosni_kompjuteri/MacBook-Pro-14-M3-8C-CPU-10C-GPU-8GB-1TB-Silver-mr7k3ze-a",
-    "title": "",
+    "title": "MacBook Pro 14 M3 8C CPU 10C GPU 8GB 1TB Silver mr7k3ze a",
     "warranty": "12",
     "regular_price": "134.499",
     "happy_price": "128.999",
@@ -27,5 +27,6 @@
         "Батерија": "до 22 часа",
         "Полнач": "70W USB-C"
     },
-    "category": "Laptop"
+    "category": "Laptop",
+    "image": "https://www.neptun.mk/2023/12/05/Mac_a10d241d-4a77-48a5-a2bc-f84a0c789a8d.JPG"
 }

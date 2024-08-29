@@ -12,6 +12,8 @@ import Header from '../Header/Header';
 import Footer from "../Footer/Footer";
 import Login from '../Auth/Login';
 import Register from '../Auth/Register';
+import CategoryFilter from "../Product/Filters/CategoryFilter/CategoryFilter";
+
 
 class App extends Component {
     constructor(props) {
@@ -33,13 +35,15 @@ class App extends Component {
                         <Routes>
                             <Route path={'/products/add'} element={<ProductAdd onAddProduct={this.addProduct}/>}></Route>
                             <Route path={'/products/edit/:id'} element={<ProductEdit product={this.state.selectedProduct} onEditProduct={this.editProduct} />}></Route>
-                            <Route path={'/products'} element={<ProductList products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct}/>}></Route>
+                            <Route path={'/products'} element={<ProductList products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts}/>}></Route>
                             <Route path={'/product/:id'} element={<ProductDetails product={this.state.selectedProduct} getProduct={this.getProduct} onAddToCart={this.addProductToCart}/>}></Route>
+                            <Route path={'/products/category/:category'} element={<CategoryFilter products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts}/>} />
                             <Route path={'/shopping-cart/:username'} element={<ShoppingCart shoppingCart={this.state.selectedShoppingCart} getShoppingCart={this.getShoppingCart} onEditProduct={this.editProductInCart} onRemoveProduct={this.removeProductFromCart} onOrder={this.makeOrder}/>}></Route>
                             <Route path={'/orders/:username'} element={<OrderList orders={this.state.orders} getOrders={this.getOrders}/>}></Route>
                             <Route path={"/login"} element={<Login/>}/>
                             <Route path='/register' element={<Register roles={this.state.roles}/>}/>
-                            <Route path={'/'} element={<div>hi im your chatbot</div>}></Route>
+                            {/*<Route path={'/'} element={<div>hi im your chatbot</div>}></Route>*/}
+                            <Route path={'/'} element={<ProductList products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts}/>}></Route>
                         </Routes>
                     </div>
                     <Footer/>
@@ -82,6 +86,12 @@ class App extends Component {
             .catch((error) => {
                 console.log(error)
             });
+    }
+
+    setFilteredProducts = (filteredProducts) => {
+        this.setState({
+            products: filteredProducts
+        });
     }
 
     addProduct = (url, title, warranty, regularPrice, happyPrice, imageUrl, descriptions, navigate) => {

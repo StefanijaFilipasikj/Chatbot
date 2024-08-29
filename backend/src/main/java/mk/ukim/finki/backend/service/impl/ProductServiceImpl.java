@@ -92,6 +92,31 @@ public class ProductServiceImpl implements ProductService {
         return this.getProductDto(product);
     }
 
+    @Override
+    public List<String> findAllCategories() {
+        return this.productRepository.findAllCategories();
+    }
+
+    @Override
+    public List<Product> findByCategory(String category) {
+        return this.productRepository.findByCategory(category);
+    }
+
+    @Override
+    public double getMaxProductPrice() {
+        return productRepository.findMaxPrice();
+    }
+
+    @Override
+    public List<Product> findByRegularPriceBetween(double minPrice, double maxPrice) {
+        return this.productRepository.findByRegularPriceBetween(minPrice, maxPrice);
+    }
+
+    @Override
+    public List<Product> findByCategoryAndRegularPriceBetween(String category, double minPrice, double maxPrice) {
+        return this.productRepository.findByCategoryAndRegularPriceBetween(category, minPrice, maxPrice);
+    }
+
     private Optional<ProductDto> getProductDto(Product product) {
         List<DescriptionDto> descriptions = product.getDescriptions().stream()
                 .map(description -> new DescriptionDto(

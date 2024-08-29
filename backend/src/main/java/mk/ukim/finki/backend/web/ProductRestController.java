@@ -56,4 +56,31 @@ public class ProductRestController {
         if(this.productService.findById(id).isEmpty()) return ResponseEntity.ok().build();
         return ResponseEntity.badRequest().build();
     }
+
+    @GetMapping("/categories")
+    public List<String> getAllCategories() {
+        return this.productService.findAllCategories();
+    }
+
+    @GetMapping("/category/{category}")
+    public List<Product> findByCategory(@PathVariable String category) {
+        return this.productService.findByCategory(category);
+    }
+
+    @GetMapping("/max-price")
+    public double getMaxPrice() {
+        return productService.getMaxProductPrice();
+    }
+
+    @GetMapping("/filter")
+    public List<Product> filterProductsByPrice(@RequestParam double minPrice, @RequestParam double maxPrice) {
+        return this.productService.findByRegularPriceBetween(minPrice, maxPrice);
+    }
+
+    @GetMapping("/filter/{category}")
+    public List<Product> filterProductsByCategoryAndPrice(@PathVariable String category,
+                                                          @RequestParam double minPrice,
+                                                          @RequestParam double maxPrice) {
+        return this.productService.findByCategoryAndRegularPriceBetween(category, minPrice, maxPrice);
+    }
 }

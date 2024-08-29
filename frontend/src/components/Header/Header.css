@@ -49,3 +49,12 @@ header span:hover, header h5:hover{
 header .title:hover{
     color: rgb(192, 201, 210) !important;
 }
+
+.nav-item.dropdown .dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.nav-item.dropdown .dropdown-toggle {
+    white-space: nowrap;
+}

@@ -17,4 +17,9 @@ public interface ProductService {
     Optional<ProductDto> create(ProductFormDto dto);
     Optional<ProductDto> edit(Long id, ProductFormDto dto);
     Optional<ProductDto> delete(Long id);
+    List<String> findAllCategories();
+    List<Product> findByCategory(String category);
+    double getMaxProductPrice();
+    List<Product> findByRegularPriceBetween(double minPrice, double maxPrice);
+    List<Product> findByCategoryAndRegularPriceBetween(String category, double minPrice, double maxPrice);
 }

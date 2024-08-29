@@ -1,26 +1,42 @@
-import {Link, useNavigate} from "react-router-dom";
-import React, {useEffect, useLayoutEffect, useState} from "react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import ChatbotService from "../../repository/ChatbotRepository";
 import './Header.css';
 
+
 export default function Header(props) {
     const navigate = useNavigate();
+    const location = useLocation();
     const [username, setUsername] = useState(null);
+    const [categories, setCategories] = useState([]);
 
     useEffect(() => {
         ChatbotService.getUserUsername().then(resp => {
-            setUsername(resp.data)
-        })
+            setUsername(resp.data);
+        });
+
+        ChatbotService.getAllCategories().then((response) => {
+            const sortedCategories = response.data.sort((a, b) => a.localeCompare(b));
+            setCategories(sortedCategories);
+        });
     }, []);
 
-    useLayoutEffect(() => {
+    const adjustPaddingTop = () => {
         const header = document.querySelector('header');
         if (header) {
             const headerHeight = header.offsetHeight;
-            console.log(headerHeight)
             document.body.style.paddingTop = `${headerHeight}px`;
         }
-    }, []);
+    };
+
+    useLayoutEffect(() => {
+        adjustPaddingTop();
+        window.addEventListener('resize', adjustPaddingTop);
+
+        return () => {
+            window.removeEventListener('resize', adjustPaddingTop);
+        };
+    }, [location, categories.length, username]);
 
 
     let authenticate;
@@ -59,20 +75,30 @@ export default function Header(props) {
             </nav>
             <nav className="navbar navbar-expand bg-light p-0 m-0">
                 <div className="container-fluid mx-5">
-
                     <ul className="navbar-nav">
-                        <li className="nav-item me-3 px-3 py-2">
-                            <a className="nav-link" href="#">Category1</a>
-                        </li>
-                        <li className="nav-item me-3 px-3 py-2">
-                            <a className="nav-link" href="#">Category2</a>
-                        </li>
-                        <li className="nav-item me-3 px-3 py-2">
-                            <a className="nav-link" href="#">Category3</a>
-                        </li>
-                        <li className="nav-item me-3 px-3 py-2">
-                            <a className="nav-link" href="#">Category4</a>
-                        </li>
+                        {categories.slice(0, 3).map((category, index) => (
+                            <li key={index} className="nav-item me-3 px-3 py-2">
+                                <Link className="nav-link" to={`/products/category/${category}`}>
+                                    {category}
+                                </Link>
+                            </li>
+                        ))}
+                        {categories.length > 3 && (
+                            <li className="nav-item dropdown me-3 px-3 py-2">
+                                <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Other
+                                </Link>
+                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    {categories.slice(3).map((category, index) => (
+                                        <li key={index}>
+                                            <Link className="dropdown-item" to={`/products/category/${category}`}>
+                                                {category}
+                                            </Link>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </li>
+                        )}
                     </ul>
                 </div>
             </nav>

@@ -80,7 +80,22 @@ const ChatbotService = {
     },
     getUserUsername: () => {
         return axios.get("/user/username")
-    }
+    },
+    getAllCategories: () => {
+        return axios.get("/products/categories");
+    },
+    getProductsByCategory: (category) => {
+        return axios.get(`/products/category/${category}`);
+    },
+    getMaxPrice: () => {
+        return axios.get('/products/max-price');
+    },
+    filterProductsByPrice: (minPrice, maxPrice) => {
+        return axios.get(`/products/filter?minPrice=${minPrice}&maxPrice=${maxPrice}`);
+    },
+    filterProductsByCategoryAndPrice: (category, minPrice, maxPrice) => {
+        return axios.get(`/products/filter/${category}?minPrice=${minPrice}&maxPrice=${maxPrice}`);
+    },
 }
 
 export default ChatbotService;

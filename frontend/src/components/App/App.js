@@ -13,6 +13,7 @@ import Footer from "../Footer/Footer";
 import Login from '../Auth/Login';
 import Register from '../Auth/Register';
 import CategoryFilter from "../Product/Filters/CategoryFilter/CategoryFilter";
+import Chatbot from '../Chatbot/Chatbot';
 
 
 class App extends Component {
@@ -40,6 +41,7 @@ class App extends Component {
                             <Route path={'/products/category/:category'} element={<CategoryFilter products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts}/>} />
                             <Route path={'/shopping-cart/:username'} element={<ShoppingCart shoppingCart={this.state.selectedShoppingCart} getShoppingCart={this.getShoppingCart} onEditProduct={this.editProductInCart} onRemoveProduct={this.removeProductFromCart} onOrder={this.makeOrder}/>}></Route>
                             <Route path={'/orders/:username'} element={<OrderList orders={this.state.orders} getOrders={this.getOrders}/>}></Route>
+                            <Route path='/chatbot' element={<Chatbot/>}/>
                             <Route path={"/login"} element={<Login/>}/>
                             <Route path='/register' element={<Register roles={this.state.roles}/>}/>
                             {/*<Route path={'/'} element={<div>hi im your chatbot</div>}></Route>*/}

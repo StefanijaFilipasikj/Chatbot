@@ -96,6 +96,18 @@ const ChatbotService = {
     filterProductsByCategoryAndPrice: (category, minPrice, maxPrice) => {
         return axios.get(`/products/filter/${category}?minPrice=${minPrice}&maxPrice=${maxPrice}`);
     },
+    getMessagesByUser: () => {
+        return axios.get("/messages");
+    },
+    addMessage: (content, role) => {
+        return axios.post("/messages/add", {
+            "content": content,
+            "role": role
+        });
+    },
+    deleteMessagesByUser: () => {
+        return axios.delete("/messages/delete");
+    }
 }
 
 export default ChatbotService;

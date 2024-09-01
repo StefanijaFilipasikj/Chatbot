@@ -1,0 +1,7 @@
+langchain
+langchain-openai
+black
+python-dotenv
+fastapi
+uvicorn
+psycopg2

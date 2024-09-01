@@ -7,6 +7,7 @@ import mk.ukim.finki.backend.model.dto.form.ProductFormDto;
 import mk.ukim.finki.backend.service.ProductService;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -20,7 +21,7 @@ public class ProductRestController {
     private final ProductService productService;
 
     @GetMapping
-    private List<Product> findAll() {
+    public List<Product> findAll() {
         return this.productService.findAll();
     }
 
@@ -37,6 +38,7 @@ public class ProductRestController {
     }
 
     @PostMapping("/add")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<ProductDto> save(@RequestBody ProductFormDto productDto) {
         return this.productService.create(productDto)
                 .map(product -> ResponseEntity.ok().body(product))
@@ -44,6 +46,7 @@ public class ProductRestController {
     }
 
     @PutMapping("/edit/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<ProductDto> save(@PathVariable Long id, @RequestBody ProductFormDto productDto) {
         return this.productService.edit(id, productDto)
                 .map(product -> ResponseEntity.ok().body(product))
@@ -51,6 +54,7 @@ public class ProductRestController {
     }
 
     @DeleteMapping("/delete/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<ProductDto> deleteById(@PathVariable Long id) {
         this.productService.delete(id);
         if(this.productService.findById(id).isEmpty()) return ResponseEntity.ok().build();

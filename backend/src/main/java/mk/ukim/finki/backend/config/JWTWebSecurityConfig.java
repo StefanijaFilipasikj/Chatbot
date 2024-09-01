@@ -55,7 +55,7 @@ public class JWTWebSecurityConfig{
                 .authorizeHttpRequests( (requests) -> requests
                         .requestMatchers(HttpMethod.POST, "/**").permitAll()
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                        .requestMatchers("/", "/home", "/assets/**", "/api/login", "/api/products","api/user/register", "api/user/roles", "/api/user/role", "/api/user/username")
+                        .requestMatchers("/", "/home", "/assets/**", "/api/login", "/api/products", "/api/products/**","api/user/register", "api/user/roles", "/api/user/role", "/api/user/username")
                         .permitAll()
                         .anyRequest()
                         .authenticated()

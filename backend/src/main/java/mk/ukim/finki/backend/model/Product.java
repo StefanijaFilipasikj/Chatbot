@@ -21,6 +21,7 @@ public class Product {
     private Double regularPrice;
     private Double happyPrice;
     private String category;
+    @Column(length = 1000)
     private String imageUrl;
     @OneToMany(mappedBy = "product", fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonManagedReference

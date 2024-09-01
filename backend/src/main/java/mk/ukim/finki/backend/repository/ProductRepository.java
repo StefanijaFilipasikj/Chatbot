@@ -12,9 +12,9 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     Page<Product> findAll(Pageable pageable);
     @Query("SELECT DISTINCT p.category FROM Product p")
     List<String> findAllCategories();
-    List<Product> findByCategory(String category);
-    List<Product> findByRegularPriceBetween(Double min, Double max);
-    List<Product> findByCategoryAndRegularPriceBetween(String category, Double min, Double max);
+    List<Product> findByCategoryOrderByTitle(String category);
+    List<Product> findByRegularPriceBetweenOrderByTitle(Double min, Double max);
+    List<Product> findByCategoryAndRegularPriceBetweenOrderByTitle(String category, Double min, Double max);
     @Query("SELECT MAX(p.regularPrice) FROM Product p")
     double findMaxPrice();
 }

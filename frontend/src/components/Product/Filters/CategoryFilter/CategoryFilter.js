@@ -14,7 +14,12 @@ const CategoryFilter = ({ onDetails, onEdit, onDelete, setFilteredProducts, clea
     }, [category]);
 
 
-    return <ProductList products={products} onDetails={onDetails} onEdit={onEdit} onDelete={onDelete} setFilteredProducts={setFilteredProducts} clearFilters={clearFilters}/>;
+    return (
+        <>
+            <h1 className="text-center m-0 mt-5 text-warning fs-1">{category.toUpperCase()}</h1>
+            <ProductList products={products} onDetails={onDetails} onEdit={onEdit} onDelete={onDelete} setFilteredProducts={setFilteredProducts} clearFilters={clearFilters}/>
+        </>
+    );
 };
 
 export default CategoryFilter;

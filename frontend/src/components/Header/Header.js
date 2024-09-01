@@ -76,20 +76,20 @@ export default function Header(props) {
             <nav className="navbar navbar-expand bg-light p-0 m-0">
                 <div className="container-fluid mx-5">
                     <ul className="navbar-nav">
-                        {categories.slice(0, 3).map((category, index) => (
+                        {categories.slice(0, 7).map((category, index) => (
                             <li key={index} className="nav-item me-3 px-3 py-2">
                                 <Link className="nav-link" to={`/products/category/${category}`}>
                                     {category}
                                 </Link>
                             </li>
                         ))}
-                        {categories.length > 3 && (
+                        {categories.length > 7 && (
                             <li className="nav-item dropdown me-3 px-3 py-2">
                                 <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Other
                                 </Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    {categories.slice(3).map((category, index) => (
+                                    {categories.slice(7).map((category, index) => (
                                         <li key={index}>
                                             <Link className="dropdown-item" to={`/products/category/${category}`}>
                                                 {category}

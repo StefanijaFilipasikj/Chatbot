@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { Link, useParams, useNavigate } from "react-router-dom";
 import './ShoppingCart.css';
 
-const ShoppingCart = ({ getShoppingCart, shoppingCart, onEditProduct, onRemoveProduct, onOrder }) => {
+const ShoppingCart = ({ getShoppingCart, shoppingCart, onEditProduct, onRemoveProduct, onOrder, onDetails }) => {
     const navigate = useNavigate();
     const { username } = useParams();
 
@@ -57,16 +57,25 @@ const ShoppingCart = ({ getShoppingCart, shoppingCart, onEditProduct, onRemovePr
                             {p.product && (
                                 <>
                                     <div className="row d-flex p-5">
-                                        <div className={"col-4 align-self-center"}>
-                                            <img className={"card-img"} src={p.product.imageUrl} alt={"Product img"}/>
-                                        </div>
+                                        <Link onClick={() => onDetails(p.product.id)} to={`/product/${p.product.id}`} className={"col-4 align-self-center"}>
+                                            <div
+                                                className="card-img-top p-5 pt-3 mb-4"
+                                                style={{
+                                                    backgroundImage: `url(${p.product.imageUrl})`,
+                                                    backgroundSize: 'contain',
+                                                    backgroundRepeat: 'no-repeat',
+                                                    backgroundPosition: 'center',
+                                                    height: '300px'
+                                                }}
+                                            ></div>
+                                        </Link>
                                         <div className={"col-5 align-self-center"}>
                                             <div>
                                                 <h5>{p.product.title}</h5>
                                             </div>
                                             <div className={"mt-4"}>
                                                 <h6>Quantity: <strong>{p.quantity}</strong></h6>
-                                                <h6>Price: <strong>{p.quantity * (p.product.happyPrice != 0.0 ? p.product.happyPrice : p.product.regularPrice)}</strong></h6>
+                                                <h6>Price: <strong>{p.quantity * (p.product.happyPrice != 0.0 ? p.product.happyPrice : p.product.regularPrice)}$</strong></h6>
                                             </div>
                                         </div>
                                         <div className={"col-3 align-self-center"}>
@@ -86,6 +95,13 @@ const ShoppingCart = ({ getShoppingCart, shoppingCart, onEditProduct, onRemovePr
                     </div>
                 ))}
             </div>
+
+            {!shoppingCart.productsInCart && (
+                <div className="fs-1">
+                    No products in Shopping Cart
+                </div>
+            )}
+
             <div className={"col-4 order-summary mx-4 p-3"}>
                 <h3 className={"m-2 text-primary"}><strong>Order Summary</strong></h3>
                 <hr/>

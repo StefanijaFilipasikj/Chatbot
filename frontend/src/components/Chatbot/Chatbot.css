@@ -1,3 +1,42 @@
 .stringContent{
-    white-space: pre-line
+    white-space: pre-line;
+    line-height: 1.8em;
+}
+
+.user.stringContent{
+    border-bottom-right-radius: 0 !important;
+}
+
+.chatbot.stringContent{
+    border-bottom-left-radius: 0 !important;
+}
+
+.chatbot-img, .user-img{
+    width: 60px;
+    height: 60px;
+}
+
+.chatbot-logo{
+    width: 500px;
+    height: 500px;
+}
+
+.btn-send{
+    position: absolute;
+    right: 25px;
+    top: 17px;
+    border: 0;
+    background-color: transparent;
+}
+
+.question-input{
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+.reset-chat{
+    top: 200px;
+    left: 70px;
 }

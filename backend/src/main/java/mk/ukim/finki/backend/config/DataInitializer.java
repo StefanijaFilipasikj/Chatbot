@@ -20,9 +20,6 @@ public class DataInitializer {
     private final UserRepository userRepository;
     private final ShoppingCartRepository cartRepository;
     private final DescriptionRepository descriptionRepository;
-    private final ProductInCartRepository productInCartRepository;
-    private final ProductInOrderRepository productInOrderRepository;
-    private final OrderRepository orderRepository;
     private final PasswordEncoder passwordEncoder;
 
     @PostConstruct
@@ -53,11 +50,13 @@ public class DataInitializer {
         while (descriptionsScanner.hasNextLine()) {
             String line = descriptionsScanner.nextLine();
             String[] parts = line.split("\\|");
-            Product product = this.productRepository.findById(Long.parseLong(parts[0])).get();
-            String key = parts.length > 1 ? parts[1] : "";
-            String value = parts.length > 2 ? parts[2] : "";
-            Description description = new Description(key, value, product);
-            this.descriptionRepository.save(description);
+            Product product = this.productRepository.findById(Long.parseLong(parts[0])).orElse(null);
+            if(product != null){
+                String key = parts.length > 1 ? parts[1] : "";
+                String value = parts.length > 2 ? parts[2] : "";
+                Description description = new Description(key, value, product);
+                this.descriptionRepository.save(description);
+            }
         }
     }
 }

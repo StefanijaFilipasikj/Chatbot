@@ -99,7 +99,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public List<Product> findByCategory(String category) {
-        return this.productRepository.findByCategory(category);
+        return this.productRepository.findByCategoryOrderByTitle(category);
     }
 
     @Override
@@ -109,12 +109,12 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public List<Product> findByRegularPriceBetween(double minPrice, double maxPrice) {
-        return this.productRepository.findByRegularPriceBetween(minPrice, maxPrice);
+        return this.productRepository.findByRegularPriceBetweenOrderByTitle(minPrice, maxPrice);
     }
 
     @Override
     public List<Product> findByCategoryAndRegularPriceBetween(String category, double minPrice, double maxPrice) {
-        return this.productRepository.findByCategoryAndRegularPriceBetween(category, minPrice, maxPrice);
+        return this.productRepository.findByCategoryAndRegularPriceBetweenOrderByTitle(category, minPrice, maxPrice);
     }
 
     private Optional<ProductDto> getProductDto(Product product) {

@@ -18,7 +18,6 @@ public class OrderRestController {
     private final OrderService orderService;
 
     @GetMapping("/{username}")
-    @PreAuthorize("hasRole('ADMIN')")
     List<OrderDto> getAllOrdersFromUser (@PathVariable String username){
         return this.orderService.getAllOrdersFromUser(username);
     }

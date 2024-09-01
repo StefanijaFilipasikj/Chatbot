@@ -1,9 +1,18 @@
 .card{
     box-shadow: 0 2px 4px rgba(0.1, 0.1, 0.1, 0.1);
+    border: 1px solid rgb(245, 245, 245) !important;
+}
+
+.product-details .card{
+    height: 100% !important;
+}
+
+.card img{
+    height: 300px;
 }
 
 .card-title{
-    height: 4em;
+    height: 4.7em;
     overflow-y: hidden;
 }
 
@@ -61,5 +70,40 @@
 .filter-img {
     width: 20px;
     height: 20px;
+    cursor: pointer;
+}
+
+.descriptions-container{
+    line-height: 1.2em;
+    background-color: transparent !important;
+}
+
+table tr td, table tr th{
+    background-color: transparent !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.card-img-top:hover{
+    cursor: pointer;
+}
+
+.popup-overlay {
+    padding: 20px;
+    position: fixed;
+    top: 235px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 93%;
+    height: 70%;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
     cursor: pointer;
 }

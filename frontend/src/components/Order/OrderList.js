@@ -11,7 +11,6 @@ const Orders = ( props ) => {
 
     return (
         <div className="container py-5">
-            <h1 className="mb-5">Orders for {username}</h1>
             <div>
                 {props.orders.map((o) => {
                     let total = o.productsInOrder?.map((p) => p.quantity * (p.product.happyPrice != 0.0 ? p.product.happyPrice : p.product.regularPrice)).reduce((sum, price) => sum + price, 0) || 0.0;
@@ -39,7 +38,7 @@ const Orders = ( props ) => {
                                     )
                                 })}
                                 <tr className="p-3 fw-bold text-end">
-                                    <td className="bg-light" colSpan={3}>Total price: {total.toFixed(2)}</td>
+                                    <td className="bg-light" colSpan={3}>Total price: {total.toFixed(2)}$ &nbsp;</td>
                                 </tr>
                                 </tbody>
                             </table>

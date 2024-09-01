@@ -77,7 +77,7 @@ const Products = (props) => {
     return (
         <div className={"row card-container m-2"}>
             <div className={"d-flex justify-content-between fixed-custom pe-4"}>
-                <div className={"m-1 ms-4"}>
+                <div className={"m-1 ms-5 ps-3"}>
                     <img className={"filter-img"} src={filters} alt={"filters"}
                          onClick={() => handleToggleFilters()}/>
                 </div>
@@ -98,32 +98,47 @@ const Products = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="col mt-5">
+            <div className="col">
                 <div className={"row d-flex m-5"}>
                     {props.products.length === 0 ?
                         <h2 className={"col px-4 text-center"}>No products matched your search</h2> :
                         props.products.map((p) => {
                             return (
-                                <Link className="col-3" onClick={() => props.onDetails(p.id)} to={`/product/${p.id}`} key={p.id}>
-                                    <div className="card p-4 rounded-0 border-0 mx-1 mb-4">
-                                        <h5 className="card-title">{p.title}</h5>
-                                        <img src={p.imageUrl} className="card-img-top p-5 pt-3" alt="img"/>
-                                        <div className="card-body">
-                                            <p className="card-text alert alert-danger text-danger rounded-0 border-top-0 d-flex justify-content-between">
-                                                <h4 className="align-self-center m-0">HaPPy Price</h4>
-                                                <h2 className="m-0">{p.happyPrice}$</h2>
-                                            </p>
-                                            <p className="card-text alert alert-primary text-primary rounded-0 border-top-0 d-flex justify-content-between">
-                                                <h4 className="align-self-center m-0">Regular Price</h4>
-                                                <h2 className={"m-0"}>{p.regularPrice}$</h2>
-                                            </p>
-                                            <a href="#" className="btn btn-info w-100 p-2 fs-5"><span className={"fa fa-shopping-cart"}></span> Add To Cart</a>
-                                            {roles == "ROLE_ADMIN" &&
-                                                <>
-                                                    <Link className={"btn btn-light w-50 mt-3 fs-5"} onClick={() => props.onEdit(p.id)} to={`/products/edit/${p.id}`}><span className={"fa fa-edit"}></span> Edit</Link>
-                                                    <Link className={"btn btn-light w-50 mt-3 fs-5"} title={"Delete"} onClick={() => props.onDelete(p.id)}><span className={"fa fa-trash"}></span> Delete</Link>
-                                                </>
-                                            }
+                                <Link className="col-3 mb-3" onClick={() => props.onDetails(p.id)} to={`/product/${p.id}`} key={p.id}>
+                                    <div className="card p-4 rounded-0 border-0 mx-1 d-flex flex-column justify-content-between">
+                                        <div>
+                                            <h5 className="card-title">{p.title}</h5>
+                                            <div
+                                                className="card-img-top p-5 pt-3 mb-4"
+                                                style={{
+                                                    backgroundImage: `url(${p.imageUrl})`,
+                                                    backgroundSize: 'contain',
+                                                    backgroundRepeat: 'no-repeat',
+                                                    backgroundPosition: 'center',
+                                                    height: '300px'
+                                                }}
+                                            ></div>
+                                        </div>
+                                        <div>
+                                            <div className="card-body">
+                                                {p.happyPrice !== 0 && (
+                                                    <p className="card-text alert alert-warning py-2 text-warning rounded-0 border-0 border-bottom border-warning d-flex justify-content-between">
+                                                        <h4 className="align-self-center m-0">HaPPy Price</h4>
+                                                        <h2 className="m-0">{p.happyPrice}$</h2>
+                                                    </p>
+                                                )}
+                                                <p className="card-text alert alert-info text-info py-2 rounded-0 border-0 border-bottom border-info d-flex justify-content-between">
+                                                    <h4 className="align-self-center m-0">Regular Price</h4>
+                                                    <h2 className={"m-0"}>{p.regularPrice}$</h2>
+                                                </p>
+                                                <a href="#" className="btn btn-info rounded-0 w-100 p-2 fs-5"><span className={"fa fa-shopping-cart"}></span> Add To Cart</a>
+                                                {roles == "ROLE_ADMIN" &&
+                                                    <>
+                                                        <Link className={"btn btn-light w-50 mt-3 fs-5"} onClick={() => props.onEdit(p.id)} to={`/products/edit/${p.id}`}><span className={"fa fa-edit"}></span> Edit</Link>
+                                                        <Link className={"btn btn-light w-50 mt-3 fs-5"} title={"Delete"} onClick={() => props.onDelete(p.id)}><span className={"fa fa-trash"}></span> Delete</Link>
+                                                    </>
+                                                }
+                                            </div>
                                         </div>
                                     </div>
                                 </Link>

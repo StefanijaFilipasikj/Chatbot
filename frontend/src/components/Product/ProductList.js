@@ -4,16 +4,81 @@ import ChatbotService from "../../repository/ChatbotRepository";
 import "./Products.css";
 import PriceFilter from "./Filters/PriceFilter/PriceFilter";
 import filters from '../../images/filters.png';
+import ReactPaginate from "react-paginate";
 
 
 const Products = (props) => {
 
     const [roles, setRoles] = useState(null);
+    const [sortOrder, setSortOrder] = useState('lowToHigh');
+    const [pageCount, setPageCount] = useState(0);
+    const [currentPage, setCurrentPage] = useState(0);
+    const itemsPerPage = 12;
+    const [minPrice, setMinPrice] = useState(null);
+    const [maxPrice, setMaxPrice] = useState(null);
+
     useEffect(() => {
         ChatbotService.getUserRole().then(resp => {
             setRoles(resp.data)
-        })
+        });
     }, []);
+
+    const sortProducts = (products, order) => {
+        return products.slice().sort((a, b) => {
+            if (order === 'lowToHigh') {
+                return a.regularPrice - b.regularPrice;
+            } else {
+                return b.regularPrice - a.regularPrice;
+            }
+        });
+    };
+
+    useEffect(() => {
+        fetchProducts(currentPage);
+    }, [currentPage, sortOrder, minPrice, maxPrice, props.products, props.searchTerm]);
+
+    useEffect(() => {
+        if (pageCount > 0 && currentPage >= pageCount) {
+            setCurrentPage(0);
+        }
+    }, [pageCount]);
+
+    const fetchProducts = (page) => {
+        const path = location.pathname;
+        let fetchMethod;
+
+        if(props.searchTerm){
+            console.log(props.searchTerm)
+            fetchMethod = ChatbotService.searchProducts(props.searchTerm, page, itemsPerPage);
+            // props.setSearchTerm("");
+        } else if (path.includes('/products/category/')) {
+            const category = path.split('/').pop();
+            fetchMethod = minPrice !== null && maxPrice !== null
+                ? ChatbotService.filterProductsByCategoryAndPrice(category, minPrice, maxPrice, page, itemsPerPage)
+                : ChatbotService.getProductsByCategory(category, page, itemsPerPage);
+        } else {
+            fetchMethod = minPrice !== null && maxPrice !== null
+                ? ChatbotService.filterProductsByPrice(minPrice, maxPrice, page, itemsPerPage)
+                : ChatbotService.getAllProducts(page, itemsPerPage);
+        }
+
+        fetchMethod.then(response => {
+            let products = response.data.content;
+
+            const totalPages = response.data.totalPages;
+            props.setFilteredProducts(sortProducts(products, sortOrder));
+            setPageCount(totalPages);
+
+            if (totalPages > 0 && currentPage >= totalPages){
+                setCurrentPage(0);
+            }
+        });
+    };
+
+    const handlePageClick = (data) => {
+        const selectedPage = data.selected;
+        setCurrentPage(selectedPage);
+    };
 
     const [expandedSections, setExpandedSections] = useState({
         price: false,
@@ -31,20 +96,14 @@ const Products = (props) => {
 
     const clearAllFilters = (e) => {
         e.preventDefault();
-
         priceFilterRef.current.reset();
-        const path = location.pathname;
-
-        if (path.includes('/products/category/')) {
-            const category = path.split('/').pop();
-            ChatbotService.getProductsByCategory(category)
-                .then(response => {
-                    props.setFilteredProducts(response.data);
-                });
-        } else {
-            props.clearFilters();
-        }
+        setMinPrice(null);
+        setMaxPrice(null);
+        setCurrentPage(0);
+        props.setSearchTerm("");
+        fetchProducts(0);
     };
+
 
     const handleToggleFilters = () => {
         const sidebar = document.querySelector('.sidebar');
@@ -56,26 +115,24 @@ const Products = (props) => {
         }
     }
 
-    const handleFilterPrice = (minPrice, maxPrice) => {
-        const path = location.pathname;
-        if (path.includes('/products/category/')) {
-            const category = path.split('/').pop();
-            ChatbotService.filterProductsByCategoryAndPrice(category, minPrice, maxPrice)
-                .then(response => {
-                    console.log("Filtered products by category and price:", response.data);
-                    props.setFilteredProducts(response.data);
-                });
-        } else {
-            ChatbotService.filterProductsByPrice(minPrice, maxPrice)
-                .then(response => {
-                    console.log("Filtered products by price:", response.data);
-                    props.setFilteredProducts(response.data);
-                });
-        }
+    const handleFilterPrice = (min, max) => {
+        setMinPrice(min);
+        setMaxPrice(max);
+        fetchProducts(currentPage);
+    };
+
+    const handleSortChange = (e) => {
+        setSortOrder(e.target.value);
     };
 
     return (
         <div className={"row card-container m-2"}>
+            <div className="sort-container ms-3 pe-5">
+                <select className="form-select sort-dropdown" value={sortOrder} onChange={handleSortChange}>
+                    <option value="lowToHigh">Price: Low to High</option>
+                    <option value="highToLow">Price: High to Low</option>
+                </select>
+            </div>
             <div className={"d-flex justify-content-between fixed-custom pe-4"}>
                 <div className={"m-1 ms-5 ps-3"}>
                     <img className={"filter-img"} src={filters} alt={"filters"}
@@ -149,6 +206,25 @@ const Products = (props) => {
                         <Link className={"btn btn-warning text-white w-100 p-2 mt-5 fs-5"} to={"/products/add"}>Add new product</Link>
                     }
                 </div>
+                <ReactPaginate
+                    previousLabel={"Previous"}
+                    nextLabel={"Next"}
+                    breakLabel={"..."}
+                    pageCount={pageCount}
+                    marginPagesDisplayed={2}
+                    pageRangeDisplayed={5}
+                    onPageChange={handlePageClick}
+                    containerClassName={"pagination justify-content-center"}
+                    pageClassName={"page-item"}
+                    pageLinkClassName={"page-link"}
+                    previousClassName={"page-item"}
+                    previousLinkClassName={"page-link"}
+                    nextClassName={"page-item"}
+                    nextLinkClassName={"page-link"}
+                    breakClassName={"page-item"}
+                    breakLinkClassName={"page-link"}
+                    activeClassName={"active"}
+                />
             </div>
         </div>
     );

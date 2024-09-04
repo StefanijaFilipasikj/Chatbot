@@ -98,8 +98,8 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public List<Product> findByCategory(String category) {
-        return this.productRepository.findByCategoryOrderByTitle(category);
+    public Page<Product> findByCategory(String category, Pageable pageable) {
+        return this.productRepository.findByCategoryOrderByTitle(category, pageable);
     }
 
     @Override
@@ -108,13 +108,18 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public List<Product> findByRegularPriceBetween(double minPrice, double maxPrice) {
-        return this.productRepository.findByRegularPriceBetweenOrderByTitle(minPrice, maxPrice);
+    public Page<Product> searchProducts(String query, Pageable pageable) {
+        return productRepository.findByTitleContainingIgnoreCase(query, pageable);
     }
 
     @Override
-    public List<Product> findByCategoryAndRegularPriceBetween(String category, double minPrice, double maxPrice) {
-        return this.productRepository.findByCategoryAndRegularPriceBetweenOrderByTitle(category, minPrice, maxPrice);
+    public Page<Product> findByRegularPriceBetween(double minPrice, double maxPrice, Pageable pageable) {
+        return this.productRepository.findByRegularPriceBetweenOrderByTitle(minPrice, maxPrice, pageable);
+    }
+
+    @Override
+    public Page<Product> findByCategoryAndRegularPriceBetween(String category, double minPrice, double maxPrice, Pageable pageable) {
+        return this.productRepository.findByCategoryAndRegularPriceBetweenOrderByTitle(category, minPrice, maxPrice, pageable);
     }
 
     private Optional<ProductDto> getProductDto(Product product) {

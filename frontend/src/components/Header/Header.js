@@ -9,6 +9,8 @@ export default function Header(props) {
     const location = useLocation();
     const [username, setUsername] = useState(null);
     const [categories, setCategories] = useState([]);
+    const [searchTerm, setSearchTerm] = useState("");
+
 
     useEffect(() => {
         ChatbotService.getUserUsername().then(resp => {
@@ -38,6 +40,18 @@ export default function Header(props) {
         };
     }, [location, categories.length, username]);
 
+    const handleSearchChange = (event) => {
+        setSearchTerm(event.target.value);
+        console.log(event.target.value)
+    };
+
+    const handleSearchSubmit = (event) => {
+        event.preventDefault();
+        if (searchTerm.trim()) {
+            props.setSearchTerm(searchTerm.trim());
+            navigate(`/products`);
+        }
+    };
 
     let authenticate;
     if(localStorage.getItem("JWT")){
@@ -63,9 +77,15 @@ export default function Header(props) {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <a className="col-4 navbar-brand mb-2" href="/"><span className={"text-white title"}>PRODUCT CHATBOT</span></a>
-                        <form className="d-flex me-3 w-100 justify-content-end">
-                            <input className="form-control w-50 rounded-0" type="search" placeholder="Search" aria-label="Search"/>
-                            <button className="btn-search bg-transparent border-0" type="submit"><span className={"fa fa-search"}></span></button>
+                        <form className="d-flex me-3 w-100 justify-content-end" onSubmit={handleSearchSubmit}>
+                            <input
+                                className="form-control w-50 rounded-0"
+                                type="search"
+                                placeholder="Search"
+                                aria-label="Search"
+                                value={searchTerm}
+                                onChange={handleSearchChange}
+                            />
                         </form>
                         <div className={"d-flex"}>
                             {authenticate}

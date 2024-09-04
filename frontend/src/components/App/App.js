@@ -26,6 +26,7 @@ class App extends Component {
             selectedShoppingCart: {},
             orders: [],
             roles: [],
+            searchTerm: "",
         }
     }
 
@@ -34,13 +35,13 @@ class App extends Component {
         return (<>
                 <Router>
                     <div className={"min-vh-100 d-flex flex-column justify-content-between"}>
-                        <Header/>
+                        <Header setFilteredProducts={this.setFilteredProducts} setSearchTerm={this.setSearchTerm}/>
                         <Routes>
                             <Route path={'/products/add'} element={<ProductAdd onAddProduct={this.addProduct}/>}></Route>
                             <Route path={'/products/edit/:id'} element={<ProductEdit product={this.state.selectedProduct} onEditProduct={this.editProduct} />}></Route>
-                            <Route path={'/products'} element={<ProductList products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts}/>}></Route>
+                            <Route path={'/products'} element={<ProductList products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts} searchTerm={this.state.searchTerm} setSearchTerm={this.setSearchTerm}/>}></Route>
                             <Route path={'/product/:id'} element={<ProductDetails product={this.state.selectedProduct} getProduct={this.getProduct} onAddToCart={this.addProductToCart}/>}></Route>
-                            <Route path={'/products/category/:category'} element={<CategoryFilter products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts}/>} />
+                            <Route path={'/products/category/:category'} element={<CategoryFilter products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts} setSearchTerm={this.setSearchTerm}/>} />
                             <Route path={'/shopping-cart/:username'} element={<ShoppingCart shoppingCart={this.state.selectedShoppingCart} getShoppingCart={this.getShoppingCart} onEditProduct={this.editProductInCart} onRemoveProduct={this.removeProductFromCart} onOrder={this.makeOrder} onDetails={this.getProduct}/>}></Route>
                             <Route path={'/orders/:username'} element={<OrderList orders={this.state.orders} getOrders={this.getOrders}/>}></Route>
                             <Route path='/chatbot' element={<Chatbot/>}/>
@@ -59,7 +60,7 @@ class App extends Component {
         ChatbotService.getAllProducts()
             .then((data) => {
                 this.setState({
-                    products: data.data
+                    products: data.data.content
                 })
             })
             .catch((error) => {
@@ -77,6 +78,12 @@ class App extends Component {
             .catch((error) => {
                 console.log(error)
             });
+    }
+
+    setSearchTerm = (term) =>{
+        this.setState({
+            searchTerm: term
+        });
     }
 
     getProduct = (id) => {

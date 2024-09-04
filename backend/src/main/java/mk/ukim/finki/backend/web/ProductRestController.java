@@ -5,6 +5,8 @@ import mk.ukim.finki.backend.model.Product;
 import mk.ukim.finki.backend.model.dto.ProductDto;
 import mk.ukim.finki.backend.model.dto.form.ProductFormDto;
 import mk.ukim.finki.backend.service.ProductService;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -26,8 +28,10 @@ public class ProductRestController {
     }
 
     @GetMapping("/pagination")
-    public List<Product> findAllWithPagination(Pageable pageable){
-        return this.productService.findAllWithPagination(pageable).getContent();
+    public Page<Product> findAllWithPagination(@RequestParam(defaultValue = "0") int page,
+                                               @RequestParam(defaultValue = "12") int size){
+        Pageable pageable = PageRequest.of(page, size);
+        return productService.findAllWithPagination(pageable);
     }
 
     @GetMapping("/{id}")
@@ -67,8 +71,11 @@ public class ProductRestController {
     }
 
     @GetMapping("/category/{category}")
-    public List<Product> findByCategory(@PathVariable String category) {
-        return this.productService.findByCategory(category);
+    public Page<Product> findByCategory(@PathVariable String category,
+                                        @RequestParam(defaultValue = "0") int page,
+                                        @RequestParam(defaultValue = "12") int size) {
+        Pageable pageable = PageRequest.of(page, size);
+        return productService.findByCategory(category, pageable);
     }
 
     @GetMapping("/max-price")
@@ -77,14 +84,29 @@ public class ProductRestController {
     }
 
     @GetMapping("/filter")
-    public List<Product> filterProductsByPrice(@RequestParam double minPrice, @RequestParam double maxPrice) {
-        return this.productService.findByRegularPriceBetween(minPrice, maxPrice);
+    public Page<Product> filterProductsByPrice(@RequestParam Double minPrice,
+                                               @RequestParam Double maxPrice,
+                                               @RequestParam(defaultValue = "0") int page,
+                                               @RequestParam(defaultValue = "12") int size) {
+        Pageable pageable = PageRequest.of(page, size);
+        return productService.findByRegularPriceBetween(minPrice, maxPrice, pageable);
     }
 
     @GetMapping("/filter/{category}")
-    public List<Product> filterProductsByCategoryAndPrice(@PathVariable String category,
-                                                          @RequestParam double minPrice,
-                                                          @RequestParam double maxPrice) {
-        return this.productService.findByCategoryAndRegularPriceBetween(category, minPrice, maxPrice);
+    public Page<Product> filterProductsByCategoryAndPrice(@PathVariable String category,
+                                                          @RequestParam Double minPrice,
+                                                          @RequestParam Double maxPrice,
+                                                          @RequestParam(defaultValue = "0") int page,
+                                                          @RequestParam(defaultValue = "12") int size) {
+        Pageable pageable = PageRequest.of(page, size);
+        return productService.findByCategoryAndRegularPriceBetween(category, minPrice, maxPrice, pageable);
+    }
+
+    @GetMapping("/search")
+    public Page<Product> searchProducts(@RequestParam String query,
+                                        @RequestParam(defaultValue = "0") int page,
+                                        @RequestParam(defaultValue = "12") int size) {
+        Pageable pageable = PageRequest.of(page, size);
+        return productService.searchProducts(query, pageable);
     }
 }

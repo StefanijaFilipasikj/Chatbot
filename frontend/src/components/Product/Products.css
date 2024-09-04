@@ -107,3 +107,14 @@ table tr td, table tr th{
     font-size: 50px;
     cursor: pointer;
 }
+
+
+.sort-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sort-dropdown {
+    width: auto;
+    min-width: 120px;
+}

@@ -1,8 +1,10 @@
 import axios from "../custom-axios/axios";
 
 const ChatbotService = {
-    getAllProducts: () => {
-        return axios.get("/products");
+    getAllProducts: (page = 0, size = 12) => {
+        return axios.get("/products/pagination", {
+            params: { page, size }
+        });
     },
     getProduct: (id) => {
         return axios.get(`/products/${id}`);
@@ -84,17 +86,23 @@ const ChatbotService = {
     getAllCategories: () => {
         return axios.get("/products/categories");
     },
-    getProductsByCategory: (category) => {
-        return axios.get(`/products/category/${category}`);
+    getProductsByCategory: (category, page = 0, size = 12) => {
+        return axios.get(`/products/category/${category}`, {
+            params: { page, size }
+        });
     },
     getMaxPrice: () => {
         return axios.get('/products/max-price');
     },
-    filterProductsByPrice: (minPrice, maxPrice) => {
-        return axios.get(`/products/filter?minPrice=${minPrice}&maxPrice=${maxPrice}`);
+    filterProductsByPrice: (minPrice, maxPrice, page = 0, size = 12) => {
+        return axios.get(`/products/filter`, {
+            params: { minPrice, maxPrice, page, size }
+        });
     },
-    filterProductsByCategoryAndPrice: (category, minPrice, maxPrice) => {
-        return axios.get(`/products/filter/${category}?minPrice=${minPrice}&maxPrice=${maxPrice}`);
+    filterProductsByCategoryAndPrice: (category, minPrice, maxPrice, page = 0, size = 12) => {
+        return axios.get(`/products/filter/${category}`, {
+            params: { minPrice, maxPrice, page, size }
+        });
     },
     getMessagesByUser: () => {
         return axios.get("/messages");
@@ -107,7 +115,12 @@ const ChatbotService = {
     },
     deleteMessagesByUser: () => {
         return axios.delete("/messages/delete");
-    }
+    },
+    searchProducts: (query, page = 0, size = 12) =>{
+        return axios.get(`/products/search`, {
+            params: { query, page, size }
+        });
+    },
 }
 
 export default ChatbotService;

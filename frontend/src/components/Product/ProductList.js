@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from "react";
-import {Link, useLocation} from 'react-router-dom';
+import {Link, useLocation, useNavigate} from 'react-router-dom';
 import ChatbotService from "../../repository/ChatbotRepository";
 import "./Products.css";
 import PriceFilter from "./Filters/PriceFilter/PriceFilter";
@@ -8,7 +8,7 @@ import ReactPaginate from "react-paginate";
 
 
 const Products = (props) => {
-
+    const navigate = useNavigate();
     const [roles, setRoles] = useState(null);
     const [sortOrder, setSortOrder] = useState('lowToHigh');
     const [pageCount, setPageCount] = useState(0);
@@ -16,6 +16,15 @@ const Products = (props) => {
     const itemsPerPage = 12;
     const [minPrice, setMinPrice] = useState(null);
     const [maxPrice, setMaxPrice] = useState(null);
+
+    const prevValues = useRef({
+        minPrice: null,
+        maxPrice: null,
+        searchTerm: "",
+        products: []
+    });
+
+    const loc = useLocation();
 
     useEffect(() => {
         ChatbotService.getUserRole().then(resp => {
@@ -34,8 +43,26 @@ const Products = (props) => {
     };
 
     useEffect(() => {
-        fetchProducts(currentPage);
-    }, [currentPage, sortOrder, minPrice, maxPrice, props.products, props.searchTerm]);
+        if (
+            currentPage !== prevValues.current.currentPage ||
+            sortOrder !== prevValues.current.sortOrder ||
+            minPrice !== prevValues.current.minPrice ||
+            maxPrice !== prevValues.current.maxPrice ||
+            props.searchTerm !== prevValues.current.searchTerm ||
+            location.pathname !== prevValues.current.path
+        ) {
+            fetchProducts(currentPage);
+        }
+        prevValues.current = {
+            currentPage,
+            sortOrder,
+            minPrice,
+            maxPrice,
+            searchTerm: props.searchTerm,
+            products: props.products,
+            path: location.pathname
+        };
+    }, [currentPage, sortOrder, minPrice, maxPrice, props.searchTerm, loc.pathname]);
 
     useEffect(() => {
         if (pageCount > 0 && currentPage >= pageCount) {
@@ -47,10 +74,10 @@ const Products = (props) => {
         const path = location.pathname;
         let fetchMethod;
 
-        if(props.searchTerm){
+        if(props.searchTerm) {
             console.log(props.searchTerm)
             fetchMethod = ChatbotService.searchProducts(props.searchTerm, page, itemsPerPage);
-            // props.setSearchTerm("");
+            props.setSearchTerm("");
         } else if (path.includes('/products/category/')) {
             const category = path.split('/').pop();
             fetchMethod = minPrice !== null && maxPrice !== null
@@ -62,10 +89,12 @@ const Products = (props) => {
                 : ChatbotService.getAllProducts(page, itemsPerPage);
         }
 
+
         fetchMethod.then(response => {
             let products = response.data.content;
+            const totalItems = response.data.totalElements;
+            const totalPages = Math.ceil(totalItems / itemsPerPage);
 
-            const totalPages = response.data.totalPages;
             props.setFilteredProducts(sortProducts(products, sortOrder));
             setPageCount(totalPages);
 
@@ -119,11 +148,26 @@ const Products = (props) => {
         setMinPrice(min);
         setMaxPrice(max);
         fetchProducts(currentPage);
+        setCurrentPage(0);
     };
 
     const handleSortChange = (e) => {
         setSortOrder(e.target.value);
     };
+
+    const handleAddToCart = (index) => {
+        props.onAddToCart(index, 1, navigate)
+    }
+
+    const handleDelete = (index) => {
+        ChatbotService.deleteProduct(index)
+            .then((data) => {
+                fetchProducts(currentPage);
+            })
+            .catch((error) => {
+                console.log(error)
+            });
+    }
 
     return (
         <div className={"row card-container m-2"}>
@@ -188,11 +232,11 @@ const Products = (props) => {
                                                     <h4 className="align-self-center m-0">Regular Price</h4>
                                                     <h2 className={"m-0"}>{p.regularPrice}$</h2>
                                                 </p>
-                                                <a href="#" className="btn btn-info rounded-0 w-100 p-2 fs-5"><span className={"fa fa-shopping-cart"}></span> Add To Cart</a>
+                                                <a onClick={() => handleAddToCart(p.id)} className="btn btn-info rounded-0 w-100 p-2 fs-5"><span className={"fa fa-shopping-cart"}></span> Add To Cart</a>
                                                 {roles == "ROLE_ADMIN" &&
                                                     <>
                                                         <Link className={"btn btn-light w-50 mt-3 fs-5"} onClick={() => props.onEdit(p.id)} to={`/products/edit/${p.id}`}><span className={"fa fa-edit"}></span> Edit</Link>
-                                                        <Link className={"btn btn-light w-50 mt-3 fs-5"} title={"Delete"} onClick={() => props.onDelete(p.id)}><span className={"fa fa-trash"}></span> Delete</Link>
+                                                        <Link className={"btn btn-light w-50 mt-3 fs-5"} title={"Delete"} onClick={() => handleDelete(p.id)}><span className={"fa fa-trash"}></span> Delete</Link>
                                                     </>
                                                 }
                                             </div>

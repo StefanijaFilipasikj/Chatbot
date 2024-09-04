@@ -20,6 +20,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -72,8 +73,8 @@ public class ProductServiceImpl implements ProductService {
         product.setRegularPrice(dto.getRegularPrice());
         product.setHappyPrice(dto.getHappyPrice());
         Product savedProduct = productRepository.save(product);
+        descriptionRepository.deleteAllByProductId(id);
 
-        descriptionRepository.deleteAllByProduct(savedProduct);
         List<Description> descriptions = dto.getDescriptions().stream()
                 .map(descDto -> new Description(descDto.getKey(), descDto.getValue(), savedProduct))
                 .collect(Collectors.toList());

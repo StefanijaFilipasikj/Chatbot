@@ -7,16 +7,11 @@ import './Header.css';
 export default function Header(props) {
     const navigate = useNavigate();
     const location = useLocation();
-    const [username, setUsername] = useState(null);
     const [categories, setCategories] = useState([]);
     const [searchTerm, setSearchTerm] = useState("");
 
 
     useEffect(() => {
-        ChatbotService.getUserUsername().then(resp => {
-            setUsername(resp.data);
-        });
-
         ChatbotService.getAllCategories().then((response) => {
             const sortedCategories = response.data.sort((a, b) => a.localeCompare(b));
             setCategories(sortedCategories);
@@ -38,7 +33,7 @@ export default function Header(props) {
         return () => {
             window.removeEventListener('resize', adjustPaddingTop);
         };
-    }, [location, categories.length, username]);
+    }, [location, categories.length, props.username]);
 
     const handleSearchChange = (event) => {
         setSearchTerm(event.target.value);
@@ -57,8 +52,8 @@ export default function Header(props) {
     if(localStorage.getItem("JWT")){
         authenticate = (
             <>
-                <span id={"username"} className={"nav-link fs-6 text-white align-self-center text-truncate"}>{username}</span>
-                <a className={"nav-link px-3 fs-4 text-white"} href={`/shopping-cart/${username}`}><span className={"fa fa-shopping-cart"}></span></a>
+                <span id={"username"} className={"nav-link fs-6 text-white align-self-center text-truncate"}>{props.username}</span>
+                <a className={"nav-link px-3 fs-4 text-white"} href={`/shopping-cart/${props.username}`}><span className={"fa fa-shopping-cart"}></span></a>
                 <button className="nav-link ps-3 fs-4 text-white" onClick={() => {localStorage.removeItem("JWT"); navigate("/login");}}><span className={"fa fa-user-times"}></span></button>
             </>
         )

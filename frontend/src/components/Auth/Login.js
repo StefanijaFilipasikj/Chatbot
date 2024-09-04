@@ -20,12 +20,7 @@ export default function Login(props) {
         e.preventDefault();
         ChatbotService.login(formData.username, formData.password).then(resp => {
             localStorage.setItem("JWT", resp.data);
-            setError(null)
-            ChatbotService.getUserUsername().then(resp => {
-                localStorage.setItem("username", resp.data);
-            }).catch(error => {
-                localStorage.setItem("username", "user");
-            })
+            props.refreshUsername();
             navigate("/");
         }).catch(error => {
             console.log(error);

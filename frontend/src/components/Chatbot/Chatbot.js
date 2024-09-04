@@ -8,7 +8,7 @@ export default function Chatbot(props) {
     const [messages, setMessages] = useState([])
     const [streamingMessage, setStreamingMessage] = useState("")
     const [query, setQuery] = useState("")
-    
+
     let isLoading = useRef(false);
     let messageForDatabase = useRef("");
 
@@ -39,9 +39,9 @@ export default function Chatbot(props) {
     }
 
     const addMessage = (query, role) => {
-        setMessages(messages => [...messages, {content: query, role: role}])
+        setMessages(messages => [...messages, { content: query, role: role }])
         ChatbotService.addMessage(query, role)
-        .then(() => {})
+            .then(() => { })
             .catch((error) => {
                 console.log(error)
             });
@@ -50,46 +50,46 @@ export default function Chatbot(props) {
     function onFormSubmit(e) {
         e.preventDefault();
         addMessage(query, "user");
-        
+
         const url = `http://127.0.0.1:8000/chat`;
         isLoading.current = true;
         fetch(url, {
             method: "POST",
-            headers: {"content-type": "application/json"},
-            body: JSON.stringify({messages: [...messages, {content: query, role: "user"}].map((msg) => ({ content: msg.content, role: msg.role }))})
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({ messages: [...messages, { content: query, role: "user" }].map((msg) => ({ content: msg.content, role: msg.role })) })
         })
-        .then(response => {
-            const reader = response.body.getReader();
-            const decoder = new TextDecoder();
+            .then(response => {
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
 
-            isLoading.current = false
+                isLoading.current = false
 
-            function readStream() {
-                return reader.read().then(({ done, value }) => {
-                    if (done) {
-                        addMessage(messageForDatabase.current, "assisstant");
-                        setStreamingMessage("");
-                        messageForDatabase.current = "";
-                        return; // End of stream
-                    }
-                    
-                    // Decode and print the chunk
-                    const chunk = decoder.decode(value, { stream: true });
-                    messageForDatabase.current += chunk;
-                    setStreamingMessage(message => message + chunk);
-                    return readStream(); // Continue reading
-                });
-            }
-            
-            return readStream();
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
+                function readStream() {
+                    return reader.read().then(({ done, value }) => {
+                        if (done) {
+                            addMessage(messageForDatabase.current, "assisstant");
+                            setStreamingMessage("");
+                            messageForDatabase.current = "";
+                            return; // End of stream
+                        }
+
+                        // Decode and print the chunk
+                        const chunk = decoder.decode(value, { stream: true });
+                        messageForDatabase.current += chunk;
+                        setStreamingMessage(message => message + chunk);
+                        return readStream(); // Continue reading
+                    });
+                }
+
+                return readStream();
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
 
         setQuery("");
     }
-    
+
     return (
         <>
             <div className="container my-4">
@@ -101,7 +101,7 @@ export default function Chatbot(props) {
                 )}
                 {messages.length === 0 && (
                     <div className="text-center mt-4">
-                        <img className="chatbot-logo" src={chatbot} alt="chatbot"/>
+                        <img className="chatbot-logo" src={chatbot} alt="chatbot" />
                         <h1 className="text-info">Ask Me Anything</h1>
                     </div>
                 )}
@@ -111,19 +111,24 @@ export default function Chatbot(props) {
                         (m) => m.role === "user" ?
                             <div className="w-100 d-flex justify-content-end m-4 me-0 position-relative">
                                 <div className="user stringContent alert alert-info rounded-5 w-75 fs-5 px-4">{m.content}</div>
-                                <img className="user-img align-self-end ms-2" src={user} alt="user"/>
+                                <img className="user-img align-self-end ms-2" src={user} alt="user" />
                             </div>
                             :
                             <div className="w-100 d-flex justify-content-start m-4 ms-0 position-relative">
-                                <img className="chatbot-img align-self-end me-2" src={chatbot} alt="chatbot"/>
+                                <img className="chatbot-img align-self-end me-2" src={chatbot} alt="chatbot" />
                                 <div className="chatbot stringContent alert alert-light rounded-5 w-75 fs-5 px-4">{m.content}</div>
                             </div>
-                        )
+                    )
                     }
-                    <span className="stringContent text-start">{streamingMessage}</span>
+                    {streamingMessage &&
+                        <div className="w-100 d-flex justify-content-start m-4 ms-0 position-relative">
+                            <img className="chatbot-img align-self-end me-2" src={chatbot} alt="chatbot" />
+                            <div className="chatbot stringContent alert alert-light rounded-5 w-75 fs-5 px-4">{streamingMessage}</div>
+                        </div>}
+                    {/* <span className="stringContent text-start">{streamingMessage}</span> */}
                     {isLoading.current &&
                         <div className="w-25 d-flex justify-content-start m-4">
-                            <img className="chatbot-img align-self-end me-2" src={chatbot} alt="chatbot"/>
+                            <img className="chatbot-img align-self-end me-2" src={chatbot} alt="chatbot" />
                             <div className="chatbot stringContent alert alert-light rounded-5 w-75 fs-5 px-4">Loading...</div>
                         </div>
                     }
@@ -135,7 +140,7 @@ export default function Chatbot(props) {
                     </div>
                 </form>
             </div>
-            <br/><br/><br/><br/>
+            <br /><br /><br /><br />
         </>
     )
 }

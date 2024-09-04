@@ -1,7 +1,7 @@
 import './App.scss';
 import {Component} from "react";
 import ChatbotService from "../../repository/ChatbotRepository";
-import {BrowserRouter as Router, Routes, Route, useNavigate} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import ProductList from "../Product/ProductList"
 import ProductDetails from "../Product/ProductDetails";
 import ShoppingCart from "../ShoppingCart/ShoppingCart";
@@ -26,6 +26,7 @@ class App extends Component {
             selectedShoppingCart: {},
             orders: [],
             roles: [],
+            username: null,
             searchTerm: "",
         }
     }
@@ -35,17 +36,17 @@ class App extends Component {
         return (<>
                 <Router>
                     <div className={"min-vh-100 d-flex flex-column justify-content-between"}>
-                        <Header setFilteredProducts={this.setFilteredProducts} setSearchTerm={this.setSearchTerm}/>
+                        <Header username={this.state.username} setFilteredProducts={this.setFilteredProducts} setSearchTerm={this.setSearchTerm}/>
                         <Routes>
                             <Route path={'/products/add'} element={<ProductAdd onAddProduct={this.addProduct}/>}></Route>
                             <Route path={'/products/edit/:id'} element={<ProductEdit product={this.state.selectedProduct} onEditProduct={this.editProduct} />}></Route>
-                            <Route path={'/products'} element={<ProductList products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts} searchTerm={this.state.searchTerm} setSearchTerm={this.setSearchTerm}/>}></Route>
+                            <Route path={'/products'} element={<ProductList onAddToCart={this.addProductToCart} products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts} searchTerm={this.state.searchTerm} setSearchTerm={this.setSearchTerm}/>}></Route>
                             <Route path={'/product/:id'} element={<ProductDetails product={this.state.selectedProduct} getProduct={this.getProduct} onAddToCart={this.addProductToCart}/>}></Route>
-                            <Route path={'/products/category/:category'} element={<CategoryFilter products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts} setSearchTerm={this.setSearchTerm}/>} />
+                            <Route path={'/products/category/:category'} element={<CategoryFilter onAddToCart={this.addProductToCart} products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts} setSearchTerm={this.setSearchTerm}/>} />
                             <Route path={'/shopping-cart/:username'} element={<ShoppingCart shoppingCart={this.state.selectedShoppingCart} getShoppingCart={this.getShoppingCart} onEditProduct={this.editProductInCart} onRemoveProduct={this.removeProductFromCart} onOrder={this.makeOrder} onDetails={this.getProduct}/>}></Route>
                             <Route path={'/orders/:username'} element={<OrderList orders={this.state.orders} getOrders={this.getOrders}/>}></Route>
                             <Route path='/chatbot' element={<Chatbot/>}/>
-                            <Route path={"/login"} element={<Login/>}/>
+                            <Route path={"/login"} element={<Login refreshUsername={this.loadUsername}/>}/>
                             <Route path='/register' element={<Register roles={this.state.roles}/>}/>
                             <Route path={'/'} element={<Home/>}></Route>
                         </Routes>
@@ -78,6 +79,17 @@ class App extends Component {
             .catch((error) => {
                 console.log(error)
             });
+    }
+
+    loadUsername = () => {
+        ChatbotService.getUserUsername()
+        .then(resp => {
+            this.setState({
+                username: resp.data
+            });
+        }).catch((error) => {
+            console.log(error)
+        });
     }
 
     setSearchTerm = (term) =>{
@@ -119,7 +131,7 @@ class App extends Component {
         ChatbotService.editProduct(id, url, title, warranty, regularPrice, happyPrice, imageUrl, descriptions)
             .then((data) => {
                 this.loadProducts();
-                navigate('/products');
+                navigate(`/product/${id}`);
             })
             .catch((error) => {
                 console.log(error)
@@ -129,7 +141,7 @@ class App extends Component {
     deleteProduct = (id) => {
         ChatbotService.deleteProduct(id)
             .then((data) => {
-                this.loadProducts();
+                // this.loadProducts();
             })
             .catch((error) => {
                 console.log(error)
@@ -149,12 +161,11 @@ class App extends Component {
     }
 
     addProductToCart = (productId, quantity, navigate) => {
-        let username = "user"; // default for now
 
-        ChatbotService.addProductToShoppingCart(username, productId, quantity)
+        ChatbotService.addProductToShoppingCart(this.state.username, productId, quantity)
             .then((data) => {
                 this.loadProducts();
-                navigate(`/shopping-cart/${username}`);
+                navigate(`/shopping-cart/${this.state.username}`);
             })
             .catch((error) => {
                 console.log(error)
@@ -162,12 +173,11 @@ class App extends Component {
     }
 
     editProductInCart = (id, productId, quantity, navigate) => {
-        let username = "user"; // default for now
 
-        ChatbotService.editProductInShoppingCart(id, username, productId, quantity)
+        ChatbotService.editProductInShoppingCart(id, this.state.username, productId, quantity)
             .then((data) => {
-                this.getShoppingCart(username);
-                navigate(`/shopping-cart/${username}`);
+                this.getShoppingCart(this.state.username);
+                navigate(`/shopping-cart/${this.state.username}`);
             })
             .catch((error) => {
                 console.log(error)
@@ -175,12 +185,11 @@ class App extends Component {
     }
 
     removeProductFromCart = (id, navigate) => {
-        let username = "user"; // default for now
 
         ChatbotService.removeProductFromShoppingCart(id)
             .then((data) => {
-                this.getShoppingCart(username);
-                navigate(`/shopping-cart/${username}`);
+                this.getShoppingCart(this.state.username);
+                navigate(`/shopping-cart/${this.state.username}`);
             })
             .catch((error) => {
                 console.log(error)
@@ -200,12 +209,11 @@ class App extends Component {
     }
 
     makeOrder = (cartId, navigate) => {
-        let username = "user"; // default for now
 
         ChatbotService.makeOrder(cartId)
             .then((data) => {
-                this.getOrders(username);
-                navigate(`/orders/${username}`);
+                this.getOrders(this.state.username);
+                navigate(`/orders/${this.state.username}`);
             })
             .catch((error) => {
                 console.log(error)
@@ -213,7 +221,8 @@ class App extends Component {
     }
 
     componentDidMount(){
-        this.loadProducts();
+        // this.loadProducts();
+        this.loadUsername();
         this.loadRoles();
     }
 }

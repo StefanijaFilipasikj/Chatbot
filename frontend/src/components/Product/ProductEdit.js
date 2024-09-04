@@ -61,6 +61,7 @@ const ProductEdit = (props) => {
             ...formData,
             descriptions: newDescriptions
         });
+        console.log(formData)
     }
 
     const onFormSubmit = (e) => {
@@ -103,7 +104,7 @@ const ProductEdit = (props) => {
                         <div className="d-flex mb-3" key={index}>
                             <input className="form-control me-2" type="text" name="key" placeholder="Enter description key" value={description.key} onChange={(e) => handleDescriptionChange(index, e)} required />
                             <input className="form-control me-2" type="text" name="value" placeholder="Enter description value" value={description.value} onChange={(e) => handleDescriptionChange(index, e)} required />
-                            <button className="btn btn-info" onClick={() => removeDescription(index)}>Remove</button>
+                            <button className="btn btn-info" type="button" onClick={() => removeDescription(index)}>Remove</button>
                         </div>
                     ))}
                     <button className="btn btn-info" type="button" onClick={addDescription}>Add Description</button>

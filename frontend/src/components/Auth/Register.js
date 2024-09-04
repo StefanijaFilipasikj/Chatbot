@@ -28,9 +28,11 @@ export default function Register(props) {
         e.preventDefault();
         ChatbotService.register(formData.username, formData.password, formData.repeatPassword, formData.role).then(resp => {
             setError(null)
+            navigate("/login")
         }).catch(error => {
             setError(error.response.data)
         })
+        
     }
 
     const togglePasswordVisibility = () => {

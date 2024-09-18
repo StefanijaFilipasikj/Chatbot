@@ -5048,7 +5048,7 @@ product_id|key|value
 518|Fast Charging|20W
 518|Battery|Li-ion
 519|Batteries|TRUE
-519|4xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|false
+519|4xa|false
 520|IPad|TRUE
 520|Screen|11” (27.9 cm) Ultra Retina Tandem Oled 120Hz
 520|Operating system|iPados 17
@@ -6340,7 +6340,7 @@ product_id|key|value
 626|Battery|TRUE
 627|Battery|TRUE
 628|Batteries|TRUE
-628|2haaaaaaaaaaaaaaaaaaaaaa|TRUE
+628|2ha|TRUE
 628|Alcaline|TRUE
 629|Batteries|TRUE
 629|2xc|TRUE

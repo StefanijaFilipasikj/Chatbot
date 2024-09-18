@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ChatbotService from "../../../../repository/ChatbotRepository";
-import ProductList from "../../ProductList";
+import ProductList from "../../ProductList/ProductList";
 
 const CategoryFilter = ({ onAddToCart, onDetails, onEdit, onDelete, setFilteredProducts, clearFilters, products, setSearchTerm }) => {
     const { category } = useParams();
@@ -14,10 +14,7 @@ const CategoryFilter = ({ onAddToCart, onDetails, onEdit, onDelete, setFilteredP
 
 
     return (
-        <>
-            <h1 className="text-center m-0 mt-5 text-warning fs-1">{category.toUpperCase()}</h1>
-            <ProductList onAddToCart={onAddToCart} products={products} onDetails={onDetails} onEdit={onEdit} onDelete={onDelete} setFilteredProducts={setFilteredProducts} clearFilters={clearFilters} setSearchTerm={setSearchTerm}/>
-        </>
+        <ProductList onAddToCart={onAddToCart} products={products} onDetails={onDetails} onEdit={onEdit} onDelete={onDelete} setFilteredProducts={setFilteredProducts} clearFilters={clearFilters} setSearchTerm={setSearchTerm} category={category}/>
     );
 };
 

@@ -1,12 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import "./Products.css";
+import {useParams, useNavigate, Link} from 'react-router-dom';
+import "./ProductDetails.css";
+import ChatbotService from "../../../repository/ChatbotRepository";
 
-const ProductDetails = ({ getProduct, product, onAddToCart }) => {
+const ProductDetails = ({ getProduct, product, onAddToCart, onEdit}) => {
     const navigate = useNavigate();
     const { id } = useParams();
     const [formData, updateFormData] = useState({quantity: 1,})
     const [showImage, setShowImage] = useState(false);
+    const [roles, setRoles] = useState(null);
+
+    useEffect(() => {
+        ChatbotService.getUserRole().then(resp => {
+            setRoles(resp.data)
+        });
+    }, []);
 
     useEffect(() => {
         getProduct(id);
@@ -33,11 +41,20 @@ const ProductDetails = ({ getProduct, product, onAddToCart }) => {
         setShowImage(false);
     };
 
+    const handleDelete = (index) => {
+        ChatbotService.deleteProduct(index)
+            .then((data) => {
+            })
+            .catch((error) => {
+                console.log(error)
+            });
+    }
+
     return (
         <div className="m-0 bg-light min-vh-100 product-details">
             <div className="row d-flex m-5">
                 <div className="col-4">
-                    <div className="card details p-5 rounded-0 border-0 mx-1 mb-4">
+                    <div className="card details-card details p-5 rounded-0 border-0 mx-1 mb-4">
                         <div
                             className="card-img-top p-5 pt-3"
                             style={{
@@ -52,7 +69,7 @@ const ProductDetails = ({ getProduct, product, onAddToCart }) => {
                     </div>
                 </div>
                 <div className="col-4">
-                    <div className="card details p-5 rounded-0 border-0 mx-1 mb-4 bg-lightblue">
+                    <div className="card details-card details p-5 rounded-0 border-0 mx-1 mb-4 bg-lightblue">
                         <h2 className="m-0">{product.title}</h2>
                         <hr/>
                         <h5 className="m-0">WARRANTY: {product.warranty}</h5>
@@ -81,7 +98,7 @@ const ProductDetails = ({ getProduct, product, onAddToCart }) => {
                     </div>
                 </div>
                 <div className="col-4">
-                    <div className="card details p-5 rounded-0 border-0 mx-1 mb-4">
+                    <div className="card details-card details p-5 rounded-0 border-0 mx-1 mb-4">
                         <div className="d-flex justify-content-between alert rounded-0 border-0 mb-0 pb-0">
                             <h4 className="m-0 align-self-center">REGULAR PRICE</h4>
                             <h2 className="m-0 align-self-center">{product.regularPrice}$</h2>
@@ -95,11 +112,23 @@ const ProductDetails = ({ getProduct, product, onAddToCart }) => {
                                 </div>
                             </>
                         )}
-                        <br/>
-                        <form className="d-flex" onSubmit={onFormSubmit}>
-                            <input className="form-control w-50 rounded-0" type="number" min={1} name="quantity" onChange={handleChange}/>
-                            <button className="btn btn-info w-50 rounded-0 fs-5" type="submit"><span className={"fa fa-shopping-cart"}></span> Add To Cart</button>
-                        </form>
+
+                        {roles == "ROLE_USER" &&
+                            <>
+                                <br/>
+                                <form className="d-flex" onSubmit={onFormSubmit}>
+                                    <input className="form-control w-50 rounded-0" type="number" min={1} name="quantity" onChange={handleChange}/>
+                                    <button className="btn btn-info w-50 rounded-0 fs-5" type="submit"><span className={"fa fa-shopping-cart"}></span> Add To Cart</button>
+                                </form>
+                            </>
+                        }
+                        {roles == "ROLE_ADMIN" &&
+                            <>
+                                <br/>
+                                <Link className={"btn btn-light w-100 mt-3 fs-5"} onClick={() => onEdit(product.id)} to={`/products/edit/${product.id}`}><span className={"fa fa-edit"}></span> Edit Product</Link>
+                                <Link className={"btn btn-light w-100 mt-3 fs-5"} onClick={() => handleDelete(product.id)} to={`/products`}><span className={"fa fa-trash"}></span> Delete Product</Link>
+                            </>
+                        }
                     </div>
                 </div>
             </div>

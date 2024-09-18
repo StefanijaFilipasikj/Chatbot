@@ -50,7 +50,7 @@ const ShoppingCart = ({ getShoppingCart, shoppingCart, onEditProduct, onRemovePr
             {/*<h1>Shopping Cart for {username}</h1>*/}
             <div className={"col-8"}>
                 {shoppingCart.productsInCart && shoppingCart.productsInCart.map((p, index) => (
-                    <div className="card border-0 rounded-0 me-5 position-relative" key={p.id}>
+                    <div className="card cart-card border-0 rounded-0 me-5 position-relative" key={p.id}>
                         <button className="btn-close-absolute text-primary" type="button" onClick={() => onRemoveProduct(p.id, navigate)}>&#10005;</button>
                         <div className="row d-flex align-items-center">
 
@@ -105,8 +105,27 @@ const ShoppingCart = ({ getShoppingCart, shoppingCart, onEditProduct, onRemovePr
             <div className={"col-4 order-summary mx-4 p-3"}>
                 <h3 className={"m-2 text-primary"}><strong>Order Summary</strong></h3>
                 <hr/>
-                <h5>Item count: {count}</h5>
-                <h5>Total price: {total.toFixed(2)}$</h5>
+                {
+                    shoppingCart.productsInCart &&
+                    <>
+                        <br/>
+                        {shoppingCart.productsInCart &&
+                            shoppingCart.productsInCart.map((p, index) => (
+                                <div>
+                                    {p.product.title} <b>x {p.quantity}</b>
+                                    {p.product.happyPrice !== 0 && <div className="badge py-1 px-2 border rounded-5 text-warning">happy</div>}
+                                </div>
+                            ))
+                        }
+                        <br/><hr/>
+                    </>
+                }
+
+
+                <div>
+                    <h5>Item count: {count}</h5>
+                    <h5>Total price: {total.toFixed(2)}$</h5>
+                </div>
                 <button className="btn btn-primary w-100 mt-3 p-2 rounded-0 fs-5" onClick={() => onOrder(shoppingCart.id, navigate)}>Order Now</button>
             </div>
         </div>

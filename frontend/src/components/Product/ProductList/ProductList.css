@@ -1,14 +1,11 @@
 .card{
     box-shadow: 0 2px 4px rgba(0.1, 0.1, 0.1, 0.1);
     border: 1px solid rgb(245, 245, 245) !important;
+    padding: 35px;
 }
 
-.product-details .card{
-    height: 100% !important;
-}
-
-.card img{
-    height: 300px;
+.product-card{
+    min-height: 730px !important;
 }
 
 .card-title{
@@ -16,19 +13,9 @@
     overflow-y: hidden;
 }
 
-.details{
-    min-height: 45em;
-}
-
-.bg-lightblue{
-    background-color: #e9edf3;
-}
-
-
 .sidebar{
     margin-left: 0.8em;
 }
-
 
 .filterWrap{
     box-shadow: 0 2px 4px rgba(0.1, 0.1, 0.1, 0.1);
@@ -73,42 +60,6 @@
     cursor: pointer;
 }
 
-.descriptions-container{
-    line-height: 1.2em;
-    background-color: transparent !important;
-}
-
-table tr td, table tr th{
-    background-color: transparent !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.card-img-top:hover{
-    cursor: pointer;
-}
-
-.popup-overlay {
-    padding: 20px;
-    position: fixed;
-    top: 235px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 93%;
-    height: 70%;
-    background: white;
-    box-shadow: 0 2px 4px rgba(0.1, 0.1, 0.1, 0.1);
-}
-
-.close-btn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 50px;
-    cursor: pointer;
-}
-
-
 .sort-container {
     display: flex;
     justify-content: flex-end;
@@ -117,4 +68,9 @@ table tr td, table tr th{
 .sort-dropdown {
     width: auto;
     min-width: 120px;
+}
+
+.page-item.active .page-link{
+    background-color: #4c577d !important;
+    border-color: #4c577d !important;
 }

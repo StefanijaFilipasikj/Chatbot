@@ -72,6 +72,7 @@ public class ProductServiceImpl implements ProductService {
         product.setWarranty(dto.getWarranty());
         product.setRegularPrice(dto.getRegularPrice());
         product.setHappyPrice(dto.getHappyPrice());
+        product.setCategory(dto.getCategory());
         Product savedProduct = productRepository.save(product);
         descriptionRepository.deleteAllByProductId(id);
 

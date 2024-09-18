@@ -9,7 +9,7 @@ const ChatbotService = {
     getProduct: (id) => {
         return axios.get(`/products/${id}`);
     },
-    addProduct: (url, title, warranty, regularPrice, happyPrice, imageUrl, descriptions) => {
+    addProduct: (url, title, warranty, regularPrice, happyPrice, imageUrl, category, descriptions) => {
         return axios.post("/products/add", {
             "url": url,
             "title": title,
@@ -17,10 +17,11 @@ const ChatbotService = {
             "regularPrice": regularPrice,
             "happyPrice": happyPrice,
             "imageUrl": imageUrl,
+            "category": category,
             "descriptions": descriptions,
         });
     },
-    editProduct: (id, url, title, warranty, regularPrice, happyPrice, imageUrl, descriptions) => {
+    editProduct: (id, url, title, warranty, regularPrice, happyPrice, imageUrl, category, descriptions) => {
         return axios.put(`/products/edit/${id}`, {
             "url": url,
             "title": title,
@@ -28,6 +29,7 @@ const ChatbotService = {
             "regularPrice": regularPrice,
             "happyPrice": happyPrice,
             "imageUrl": imageUrl,
+            "category": category,
             "descriptions": descriptions,
         });
     },

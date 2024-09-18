@@ -10,7 +10,6 @@ export default function Header(props) {
     const [categories, setCategories] = useState([]);
     const [searchTerm, setSearchTerm] = useState("");
 
-
     useEffect(() => {
         ChatbotService.getAllCategories().then((response) => {
             const sortedCategories = response.data.sort((a, b) => a.localeCompare(b));
@@ -37,14 +36,13 @@ export default function Header(props) {
 
     const handleSearchChange = (event) => {
         setSearchTerm(event.target.value);
-        console.log(event.target.value)
     };
 
     const handleSearchSubmit = (event) => {
         event.preventDefault();
         if (searchTerm.trim()) {
             props.setSearchTerm(searchTerm.trim());
-            navigate(`/products`);
+            navigate('/products');
         }
     };
 
@@ -81,6 +79,7 @@ export default function Header(props) {
                                 value={searchTerm}
                                 onChange={handleSearchChange}
                             />
+                            <button type="submit" className="btn-search"><span className="fa fa-search"></span></button>
                         </form>
                         <div className={"d-flex"}>
                             {authenticate}
@@ -91,20 +90,20 @@ export default function Header(props) {
             <nav className="navbar navbar-expand bg-light p-0 m-0">
                 <div className="container-fluid mx-5">
                     <ul className="navbar-nav">
-                        {categories.slice(0, 7).map((category, index) => (
+                        {categories.slice(0, 9).map((category, index) => (
                             <li key={index} className="nav-item me-3 px-3 py-2">
                                 <Link className="nav-link" to={`/products/category/${category}`}>
                                     {category}
                                 </Link>
                             </li>
                         ))}
-                        {categories.length > 7 && (
+                        {categories.length > 9 && (
                             <li className="nav-item dropdown me-3 px-3 py-2">
                                 <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Other
                                 </Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    {categories.slice(7).map((category, index) => (
+                                    {categories.slice(9).map((category, index) => (
                                         <li key={index}>
                                             <Link className="dropdown-item" to={`/products/category/${category}`}>
                                                 {category}

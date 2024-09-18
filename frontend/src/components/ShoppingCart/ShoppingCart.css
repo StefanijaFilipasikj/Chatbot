@@ -1,5 +1,6 @@
-.card{
+.cart-card{
     box-shadow: 0 2px 4px rgba(100, 100, 100, 0.1);
+    height: 480px !important;
 }
 
 .card:hover{
@@ -10,9 +11,21 @@
     width: 20em;
 }
 
-.btn-close-absolute{
+.btn-close-absolute, .coupon-btn-absolute{
     background-color: transparent;
     border: none;
+    position: absolute;
+    right: 9px;
+    top: 2px;
+    font-weight: bold;
+}
+
+.btn-close-absolute{
+    font-size: 30px;
+}
+
+.coupon-btn-absolute{
+    font-size: 20px;
 }
 
 .order-summary{

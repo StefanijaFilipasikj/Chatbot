@@ -20,8 +20,9 @@ const PriceFilter = forwardRef((props, ref) => {
 
     useEffect(() => {
         ChatbotService.getMaxPrice().then((response) => {
-            setMaxPrice(response.data);
-            setValue([0, response.data]);
+            const maxPrice = Math.ceil(response.data / 1000) * 1000;
+            setMaxPrice(maxPrice);
+            setValue([0, maxPrice]);
         });
     }, []);
 
@@ -46,6 +47,7 @@ const PriceFilter = forwardRef((props, ref) => {
                         getAriaValueText={valuetext}
                         color="dark"
                         max={maxPrice}
+                        step={500}
                     />
                 </Box>
             </div>

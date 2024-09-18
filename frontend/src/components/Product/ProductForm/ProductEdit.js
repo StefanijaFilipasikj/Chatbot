@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import "./ProductForm.css";
 
 const ProductEdit = (props) => {
 
@@ -11,6 +12,7 @@ const ProductEdit = (props) => {
         regularPrice: 0,
         happyPrice: 0,
         imageUrl: "",
+        category: "",
         descriptions: [{ key: "", value: "" }]
     });
 
@@ -23,6 +25,7 @@ const ProductEdit = (props) => {
                 regularPrice: props.product.regularPrice,
                 happyPrice: props.product.happyPrice,
                 imageUrl: props.product.imageUrl,
+                category: props.product.category,
                 descriptions: props.product.descriptions || [{ key: "", value: "" }]
             });
         }
@@ -66,8 +69,8 @@ const ProductEdit = (props) => {
 
     const onFormSubmit = (e) => {
         e.preventDefault();
-        const { url, title, warranty, regularPrice, happyPrice, imageUrl, descriptions } = formData;
-        props.onEditProduct(props.product.id, url, title, warranty, regularPrice, happyPrice, imageUrl, descriptions, navigate);
+        const { url, title, warranty, regularPrice, happyPrice, imageUrl, category, descriptions } = formData;
+        props.onEditProduct(props.product.id, url, title, warranty, regularPrice, happyPrice, imageUrl, category, descriptions, navigate);
     }
 
     return (
@@ -97,6 +100,10 @@ const ProductEdit = (props) => {
                 <div className="form-group mb-3">
                     <label htmlFor="imageUrl">Product image url</label>
                     <input className="form-control" type="text" id="imageUrl" name="imageUrl" placeholder={props.product.imageUrl} required value={formData.imageUrl} onChange={handleChange} />
+                </div>
+                <div className="form-group mb-3">
+                    {/*<label htmlFor="category">Product category</label>*/}
+                    <input className="form-control" type="text" id="category" name="category" placeholder={props.product.category} required value={formData.category} onChange={handleChange} />
                 </div>
                 <div className="form-group mb-3 border rounded-3 p-3">
                     <label className="mb-3">Descriptions</label>

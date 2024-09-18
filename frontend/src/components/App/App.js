@@ -2,12 +2,12 @@ import './App.scss';
 import {Component} from "react";
 import ChatbotService from "../../repository/ChatbotRepository";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import ProductList from "../Product/ProductList"
-import ProductDetails from "../Product/ProductDetails";
+import ProductList from "../Product/ProductList/ProductList"
+import ProductDetails from "../Product/ProductDetails/ProductDetails";
 import ShoppingCart from "../ShoppingCart/ShoppingCart";
 import OrderList from "../Order/OrderList";
-import ProductAdd from "../Product/ProductAdd";
-import ProductEdit from "../Product/ProductEdit";
+import ProductAdd from "../Product/ProductForm/ProductAdd";
+import ProductEdit from "../Product/ProductForm/ProductEdit";
 import Header from '../Header/Header';
 import Footer from "../Footer/Footer";
 import Login from '../Auth/Login';
@@ -40,8 +40,8 @@ class App extends Component {
                         <Routes>
                             <Route path={'/products/add'} element={<ProductAdd onAddProduct={this.addProduct}/>}></Route>
                             <Route path={'/products/edit/:id'} element={<ProductEdit product={this.state.selectedProduct} onEditProduct={this.editProduct} />}></Route>
-                            <Route path={'/products'} element={<ProductList onAddToCart={this.addProductToCart} products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts} searchTerm={this.state.searchTerm} setSearchTerm={this.setSearchTerm}/>}></Route>
-                            <Route path={'/product/:id'} element={<ProductDetails product={this.state.selectedProduct} getProduct={this.getProduct} onAddToCart={this.addProductToCart}/>}></Route>
+                            <Route path={'/products'} element={<ProductList onAddToCart={this.addProductToCart} products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts} category={"ALL PRODUCTS"} searchTerm={this.state.searchTerm} setSearchTerm={this.setSearchTerm}/>}></Route>
+                            <Route path={'/product/:id'} element={<ProductDetails product={this.state.selectedProduct} getProduct={this.getProduct} onAddToCart={this.addProductToCart} onEdit={this.getProduct} onDelete={this.deleteProduct}/>}></Route>
                             <Route path={'/products/category/:category'} element={<CategoryFilter onAddToCart={this.addProductToCart} products={this.state.products} onDetails={this.getProduct} onEdit={this.getProduct} onDelete={this.deleteProduct} setFilteredProducts={this.setFilteredProducts} clearFilters={this.loadProducts} setSearchTerm={this.setSearchTerm}/>} />
                             <Route path={'/shopping-cart/:username'} element={<ShoppingCart shoppingCart={this.state.selectedShoppingCart} getShoppingCart={this.getShoppingCart} onEditProduct={this.editProductInCart} onRemoveProduct={this.removeProductFromCart} onOrder={this.makeOrder} onDetails={this.getProduct}/>}></Route>
                             <Route path={'/orders/:username'} element={<OrderList orders={this.state.orders} getOrders={this.getOrders}/>}></Route>
@@ -51,7 +51,7 @@ class App extends Component {
                             <Route path={'/'} element={<Home/>}></Route>
                         </Routes>
                     </div>
-                    {showFooter && <Footer />}
+                    {showFooter && <Footer/>}
                 </Router>
             </>
         )
@@ -116,19 +116,19 @@ class App extends Component {
         });
     }
 
-    addProduct = (url, title, warranty, regularPrice, happyPrice, imageUrl, descriptions, navigate) => {
-        ChatbotService.addProduct(url, title, warranty, regularPrice, happyPrice, imageUrl, descriptions)
+    addProduct = (url, title, warranty, regularPrice, happyPrice, imageUrl, category, descriptions, navigate) => {
+        ChatbotService.addProduct(url, title, warranty, regularPrice, happyPrice, imageUrl, category, descriptions)
             .then((data) => {
                 this.loadProducts();
-                navigate('/products');
+                navigate(`/product/${data.data.id}`);
             })
             .catch((error) => {
                 console.log(error)
             });
     }
 
-    editProduct = (id, url, title, warranty, regularPrice, happyPrice, imageUrl, descriptions, navigate) => {
-        ChatbotService.editProduct(id, url, title, warranty, regularPrice, happyPrice, imageUrl, descriptions)
+    editProduct = (id, url, title, warranty, regularPrice, happyPrice, imageUrl, category, descriptions, navigate) => {
+        ChatbotService.editProduct(id, url, title, warranty, regularPrice, happyPrice, imageUrl, category, descriptions)
             .then((data) => {
                 this.loadProducts();
                 navigate(`/product/${id}`);
@@ -161,7 +161,6 @@ class App extends Component {
     }
 
     addProductToCart = (productId, quantity, navigate) => {
-
         ChatbotService.addProductToShoppingCart(this.state.username, productId, quantity)
             .then((data) => {
                 this.loadProducts();
@@ -173,7 +172,6 @@ class App extends Component {
     }
 
     editProductInCart = (id, productId, quantity, navigate) => {
-
         ChatbotService.editProductInShoppingCart(id, this.state.username, productId, quantity)
             .then((data) => {
                 this.getShoppingCart(this.state.username);
